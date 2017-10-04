@@ -1,0 +1,16 @@
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\bin\Debug\DB.exe.config
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\bin\Debug\DataBase.mdf
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\bin\Debug\DataBase_log.ldf
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\bin\Debug\DB.exe
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\bin\Debug\DB.pdb
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\bin\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\bin\Debug\Entities.dll
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\bin\Debug\DataAccessLibrary.pdb
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\bin\Debug\Entities.pdb
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\obj\x86\Debug\DB.Form1.resources
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\obj\x86\Debug\DB.Properties.Resources.resources
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\obj\x86\Debug\DB.exe
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DB\obj\x86\Debug\DB.pdb

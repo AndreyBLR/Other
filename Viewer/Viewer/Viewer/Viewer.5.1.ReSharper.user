@@ -1,0 +1,82 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Click" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="fileUpload" priority="3" />
+      <Item value="if" priority="0" />
+      <Item value="inputContent" priority="0" />
+      <Item value="new" priority="2" />
+      <Item value="StreamReader" priority="1" />
+      <Item value="StreamReader`0" priority="0" />
+      <Item value="reader" priority="2" />
+      <Item value="private" priority="0" />
+      <Item value="string" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="String`0" priority="0" />
+      <Item value="XslCompiledTransform" priority="0" />
+      <Item value="transform" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FileUpload">
+      <Item value="HasFile" priority="0" />
+      <Item value="PostedFile" priority="1" />
+      <Item value="FileContent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="AccessKey" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpPostedFile">
+      <Item value="InputStream" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadToEnd`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Xsl.XslCompiledTransform">
+      <Item value="Transform`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Viewer.ascx.cs" caret="363" fromTop="15" />
+      <File id="d:Miscellaneous Files/f:out2.xml/l:D!?Epam?Projects?WebAppViewer?out2.xml" caret="400" fromTop="4" />
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Default.aspx" caret="1205" fromTop="19" />
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Default.aspx.cs" caret="687" fromTop="24" />
+      <File id="d:Miscellaneous Files/f:helloTransform.xslt/l:J!?helloTransform.xslt" caret="487" fromTop="15" />
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Bridge.ashx.cs" caret="2529" fromTop="29" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Viewer.ascx.cs" caret="363" fromTop="15" />
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Default.aspx" caret="1554" fromTop="3" />
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Default.aspx" caret="1205" fromTop="3" />
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Default.aspx.cs" caret="620" fromTop="19" />
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Default.aspx.cs" caret="672" fromTop="23" />
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Bridge.ashx.cs" caret="1379" fromTop="20" />
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Bridge.ashx.cs" caret="513" fromTop="10" />
+      <File id="43BEB0EE-BD35-48E8-9BBF-0A7F4F309102/f:Bridge.ashx.cs" caret="2566" fromTop="30" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

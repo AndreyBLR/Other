@@ -1,0 +1,10 @@
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DataAccessLibrary\bin\Debug\DataBase.mdf
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DataAccessLibrary\bin\Debug\DataBase_log.ldf
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll.config
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DataAccessLibrary\bin\Debug\DataAccessLibrary.pdb
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DataAccessLibrary\bin\Debug\Entities.dll
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DataAccessLibrary\bin\Debug\Entities.pdb
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DataAccessLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DataAccessLibrary\obj\Debug\DataAccessLibrary.dll
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\DataAccessLibrary\obj\Debug\DataAccessLibrary.pdb

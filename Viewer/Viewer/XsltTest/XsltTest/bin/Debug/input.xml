@@ -1,0 +1,3120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Use of the Calais Web Service is governed by the Terms of Service located at http://www.opencalais.com. By using this service or the results of the service you agree to these terms of service.-->
+<!--Relations: EmploymentRelation, GenericRelations, PersonCareer, PersonCommunication, Quotation
+
+City: Westford
+Facility: Club Adair
+IndustryTerm: last bank robbery
+MedicalCondition: bewilderment
+Organization: Flying Squadron
+Person: Cassley, Elvin Marclot, James Maclare, Kirk Borman, Lance Gillick
+Position: Director, Lieutenant, Sergeant, chief, director this town, live wire mayor, mayor, officer, police director, police officer-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:c="http://s.opencalais.com/1/pred/">
+  <rdf:Description c:allowDistribution="true" c:allowSearch="true" c:calaisRequestID="4455a841-7377-8373-1316-71adedc2a969" c:externalID="17cabs901" c:id="http://id.opencalais.com/QTKFDjBO4aVSWIADRsDn-w" rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/DocInfo"/>
+    <c:document>
+      <![CDATA[IT was gala night in the city of Westford. Streets were strung with brilliant lines of colored electric lights. Store fronts were illuminated, throwing their brightness upon festooned posts and displaying the elaborate decorations of their own windows. Tourists, driving through the main streets, gained the impressions that this city of two hundred thousand was engaged in celebration.
+As the boosters phrased it, Westford was a "live town" that was definitely "on the map"; the city attracted visitors from every town within a hundred miles. Business was booming in Westford; it was predicted that good times were here to remain. Thanks for the prosperity belonged to Westford's "live wire mayor", Elvin Marclot. His administration was hailed as the greatest in the history of the city.
+There was one man who viewed all this dourly, as he sat in a small ground-floor office that gave him a slanted view of the main street. He was a husky, square-jawed individual, with weather-beaten face and short-clipped hair that was well streaked with gray. He was attired in a blue uniform, that stretched tight as he sat erect. His insignia marked him as a lieutenant of police.
+Nearly everyone in Westford knew James Maclare. A veteran police officer, he had gained a reputation for honest and efficient service. His record was one of blunt, painstaking toil, rather than that of brilliant exploit; yet no one had ever said that Lieutenant Maclare lacked brains.
+Though slow to decision, Maclare invariably formed the right opinion. When matters perplexed him, he thought them over and waited until he had the answer.
+During that process he kept silence; when the time was ripe, he acted.
+There was one man in whom Lieutenant Maclare placed confidence. That man was another officer, as straightforward as Maclare himself. He was Sergeant Cassley, Maclare's chief subordinate. Together, they had charge of the first precinct; and, of necessity, Maclare frequently told Cassley the trend of his half-formed plans. Cassley was Maclare's man Friday; never did he pass along a single word that he had heard from his superior.
+
+
+TONIGHT, Cassley was sitting across the desk from Maclare, watching the lieutenant as he stared from the window of the precinct office. Though slow of thought, Cassley was positive that opinions were due. He was right. They came.
+"This whole thing is the bunk!" announced Maclare suddenly, emphasizing his gruff statement with a ponderous punch upon the desk. "Look at those lights; all that tinsel! What do they mean to Westford? Nothing except trouble!"
+Cassley looked puzzled. He was a bulky man; his wrinkled uniform made a contrast to Maclare's smooth blue coat. His beefy, flat-featured face displayed its bewilderment. The sergeant needed more statements, in order to grasp the full import of Maclare's objections. The lieutenant noted the fact and formed a wry smile.
+"I know what you're thinking, Cassley," he told the sergeant. "You've fallen for the talk of business coming into town. Sure! Westford is prosperous.
+But what's come on with all this excitement? I'll tell youвЂ”a lot of riffraff who think that Westford is the right spot for any crooked game they can cook up!"
+Cassley nodded slowly. He was tabulating a list of recent crimes. Maclare was right; there were crooks in Westford, plenty of them. But when Cassley thought further, his nod ended. He could not see just where the law had failed to battle crime.
+"What about the Flying Squadron?" queried the sergeant. "It's been moving fast, lieutenant, ever since Director Borman organized it. They were on the job quick, those fellows, after that last bank robbery."
+"But the crooks got away," reminded Maclare. "Don't forget that, Cassley."
+"You can't blame Director Borman for it."
+"I'm blaming Kirk Borman for nothing," returned Maclare, leaning across the desk. "You know what I think of Kirk Borman. I say that he's the best police director this town ever had. Elvin Marclot, as mayor, made the best choice anyone could have, when he picked Kirk Borman for the job.
+"But Borman hasn't stopped the rackets. He can't, even though he's got full charge of that Flying Squadron. The job rests with precincts, like ours here. We've got to raid the places where the crooks hang out. Clean them up before they have a chance to make trouble."
+Sergeant Cassley sat silent. Lieutenant Maclare began to strum his desk; then spoke in rueful tone.
+"We've drawn a blank every time we've tackled the Club Adair," he admitted. "We know that Lance Gillick runs it as a gambling joint; but when we blow in, it's always an innocent-looking night club. We're going there again, though, Cassley. Only, first, I'm planning to hand Lance Gillick a jolt that he won't forget."
+"How will you manage that, lieutenant?"
+]]>
+    </c:document>
+    <c:docTitle/>
+    <c:docDate>2011-07-26 11:40:41.015</c:docDate>
+    <c:externalMetadata/>
+    <c:submitter>ABC</c:submitter>
+  </rdf:Description>
+  <rdf:Description c:contentType="text/raw" c:emVer="7.1.1103.5" c:langIdVer="DefaultLangId" c:language="English" c:processingVer="CalaisJob01" c:stagsVer="1.0.0-b1-2009-11-12_16:54:24" c:submissionDate="2011-07-26 11:40:39.516" rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/meta">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/DocInfoMeta"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:submitterCode>7a2c1933-ee0a-e264-26f3-f22c446660ac</c:submitterCode>
+    <c:signature>digestalg-1|wKrX2MyLBscbffb3NunVfXcSO+Q=|b/uHdDrk3mGM+PRkGLRM65jUqFNaeF2Wi1ZDqabigCcGyJdCqdpv8Q==</c:signature>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/lid/DefaultLangId">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/lid/DefaultLangId"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:lang rdf:resource="http://d.opencalais.com/lid/DefaultLangId/English"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/SocialTag/1">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/tag/SocialTag"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:socialtag rdf:resource="http://d.opencalais.com/genericHasher-1/0a2519e1-60a4-37c8-a8f5-d84de61d5815"/>
+    <c:name>Military organization</c:name>
+    <c:importance>1</c:importance>
+    <c:originalValue>Military organization</c:originalValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/SocialTag/2">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/tag/SocialTag"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:socialtag rdf:resource="http://d.opencalais.com/genericHasher-1/628c4e54-7bba-3c87-80aa-ecabcf30215e"/>
+    <c:name>Military</c:name>
+    <c:importance>1</c:importance>
+    <c:originalValue>Military</c:originalValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/SocialTag/3">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/tag/SocialTag"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:socialtag rdf:resource="http://d.opencalais.com/genericHasher-1/12080ca6-e692-3631-8e5f-764cf74b9ed9"/>
+    <c:name>Middlesex County, Massachusetts</c:name>
+    <c:importance>1</c:importance>
+    <c:originalValue>Middlesex County, Massachusetts</c:originalValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/SocialTag/4">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/tag/SocialTag"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:socialtag rdf:resource="http://d.opencalais.com/genericHasher-1/7f021744-555c-3686-9534-5be3eab3769d"/>
+    <c:name>Westford, Massachusetts</c:name>
+    <c:importance>2</c:importance>
+    <c:originalValue>Westford, Massachusetts</c:originalValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/SocialTag/5">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/tag/SocialTag"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:socialtag rdf:resource="http://d.opencalais.com/genericHasher-1/8b71f2be-3b50-32be-b0f2-7f5a061169fd"/>
+    <c:name>Westford</c:name>
+    <c:importance>2</c:importance>
+    <c:originalValue>Westford</c:originalValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/SocialTag/6">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/tag/SocialTag"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:socialtag rdf:resource="http://d.opencalais.com/genericHasher-1/bc6e7484-d231-3a78-90ac-56298bdc653a"/>
+    <c:name>Sergeant</c:name>
+    <c:importance>2</c:importance>
+    <c:originalValue>Sergeant</c:originalValue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/cat/1">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/cat/DocCat"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:category rdf:resource="http://d.opencalais.com/cat/Calais/Other"/>
+    <c:classifierName>Calais</c:classifierName>
+    <c:categoryName>Other</c:categoryName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/c9c85e32-82d1-33e9-a5c8-9073be235761">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>police officer</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/1">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c9c85e32-82d1-33e9-a5c8-9073be235761"/>
+    <!--Position: police officer; -->
+    <c:detection>[in Westford knew James Maclare. A veteran ]police officer[, he had gained a reputation for honest and]</c:detection>
+    <c:prefix>in Westford knew James Maclare. A veteran </c:prefix>
+    <c:exact>police officer</c:exact>
+    <c:suffix>, he had gained a reputation for honest and</c:suffix>
+    <c:offset>1229</c:offset>
+    <c:length>14</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/1">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c9c85e32-82d1-33e9-a5c8-9073be235761"/>
+    <c:relevance>0.284</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Person"/>
+    <c:name>Cassley</c:name>
+    <c:persontype>N/A</c:persontype>
+    <c:nationality>N/A</c:nationality>
+    <c:commonname>Cassley</c:commonname>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/2">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>[as Maclare himself. He was Sergeant ]Cassley[, Maclare's chief subordinate. Together, they had]</c:detection>
+    <c:prefix>as Maclare himself. He was Sergeant </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix>, Maclare's chief subordinate. Together, they had</c:suffix>
+    <c:offset>1831</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/3">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>[and, of necessity, Maclare frequently told ]Cassley[ the trend of his half-formed plans. Cassley was]</c:detection>
+    <c:prefix>and, of necessity, Maclare frequently told </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix> the trend of his half-formed plans. Cassley was</c:suffix>
+    <c:offset>1961</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/4">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>[ told Cassley the trend of his half-formed plans. ]Cassley[ was Maclare's man Friday; never did he pass]</c:detection>
+    <c:prefix> told Cassley the trend of his half-formed plans. </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix> was Maclare's man Friday; never did he pass</c:suffix>
+    <c:offset>2005</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/5">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>
+      [that he had heard from his superior.
+
+
+      TONIGHT, ]Cassley[ was sitting across the desk from Maclare,]
+    </c:detection>
+    <c:prefix>
+      that he had heard from his superior.
+
+
+      TONIGHT,
+    </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix> was sitting across the desk from Maclare,</c:suffix>
+    <c:offset>2125</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/6">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>[of the precinct office. Though slow of thought, ]Cassley[ was positive that opinions were due. He was]</c:detection>
+    <c:prefix>of the precinct office. Though slow of thought, </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix> was positive that opinions were due. He was</c:suffix>
+    <c:offset>2276</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/7">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>
+      [Cassley was positive that opinions were due. ]He[ was right. They came.
+      "This whole thing is the]
+    </c:detection>
+    <c:prefix>Cassley was positive that opinions were due. </c:prefix>
+    <c:exact>He</c:exact>
+    <c:suffix>
+      was right. They came.
+      "This whole thing is the
+    </c:suffix>
+    <c:offset>2321</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/8">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>
+      [they mean to Westford? Nothing except trouble!"
+      ]Cassley[ looked puzzled. He was a bulky man; his wrinkled]
+    </c:detection>
+    <c:prefix>
+      they mean to Westford? Nothing except trouble!"
+    </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix> looked puzzled. He was a bulky man; his wrinkled</c:suffix>
+    <c:offset>2572</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/9">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>
+      [ Nothing except trouble!"
+      Cassley looked puzzled. ]He[ was a bulky man; his wrinkled uniform made a]
+    </c:detection>
+    <c:prefix>
+      Nothing except trouble!"
+      Cassley looked puzzled.
+    </c:prefix>
+    <c:exact>He</c:exact>
+    <c:suffix> was a bulky man; his wrinkled uniform made a</c:suffix>
+    <c:offset>2596</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/10">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>[looked puzzled. He was a bulky man; ]his[ wrinkled uniform made a contrast to Maclare's]</c:detection>
+    <c:prefix>looked puzzled. He was a bulky man; </c:prefix>
+    <c:exact>his</c:exact>
+    <c:suffix> wrinkled uniform made a contrast to Maclare's</c:suffix>
+    <c:offset>2616</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/11">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>
+      [a wry smile.
+      "I know what you're thinking, ]Cassley[," he told the sergeant. "You've fallen for the]
+    </c:detection>
+    <c:prefix>
+      a wry smile.
+      "I know what you're thinking,
+    </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix>," he told the sergeant. "You've fallen for the</c:suffix>
+    <c:offset>2922</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/12">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>
+      [spot for any crooked game they can cook up!"
+      ]Cassley[ nodded slowly. He was tabulating a list of]
+    </c:detection>
+    <c:prefix>
+      spot for any crooked game they can cook up!"
+    </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix> nodded slowly. He was tabulating a list of</c:suffix>
+    <c:offset>3201</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/13">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>
+      [game they can cook up!"
+      Cassley nodded slowly. ]He[ was tabulating a list of recent crimes. Maclare]
+    </c:detection>
+    <c:prefix>
+      game they can cook up!"
+      Cassley nodded slowly.
+    </c:prefix>
+    <c:exact>He</c:exact>
+    <c:suffix> was tabulating a list of recent crimes. Maclare</c:suffix>
+    <c:offset>3224</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/14">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>[crooks in Westford, plenty of them. But when ]Cassley[ thought further, his nod ended. He could not see]</c:detection>
+    <c:prefix>crooks in Westford, plenty of them. But when </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix> thought further, his nod ended. He could not see</c:suffix>
+    <c:offset>3342</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/15">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>[of them. But when Cassley thought further, ]his[ nod ended. He could not see just where the law]</c:detection>
+    <c:prefix>of them. But when Cassley thought further, </c:prefix>
+    <c:exact>his</c:exact>
+    <c:suffix> nod ended. He could not see just where the law</c:suffix>
+    <c:offset>3367</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/16">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>[ But when Cassley thought further, his nod ended. ]He[ could not see just where the law had failed to]</c:detection>
+    <c:prefix> But when Cassley thought further, his nod ended. </c:prefix>
+    <c:exact>He</c:exact>
+    <c:suffix> could not see just where the law had failed to</c:suffix>
+    <c:offset>3382</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/17">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>
+      [ got away," reminded Maclare. "Don't forget that, ]Cassley[."
+      "You can't blame Director Borman for it."
+      "I'm]
+    </c:detection>
+    <c:prefix> got away," reminded Maclare. "Don't forget that, </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix>
+      ."
+      "You can't blame Director Borman for it."
+      "I'm
+    </c:suffix>
+    <c:offset>3718</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/18">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>
+      [they have a chance to make trouble."
+      Sergeant ]Cassley[ sat silent. Lieutenant Maclare began to strum]
+    </c:detection>
+    <c:prefix>
+      they have a chance to make trouble."
+      Sergeant
+    </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix> sat silent. Lieutenant Maclare began to strum</c:suffix>
+    <c:offset>4334</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/19">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Person: Cassley; -->
+    <c:detection>[night club. We're going there again, though, ]Cassley[. Only, first, I'm planning to hand Lance Gillick]</c:detection>
+    <c:prefix>night club. We're going there again, though, </c:prefix>
+    <c:exact>Cassley</c:exact>
+    <c:suffix>. Only, first, I'm planning to hand Lance Gillick</c:suffix>
+    <c:offset>4656</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/2">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <c:relevance>0.617</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/50e813b2-6cf8-3b4e-8f63-570a07906149">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Cassley-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <c:relationobject>a bulky man</c:relationobject>
+    <c:verb>be</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/20">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/50e813b2-6cf8-3b4e-8f63-570a07906149"/>
+    <!--GenericRelations: relationsubject: Cassley; relationobject: a bulky man; verb: be; -->
+    <c:detection>
+      [ Nothing except trouble!"
+      Cassley looked puzzled. ]He was a bulky man[; his wrinkled uniform made a contrast to]
+    </c:detection>
+    <c:prefix>
+      Nothing except trouble!"
+      Cassley looked puzzled.
+    </c:prefix>
+    <c:exact>He was a bulky man</c:exact>
+    <c:suffix>; his wrinkled uniform made a contrast to</c:suffix>
+    <c:offset>2596</c:offset>
+    <c:length>18</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/5ec709f3-8447-3db2-a70a-b4aff43a699a">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>mayor</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/21">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5ec709f3-8447-3db2-a70a-b4aff43a699a"/>
+    <!--Position: mayor; -->
+    <c:detection>[director this town ever had. Elvin Marclot, as ]mayor[, made the best choice anyone could have, when he]</c:detection>
+    <c:prefix>director this town ever had. Elvin Marclot, as </c:prefix>
+    <c:exact>mayor</c:exact>
+    <c:suffix>, made the best choice anyone could have, when he</c:suffix>
+    <c:offset>3970</c:offset>
+    <c:length>5</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/3">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5ec709f3-8447-3db2-a70a-b4aff43a699a"/>
+    <c:relevance>0.065</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/45833537-918e-393b-a256-bce2fe161a11">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Cassley-->
+    <c:relationobject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <c:verb>be</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/22">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/45833537-918e-393b-a256-bce2fe161a11"/>
+    <!--GenericRelations: relationsubject: James Maclare; relationobject: Cassley; verb: be; -->
+    <c:detection>[officer, as straightforward as Maclare himself. ]He was Sergeant Cassley[, Maclare's chief subordinate. Together, they had]</c:detection>
+    <c:prefix>officer, as straightforward as Maclare himself. </c:prefix>
+    <c:exact>He was Sergeant Cassley</c:exact>
+    <c:suffix>, Maclare's chief subordinate. Together, they had</c:suffix>
+    <c:offset>1815</c:offset>
+    <c:length>23</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/3458e822-595c-3eae-b4e9-0bce00cf04db">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonCommunication"/>
+    <!--James Maclare-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Cassley-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <c:status>announced</c:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/23">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/3458e822-595c-3eae-b4e9-0bce00cf04db"/>
+    <!--PersonCommunication: person: James Maclare; person: Cassley; status: announced; -->
+    <c:detection>[ charge of the first precinct; and, of necessity, ]Maclare frequently told Cassley[ the trend of his half-formed plans. Cassley was]</c:detection>
+    <c:prefix> charge of the first precinct; and, of necessity, </c:prefix>
+    <c:exact>Maclare frequently told Cassley</c:exact>
+    <c:suffix> the trend of his half-formed plans. Cassley was</c:suffix>
+    <c:offset>1937</c:offset>
+    <c:length>31</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/d3873978-3532-35da-9465-f2609fad0bc3">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:relationobject>brains</c:relationobject>
+    <c:verb>lack</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/24">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/d3873978-3532-35da-9465-f2609fad0bc3"/>
+    <!--GenericRelations: relationsubject: James Maclare; relationobject: brains; verb: lack; -->
+    <c:detection>
+      [ brilliant exploit; yet no one had ever said that ]Lieutenant Maclare lacked brains[.
+      Though slow to decision, Maclare invariably]
+    </c:detection>
+    <c:prefix> brilliant exploit; yet no one had ever said that </c:prefix>
+    <c:exact>Lieutenant Maclare lacked brains</c:exact>
+    <c:suffix>
+      .
+      Though slow to decision, Maclare invariably
+    </c:suffix>
+    <c:offset>1422</c:offset>
+    <c:length>32</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Person"/>
+    <c:name>Kirk Borman</c:name>
+    <c:persontype>N/A</c:persontype>
+    <c:nationality>N/A</c:nationality>
+    <c:commonname>Kirk Borman</c:commonname>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/25">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <!--Person: Kirk Borman; -->
+    <c:detection>[moving fast, lieutenant, ever since Director ]Borman[ organized it. They were on the job quick, those]</c:detection>
+    <c:prefix>moving fast, lieutenant, ever since Director </c:prefix>
+    <c:exact>Borman</c:exact>
+    <c:suffix> organized it. They were on the job quick, those</c:suffix>
+    <c:offset>3558</c:offset>
+    <c:length>6</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/26">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <!--Person: Kirk Borman; -->
+    <c:detection>
+      [ forget that, Cassley."
+      "You can't blame Director ]Borman[ for it."
+      "I'm blaming Kirk Borman for nothing,"]
+    </c:detection>
+    <c:prefix>
+      forget that, Cassley."
+      "You can't blame Director
+    </c:prefix>
+    <c:exact>Borman</c:exact>
+    <c:suffix>
+      for it."
+      "I'm blaming Kirk Borman for nothing,"
+    </c:suffix>
+    <c:offset>3754</c:offset>
+    <c:length>6</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/27">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <!--Person: Kirk Borman; -->
+    <c:detection>
+      [blame Director Borman for it."
+      "I'm blaming ]Kirk Borman[ for nothing," returned Maclare, leaning across]
+    </c:detection>
+    <c:prefix>
+      blame Director Borman for it."
+      "I'm blaming
+    </c:prefix>
+    <c:exact>Kirk Borman</c:exact>
+    <c:suffix> for nothing," returned Maclare, leaning across</c:suffix>
+    <c:offset>3783</c:offset>
+    <c:length>11</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/28">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <!--Person: Kirk Borman; -->
+    <c:detection>[across the desk. "You know what I think of ]Kirk Borman[. I say that he's the best police director this]</c:detection>
+    <c:prefix>across the desk. "You know what I think of </c:prefix>
+    <c:exact>Kirk Borman</c:exact>
+    <c:suffix>. I say that he's the best police director this</c:suffix>
+    <c:offset>3878</c:offset>
+    <c:length>11</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/29">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <!--Person: Kirk Borman; -->
+    <c:detection>
+      [best choice anyone could have, when he picked ]Kirk Borman[ for the job.
+      "But Borman hasn't stopped the]
+    </c:detection>
+    <c:prefix>best choice anyone could have, when he picked </c:prefix>
+    <c:exact>Kirk Borman</c:exact>
+    <c:suffix>
+      for the job.
+      "But Borman hasn't stopped the
+    </c:suffix>
+    <c:offset>4032</c:offset>
+    <c:length>11</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/30">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <!--Person: Kirk Borman; -->
+    <c:detection>
+      [when he picked Kirk Borman for the job.
+      "But ]Borman[ hasn't stopped the rackets. He can't, even]
+    </c:detection>
+    <c:prefix>
+      when he picked Kirk Borman for the job.
+      "But
+    </c:prefix>
+    <c:exact>Borman</c:exact>
+    <c:suffix> hasn't stopped the rackets. He can't, even</c:suffix>
+    <c:offset>4062</c:offset>
+    <c:length>6</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/31">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <!--Person: Kirk Borman; -->
+    <c:detection>
+      [ the job.
+      "But Borman hasn't stopped the rackets. ]He[ can't, even though he's got full charge of that]
+    </c:detection>
+    <c:prefix>
+      the job.
+      "But Borman hasn't stopped the rackets.
+    </c:prefix>
+    <c:exact>He</c:exact>
+    <c:suffix> can't, even though he's got full charge of that</c:suffix>
+    <c:offset>4097</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/32">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <!--Person: Kirk Borman; -->
+    <c:detection>[stopped the rackets. He can't, even though ]he['s got full charge of that Flying Squadron. The]</c:detection>
+    <c:prefix>stopped the rackets. He can't, even though </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix>'s got full charge of that Flying Squadron. The</c:suffix>
+    <c:offset>4119</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/4">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <c:relevance>0.291</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/03b8a3f0-d5a1-393b-a82f-9471908f1c3c">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonCommunication"/>
+    <!--James Maclare-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:persondescription>sergeant</c:persondescription>
+    <c:status>announced</c:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/33">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/03b8a3f0-d5a1-393b-a82f-9471908f1c3c"/>
+    <!--PersonCommunication: person: James Maclare; persondescription: sergeant; status: announced; -->
+    <c:detection>
+      [smile.
+      "I know what you're thinking, Cassley," ]he told the sergeant[. "You've fallen for the talk of business coming]
+    </c:detection>
+    <c:prefix>
+      smile.
+      "I know what you're thinking, Cassley,"
+    </c:prefix>
+    <c:exact>he told the sergeant</c:exact>
+    <c:suffix>. "You've fallen for the talk of business coming</c:suffix>
+    <c:offset>2932</c:offset>
+    <c:length>20</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/fbff6c6a-6388-3195-9c40-2575d0d97759">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Westford-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <c:verb>prosperous</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/34">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/fbff6c6a-6388-3195-9c40-2575d0d97759"/>
+    <!--GenericRelations: relationsubject: Westford; verb: prosperous; -->
+    <c:detection>
+      [ for the talk of business coming into town. Sure! ]Westford is prosperous[.
+      But what's come on with all this excitement?]
+    </c:detection>
+    <c:prefix> for the talk of business coming into town. Sure! </c:prefix>
+    <c:exact>Westford is prosperous</c:exact>
+    <c:suffix>
+      .
+      But what's come on with all this excitement?
+    </c:suffix>
+    <c:offset>3018</c:offset>
+    <c:length>22</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/8fa68cbd-c642-3c23-a271-09fa4cefb012">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Kirk Borman-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <c:relationobject>it</c:relationobject>
+    <c:verb>organize</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/35">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/8fa68cbd-c642-3c23-a271-09fa4cefb012"/>
+    <!--GenericRelations: relationsubject: Kirk Borman; relationobject: it; verb: organize; -->
+    <c:detection>["It's been moving fast, lieutenant, ever since ]Director Borman organized it[. They were on the job quick, those fellows,]</c:detection>
+    <c:prefix>"It's been moving fast, lieutenant, ever since </c:prefix>
+    <c:exact>Director Borman organized it</c:exact>
+    <c:suffix>. They were on the job quick, those fellows,</c:suffix>
+    <c:offset>3549</c:offset>
+    <c:length>28</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/c5adc3db-e5c0-39aa-a671-e584cfd5fb63">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Kirk Borman-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <c:relationobject>the rackets</c:relationobject>
+    <c:verb>not stop</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/36">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c5adc3db-e5c0-39aa-a671-e584cfd5fb63"/>
+    <!--GenericRelations: relationsubject: Kirk Borman; relationobject: the rackets; verb: not stop; -->
+    <c:detection>
+      [when he picked Kirk Borman for the job.
+      "But ]Borman hasn't stopped the rackets[. He can't, even though he's got full charge of]
+    </c:detection>
+    <c:prefix>
+      when he picked Kirk Borman for the job.
+      "But
+    </c:prefix>
+    <c:exact>Borman hasn't stopped the rackets</c:exact>
+    <c:suffix>. He can't, even though he's got full charge of</c:suffix>
+    <c:offset>4062</c:offset>
+    <c:length>33</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/b97fb355-8b19-36d8-af21-dc20de3c34fc">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/Quotation"/>
+    <!--James Maclare-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:quote>This whole thing is the bunk!; Look at those lights; all that tinsel! What do they mean to Westford? Nothing except trouble!</c:quote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/37">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/b97fb355-8b19-36d8-af21-dc20de3c34fc"/>
+    <!--Quotation: person: James Maclare; quote: This whole thing is the bunk!; Look at those lights; all that tinsel! What do they mean to Westford? Nothing except trouble!; -->
+    <c:detection>
+      [ that opinions were due. He was right. They came.
+      ]"This whole thing is the bunk!" announced Maclare suddenly, emphasizing his gruff statement with a ponderous punch upon the desk. "Look at those lights; all that tinsel! What do they mean to Westford? Nothing except trouble!"[
+      Cassley looked puzzled. He was a bulky man; his]
+    </c:detection>
+    <c:prefix>
+      that opinions were due. He was right. They came.
+    </c:prefix>
+    <c:exact>"This whole thing is the bunk!" announced Maclare suddenly, emphasizing his gruff statement with a ponderous punch upon the desk. "Look at those lights; all that tinsel! What do they mean to Westford? Nothing except trouble!"</c:exact>
+    <c:suffix>
+      Cassley looked puzzled. He was a bulky man; his
+    </c:suffix>
+    <c:offset>2346</c:offset>
+    <c:length>225</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/a304c1e8-ddcc-397d-93ed-67b640f91eee">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/EmploymentRelation"/>
+    <!--James Maclare-->
+    <c:person_employer rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Cassley-->
+    <c:person_employee rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--chief-->
+    <c:position rdf:resource="http://d.opencalais.com/genericHasher-1/dfba6002-ef9b-3da4-918b-6fcc774da615"/>
+    <c:status>current</c:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/38">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/a304c1e8-ddcc-397d-93ed-67b640f91eee"/>
+    <!--EmploymentRelation: person_employer: James Maclare; person_employee: Cassley; position: chief; status: current; -->
+    <c:detection>[as Maclare himself. He was Sergeant ]Cassley, Maclare's chief[ subordinate. Together, they had charge of the]</c:detection>
+    <c:prefix>as Maclare himself. He was Sergeant </c:prefix>
+    <c:exact>Cassley, Maclare's chief</c:exact>
+    <c:suffix> subordinate. Together, they had charge of the</c:suffix>
+    <c:offset>1831</c:offset>
+    <c:length>24</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/3429f40a-5b3c-3fc4-8dba-0b0aecc1624c">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:relationobject>the best police director</c:relationobject>
+    <c:verb>be</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/39">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/3429f40a-5b3c-3fc4-8dba-0b0aecc1624c"/>
+    <!--GenericRelations: relationsubject: James Maclare; relationobject: the best police director; verb: be; -->
+    <c:detection>[know what I think of Kirk Borman. I say that ]he's the best police director[ this town ever had. Elvin Marclot, as mayor,]</c:detection>
+    <c:prefix>know what I think of Kirk Borman. I say that </c:prefix>
+    <c:exact>he's the best police director</c:exact>
+    <c:suffix> this town ever had. Elvin Marclot, as mayor,</c:suffix>
+    <c:offset>3902</c:offset>
+    <c:length>29</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/d2989ecf-3c23-3aac-b818-5a911445d5d2">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Elvin Marclot-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <c:relationobject>Kirk Borman for the job</c:relationobject>
+    <c:verb>pick</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/40">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/d2989ecf-3c23-3aac-b818-5a911445d5d2"/>
+    <!--GenericRelations: relationsubject: Elvin Marclot; relationobject: Kirk Borman for the job; verb: pick; -->
+    <c:detection>
+      [made the best choice anyone could have, when ]he picked Kirk Borman for the job[.
+      "But Borman hasn't stopped the rackets. He]
+    </c:detection>
+    <c:prefix>made the best choice anyone could have, when </c:prefix>
+    <c:exact>he picked Kirk Borman for the job</c:exact>
+    <c:suffix>
+      .
+      "But Borman hasn't stopped the rackets. He
+    </c:suffix>
+    <c:offset>4022</c:offset>
+    <c:length>33</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/cea54eca-57b7-3769-96e0-c9eb57e12a5b">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Elvin Marclot-->
+    <c:relationobject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <c:verb>attire</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/41">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/cea54eca-57b7-3769-96e0-c9eb57e12a5b"/>
+    <!--GenericRelations: relationobject: Elvin Marclot; verb: attire; -->
+    <c:detection>[hair that was well streaked with gray. ]He was attired in a blue uniform[, that stretched tight as he sat erect. His]</c:detection>
+    <c:prefix>hair that was well streaked with gray. </c:prefix>
+    <c:exact>He was attired in a blue uniform</c:exact>
+    <c:suffix>, that stretched tight as he sat erect. His</c:suffix>
+    <c:offset>1048</c:offset>
+    <c:length>32</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/24baaf58-246a-3a94-87b9-24429802a83d">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Westford-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <c:relationobject>the right spot for any crooked game</c:relationobject>
+    <c:verb>be</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/42">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/24baaf58-246a-3a94-87b9-24429802a83d"/>
+    <!--GenericRelations: relationsubject: Westford; relationobject: the right spot for any crooked game; verb: be; -->
+    <c:detection>
+      [I'll tell youвЂ”a lot of riffraff who think that ]Westford is the right spot for any crooked game[ they can cook up!"
+      Cassley nodded slowly. He was]
+    </c:detection>
+    <c:prefix>I'll tell youвЂ”a lot of riffraff who think that </c:prefix>
+    <c:exact>Westford is the right spot for any crooked game</c:exact>
+    <c:suffix>
+      they can cook up!"
+      Cassley nodded slowly. He was
+    </c:suffix>
+    <c:offset>3134</c:offset>
+    <c:length>47</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/68cbfc21-4f67-3079-a374-e5621d7f15a5">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>Director</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/43">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/68cbfc21-4f67-3079-a374-e5621d7f15a5"/>
+    <!--Position: Director; -->
+    <c:detection>["It's been moving fast, lieutenant, ever since ]Director[ Borman organized it. They were on the job quick,]</c:detection>
+    <c:prefix>"It's been moving fast, lieutenant, ever since </c:prefix>
+    <c:exact>Director</c:exact>
+    <c:suffix> Borman organized it. They were on the job quick,</c:suffix>
+    <c:offset>3549</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/44">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/68cbfc21-4f67-3079-a374-e5621d7f15a5"/>
+    <!--Position: Director; -->
+    <c:detection>
+      ["Don't forget that, Cassley."
+      "You can't blame ]Director[ Borman for it."
+      "I'm blaming Kirk Borman for]
+    </c:detection>
+    <c:prefix>
+      "Don't forget that, Cassley."
+      "You can't blame
+    </c:prefix>
+    <c:exact>Director</c:exact>
+    <c:suffix>
+      Borman for it."
+      "I'm blaming Kirk Borman for
+    </c:suffix>
+    <c:offset>3745</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/5">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/68cbfc21-4f67-3079-a374-e5621d7f15a5"/>
+    <c:relevance>0.111</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/pershash-1/bcbdef3a-9760-3418-b8a0-43fd69ccc9f4">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Person"/>
+    <c:name>Lance Gillick</c:name>
+    <c:persontype>N/A</c:persontype>
+    <c:nationality>N/A</c:nationality>
+    <c:commonname>Lance Gillick</c:commonname>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/45">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/bcbdef3a-9760-3418-b8a0-43fd69ccc9f4"/>
+    <!--Person: Lance Gillick; -->
+    <c:detection>[the Club Adair," he admitted. "We know that ]Lance Gillick[ runs it as a gambling joint; but when we blow]</c:detection>
+    <c:prefix>the Club Adair," he admitted. "We know that </c:prefix>
+    <c:exact>Lance Gillick</c:exact>
+    <c:suffix> runs it as a gambling joint; but when we blow</c:suffix>
+    <c:offset>4515</c:offset>
+    <c:length>13</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/46">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/bcbdef3a-9760-3418-b8a0-43fd69ccc9f4"/>
+    <!--Person: Lance Gillick; -->
+    <c:detection>
+      [Cassley. Only, first, I'm planning to hand ]Lance Gillick[ a jolt that he won't forget."
+      "How will you]
+    </c:detection>
+    <c:prefix>Cassley. Only, first, I'm planning to hand </c:prefix>
+    <c:exact>Lance Gillick</c:exact>
+    <c:suffix>
+      a jolt that he won't forget."
+      "How will you
+    </c:suffix>
+    <c:offset>4699</c:offset>
+    <c:length>13</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/47">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/bcbdef3a-9760-3418-b8a0-43fd69ccc9f4"/>
+    <!--Person: Lance Gillick; -->
+    <c:detection>
+      [I'm planning to hand Lance Gillick a jolt that ]he[ won't forget."
+      "How will you manage that,]
+    </c:detection>
+    <c:prefix>I'm planning to hand Lance Gillick a jolt that </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix>
+      won't forget."
+      "How will you manage that,
+    </c:suffix>
+    <c:offset>4725</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/6">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/bcbdef3a-9760-3418-b8a0-43fd69ccc9f4"/>
+    <c:relevance>0.057</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/c75419ed-47c0-36c2-ae7b-514544c1a36d">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>Sergeant</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/48">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c75419ed-47c0-36c2-ae7b-514544c1a36d"/>
+    <!--Position: Sergeant; -->
+    <c:detection>[as straightforward as Maclare himself. He was ]Sergeant[ Cassley, Maclare's chief subordinate. Together,]</c:detection>
+    <c:prefix>as straightforward as Maclare himself. He was </c:prefix>
+    <c:exact>Sergeant</c:exact>
+    <c:suffix> Cassley, Maclare's chief subordinate. Together,</c:suffix>
+    <c:offset>1822</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/49">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c75419ed-47c0-36c2-ae7b-514544c1a36d"/>
+    <!--Position: Sergeant; -->
+    <c:detection>[flat-featured face displayed its bewilderment. ]The sergeant[ needed more statements, in order to grasp the]</c:detection>
+    <c:prefix>flat-featured face displayed its bewilderment. </c:prefix>
+    <c:exact>The sergeant</c:exact>
+    <c:suffix> needed more statements, in order to grasp the</c:suffix>
+    <c:offset>2742</c:offset>
+    <c:length>12</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/50">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c75419ed-47c0-36c2-ae7b-514544c1a36d"/>
+    <!--Position: Sergeant; -->
+    <c:detection>[know what you're thinking, Cassley," he told ]the sergeant[. "You've fallen for the talk of business coming]</c:detection>
+    <c:prefix>know what you're thinking, Cassley," he told </c:prefix>
+    <c:exact>the sergeant</c:exact>
+    <c:suffix>. "You've fallen for the talk of business coming</c:suffix>
+    <c:offset>2940</c:offset>
+    <c:length>12</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/51">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c75419ed-47c0-36c2-ae7b-514544c1a36d"/>
+    <!--Position: Sergeant; -->
+    <c:detection>
+      [ crime.
+      "What about the Flying Squadron?" queried ]the sergeant[. "It's been moving fast, lieutenant, ever since]
+    </c:detection>
+    <c:prefix>
+      crime.
+      "What about the Flying Squadron?" queried
+    </c:prefix>
+    <c:exact>the sergeant</c:exact>
+    <c:suffix>. "It's been moving fast, lieutenant, ever since</c:suffix>
+    <c:offset>3488</c:offset>
+    <c:length>12</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/52">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c75419ed-47c0-36c2-ae7b-514544c1a36d"/>
+    <!--Position: Sergeant; -->
+    <c:detection>
+      [up before they have a chance to make trouble."
+      ]Sergeant[ Cassley sat silent. Lieutenant Maclare began to]
+    </c:detection>
+    <c:prefix>
+      up before they have a chance to make trouble."
+    </c:prefix>
+    <c:exact>Sergeant</c:exact>
+    <c:suffix> Cassley sat silent. Lieutenant Maclare began to</c:suffix>
+    <c:offset>4325</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/7">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c75419ed-47c0-36c2-ae7b-514544c1a36d"/>
+    <c:relevance>0.543</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/e0c079a6-2d75-3603-9139-9e491360ccec">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonCareer"/>
+    <!--James Maclare-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Sergeant-->
+    <c:position rdf:resource="http://d.opencalais.com/genericHasher-1/c75419ed-47c0-36c2-ae7b-514544c1a36d"/>
+    <c:careertype>professional</c:careertype>
+    <c:status>past</c:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/53">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/e0c079a6-2d75-3603-9139-9e491360ccec"/>
+    <!--PersonCareer: person: James Maclare; position: Sergeant; careertype: professional; status: past; -->
+    <c:detection>[officer, as straightforward as Maclare himself. ]He was Sergeant[ Cassley, Maclare's chief subordinate. Together,]</c:detection>
+    <c:prefix>officer, as straightforward as Maclare himself. </c:prefix>
+    <c:exact>He was Sergeant</c:exact>
+    <c:suffix> Cassley, Maclare's chief subordinate. Together,</c:suffix>
+    <c:offset>1815</c:offset>
+    <c:length>15</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/29c900be-7531-32c9-8d0e-17c9217b62a9">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:relationobject>his desk</c:relationobject>
+    <c:verb>strum</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/54">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/29c900be-7531-32c9-8d0e-17c9217b62a9"/>
+    <!--GenericRelations: relationsubject: James Maclare; relationobject: his desk; verb: strum; -->
+    <c:detection>
+      [to make trouble."
+      Sergeant Cassley sat silent. ]Lieutenant Maclare began to strum his desk[; then spoke in rueful tone.
+      "We've drawn a blank]
+    </c:detection>
+    <c:prefix>
+      to make trouble."
+      Sergeant Cassley sat silent.
+    </c:prefix>
+    <c:exact>Lieutenant Maclare began to strum his desk</c:exact>
+    <c:suffix>
+      ; then spoke in rueful tone.
+      "We've drawn a blank
+    </c:suffix>
+    <c:offset>4354</c:offset>
+    <c:length>42</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/841ab8cf-920d-34b2-950c-0c6f7c97bcf1">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Cassley-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <c:verb>nod</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/55">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/841ab8cf-920d-34b2-950c-0c6f7c97bcf1"/>
+    <!--GenericRelations: relationsubject: Cassley; verb: nod; -->
+    <c:detection>
+      [spot for any crooked game they can cook up!"
+      ]Cassley nodded slowly[. He was tabulating a list of recent crimes.]
+    </c:detection>
+    <c:prefix>
+      spot for any crooked game they can cook up!"
+    </c:prefix>
+    <c:exact>Cassley nodded slowly</c:exact>
+    <c:suffix>. He was tabulating a list of recent crimes.</c:suffix>
+    <c:offset>3201</c:offset>
+    <c:length>21</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/95cdb2ec-0c54-3a81-87db-e5b5b7e16d73">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <c:relationsubject>His insignia</c:relationsubject>
+    <!--Elvin Marclot-->
+    <c:relationobject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <c:verb>mark</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/56">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/95cdb2ec-0c54-3a81-87db-e5b5b7e16d73"/>
+    <!--GenericRelations: relationsubject: His insignia; relationobject: Elvin Marclot; verb: mark; -->
+    <c:detection>
+      [uniform, that stretched tight as he sat erect. ]His insignia marked him[ as a lieutenant of police.
+      Nearly everyone in]
+    </c:detection>
+    <c:prefix>uniform, that stretched tight as he sat erect. </c:prefix>
+    <c:exact>His insignia marked him</c:exact>
+    <c:suffix>
+      as a lieutenant of police.
+      Nearly everyone in
+    </c:suffix>
+    <c:offset>1120</c:offset>
+    <c:length>23</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/2bcddf6f-5bda-3e0b-ba7f-33e1e03987c2">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonCareer"/>
+    <!--Kirk Borman-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <!--Director-->
+    <c:position rdf:resource="http://d.opencalais.com/genericHasher-1/68cbfc21-4f67-3079-a374-e5621d7f15a5"/>
+    <!--Flying Squadron-->
+    <c:organization rdf:resource="http://d.opencalais.com/genericHasher-1/17fe67dc-758c-3852-991a-f7b7126a5fb6"/>
+    <c:careertype>professional</c:careertype>
+    <c:status>current</c:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/57">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/2bcddf6f-5bda-3e0b-ba7f-33e1e03987c2"/>
+    <!--PersonCareer: person: Kirk Borman; position: Director; organization: Flying Squadron; careertype: professional; status: current; -->
+    <c:detection>["It's been moving fast, lieutenant, ever since ]Director Borman[ organized it. They were on the job quick, those]</c:detection>
+    <c:prefix>"It's been moving fast, lieutenant, ever since </c:prefix>
+    <c:exact>Director Borman</c:exact>
+    <c:suffix> organized it. They were on the job quick, those</c:suffix>
+    <c:offset>3549</c:offset>
+    <c:length>15</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/17fe67dc-758c-3852-991a-f7b7126a5fb6">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Organization"/>
+    <c:name>Flying Squadron</c:name>
+    <c:organizationtype>governmental military</c:organizationtype>
+    <c:nationality>N/A</c:nationality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/58">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/17fe67dc-758c-3852-991a-f7b7126a5fb6"/>
+    <!--Organization: Flying Squadron; -->
+    <c:detection>
+      [law had failed to battle crime.
+      "What about the ]Flying Squadron[?" queried the sergeant. "It's been moving fast,]
+    </c:detection>
+    <c:prefix>
+      law had failed to battle crime.
+      "What about the
+    </c:prefix>
+    <c:exact>Flying Squadron</c:exact>
+    <c:suffix>?" queried the sergeant. "It's been moving fast,</c:suffix>
+    <c:offset>3462</c:offset>
+    <c:length>15</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/59">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/17fe67dc-758c-3852-991a-f7b7126a5fb6"/>
+    <!--Organization: Flying Squadron; -->
+    <c:detection>[can't, even though he's got full charge of that ]Flying Squadron[. The job rests with precincts, like ours here.]</c:detection>
+    <c:prefix>can't, even though he's got full charge of that </c:prefix>
+    <c:exact>Flying Squadron</c:exact>
+    <c:suffix>. The job rests with precincts, like ours here.</c:suffix>
+    <c:offset>4148</c:offset>
+    <c:length>15</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/8">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/17fe67dc-758c-3852-991a-f7b7126a5fb6"/>
+    <c:relevance>0.139</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/04d75ec4-4bc7-3797-9864-600ba107c7af">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Cassley-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <c:relationobject>Maclare's man</c:relationobject>
+    <c:verb>be</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/60">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/04d75ec4-4bc7-3797-9864-600ba107c7af"/>
+    <!--GenericRelations: relationsubject: Cassley; relationobject: Maclare's man; verb: be; -->
+    <c:detection>[ told Cassley the trend of his half-formed plans. ]Cassley was Maclare's man[ Friday; never did he pass along a single word]</c:detection>
+    <c:prefix> told Cassley the trend of his half-formed plans. </c:prefix>
+    <c:exact>Cassley was Maclare's man</c:exact>
+    <c:suffix> Friday; never did he pass along a single word</c:suffix>
+    <c:offset>2005</c:offset>
+    <c:length>25</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/24d1320c-323a-31ab-91dd-42596d77cb04">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Cassley-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <c:relationobject>a list of recent crimes</c:relationobject>
+    <c:verb>tabulate</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/61">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/24d1320c-323a-31ab-91dd-42596d77cb04"/>
+    <!--GenericRelations: relationsubject: Cassley; relationobject: a list of recent crimes; verb: tabulate; -->
+    <c:detection>
+      [game they can cook up!"
+      Cassley nodded slowly. ]He was tabulating a list of recent crimes[. Maclare was right; there were crooks in]
+    </c:detection>
+    <c:prefix>
+      game they can cook up!"
+      Cassley nodded slowly.
+    </c:prefix>
+    <c:exact>He was tabulating a list of recent crimes</c:exact>
+    <c:suffix>. Maclare was right; there were crooks in</c:suffix>
+    <c:offset>3224</c:offset>
+    <c:length>41</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/f09aae88-c605-3b14-80e5-8266b755df48">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonCareer"/>
+    <!--Cassley-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Maclare's chief-->
+    <c:position rdf:resource="http://d.opencalais.com/genericHasher-1/27f2125f-ddc4-353e-94fb-b63777d8d644"/>
+    <c:careertype>professional</c:careertype>
+    <c:status>current</c:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/62">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/f09aae88-c605-3b14-80e5-8266b755df48"/>
+    <!--PersonCareer: person: Cassley; position: Maclare's chief; careertype: professional; status: current; -->
+    <c:detection>[as Maclare himself. He was Sergeant ]Cassley, Maclare's chief[ subordinate. Together, they had charge of the]</c:detection>
+    <c:prefix>as Maclare himself. He was Sergeant </c:prefix>
+    <c:exact>Cassley, Maclare's chief</c:exact>
+    <c:suffix> subordinate. Together, they had charge of the</c:suffix>
+    <c:offset>1831</c:offset>
+    <c:length>24</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/288ec6c5-b823-34b6-80fe-533e9aeb3e8c">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/Quotation"/>
+    <!--James Maclare-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:quote>
+      I know what you're thinking, Cassley; You've fallen for the talk of business coming into town. Sure! Westford is prosperous.
+      But what's come on with all this excitement? I'll tell youвЂ”a lot of riffraff who think that Westford is the right spot for any crooked game they can cook up!
+    </c:quote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/63">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/288ec6c5-b823-34b6-80fe-533e9aeb3e8c"/>
+    <!--Quotation: person: James Maclare; quote: I know what you're thinking, Cassley; You've fallen for the talk of business coming into town. Sure! Westford is prosperous.
+But what's come on with all this excitement? I'll tell youвЂ”a lot of riffraff who think that Westford is the right spot for any crooked game they can cook up!; -->
+    <c:detection>
+      [noted the fact and formed a wry smile.
+      ]"I know what you're thinking, Cassley," he told the sergeant. "You've fallen for the talk of business coming into town. Sure! Westford is prosperous.
+      But what's come on with all this excitement? I'll tell youвЂ”a lot of riffraff who think that Westford is the right spot for any crooked game they can cook up!"[
+      Cassley nodded slowly. He was tabulating a list]
+    </c:detection>
+    <c:prefix>
+      noted the fact and formed a wry smile.
+    </c:prefix>
+    <c:exact>
+      "I know what you're thinking, Cassley," he told the sergeant. "You've fallen for the talk of business coming into town. Sure! Westford is prosperous.
+      But what's come on with all this excitement? I'll tell youвЂ”a lot of riffraff who think that Westford is the right spot for any crooked game they can cook up!"
+    </c:exact>
+    <c:suffix>
+      Cassley nodded slowly. He was tabulating a list
+    </c:suffix>
+    <c:offset>2892</c:offset>
+    <c:length>308</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/3c206010-4e45-31e0-936f-894f6ba61031">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:relationobject>silence</c:relationobject>
+    <c:verb>keep</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/64">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/3c206010-4e45-31e0-936f-894f6ba61031"/>
+    <!--GenericRelations: relationsubject: James Maclare; relationobject: silence; verb: keep; -->
+    <c:detection>
+      [until he had the answer.
+      During that process ]he kept silence[; when the time was ripe, he acted.
+      There was one]
+    </c:detection>
+    <c:prefix>
+      until he had the answer.
+      During that process
+    </c:prefix>
+    <c:exact>he kept silence</c:exact>
+    <c:suffix>
+      ; when the time was ripe, he acted.
+      There was one
+    </c:suffix>
+    <c:offset>1631</c:offset>
+    <c:length>15</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/4e15991c-7636-387c-8adb-a221281ce9af">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <c:relationsubject>I</c:relationsubject>
+    <!--Kirk Borman-->
+    <c:relationobject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <c:verb>blame</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/65">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/4e15991c-7636-387c-8adb-a221281ce9af"/>
+    <!--GenericRelations: relationsubject: I; relationobject: Kirk Borman; verb: blame; -->
+    <c:detection>
+      [can't blame Director Borman for it."
+      "]I'm blaming Kirk Borman[ for nothing," returned Maclare, leaning across]
+    </c:detection>
+    <c:prefix>
+      can't blame Director Borman for it."
+      "
+    </c:prefix>
+    <c:exact>I'm blaming Kirk Borman</c:exact>
+    <c:suffix> for nothing," returned Maclare, leaning across</c:suffix>
+    <c:offset>3771</c:offset>
+    <c:length>23</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/00a64fe9-856a-3100-b25b-b0715942340b">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/Quotation"/>
+    <!--James Maclare-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:quote>We've drawn a blank every time we've tackled the Club Adair; We know that Lance Gillick runs it as a gambling joint; but when we blow in, it's always an innocent-looking night club. We're going there again, though, Cassley. Only, first, I'm planning to hand Lance Gillick a jolt that he won't forget.</c:quote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/66">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/00a64fe9-856a-3100-b25b-b0715942340b"/>
+    <!--Quotation: person: James Maclare; quote: We've drawn a blank every time we've tackled the Club Adair; We know that Lance Gillick runs it as a gambling joint; but when we blow in, it's always an innocent-looking night club. We're going there again, though, Cassley. Only, first, I'm planning to hand Lance Gillick a jolt that he won't forget.; -->
+    <c:detection>
+      [to strum his desk; then spoke in rueful tone.
+      ]"We've drawn a blank every time we've tackled the Club Adair," he admitted. "We know that Lance Gillick runs it as a gambling joint; but when we blow in, it's always an innocent-looking night club. We're going there again, though, Cassley. Only, first, I'm planning to hand Lance Gillick a jolt that he won't forget."[
+      "How will you manage that,]
+    </c:detection>
+    <c:prefix>
+      to strum his desk; then spoke in rueful tone.
+    </c:prefix>
+    <c:exact>"We've drawn a blank every time we've tackled the Club Adair," he admitted. "We know that Lance Gillick runs it as a gambling joint; but when we blow in, it's always an innocent-looking night club. We're going there again, though, Cassley. Only, first, I'm planning to hand Lance Gillick a jolt that he won't forget."</c:exact>
+    <c:suffix>
+      "How will you manage that,
+    </c:suffix>
+    <c:offset>4425</c:offset>
+    <c:length>317</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/b8a1f793-4320-3eae-858b-10d36dd5aaaf">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Lance Gillick-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/bcbdef3a-9760-3418-b8a0-43fd69ccc9f4"/>
+    <c:relationobject>it</c:relationobject>
+    <c:verb>run</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/67">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/b8a1f793-4320-3eae-858b-10d36dd5aaaf"/>
+    <!--GenericRelations: relationsubject: Lance Gillick; relationobject: it; verb: run; -->
+    <c:detection>[the Club Adair," he admitted. "We know that ]Lance Gillick runs it[ as a gambling joint; but when we blow in, it's]</c:detection>
+    <c:prefix>the Club Adair," he admitted. "We know that </c:prefix>
+    <c:exact>Lance Gillick runs it</c:exact>
+    <c:suffix> as a gambling joint; but when we blow in, it's</c:suffix>
+    <c:offset>4515</c:offset>
+    <c:length>21</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/9f7be7ba-0353-38a3-bc6a-2dc8161934bc">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonCareer"/>
+    <!--James Maclare-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Lieutenant-->
+    <c:position rdf:resource="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a"/>
+    <c:careertype>professional</c:careertype>
+    <c:status>current</c:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/68">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/9f7be7ba-0353-38a3-bc6a-2dc8161934bc"/>
+    <!--PersonCareer: person: James Maclare; position: Lieutenant; careertype: professional; status: current; -->
+    <c:detection>
+      [ brilliant exploit; yet no one had ever said that ]Lieutenant Maclare[ lacked brains.
+      Though slow to decision, Maclare]
+    </c:detection>
+    <c:prefix> brilliant exploit; yet no one had ever said that </c:prefix>
+    <c:exact>Lieutenant Maclare</c:exact>
+    <c:suffix>
+      lacked brains.
+      Though slow to decision, Maclare
+    </c:suffix>
+    <c:offset>1422</c:offset>
+    <c:length>18</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/69">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/9f7be7ba-0353-38a3-bc6a-2dc8161934bc"/>
+    <!--PersonCareer: person: James Maclare; position: Lieutenant; careertype: professional; status: current; -->
+    <c:detection>
+      [was ripe, he acted.
+      There was one man in whom ]Lieutenant Maclare[ placed confidence. That man was another officer,]
+    </c:detection>
+    <c:prefix>
+      was ripe, he acted.
+      There was one man in whom
+    </c:prefix>
+    <c:exact>Lieutenant Maclare</c:exact>
+    <c:suffix> placed confidence. That man was another officer,</c:suffix>
+    <c:offset>1708</c:offset>
+    <c:length>18</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/70">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/9f7be7ba-0353-38a3-bc6a-2dc8161934bc"/>
+    <!--PersonCareer: person: James Maclare; position: Lieutenant; careertype: professional; status: current; -->
+    <c:detection>
+      [to make trouble."
+      Sergeant Cassley sat silent. ]Lieutenant Maclare[ began to strum his desk; then spoke in rueful]
+    </c:detection>
+    <c:prefix>
+      to make trouble."
+      Sergeant Cassley sat silent.
+    </c:prefix>
+    <c:exact>Lieutenant Maclare</c:exact>
+    <c:suffix> began to strum his desk; then spoke in rueful</c:suffix>
+    <c:offset>4354</c:offset>
+    <c:length>18</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/7a04f653-e3c9-3fd3-8ce5-cc8e7f106af9">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>director this town</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/71">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/7a04f653-e3c9-3fd3-8ce5-cc8e7f106af9"/>
+    <!--Position: director this town; -->
+    <c:detection>[of Kirk Borman. I say that he's the best police ]director this town[ ever had. Elvin Marclot, as mayor, made the best]</c:detection>
+    <c:prefix>of Kirk Borman. I say that he's the best police </c:prefix>
+    <c:exact>director this town</c:exact>
+    <c:suffix> ever had. Elvin Marclot, as mayor, made the best</c:suffix>
+    <c:offset>3923</c:offset>
+    <c:length>18</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/9">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/7a04f653-e3c9-3fd3-8ce5-cc8e7f106af9"/>
+    <c:relevance>0.069</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/7635e46e-e45b-3a41-88a0-18e1a2f51d27">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:verb>act</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/72">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/7635e46e-e45b-3a41-88a0-18e1a2f51d27"/>
+    <!--GenericRelations: relationsubject: James Maclare; verb: act; -->
+    <c:detection>
+      [ process he kept silence; when the time was ripe, ]he acted[.
+      There was one man in whom Lieutenant Maclare]
+    </c:detection>
+    <c:prefix> process he kept silence; when the time was ripe, </c:prefix>
+    <c:exact>he acted</c:exact>
+    <c:suffix>
+      .
+      There was one man in whom Lieutenant Maclare
+    </c:suffix>
+    <c:offset>1672</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/94eb9fad-1acf-3ac9-b46b-1022222b2032">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonCareer"/>
+    <!--Cassley-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <!--Sergeant-->
+    <c:position rdf:resource="http://d.opencalais.com/genericHasher-1/c75419ed-47c0-36c2-ae7b-514544c1a36d"/>
+    <c:careertype>professional</c:careertype>
+    <c:status>current</c:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/73">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/94eb9fad-1acf-3ac9-b46b-1022222b2032"/>
+    <!--PersonCareer: person: Cassley; position: Sergeant; careertype: professional; status: current; -->
+    <c:detection>[as straightforward as Maclare himself. He was ]Sergeant Cassley[, Maclare's chief subordinate. Together, they had]</c:detection>
+    <c:prefix>as straightforward as Maclare himself. He was </c:prefix>
+    <c:exact>Sergeant Cassley</c:exact>
+    <c:suffix>, Maclare's chief subordinate. Together, they had</c:suffix>
+    <c:offset>1822</c:offset>
+    <c:length>16</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/74">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/94eb9fad-1acf-3ac9-b46b-1022222b2032"/>
+    <!--PersonCareer: person: Cassley; position: Sergeant; careertype: professional; status: current; -->
+    <c:detection>
+      [up before they have a chance to make trouble."
+      ]Sergeant Cassley[ sat silent. Lieutenant Maclare began to strum]
+    </c:detection>
+    <c:prefix>
+      up before they have a chance to make trouble."
+    </c:prefix>
+    <c:exact>Sergeant Cassley</c:exact>
+    <c:suffix> sat silent. Lieutenant Maclare began to strum</c:suffix>
+    <c:offset>4325</c:offset>
+    <c:length>16</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/7cc7fdee-b96d-314a-a223-bb85f58de939">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>police director</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/75">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/7cc7fdee-b96d-314a-a223-bb85f58de939"/>
+    <!--Position: police director; -->
+    <c:detection>[ I think of Kirk Borman. I say that he's the best ]police director[ this town ever had. Elvin Marclot, as mayor,]</c:detection>
+    <c:prefix> I think of Kirk Borman. I say that he's the best </c:prefix>
+    <c:exact>police director</c:exact>
+    <c:suffix> this town ever had. Elvin Marclot, as mayor,</c:suffix>
+    <c:offset>3916</c:offset>
+    <c:length>15</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/10">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/7cc7fdee-b96d-314a-a223-bb85f58de939"/>
+    <c:relevance>0.069</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/fc56dab6-b204-3af1-825b-42ee297ecd4f">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:verb>hear</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/76">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/fc56dab6-b204-3af1-825b-42ee297ecd4f"/>
+    <!--GenericRelations: relationsubject: James Maclare; verb: hear; -->
+    <c:detection>
+      [never did he pass along a single word that ]he had heard from his[ superior.
+
+
+      TONIGHT, Cassley was sitting across]
+    </c:detection>
+    <c:prefix>never did he pass along a single word that </c:prefix>
+    <c:exact>he had heard from his</c:exact>
+    <c:suffix>
+      superior.
+
+
+      TONIGHT, Cassley was sitting across
+    </c:suffix>
+    <c:offset>2082</c:offset>
+    <c:length>21</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/a0da7630-af48-3725-aa3b-8ec1e1e6b935">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonCareer"/>
+    <!--Kirk Borman-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <!--Director-->
+    <c:position rdf:resource="http://d.opencalais.com/genericHasher-1/68cbfc21-4f67-3079-a374-e5621d7f15a5"/>
+    <c:careertype>professional</c:careertype>
+    <c:status>current</c:status>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/77">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/a0da7630-af48-3725-aa3b-8ec1e1e6b935"/>
+    <!--PersonCareer: person: Kirk Borman; position: Director; careertype: professional; status: current; -->
+    <c:detection>
+      ["Don't forget that, Cassley."
+      "You can't blame ]Director Borman[ for it."
+      "I'm blaming Kirk Borman for nothing,"]
+    </c:detection>
+    <c:prefix>
+      "Don't forget that, Cassley."
+      "You can't blame
+    </c:prefix>
+    <c:exact>Director Borman</c:exact>
+    <c:suffix>
+      for it."
+      "I'm blaming Kirk Borman for nothing,"
+    </c:suffix>
+    <c:offset>3745</c:offset>
+    <c:length>15</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/55ad63f6-a8e9-3f9a-a3ad-6ebe632b0198">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/MedicalCondition"/>
+    <c:name>bewilderment</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/78">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/55ad63f6-a8e9-3f9a-a3ad-6ebe632b0198"/>
+    <!--MedicalCondition: bewilderment; -->
+    <c:detection>[His beefy, flat-featured face displayed its ]bewilderment[. The sergeant needed more statements, in order]</c:detection>
+    <c:prefix>His beefy, flat-featured face displayed its </c:prefix>
+    <c:exact>bewilderment</c:exact>
+    <c:suffix>. The sergeant needed more statements, in order</c:suffix>
+    <c:offset>2728</c:offset>
+    <c:length>12</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/11">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/55ad63f6-a8e9-3f9a-a3ad-6ebe632b0198"/>
+    <c:relevance>0.175</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/e95e7e3c-8f4a-3e28-b6f2-e13e3c477109">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Cassley-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <c:verb>sit</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/79">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/e95e7e3c-8f4a-3e28-b6f2-e13e3c477109"/>
+    <!--GenericRelations: relationsubject: Cassley; verb: sit; -->
+    <c:detection>
+      [that he had heard from his superior.
+
+
+      TONIGHT, ]Cassley was sitting across the desk from Maclare[, watching the lieutenant as he stared from the]
+    </c:detection>
+    <c:prefix>
+      that he had heard from his superior.
+
+
+      TONIGHT,
+    </c:prefix>
+    <c:exact>Cassley was sitting across the desk from Maclare</c:exact>
+    <c:suffix>, watching the lieutenant as he stared from the</c:suffix>
+    <c:offset>2125</c:offset>
+    <c:length>48</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Person"/>
+    <c:name>Elvin Marclot</c:name>
+    <c:persontype>N/A</c:persontype>
+    <c:nationality>N/A</c:nationality>
+    <c:commonname>Elvin Marclot</c:commonname>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/80">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>[belonged to Westford's "live wire mayor", ]Elvin Marclot[. His administration was hailed as the greatest]</c:detection>
+    <c:prefix>belonged to Westford's "live wire mayor", </c:prefix>
+    <c:exact>Elvin Marclot</c:exact>
+    <c:suffix>. His administration was hailed as the greatest</c:suffix>
+    <c:offset>700</c:offset>
+    <c:length>13</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/81">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>[to Westford's "live wire mayor", Elvin Marclot. ]His[ administration was hailed as the greatest in the]</c:detection>
+    <c:prefix>to Westford's "live wire mayor", Elvin Marclot. </c:prefix>
+    <c:exact>His</c:exact>
+    <c:suffix> administration was hailed as the greatest in the</c:suffix>
+    <c:offset>715</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/82">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>[was one man who viewed all this dourly, as ]he[ sat in a small ground-floor office that gave him]</c:detection>
+    <c:prefix>was one man who viewed all this dourly, as </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix> sat in a small ground-floor office that gave him</c:suffix>
+    <c:offset>838</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/83">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>[he sat in a small ground-floor office that gave ]him[ a slanted view of the main street. He was a]</c:detection>
+    <c:prefix>he sat in a small ground-floor office that gave </c:prefix>
+    <c:exact>him</c:exact>
+    <c:suffix> a slanted view of the main street. He was a</c:suffix>
+    <c:offset>886</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/84">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>[ that gave him a slanted view of the main street. ]He[ was a husky, square-jawed individual, with]</c:detection>
+    <c:prefix> that gave him a slanted view of the main street. </c:prefix>
+    <c:exact>He</c:exact>
+    <c:suffix> was a husky, square-jawed individual, with</c:suffix>
+    <c:offset>925</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/85">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>[hair that was well streaked with gray. ]He[ was attired in a blue uniform, that stretched]</c:detection>
+    <c:prefix>hair that was well streaked with gray. </c:prefix>
+    <c:exact>He</c:exact>
+    <c:suffix> was attired in a blue uniform, that stretched</c:suffix>
+    <c:offset>1048</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/86">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>[in a blue uniform, that stretched tight as ]he[ sat erect. His insignia marked him as a]</c:detection>
+    <c:prefix>in a blue uniform, that stretched tight as </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix> sat erect. His insignia marked him as a</c:suffix>
+    <c:offset>1106</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/87">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>[uniform, that stretched tight as he sat erect. ]His[ insignia marked him as a lieutenant of]</c:detection>
+    <c:prefix>uniform, that stretched tight as he sat erect. </c:prefix>
+    <c:exact>His</c:exact>
+    <c:suffix> insignia marked him as a lieutenant of</c:suffix>
+    <c:offset>1120</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/88">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>
+      [tight as he sat erect. His insignia marked ]him[ as a lieutenant of police.
+      Nearly everyone in]
+    </c:detection>
+    <c:prefix>tight as he sat erect. His insignia marked </c:prefix>
+    <c:exact>him</c:exact>
+    <c:suffix>
+      as a lieutenant of police.
+      Nearly everyone in
+    </c:suffix>
+    <c:offset>1140</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/89">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>[the best police director this town ever had. ]Elvin Marclot[, as mayor, made the best choice anyone could]</c:detection>
+    <c:prefix>the best police director this town ever had. </c:prefix>
+    <c:exact>Elvin Marclot</c:exact>
+    <c:suffix>, as mayor, made the best choice anyone could</c:suffix>
+    <c:offset>3952</c:offset>
+    <c:length>13</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/90">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <!--Person: Elvin Marclot; -->
+    <c:detection>
+      [made the best choice anyone could have, when ]he[ picked Kirk Borman for the job.
+      "But Borman]
+    </c:detection>
+    <c:prefix>made the best choice anyone could have, when </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix>
+      picked Kirk Borman for the job.
+      "But Borman
+    </c:suffix>
+    <c:offset>4022</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/12">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/8789b493-6563-383e-822f-a08ff28b0a06"/>
+    <c:relevance>0.582</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/950656fb-03ad-39eb-91cc-1f597197a6c2">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:relationobject>a reputation for honest and efficient service</c:relationobject>
+    <c:verb>gain</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/91">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/950656fb-03ad-39eb-91cc-1f597197a6c2"/>
+    <!--GenericRelations: relationsubject: James Maclare; relationobject: a reputation for honest and efficient service; verb: gain; -->
+    <c:detection>[knew James Maclare. A veteran police officer, ]he had gained a reputation for honest and efficient service[. His record was one of blunt, painstaking toil,]</c:detection>
+    <c:prefix>knew James Maclare. A veteran police officer, </c:prefix>
+    <c:exact>he had gained a reputation for honest and efficient service</c:exact>
+    <c:suffix>. His record was one of blunt, painstaking toil,</c:suffix>
+    <c:offset>1245</c:offset>
+    <c:length>59</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/4826676c-8c72-3ca5-94eb-adc3923c7947">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <c:relationsubject>matters</c:relationsubject>
+    <!--James Maclare-->
+    <c:relationobject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:verb>perplex</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/92">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/4826676c-8c72-3ca5-94eb-adc3923c7947"/>
+    <!--GenericRelations: relationsubject: matters; relationobject: James Maclare; verb: perplex; -->
+    <c:detection>[invariably formed the right opinion. When ]matters perplexed him[, he thought them over and waited until he had]</c:detection>
+    <c:prefix>invariably formed the right opinion. When </c:prefix>
+    <c:exact>matters perplexed him</c:exact>
+    <c:suffix>, he thought them over and waited until he had</c:suffix>
+    <c:offset>1531</c:offset>
+    <c:length>21</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/238fdc5f-0886-3ea5-90b1-6532b5a6d481">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>live wire mayor</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/93">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/238fdc5f-0886-3ea5-90b1-6532b5a6d481"/>
+    <!--Position: live wire mayor; -->
+    <c:detection>[for the prosperity belonged to Westford's "]live wire mayor[", Elvin Marclot. His administration was hailed]</c:detection>
+    <c:prefix>for the prosperity belonged to Westford's "</c:prefix>
+    <c:exact>live wire mayor</c:exact>
+    <c:suffix>", Elvin Marclot. His administration was hailed</c:suffix>
+    <c:offset>682</c:offset>
+    <c:length>15</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/13">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/238fdc5f-0886-3ea5-90b1-6532b5a6d481"/>
+    <c:relevance>0.306</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/8e886b93-52b8-3442-ad74-2349bedb13f5">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Cassley-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <c:verb>positive</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/94">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/8e886b93-52b8-3442-ad74-2349bedb13f5"/>
+    <!--GenericRelations: relationsubject: Cassley; verb: positive; -->
+    <c:detection>[of the precinct office. Though slow of thought, ]Cassley was positive[ that opinions were due. He was right. They]</c:detection>
+    <c:prefix>of the precinct office. Though slow of thought, </c:prefix>
+    <c:exact>Cassley was positive</c:exact>
+    <c:suffix> that opinions were due. He was right. They</c:suffix>
+    <c:offset>2276</c:offset>
+    <c:length>20</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/279ef6eb-c8ca-3ff3-bb7b-1ce75725e263">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:relationobject>the right opinion</c:relationobject>
+    <c:verb>form</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/95">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/279ef6eb-c8ca-3ff3-bb7b-1ce75725e263"/>
+    <!--GenericRelations: relationsubject: James Maclare; relationobject: the right opinion; verb: form; -->
+    <c:detection>
+      [Maclare lacked brains.
+      Though slow to decision, ]Maclare invariably formed the right opinion[. When matters perplexed him, he thought them]
+    </c:detection>
+    <c:prefix>
+      Maclare lacked brains.
+      Though slow to decision,
+    </c:prefix>
+    <c:exact>Maclare invariably formed the right opinion</c:exact>
+    <c:suffix>. When matters perplexed him, he thought them</c:suffix>
+    <c:offset>1481</c:offset>
+    <c:length>43</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/961463ea-3eb3-3cd5-88bb-d9fa53f91228">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:verb>admit</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/96">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/961463ea-3eb3-3cd5-88bb-d9fa53f91228"/>
+    <!--GenericRelations: relationsubject: James Maclare; verb: admit; -->
+    <c:detection>[blank every time we've tackled the Club Adair," ]he admitted[. "We know that Lance Gillick runs it as a]</c:detection>
+    <c:prefix>blank every time we've tackled the Club Adair," </c:prefix>
+    <c:exact>he admitted</c:exact>
+    <c:suffix>. "We know that Lance Gillick runs it as a</c:suffix>
+    <c:offset>4488</c:offset>
+    <c:length>11</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Person"/>
+    <c:name>James Maclare</c:name>
+    <c:persontype>N/A</c:persontype>
+    <c:nationality>N/A</c:nationality>
+    <c:commonname>James Maclare</c:commonname>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/97">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [of police.
+      Nearly everyone in Westford knew ]James Maclare[. A veteran police officer, he had gained a]
+    </c:detection>
+    <c:prefix>
+      of police.
+      Nearly everyone in Westford knew
+    </c:prefix>
+    <c:exact>James Maclare</c:exact>
+    <c:suffix>. A veteran police officer, he had gained a</c:suffix>
+    <c:offset>1204</c:offset>
+    <c:length>13</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/98">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[knew James Maclare. A veteran police officer, ]he[ had gained a reputation for honest and efficient]</c:detection>
+    <c:prefix>knew James Maclare. A veteran police officer, </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix> had gained a reputation for honest and efficient</c:suffix>
+    <c:offset>1245</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/99">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[a reputation for honest and efficient service. ]His[ record was one of blunt, painstaking toil,]</c:detection>
+    <c:prefix>a reputation for honest and efficient service. </c:prefix>
+    <c:exact>His</c:exact>
+    <c:suffix> record was one of blunt, painstaking toil,</c:suffix>
+    <c:offset>1306</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/100">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [ brilliant exploit; yet no one had ever said that ]Lieutenant Maclare[ lacked brains.
+      Though slow to decision, Maclare]
+    </c:detection>
+    <c:prefix> brilliant exploit; yet no one had ever said that </c:prefix>
+    <c:exact>Lieutenant Maclare</c:exact>
+    <c:suffix>
+      lacked brains.
+      Though slow to decision, Maclare
+    </c:suffix>
+    <c:offset>1422</c:offset>
+    <c:length>18</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/101">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [Maclare lacked brains.
+      Though slow to decision, ]Maclare[ invariably formed the right opinion. When]
+    </c:detection>
+    <c:prefix>
+      Maclare lacked brains.
+      Though slow to decision,
+    </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix> invariably formed the right opinion. When</c:suffix>
+    <c:offset>1481</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/102">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[ formed the right opinion. When matters perplexed ]him[, he thought them over and waited until he had]</c:detection>
+    <c:prefix> formed the right opinion. When matters perplexed </c:prefix>
+    <c:exact>him</c:exact>
+    <c:suffix>, he thought them over and waited until he had</c:suffix>
+    <c:offset>1549</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/103">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[the right opinion. When matters perplexed him, ]he[ thought them over and waited until he had the]</c:detection>
+    <c:prefix>the right opinion. When matters perplexed him, </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix> thought them over and waited until he had the</c:suffix>
+    <c:offset>1554</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/104">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [him, he thought them over and waited until ]he[ had the answer.
+      During that process he kept]
+    </c:detection>
+    <c:prefix>him, he thought them over and waited until </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix>
+      had the answer.
+      During that process he kept
+    </c:suffix>
+    <c:offset>1592</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/105">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [until he had the answer.
+      During that process ]he[ kept silence; when the time was ripe, he]
+    </c:detection>
+    <c:prefix>
+      until he had the answer.
+      During that process
+    </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix> kept silence; when the time was ripe, he</c:suffix>
+    <c:offset>1631</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/106">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [ process he kept silence; when the time was ripe, ]he[ acted.
+      There was one man in whom Lieutenant]
+    </c:detection>
+    <c:prefix> process he kept silence; when the time was ripe, </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix>
+      acted.
+      There was one man in whom Lieutenant
+    </c:suffix>
+    <c:offset>1672</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/107">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [was ripe, he acted.
+      There was one man in whom ]Lieutenant Maclare[ placed confidence. That man was another officer,]
+    </c:detection>
+    <c:prefix>
+      was ripe, he acted.
+      There was one man in whom
+    </c:prefix>
+    <c:exact>Lieutenant Maclare</c:exact>
+    <c:suffix> placed confidence. That man was another officer,</c:suffix>
+    <c:offset>1708</c:offset>
+    <c:length>18</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/108">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[man was another officer, as straightforward as ]Maclare[ himself. He was Sergeant Cassley, Maclare's]</c:detection>
+    <c:prefix>man was another officer, as straightforward as </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix> himself. He was Sergeant Cassley, Maclare's</c:suffix>
+    <c:offset>1798</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/109">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[officer, as straightforward as Maclare himself. ]He[ was Sergeant Cassley, Maclare's chief]</c:detection>
+    <c:prefix>officer, as straightforward as Maclare himself. </c:prefix>
+    <c:exact>He</c:exact>
+    <c:suffix> was Sergeant Cassley, Maclare's chief</c:suffix>
+    <c:offset>1815</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/110">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[as Maclare himself. He was Sergeant Cassley, ]Maclare['s chief subordinate. Together, they had charge]</c:detection>
+    <c:prefix>as Maclare himself. He was Sergeant Cassley, </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix>'s chief subordinate. Together, they had charge</c:suffix>
+    <c:offset>1840</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/111">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[ charge of the first precinct; and, of necessity, ]Maclare[ frequently told Cassley the trend of his]</c:detection>
+    <c:prefix> charge of the first precinct; and, of necessity, </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix> frequently told Cassley the trend of his</c:suffix>
+    <c:offset>1937</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/112">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[Maclare frequently told Cassley the trend of ]his[ half-formed plans. Cassley was Maclare's man]</c:detection>
+    <c:prefix>Maclare frequently told Cassley the trend of </c:prefix>
+    <c:exact>his</c:exact>
+    <c:suffix> half-formed plans. Cassley was Maclare's man</c:suffix>
+    <c:offset>1982</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/113">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[the trend of his half-formed plans. Cassley was ]Maclare['s man Friday; never did he pass along a single]</c:detection>
+    <c:prefix>the trend of his half-formed plans. Cassley was </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix>'s man Friday; never did he pass along a single</c:suffix>
+    <c:offset>2017</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/114">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[Cassley was Maclare's man Friday; never did ]he[ pass along a single word that he had heard from]</c:detection>
+    <c:prefix>Cassley was Maclare's man Friday; never did </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix> pass along a single word that he had heard from</c:suffix>
+    <c:offset>2049</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/115">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [never did he pass along a single word that ]he[ had heard from his superior.
+
+
+      TONIGHT, Cassley]
+    </c:detection>
+    <c:prefix>never did he pass along a single word that </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix>
+      had heard from his superior.
+
+
+      TONIGHT, Cassley
+    </c:suffix>
+    <c:offset>2082</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/116">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [pass along a single word that he had heard from ]his[ superior.
+
+
+      TONIGHT, Cassley was sitting across]
+    </c:detection>
+    <c:prefix>pass along a single word that he had heard from </c:prefix>
+    <c:exact>his</c:exact>
+    <c:suffix>
+      superior.
+
+
+      TONIGHT, Cassley was sitting across
+    </c:suffix>
+    <c:offset>2100</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/117">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[Cassley was sitting across the desk from ]Maclare[, watching the lieutenant as he stared from the]</c:detection>
+    <c:prefix>Cassley was sitting across the desk from </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix>, watching the lieutenant as he stared from the</c:suffix>
+    <c:offset>2166</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/118">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[desk from Maclare, watching the lieutenant as ]he[ stared from the window of the precinct office.]</c:detection>
+    <c:prefix>desk from Maclare, watching the lieutenant as </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix> stared from the window of the precinct office.</c:suffix>
+    <c:offset>2202</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/119">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [came.
+      "This whole thing is the bunk!" announced ]Maclare[ suddenly, emphasizing his gruff statement with a]
+    </c:detection>
+    <c:prefix>
+      came.
+      "This whole thing is the bunk!" announced
+    </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix> suddenly, emphasizing his gruff statement with a</c:suffix>
+    <c:offset>2388</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/120">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[bunk!" announced Maclare suddenly, emphasizing ]his[ gruff statement with a ponderous punch upon the]</c:detection>
+    <c:prefix>bunk!" announced Maclare suddenly, emphasizing </c:prefix>
+    <c:exact>his</c:exact>
+    <c:suffix> gruff statement with a ponderous punch upon the</c:suffix>
+    <c:offset>2418</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/121">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[man; his wrinkled uniform made a contrast to ]Maclare['s smooth blue coat. His beefy, flat-featured]</c:detection>
+    <c:prefix>man; his wrinkled uniform made a contrast to </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix>'s smooth blue coat. His beefy, flat-featured</c:suffix>
+    <c:offset>2656</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/122">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[made a contrast to Maclare's smooth blue coat. ]His[ beefy, flat-featured face displayed its]</c:detection>
+    <c:prefix>made a contrast to Maclare's smooth blue coat. </c:prefix>
+    <c:exact>His</c:exact>
+    <c:suffix> beefy, flat-featured face displayed its</c:suffix>
+    <c:offset>2684</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/123">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[ statements, in order to grasp the full import of ]Maclare['s objections. The lieutenant noted the fact and]</c:detection>
+    <c:prefix> statements, in order to grasp the full import of </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix>'s objections. The lieutenant noted the fact and</c:suffix>
+    <c:offset>2816</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/124">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [smile.
+      "I know what you're thinking, Cassley," ]he[ told the sergeant. "You've fallen for the talk]
+    </c:detection>
+    <c:prefix>
+      smile.
+      "I know what you're thinking, Cassley,"
+    </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix> told the sergeant. "You've fallen for the talk</c:suffix>
+    <c:offset>2932</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/125">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[He was tabulating a list of recent crimes. ]Maclare[ was right; there were crooks in Westford, plenty]</c:detection>
+    <c:prefix>He was tabulating a list of recent crimes. </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix> was right; there were crooks in Westford, plenty</c:suffix>
+    <c:offset>3267</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/126">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [robbery."
+      "But the crooks got away," reminded ]Maclare[. "Don't forget that, Cassley."
+      "You can't blame]
+    </c:detection>
+    <c:prefix>
+      robbery."
+      "But the crooks got away," reminded
+    </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix>
+      . "Don't forget that, Cassley."
+      "You can't blame
+    </c:suffix>
+    <c:offset>3689</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/127">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[blaming Kirk Borman for nothing," returned ]Maclare[, leaning across the desk. "You know what I think]</c:detection>
+    <c:prefix>blaming Kirk Borman for nothing," returned </c:prefix>
+    <c:exact>Maclare</c:exact>
+    <c:suffix>, leaning across the desk. "You know what I think</c:suffix>
+    <c:offset>3818</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/128">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[know what I think of Kirk Borman. I say that ]he['s the best police director this town ever had.]</c:detection>
+    <c:prefix>know what I think of Kirk Borman. I say that </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix>'s the best police director this town ever had.</c:suffix>
+    <c:offset>3902</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/129">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [to make trouble."
+      Sergeant Cassley sat silent. ]Lieutenant Maclare[ began to strum his desk; then spoke in rueful]
+    </c:detection>
+    <c:prefix>
+      to make trouble."
+      Sergeant Cassley sat silent.
+    </c:prefix>
+    <c:exact>Lieutenant Maclare</c:exact>
+    <c:suffix> began to strum his desk; then spoke in rueful</c:suffix>
+    <c:offset>4354</c:offset>
+    <c:length>18</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/130">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>
+      [sat silent. Lieutenant Maclare began to strum ]his[ desk; then spoke in rueful tone.
+      "We've drawn a]
+    </c:detection>
+    <c:prefix>sat silent. Lieutenant Maclare began to strum </c:prefix>
+    <c:exact>his</c:exact>
+    <c:suffix>
+      desk; then spoke in rueful tone.
+      "We've drawn a
+    </c:suffix>
+    <c:offset>4388</c:offset>
+    <c:length>3</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/131">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <!--Person: James Maclare; -->
+    <c:detection>[blank every time we've tackled the Club Adair," ]he[ admitted. "We know that Lance Gillick runs it as]</c:detection>
+    <c:prefix>blank every time we've tackled the Club Adair," </c:prefix>
+    <c:exact>he</c:exact>
+    <c:suffix> admitted. "We know that Lance Gillick runs it as</c:suffix>
+    <c:offset>4488</c:offset>
+    <c:length>2</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/14">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:relevance>0.739</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/acdb0f92-9888-3ec6-8bb8-36d26f32ad33">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/IndustryTerm"/>
+    <c:name>last bank robbery</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/132">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/acdb0f92-9888-3ec6-8bb8-36d26f32ad33"/>
+    <!--IndustryTerm: last bank robbery; -->
+    <c:detection>
+      [ were on the job quick, those fellows, after that ]last bank robbery[."
+      "But the crooks got away," reminded Maclare.]
+    </c:detection>
+    <c:prefix> were on the job quick, those fellows, after that </c:prefix>
+    <c:exact>last bank robbery</c:exact>
+    <c:suffix>
+      ."
+      "But the crooks got away," reminded Maclare.
+    </c:suffix>
+    <c:offset>3633</c:offset>
+    <c:length>17</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/15">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/acdb0f92-9888-3ec6-8bb8-36d26f32ad33"/>
+    <c:relevance>0.095</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>Lieutenant</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/133">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a"/>
+    <!--Position: Lieutenant; -->
+    <c:detection>
+      [as he sat erect. His insignia marked him as ]a lieutenant[ of police.
+      Nearly everyone in Westford knew]
+    </c:detection>
+    <c:prefix>as he sat erect. His insignia marked him as </c:prefix>
+    <c:exact>a lieutenant</c:exact>
+    <c:suffix>
+      of police.
+      Nearly everyone in Westford knew
+    </c:suffix>
+    <c:offset>1147</c:offset>
+    <c:length>12</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/134">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a"/>
+    <!--Position: Lieutenant; -->
+    <c:detection>
+      [ brilliant exploit; yet no one had ever said that ]Lieutenant[ Maclare lacked brains.
+      Though slow to decision,]
+    </c:detection>
+    <c:prefix> brilliant exploit; yet no one had ever said that </c:prefix>
+    <c:exact>Lieutenant</c:exact>
+    <c:suffix>
+      Maclare lacked brains.
+      Though slow to decision,
+    </c:suffix>
+    <c:offset>1422</c:offset>
+    <c:length>10</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/135">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a"/>
+    <!--Position: Lieutenant; -->
+    <c:detection>
+      [was ripe, he acted.
+      There was one man in whom ]Lieutenant[ Maclare placed confidence. That man was another]
+    </c:detection>
+    <c:prefix>
+      was ripe, he acted.
+      There was one man in whom
+    </c:prefix>
+    <c:exact>Lieutenant</c:exact>
+    <c:suffix> Maclare placed confidence. That man was another</c:suffix>
+    <c:offset>1708</c:offset>
+    <c:length>10</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/136">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a"/>
+    <!--Position: Lieutenant; -->
+    <c:detection>[sitting across the desk from Maclare, watching ]the lieutenant[ as he stared from the window of the precinct]</c:detection>
+    <c:prefix>sitting across the desk from Maclare, watching </c:prefix>
+    <c:exact>the lieutenant</c:exact>
+    <c:suffix> as he stared from the window of the precinct</c:suffix>
+    <c:offset>2184</c:offset>
+    <c:length>14</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/137">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a"/>
+    <!--Position: Lieutenant; -->
+    <c:detection>
+      [grasp the full import of Maclare's objections. ]The lieutenant[ noted the fact and formed a wry smile.
+      "I know]
+    </c:detection>
+    <c:prefix>grasp the full import of Maclare's objections. </c:prefix>
+    <c:exact>The lieutenant</c:exact>
+    <c:suffix>
+      noted the fact and formed a wry smile.
+      "I know
+    </c:suffix>
+    <c:offset>2838</c:offset>
+    <c:length>14</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/138">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a"/>
+    <!--Position: Lieutenant; -->
+    <c:detection>[queried the sergeant. "It's been moving fast, ]lieutenant[, ever since Director Borman organized it. They]</c:detection>
+    <c:prefix>queried the sergeant. "It's been moving fast, </c:prefix>
+    <c:exact>lieutenant</c:exact>
+    <c:suffix>, ever since Director Borman organized it. They</c:suffix>
+    <c:offset>3526</c:offset>
+    <c:length>10</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/139">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a"/>
+    <!--Position: Lieutenant; -->
+    <c:detection>
+      [to make trouble."
+      Sergeant Cassley sat silent. ]Lieutenant[ Maclare began to strum his desk; then spoke in]
+    </c:detection>
+    <c:prefix>
+      to make trouble."
+      Sergeant Cassley sat silent.
+    </c:prefix>
+    <c:exact>Lieutenant</c:exact>
+    <c:suffix> Maclare began to strum his desk; then spoke in</c:suffix>
+    <c:offset>4354</c:offset>
+    <c:length>10</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/140">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a"/>
+    <!--Position: Lieutenant; -->
+    <c:detection>
+      [he won't forget."
+      "How will you manage that, ]lieutenant[?"
+      ]
+    </c:detection>
+    <c:prefix>
+      he won't forget."
+      "How will you manage that,
+    </c:prefix>
+    <c:exact>lieutenant</c:exact>
+    <c:suffix>
+      ?"
+    </c:suffix>
+    <c:offset>4770</c:offset>
+    <c:length>10</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/16">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/112d17da-544a-37c7-886b-c4395250288a"/>
+    <c:relevance>0.690</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/17ac7196-b6cb-3ff6-88c3-fd1680a9b899">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>officer</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/141">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/17ac7196-b6cb-3ff6-88c3-fd1680a9b899"/>
+    <!--Position: officer; -->
+    <c:detection>[Maclare placed confidence. That man was another ]officer[, as straightforward as Maclare himself. He was]</c:detection>
+    <c:prefix>Maclare placed confidence. That man was another </c:prefix>
+    <c:exact>officer</c:exact>
+    <c:suffix>, as straightforward as Maclare himself. He was</c:suffix>
+    <c:offset>1767</c:offset>
+    <c:length>7</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/17">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/17ac7196-b6cb-3ff6-88c3-fd1680a9b899"/>
+    <c:relevance>0.252</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/fcc7fe12-9607-3806-90e1-ce74523817d2">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:relationobject>the sergeant</c:relationobject>
+    <c:verb>tell</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/142">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/fcc7fe12-9607-3806-90e1-ce74523817d2"/>
+    <!--GenericRelations: relationsubject: James Maclare; relationobject: the sergeant; verb: tell; -->
+    <c:detection>
+      [smile.
+      "I know what you're thinking, Cassley," ]he told the sergeant[. "You've fallen for the talk of business coming]
+    </c:detection>
+    <c:prefix>
+      smile.
+      "I know what you're thinking, Cassley,"
+    </c:prefix>
+    <c:exact>he told the sergeant</c:exact>
+    <c:suffix>. "You've fallen for the talk of business coming</c:suffix>
+    <c:offset>2932</c:offset>
+    <c:length>20</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/f208a2b9-498e-3250-8661-1142ab1ee099">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Facility"/>
+    <c:name>Club Adair</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/143">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/f208a2b9-498e-3250-8661-1142ab1ee099"/>
+    <!--Facility: Club Adair; -->
+    <c:detection>[drawn a blank every time we've tackled the ]Club Adair[," he admitted. "We know that Lance Gillick runs]</c:detection>
+    <c:prefix>drawn a blank every time we've tackled the </c:prefix>
+    <c:exact>Club Adair</c:exact>
+    <c:suffix>," he admitted. "We know that Lance Gillick runs</c:suffix>
+    <c:offset>4475</c:offset>
+    <c:length>10</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/18">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/f208a2b9-498e-3250-8661-1142ab1ee099"/>
+    <c:relevance>0.053</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/dfba6002-ef9b-3da4-918b-6fcc774da615">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>chief</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/144">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/dfba6002-ef9b-3da4-918b-6fcc774da615"/>
+    <!--Position: chief; -->
+    <c:detection>[himself. He was Sergeant Cassley, Maclare's ]chief[ subordinate. Together, they had charge of the]</c:detection>
+    <c:prefix>himself. He was Sergeant Cassley, Maclare's </c:prefix>
+    <c:exact>chief</c:exact>
+    <c:suffix> subordinate. Together, they had charge of the</c:suffix>
+    <c:offset>1850</c:offset>
+    <c:length>5</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/19">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/dfba6002-ef9b-3da4-918b-6fcc774da615"/>
+    <c:relevance>0.245</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/c21d5d23-88c4-3257-99f4-776883d244f0">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:verb>stare</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/145">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/c21d5d23-88c4-3257-99f4-776883d244f0"/>
+    <!--GenericRelations: relationsubject: James Maclare; verb: stare; -->
+    <c:detection>[desk from Maclare, watching the lieutenant as ]he stared from the window of the precinct office[. Though slow of thought, Cassley was positive]</c:detection>
+    <c:prefix>desk from Maclare, watching the lieutenant as </c:prefix>
+    <c:exact>he stared from the window of the precinct office</c:exact>
+    <c:suffix>. Though slow of thought, Cassley was positive</c:suffix>
+    <c:offset>2202</c:offset>
+    <c:length>48</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/efb8120b-aed8-3ef8-81d8-671ad89cf611">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Cassley-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/b4e76e93-115c-3f9f-907b-46be8e027a13"/>
+    <c:verb>puzzled</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/146">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/efb8120b-aed8-3ef8-81d8-671ad89cf611"/>
+    <!--GenericRelations: relationsubject: Cassley; verb: puzzled; -->
+    <c:detection>
+      [they mean to Westford? Nothing except trouble!"
+      ]Cassley looked puzzled[. He was a bulky man; his wrinkled uniform made a]
+    </c:detection>
+    <c:prefix>
+      they mean to Westford? Nothing except trouble!"
+    </c:prefix>
+    <c:exact>Cassley looked puzzled</c:exact>
+    <c:suffix>. He was a bulky man; his wrinkled uniform made a</c:suffix>
+    <c:offset>2572</c:offset>
+    <c:length>22</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/88725bc4-8843-361b-9d78-c53ca230e4b6">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/Quotation"/>
+    <!--James Maclare-->
+    <c:person rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:quote>Together, they had charge of the first precinct; and, of necessity</c:quote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/147">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/88725bc4-8843-361b-9d78-c53ca230e4b6"/>
+    <!--Quotation: person: James Maclare; quote: Together, they had charge of the first precinct; and, of necessity; -->
+    <c:detection>[Sergeant Cassley, Maclare's chief subordinate. ]Together, they had charge of the first precinct; and, of necessity, Maclare frequently told Cassley the trend of his half-formed plans.[ Cassley was Maclare's man Friday; never did he]</c:detection>
+    <c:prefix>Sergeant Cassley, Maclare's chief subordinate. </c:prefix>
+    <c:exact>Together, they had charge of the first precinct; and, of necessity, Maclare frequently told Cassley the trend of his half-formed plans.</c:exact>
+    <c:suffix> Cassley was Maclare's man Friday; never did he</c:suffix>
+    <c:offset>1869</c:offset>
+    <c:length>135</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/0a611810-21a3-3188-8053-b0fbb99cb726">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--James Maclare-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/ef652f45-747d-3d0c-b2a1-66447c57bd44"/>
+    <c:relationobject>Cassley</c:relationobject>
+    <c:verb>tell</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/148">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/0a611810-21a3-3188-8053-b0fbb99cb726"/>
+    <!--GenericRelations: relationsubject: James Maclare; relationobject: Cassley; verb: tell; -->
+    <c:detection>[ charge of the first precinct; and, of necessity, ]Maclare frequently told Cassley[ the trend of his half-formed plans. Cassley was]</c:detection>
+    <c:prefix> charge of the first precinct; and, of necessity, </c:prefix>
+    <c:exact>Maclare frequently told Cassley</c:exact>
+    <c:suffix> the trend of his half-formed plans. Cassley was</c:suffix>
+    <c:offset>1937</c:offset>
+    <c:length>31</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/City"/>
+    <c:name>Westford</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/149">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <!--City: Westford; -->
+    <c:detection>[was gala night in the city of ]Westford[. Streets were strung with brilliant lines of]</c:detection>
+    <c:prefix>was gala night in the city of </c:prefix>
+    <c:exact>Westford</c:exact>
+    <c:suffix>. Streets were strung with brilliant lines of</c:suffix>
+    <c:offset>33</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/150">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <!--City: Westford; -->
+    <c:detection>
+      [in celebration.
+      As the boosters phrased it, ]Westford[ was a "live town" that was definitely "on the]
+    </c:detection>
+    <c:prefix>
+      in celebration.
+      As the boosters phrased it,
+    </c:prefix>
+    <c:exact>Westford</c:exact>
+    <c:suffix> was a "live town" that was definitely "on the</c:suffix>
+    <c:offset>415</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/151">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <!--City: Westford; -->
+    <c:detection>[within a hundred miles. Business was booming in ]Westford[; it was predicted that good times were here to]</c:detection>
+    <c:prefix>within a hundred miles. Business was booming in </c:prefix>
+    <c:exact>Westford</c:exact>
+    <c:suffix>; it was predicted that good times were here to</c:suffix>
+    <c:offset>568</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/152">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <!--City: Westford; -->
+    <c:detection>[ to remain. Thanks for the prosperity belonged to ]Westford['s "live wire mayor", Elvin Marclot. His]</c:detection>
+    <c:prefix> to remain. Thanks for the prosperity belonged to </c:prefix>
+    <c:exact>Westford</c:exact>
+    <c:suffix>'s "live wire mayor", Elvin Marclot. His</c:suffix>
+    <c:offset>670</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/153">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <!--City: Westford; -->
+    <c:detection>
+      [as a lieutenant of police.
+      Nearly everyone in ]Westford[ knew James Maclare. A veteran police officer, he]
+    </c:detection>
+    <c:prefix>
+      as a lieutenant of police.
+      Nearly everyone in
+    </c:prefix>
+    <c:exact>Westford</c:exact>
+    <c:suffix> knew James Maclare. A veteran police officer, he</c:suffix>
+    <c:offset>1190</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/154">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <!--City: Westford; -->
+    <c:detection>
+      [lights; all that tinsel! What do they mean to ]Westford[? Nothing except trouble!"
+      Cassley looked]
+    </c:detection>
+    <c:prefix>lights; all that tinsel! What do they mean to </c:prefix>
+    <c:exact>Westford</c:exact>
+    <c:suffix>
+      ? Nothing except trouble!"
+      Cassley looked
+    </c:suffix>
+    <c:offset>2537</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/155">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <!--City: Westford; -->
+    <c:detection>
+      [ for the talk of business coming into town. Sure! ]Westford[ is prosperous.
+      But what's come on with all this]
+    </c:detection>
+    <c:prefix> for the talk of business coming into town. Sure! </c:prefix>
+    <c:exact>Westford</c:exact>
+    <c:suffix>
+      is prosperous.
+      But what's come on with all this
+    </c:suffix>
+    <c:offset>3018</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/156">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <!--City: Westford; -->
+    <c:detection>[I'll tell youвЂ”a lot of riffraff who think that ]Westford[ is the right spot for any crooked game they can]</c:detection>
+    <c:prefix>I'll tell youвЂ”a lot of riffraff who think that </c:prefix>
+    <c:exact>Westford</c:exact>
+    <c:suffix> is the right spot for any crooked game they can</c:suffix>
+    <c:offset>3134</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/157">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <!--City: Westford; -->
+    <c:detection>[crimes. Maclare was right; there were crooks in ]Westford[, plenty of them. But when Cassley thought]</c:detection>
+    <c:prefix>crimes. Maclare was right; there were crooks in </c:prefix>
+    <c:exact>Westford</c:exact>
+    <c:suffix>, plenty of them. But when Cassley thought</c:suffix>
+    <c:offset>3307</c:offset>
+    <c:length>8</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/20">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5006ff9c-e0b1-3405-af5e-025a9d069465"/>
+    <c:relevance>0.619</c:relevance>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/239cee02-c95a-38b0-b801-8b142321b781">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <c:relationsubject>You</c:relationsubject>
+    <!--Kirk Borman-->
+    <c:relationobject rdf:resource="http://d.opencalais.com/pershash-1/8c88323a-d098-393f-adcb-94b246238d43"/>
+    <c:verb>not blame</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/158">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/239cee02-c95a-38b0-b801-8b142321b781"/>
+    <!--GenericRelations: relationsubject: You; relationobject: Kirk Borman; verb: not blame; -->
+    <c:detection>
+      [ reminded Maclare. "Don't forget that, Cassley."
+      "]You can't blame Director Borman[ for it."
+      "I'm blaming Kirk Borman for nothing,"]
+    </c:detection>
+    <c:prefix>
+      reminded Maclare. "Don't forget that, Cassley."
+      "
+    </c:prefix>
+    <c:exact>You can't blame Director Borman</c:exact>
+    <c:suffix>
+      for it."
+      "I'm blaming Kirk Borman for nothing,"
+    </c:suffix>
+    <c:offset>3729</c:offset>
+    <c:length>31</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/9bce1253-71d3-38eb-b69d-f9594ef8b324">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <c:relationsubject>we</c:relationsubject>
+    <!--Club Adair-->
+    <c:relationobject rdf:resource="http://d.opencalais.com/genericHasher-1/f208a2b9-498e-3250-8661-1142ab1ee099"/>
+    <c:verb>tackle</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/159">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/9bce1253-71d3-38eb-b69d-f9594ef8b324"/>
+    <!--GenericRelations: relationsubject: we; relationobject: Club Adair; verb: tackle; -->
+    <c:detection>
+      [in rueful tone.
+      "We've drawn a blank every time ]we've tackled the Club Adair[," he admitted. "We know that Lance Gillick runs]
+    </c:detection>
+    <c:prefix>
+      in rueful tone.
+      "We've drawn a blank every time
+    </c:prefix>
+    <c:exact>we've tackled the Club Adair</c:exact>
+    <c:suffix>," he admitted. "We know that Lance Gillick runs</c:suffix>
+    <c:offset>4457</c:offset>
+    <c:length>28</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/d01e56bf-6620-301f-861d-33c1691101aa">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/GenericRelations"/>
+    <!--Lance Gillick-->
+    <c:relationsubject rdf:resource="http://d.opencalais.com/pershash-1/bcbdef3a-9760-3418-b8a0-43fd69ccc9f4"/>
+    <c:verb>not forget</c:verb>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/160">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/d01e56bf-6620-301f-861d-33c1691101aa"/>
+    <!--GenericRelations: relationsubject: Lance Gillick; verb: not forget; -->
+    <c:detection>
+      [I'm planning to hand Lance Gillick a jolt that ]he won't forget[."
+      "How will you manage that,]
+    </c:detection>
+    <c:prefix>I'm planning to hand Lance Gillick a jolt that </c:prefix>
+    <c:exact>he won't forget</c:exact>
+    <c:suffix>
+      ."
+      "How will you manage that,
+    </c:suffix>
+    <c:offset>4725</c:offset>
+    <c:length>15</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/27f2125f-ddc4-353e-94fb-b63777d8d644">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+    <c:name>Maclare's chief</c:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Instance/161">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/27f2125f-ddc4-353e-94fb-b63777d8d644"/>
+    <!--Position: Maclare's chief; -->
+    <c:detection>[as Maclare himself. He was Sergeant Cassley, ]Maclare's chief[ subordinate. Together, they had charge of the]</c:detection>
+    <c:prefix>as Maclare himself. He was Sergeant Cassley, </c:prefix>
+    <c:exact>Maclare's chief</c:exact>
+    <c:suffix> subordinate. Together, they had charge of the</c:suffix>
+    <c:offset>1840</c:offset>
+    <c:length>15</c:length>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563/Relevance/21">
+    <rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+    <c:docId rdf:resource="http://d.opencalais.com/dochash-1/2c624464-2e63-3674-9fa0-0697f76ed563"/>
+    <c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/27f2125f-ddc4-353e-94fb-b63777d8d644"/>
+    <c:relevance>0.245</c:relevance>
+  </rdf:Description>
+</rdf:RDF>

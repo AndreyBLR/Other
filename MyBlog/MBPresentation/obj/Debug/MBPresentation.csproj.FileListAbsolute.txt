@@ -1,0 +1,30 @@
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\MBPresentation.dll.config
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\MBPresentation.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\MBPresentation.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\MBServiceLibrary.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\MBDatabaseModel.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\DBManagers.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\MBServiceLibrary.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\MBDatabaseModel.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\DBManagers.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\obj\Debug\MBPresentation.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\obj\Debug\MBPresentation.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\Classes.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\log4net.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBPresentation\bin\Debug\Classes.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\MBPresentation.dll.config
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\MBPresentation.dll
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\MBPresentation.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\MBServiceLibrary.dll
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\MBDatabaseModel.dll
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\DBManagers.dll
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\Classes.dll
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\log4net.dll
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\MBServiceLibrary.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\MBDatabaseModel.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\DBManagers.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\bin\Debug\Classes.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\obj\Debug\ResolveAssemblyReference.cache
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\obj\Debug\MBPresentation.dll
+D:\Epam\Projects\MyBlog\MyBlog\MBPresentation\obj\Debug\MBPresentation.pdb

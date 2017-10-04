@@ -1,0 +1,6 @@
+D:\Andrey Kukalev\Projects\CalaisTest\CalaisTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Andrey Kukalev\Projects\CalaisTest\CalaisTest\bin\Debug\CalaisTest.exe.config
+D:\Andrey Kukalev\Projects\CalaisTest\CalaisTest\bin\Debug\CalaisTest.exe
+D:\Andrey Kukalev\Projects\CalaisTest\CalaisTest\bin\Debug\CalaisTest.pdb
+D:\Andrey Kukalev\Projects\CalaisTest\CalaisTest\obj\x86\Debug\CalaisTest.exe
+D:\Andrey Kukalev\Projects\CalaisTest\CalaisTest\obj\x86\Debug\CalaisTest.pdb

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/MBDatabaseModel" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MBDatabaseModel" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8732/Design_Time_Addresses/MBServiceLibrary/ModelService/?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+  <xs:import schemaLocation="http://localhost:8732/Design_Time_Addresses/MBServiceLibrary/ModelService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="Image">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q1:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Categories" nillable="true" type="tns:Category" />
+          <xs:element minOccurs="0" name="CategoriesReference" nillable="true" type="q1:EntityReferenceOfCategory_So5C1EQp" />
+          <xs:element minOccurs="0" name="ImageCategoryId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="ImageDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="ImageDescription" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ImageFile" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="ImageId" type="ser:guid" />
+          <xs:element minOccurs="0" name="ImageRating" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ImageSmall" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="PostImage" nillable="true" type="tns:ArrayOfPostImage" />
+          <xs:element minOccurs="0" name="Profiles" nillable="true" type="tns:ArrayOfProfile" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Image" nillable="true" type="tns:Image" />
+  <xs:complexType name="Category">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q2:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CategoryDesc" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CategoryId" type="ser:guid" />
+          <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ContentType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Images" nillable="true" type="tns:ArrayOfImage" />
+          <xs:element minOccurs="0" name="Posts" nillable="true" type="tns:ArrayOfPost" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Category" nillable="true" type="tns:Category" />
+  <xs:complexType name="ArrayOfImage">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Image" nillable="true" type="tns:Image" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfImage" nillable="true" type="tns:ArrayOfImage" />
+  <xs:complexType name="ArrayOfPost">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Post" nillable="true" type="tns:Post" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPost" nillable="true" type="tns:ArrayOfPost" />
+  <xs:complexType name="Post">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q3:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Categories" nillable="true" type="tns:Category" />
+          <xs:element minOccurs="0" name="CategoriesReference" nillable="true" type="q3:EntityReferenceOfCategory_So5C1EQp" />
+          <xs:element minOccurs="0" name="CommentCount" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="CommentStatus" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Comments" nillable="true" type="tns:ArrayOfComment" />
+          <xs:element minOccurs="0" name="PostAuthorId" type="ser:guid" />
+          <xs:element minOccurs="0" name="PostCategoryId" type="ser:guid" />
+          <xs:element minOccurs="0" name="PostDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PostDateModified" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="PostExcerpt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PostId" type="ser:guid" />
+          <xs:element minOccurs="0" name="PostImage" nillable="true" type="tns:ArrayOfPostImage" />
+          <xs:element minOccurs="0" name="PostLink" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PostParentId" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="PostRating" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="PostText" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PostTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PostType" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="aspnet_Users" nillable="true" type="tns:aspnet_Users" />
+          <xs:element minOccurs="0" name="aspnet_UsersReference" nillable="true" type="q3:EntityReferenceOfaspnet_Users_So5C1EQp" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Post" nillable="true" type="tns:Post" />
+  <xs:complexType name="ArrayOfComment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Comment" nillable="true" type="tns:Comment" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfComment" nillable="true" type="tns:ArrayOfComment" />
+  <xs:complexType name="Comment">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q4:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CommentAuthorId" type="ser:guid" />
+          <xs:element minOccurs="0" name="CommentAuthorIp" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CommentDate" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="CommentId" type="ser:guid" />
+          <xs:element minOccurs="0" name="CommentPostId" type="ser:guid" />
+          <xs:element minOccurs="0" name="CommentText" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Posts" nillable="true" type="tns:Post" />
+          <xs:element minOccurs="0" name="PostsReference" nillable="true" type="q4:EntityReferenceOfPost_So5C1EQp" />
+          <xs:element minOccurs="0" name="aspnet_Users" nillable="true" type="tns:aspnet_Users" />
+          <xs:element minOccurs="0" name="aspnet_UsersReference" nillable="true" type="q4:EntityReferenceOfaspnet_Users_So5C1EQp" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Comment" nillable="true" type="tns:Comment" />
+  <xs:complexType name="aspnet_Users">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q5:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ApplicationId" type="ser:guid" />
+          <xs:element minOccurs="0" name="Comments" nillable="true" type="tns:ArrayOfComment" />
+          <xs:element minOccurs="0" name="IsAnonymous" type="xs:boolean" />
+          <xs:element minOccurs="0" name="LastActivityDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="LoweredUserName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MobileAlias" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Posts" nillable="true" type="tns:ArrayOfPost" />
+          <xs:element minOccurs="0" name="Profiles" nillable="true" type="tns:Profile" />
+          <xs:element minOccurs="0" name="ProfilesReference" nillable="true" type="q5:EntityReferenceOfProfile_So5C1EQp" />
+          <xs:element minOccurs="0" name="UserId" type="ser:guid" />
+          <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Warnings" nillable="true" type="tns:ArrayOfWarning" />
+          <xs:element minOccurs="0" name="aspnet_Applications" nillable="true" type="tns:aspnet_Applications" />
+          <xs:element minOccurs="0" name="aspnet_ApplicationsReference" nillable="true" type="q5:EntityReferenceOfaspnet_Applications_So5C1EQp" />
+          <xs:element minOccurs="0" name="aspnet_Membership" nillable="true" type="tns:aspnet_Membership" />
+          <xs:element minOccurs="0" name="aspnet_MembershipReference" nillable="true" type="q5:EntityReferenceOfaspnet_Membership_So5C1EQp" />
+          <xs:element minOccurs="0" name="aspnet_Roles" nillable="true" type="tns:ArrayOfaspnet_Roles" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="aspnet_Users" nillable="true" type="tns:aspnet_Users" />
+  <xs:complexType name="Profile">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q6="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q6:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Age" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Autograph" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Avatar" nillable="true" type="ser:guid" />
+          <xs:element minOccurs="0" name="Comments" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Images" nillable="true" type="tns:Image" />
+          <xs:element minOccurs="0" name="ImagesReference" nillable="true" type="q6:EntityReferenceOfImage_So5C1EQp" />
+          <xs:element minOccurs="0" name="IsBanned" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserId" type="ser:guid" />
+          <xs:element minOccurs="0" name="Warnings" nillable="true" type="xs:int" />
+          <xs:element minOccurs="0" name="aspnet_Users" nillable="true" type="tns:aspnet_Users" />
+          <xs:element minOccurs="0" name="aspnet_UsersReference" nillable="true" type="q6:EntityReferenceOfaspnet_Users_So5C1EQp" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Profile" nillable="true" type="tns:Profile" />
+  <xs:complexType name="ArrayOfWarning">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Warning" nillable="true" type="tns:Warning" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWarning" nillable="true" type="tns:ArrayOfWarning" />
+  <xs:complexType name="Warning">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q7:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Date" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="UserId" type="ser:guid" />
+          <xs:element minOccurs="0" name="WarningId" type="ser:guid" />
+          <xs:element minOccurs="0" name="WarningText" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="aspnet_Users" nillable="true" type="tns:aspnet_Users" />
+          <xs:element minOccurs="0" name="aspnet_UsersReference" nillable="true" type="q7:EntityReferenceOfaspnet_Users_So5C1EQp" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Warning" nillable="true" type="tns:Warning" />
+  <xs:complexType name="aspnet_Applications">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q8="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q8:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ApplicationId" type="ser:guid" />
+          <xs:element minOccurs="0" name="ApplicationName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LoweredApplicationName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="aspnet_Membership" nillable="true" type="tns:ArrayOfaspnet_Membership" />
+          <xs:element minOccurs="0" name="aspnet_Roles" nillable="true" type="tns:ArrayOfaspnet_Roles" />
+          <xs:element minOccurs="0" name="aspnet_Users" nillable="true" type="tns:ArrayOfaspnet_Users" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="aspnet_Applications" nillable="true" type="tns:aspnet_Applications" />
+  <xs:complexType name="ArrayOfaspnet_Membership">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="aspnet_Membership" nillable="true" type="tns:aspnet_Membership" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfaspnet_Membership" nillable="true" type="tns:ArrayOfaspnet_Membership" />
+  <xs:complexType name="aspnet_Membership">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q9:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ApplicationId" type="ser:guid" />
+          <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FailedPasswordAnswerAttemptCount" type="xs:int" />
+          <xs:element minOccurs="0" name="FailedPasswordAnswerAttemptWindowStart" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="FailedPasswordAttemptCount" type="xs:int" />
+          <xs:element minOccurs="0" name="FailedPasswordAttemptWindowStart" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="IsApproved" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsLockedOut" type="xs:boolean" />
+          <xs:element minOccurs="0" name="LastLockoutDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="LastLoginDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="LastPasswordChangedDate" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="LoweredEmail" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="MobilePIN" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PasswordAnswer" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PasswordFormat" type="xs:int" />
+          <xs:element minOccurs="0" name="PasswordQuestion" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PasswordSalt" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserId" type="ser:guid" />
+          <xs:element minOccurs="0" name="aspnet_Applications" nillable="true" type="tns:aspnet_Applications" />
+          <xs:element minOccurs="0" name="aspnet_ApplicationsReference" nillable="true" type="q9:EntityReferenceOfaspnet_Applications_So5C1EQp" />
+          <xs:element minOccurs="0" name="aspnet_Users" nillable="true" type="tns:aspnet_Users" />
+          <xs:element minOccurs="0" name="aspnet_UsersReference" nillable="true" type="q9:EntityReferenceOfaspnet_Users_So5C1EQp" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="aspnet_Membership" nillable="true" type="tns:aspnet_Membership" />
+  <xs:complexType name="ArrayOfaspnet_Roles">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="aspnet_Roles" nillable="true" type="tns:aspnet_Roles" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfaspnet_Roles" nillable="true" type="tns:ArrayOfaspnet_Roles" />
+  <xs:complexType name="aspnet_Roles">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q10="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q10:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ApplicationId" type="ser:guid" />
+          <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="LoweredRoleName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="RoleId" type="ser:guid" />
+          <xs:element minOccurs="0" name="RoleName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="aspnet_Applications" nillable="true" type="tns:aspnet_Applications" />
+          <xs:element minOccurs="0" name="aspnet_ApplicationsReference" nillable="true" type="q10:EntityReferenceOfaspnet_Applications_So5C1EQp" />
+          <xs:element minOccurs="0" name="aspnet_Users" nillable="true" type="tns:ArrayOfaspnet_Users" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="aspnet_Roles" nillable="true" type="tns:aspnet_Roles" />
+  <xs:complexType name="ArrayOfaspnet_Users">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="aspnet_Users" nillable="true" type="tns:aspnet_Users" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfaspnet_Users" nillable="true" type="tns:ArrayOfaspnet_Users" />
+  <xs:complexType name="ArrayOfPostImage">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PostImage" nillable="true" type="tns:PostImage" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPostImage" nillable="true" type="tns:ArrayOfPostImage" />
+  <xs:complexType name="PostImage">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q11="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q11:EntityObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ImageId" type="ser:guid" />
+          <xs:element minOccurs="0" name="Images" nillable="true" type="tns:Image" />
+          <xs:element minOccurs="0" name="ImagesReference" nillable="true" type="q11:EntityReferenceOfImage_So5C1EQp" />
+          <xs:element minOccurs="0" name="PostId" type="ser:guid" />
+          <xs:element minOccurs="0" name="PostImageId" type="ser:guid" />
+          <xs:element minOccurs="0" name="Posts" nillable="true" type="tns:Post" />
+          <xs:element minOccurs="0" name="PostsReference" nillable="true" type="q11:EntityReferenceOfPost_So5C1EQp" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PostImage" nillable="true" type="tns:PostImage" />
+  <xs:complexType name="ArrayOfProfile">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Profile" nillable="true" type="tns:Profile" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProfile" nillable="true" type="tns:ArrayOfProfile" />
+  <xs:complexType name="ArrayOfCategory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Category" nillable="true" type="tns:Category" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCategory" nillable="true" type="tns:ArrayOfCategory" />
+</xs:schema>

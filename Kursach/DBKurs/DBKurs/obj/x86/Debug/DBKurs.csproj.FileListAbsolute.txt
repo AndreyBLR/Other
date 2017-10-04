@@ -1,0 +1,14 @@
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\bin\Debug\DBKurs.exe.config
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\bin\Debug\Database.mdf
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\bin\Debug\Database_log.ldf
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\bin\Debug\DBKurs.exe
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\bin\Debug\DBKurs.pdb
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\obj\x86\Debug\DBKurs.Properties.Resources.resources
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\obj\x86\Debug\DBKurs.exe
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\obj\x86\Debug\DBKurs.pdb
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\obj\x86\Debug\DBKurs.Form1.resources
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\bin\Debug\Models.dll
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DBKurs\DBKurs\bin\Debug\Models.pdb

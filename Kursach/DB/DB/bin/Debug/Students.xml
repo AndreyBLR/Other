@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Student>
+  <Phone>5789365</Phone>
+  <InstitutionType>СШ</InstitutionType>
+  <PassportData>
+    <FIO>Иванов Иван Иванович</FIO>
+    <Number>1284568</Number>
+    <Series>HB</Series>
+    <Registration>
+      <Area>Минская</Area>
+      <LocalityType>Город</LocalityType>
+      <LocalityName>Борисов</LocalityName>
+    </Registration>
+  </PassportData>
+  <Tests>
+    <Test subject="Русcкий язык" version="1">
+      <Language>Русский</Language>
+      <Questions>
+        <Question part="A">
+          <Text>
+              Вставьте проверяемые безударные гласные А или О. Заштрихуйте клетки, соответствующие словам с буквой О.
+          </Text>
+          <Answers>
+              <Answer studAnswer ="true" isTrue="true">ОСЛ__ЖНЕНИЕ</Answer>
+              <Answer studAnswer ="false" isTrue="false">ХВ__ТАТЬ</Answer>
+              <Answer studAnswer ="false" isTrue="false">К__РАТЕЛЬНЫЙ</Answer>
+              <Answer studAnswer ="true" isTrue="true">НАК__ПИТЬ ДЕНЬГИ</Answer>
+              <Answer studAnswer ="true" isTrue="true">НАСЛ__ЖДАТЬСЯ</Answer>
+          </Answers>
+        </Question>
+        <Question part="A">
+          <Text>
+              Вставьте проверяемые безударные гласные (E, И, А, Я). Заштрихуйте клетки, соответствующие словам с буквой E.
+          </Text>
+          <Answers>
+              <Answer studAnswer ="true" isTrue="false">ЗАЩ__ЩАТЬСЯ</Answer>
+              <Answer studAnswer ="false" isTrue="true">СТ__СНЁННЫЙ В СРЕДСТВАХ</Answer>
+              <Answer studAnswer ="false" isTrue="true">НАКР__НИТЬСЯ</Answer>
+              <Answer studAnswer ="true" isTrue="false">СТРАШНОЕ ПРИВ__ДЕНИЕ</Answer>
+              <Answer studAnswer ="true" isTrue="true">Ш__ПТАТЬСЯ</Answer>
+          </Answers>
+        </Question>
+        <Question part="A">
+          <Text>
+              Вставьте непроверяемые безударные гласные А или О. Заштрихуйте клетки, соответствующие словам с буквой О.
+          </Text>
+          <Answers>
+              <Answer studAnswer ="false" isTrue="false">ДИ__ГОНАЛЬ</Answer>
+              <Answer studAnswer ="true" isTrue="true">АМ__РАЛЬНЫЙ</Answer>
+              <Answer studAnswer ="false" isTrue="false">УТР__МБОВАТЬ</Answer>
+              <Answer studAnswer ="true" isTrue="true">НЕГ__ДОВАТЬ</Answer>
+              <Answer studAnswer ="true" isTrue="true">ДИСЛ__КАЦИЯ</Answer>
+          </Answers>
+        </Question>
+        <Question part="A">
+          <Text>
+              Вставьте непроверяемые безударные гласные (E, И, Я). Заштрихуйте клетки, соответствующие словам с буквой E
+          </Text>
+          <Answers>
+              <Answer studAnswer ="false" isTrue="false">МЕЛ__ОРАЦИЯ</Answer>
+              <Answer studAnswer ="false" isTrue="false">СТАЖ__РОВКА</Answer>
+              <Answer studAnswer ="true" isTrue="true">ДИЛ__ТАНТ</Answer>
+              <Answer studAnswer ="true" isTrue="true">ВИН__ГРЕТ</Answer>
+              <Answer studAnswer ="false" isTrue="false">СТ__ПЕНДИЯ</Answer>
+          </Answers>
+        </Question>
+        <Question part="A">
+          <Text>
+              Вставьте чередующиеся безударные гласные А или О. Заштрихуйте клетки, соответствующие словам с буквой О.
+          </Text>
+          <Answers>
+              <Answer studAnswer ="false" isTrue="true">СОПРИК__СНОВЕНИЕ</Answer>
+              <Answer studAnswer ="true" isTrue="false">ИЗЛ__ГАТЬ</Answer>
+              <Answer studAnswer ="true" isTrue="true">СОТВ__РЕНИЕ МИРА</Answer>
+              <Answer studAnswer ="false" isTrue="true">ПОР__ВНУ</Answer>
+              <Answer studAnswer ="false" isTrue="false">НЕПРИК__САЕМЫЙ</Answer>
+          </Answers>
+        </Question>
+        <Question part="A">
+          <Text>
+              Вставьте чередующиеся безударные гласные Е или И. Заштрихуйте клетки, соответствующие словам с буквой Е.
+          </Text>
+          <Answers>
+              <Answer studAnswer ="false" isTrue="true">ОТБЛ__СК</Answer>
+              <Answer studAnswer ="true" isTrue="true">ПРИБ__РУ КОМНАТУ</Answer>
+              <Answer studAnswer ="true" isTrue="false">ПРИЧ__ТАЮЩИЙСЯ</Answer>
+              <Answer studAnswer ="false" isTrue="false">НАЧ__НАЮЩИЙ</Answer>
+              <Answer studAnswer ="false" isTrue="false">ПОДЖ__ГАТЬ</Answer>
+          </Answers>
+        </Question>
+        <Question part="A">
+          <Text>
+              Вставьте О или Ё после шипящих. Заштрихуйте клетки, соответствующие словам с буквой Ё.
+          </Text>
+          <Answers>
+              <Answer studAnswer ="false" isTrue="false">ПУШ__К</Answer>
+              <Answer studAnswer ="false" isTrue="false">Ш__КОВАЯ ТЕРАПИЯ</Answer>
+              <Answer studAnswer ="false" isTrue="false">ПИРОГ С АЛЫЧ__Й</Answer>
+              <Answer studAnswer ="true" isTrue="true">ИСКАЖ__ННОЕ ИЗОБРАЖЕНИЕ</Answer>
+              <Answer studAnswer ="false" isTrue="false">РЕЧ__НКА</Answer>
+          </Answers>
+        </Question>
+        <Question part="A">
+          <Text>
+              Вставьте звонкие или глухие согласные. Заштрихуйте клетки, соответствующие словам со звонкими согласными (б, в, г, д, ж, з).
+          </Text>
+          <Answers>
+              <Answer studAnswer ="true" isTrue="true">КИРГИ__КА</Answer>
+              <Answer studAnswer ="true" isTrue="true">РО__КОЕ ПОВЕДЕНИЕ</Answer>
+              <Answer studAnswer ="true" isTrue="true">СИЛЬНАЯ БОМБЕ__КА</Answer>
+              <Answer studAnswer ="false" isTrue="false">КРОМЕ__НАЯ ТЬМА</Answer>
+              <Answer studAnswer ="false" isTrue="false">ПРО__ЬБА О ПОМОЩИ</Answer>
+          </Answers>
+        </Question>
+        <Question part="A">
+          <Text>
+              Вставьте в слова, где нужно, непроизносимые согласные. Заштрихуйте клетки, соответствующие этим словам.
+          </Text>
+          <Answers>
+              <Answer studAnswer ="true" isTrue="true">ТРОС__НИКОВЫЙ САХАР</Answer>
+              <Answer studAnswer ="false" isTrue="false">БЕЗЫСКУС__НОСТЬ</Answer>
+              <Answer studAnswer ="true" isTrue="true">ХЛЕС__НУТЬ ЛОШАДЬ</Answer>
+              <Answer studAnswer ="true" isTrue="true">КРУТАЯ ЛЕС__НИЦА</Answer>
+              <Answer studAnswer ="false" isTrue="false">ЖИВОПИС__НЫЙ ВИД</Answer>
+          </Answers>
+        </Question>
+        <Question part="A">
+          <Text>
+              Вставьте в слова, где нужно, согласную. Заштрихуйте клетки, соответствующие словам с удвоенной согласной.
+          </Text>
+          <Answers>
+            <Answer studAnswer ="true" isTrue="false">ГА__ЛЕРЕЯ</Answer>
+            <Answer studAnswer ="true" isTrue="true">ДИСКУ__СИЯ</Answer>
+            <Answer studAnswer ="false" isTrue="true">КО__ТЕДЖ</Answer>
+            <Answer studAnswer ="true" isTrue="true">ТО__НЕЛЬ</Answer>
+            <Answer studAnswer ="true" isTrue="true">КО__МЕНТАРИЙ</Answer>
+          </Answers>
+        </Question>
+        <Question part="B">
+          <Text>
+            Вопрос_1_часть_В
+          </Text>
+          <Answers>
+            <Answer studAnswer ="studAnswer_1" isTrue="true">CorrectAnswer_1</Answer>
+          </Answers>
+        </Question>
+        <Question part="B">
+          <Text>
+            Вопрос_2_часть_В
+          </Text>
+          <Answers>
+            <Answer studAnswer ="studAnswer_2" isTrue="true">CorrectAnswer_2</Answer>
+          </Answers>
+        </Question>
+        <Question part="B">
+          <Text>
+            Вопрос_3_часть_В
+          </Text>
+          <Answers>
+            <Answer studAnswer ="studAnswer_3" isTrue="true">CorrectAnswer_3</Answer>
+          </Answers>
+        </Question>
+        <Question part="B">
+          <Text>
+            Вопрос_4_часть_В
+          </Text>
+          <Answers>
+            <Answer studAnswer ="studAnswer_4" isTrue="true">CorrectAnswer_4</Answer>
+          </Answers>
+        </Question>
+        <Question part="B">
+          <Text>
+            Вопрос_5_часть_В
+          </Text>
+          <Answers>
+            <Answer studAnswer ="studAnswer_5" isTrue="true">CorrectAnswer_5</Answer>
+          </Answers>
+        </Question>
+      </Questions>
+    </Test>
+  </Tests>
+</Student>

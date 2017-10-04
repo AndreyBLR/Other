@@ -1,0 +1,10 @@
+D:\Andrey Kukalev\Projects\XsltTest\XsltTest\bin\Debug\XsltTest.exe
+D:\Andrey Kukalev\Projects\XsltTest\XsltTest\bin\Debug\XsltTest.pdb
+D:\Andrey Kukalev\Projects\XsltTest\XsltTest\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Andrey Kukalev\Projects\XsltTest\XsltTest\obj\x86\Debug\XsltTest.exe
+D:\Andrey Kukalev\Projects\XsltTest\XsltTest\obj\x86\Debug\XsltTest.pdb
+D:\Epam\Projects\Viewer\XsltTest\XsltTest\obj\x86\Debug\XsltTest.exe
+D:\Epam\Projects\Viewer\XsltTest\XsltTest\obj\x86\Debug\XsltTest.pdb
+D:\Epam\Projects\Viewer\XsltTest\XsltTest\bin\Debug\XsltTest.exe
+D:\Epam\Projects\Viewer\XsltTest\XsltTest\bin\Debug\XsltTest.pdb
+D:\Epam\Projects\Viewer\XsltTest\XsltTest\obj\x86\Debug\ResolveAssemblyReference.cache

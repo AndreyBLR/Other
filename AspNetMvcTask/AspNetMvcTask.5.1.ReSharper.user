@@ -1,0 +1,209 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Models/f:Employee.cs" caret="149" fromTop="6" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Views/f:Web.config" caret="0" fromTop="0" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Content/f:Validators.css" caret="4" fromTop="0" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Content/f:Site.css" caret="294" fromTop="14" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Models/f:Model.cs" caret="486" fromTop="17" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Models/d:DataAccess/f:DataAccessManager.cs" caret="1055" fromTop="30" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="9194" fromTop="41" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/f:Global.asax.cs" caret="0" fromTop="0" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Classes/f:GuidBinder.cs" caret="0" fromTop="0" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Classes/f:EmployeeBinder.cs" caret="255" fromTop="10" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/f:Web.config" caret="783" fromTop="15" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Controllers/f:DefaultController.cs" caret="0" fromTop="0" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Controllers/f:FormCreatingEmpController.cs" caret="0" fromTop="0" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Controllers/f:EmployeesController.cs" caret="0" fromTop="0" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Views/d:FormCreatingEmp/f:FormCreatingEmp.ascx" caret="0" fromTop="0" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Views/d:Employees/f:Employees.ascx" caret="0" fromTop="0" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Views/d:Default/f:Default.aspx" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="6038" fromTop="34" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="3680" fromTop="38" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="1836" fromTop="26" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="1297" fromTop="22" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="4151" fromTop="27" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="5797" fromTop="37" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="5797" fromTop="31" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="2352" fromTop="30" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="6853" fromTop="12" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="7578" fromTop="12" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="7243" fromTop="10" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="7743" fromTop="18" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="8644" fromTop="29" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="8452" fromTop="19" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="8225" fromTop="9" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="3988" fromTop="18" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="3339" fromTop="16" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="3070" fromTop="18" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="315" fromTop="9" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="4494" fromTop="16" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="790" fromTop="10" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="921" fromTop="23" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="1439" fromTop="27" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="4644" fromTop="20" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="5155" fromTop="24" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="157" fromTop="1" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="8452" fromTop="10" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="8872" fromTop="31" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/d:Scripts/f:main.js" caret="9194" fromTop="41" />
+      <File id="3123B7AA-6E73-49D3-94FE-EE03051A0CDB/f:Web.config" caret="316" fromTop="8" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="7" />
+      <Item value="String`0" priority="6" />
+      <Item value="DateTime`0" priority="3" />
+      <Item value="DataAccessManager`0" priority="0" />
+      <Item value="private" priority="2" />
+      <Item value="_connection" priority="0" />
+      <Item value="new" priority="8" />
+      <Item value="SqlConnection" priority="0" />
+      <Item value="connectionStr" priority="0" />
+      <Item value="List" priority="1" />
+      <Item value="Employee`0" priority="9" />
+      <Item value="reader" priority="2" />
+      <Item value="result" priority="4" />
+      <Item value="List&lt;Employee&gt;" priority="0" />
+      <Item value="Name" priority="2" />
+      <Item value="Birthday" priority="1" />
+      <Item value="DayOfEmployment" priority="1" />
+      <Item value="var" priority="2" />
+      <Item value="employee" priority="4" />
+      <Item value="Employee" priority="1" />
+      <Item value="ViewData" priority="1" />
+      <Item value="Html" priority="10" />
+      <Item value="model" priority="2" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="return" priority="6" />
+      <Item value="RedirectResult`0" priority="1" />
+      <Item value="Request" priority="0" />
+      <Item value="Response" priority="0" />
+      <Item value="routes" priority="1" />
+      <Item value="string" priority="3" />
+      <Item value="Model`0" priority="0" />
+      <Item value="_manager" priority="1" />
+      <Item value="DataAccessManager" priority="0" />
+      <Item value="emp" priority="8" />
+      <Item value="Model" priority="2" />
+      <Item value="NonAction" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="true" priority="2" />
+      <Item value="if" priority="5" />
+      <Item value="false" priority="1" />
+      <Item value="Regex" priority="0" />
+      <Item value="datePattern" priority="1" />
+      <Item value="controllerContext" priority="0" />
+      <Item value="bindingContext" priority="4" />
+      <Item value="ValueProviderResult`0" priority="1" />
+      <Item value="key" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="HttpPost" priority="0" />
+      <Item value="provider" priority="3" />
+      <Item value="item" priority="5" />
+      <Item value="ployees" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Classes.Employee">
+      <Item value="Name" priority="1" />
+      <Item value="Birthday" priority="0" />
+      <Item value="DayOfEmployment" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="TextBoxFor`2" priority="0" />
+      <Item value="LabelFor`2" priority="0" />
+      <Item value="Label`0" priority="0" />
+      <Item value="RenderPartial`0" priority="0" />
+      <Item value="RenderAction`0" priority="0" />
+      <Item value="TextBox`0" priority="2" />
+      <Item value="Action`0" priority="0" />
+      <Item value="BeginForm`0" priority="1" />
+      <Item value="EndForm`0" priority="1" />
+      <Item value="Hidden`0" priority="0" />
+      <Item value="HiddenFor`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RouteCollection">
+      <Item value="Add`0" priority="0" />
+      <Item value="MapPageRoute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="ConnectionStrings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Classes.DataAccessManager">
+      <Item value="AddImage`0" priority="0" />
+      <Item value="AddEmployee`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Models.Employee">
+      <Item value="Id" priority="3" />
+      <Item value="Name" priority="6" />
+      <Item value="Birthday" priority="3" />
+      <Item value="DayOfEmployment" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Models.Model">
+      <Item value="ReadEmployees`0" priority="0" />
+      <Item value="UpdateEmployee`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Regex">
+      <Item value="IsMatch`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Date" priority="0" />
+      <Item value="DayOfYear" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelBindingContext">
+      <Item value="ModelName" priority="0" />
+      <Item value="ValueProvider" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.IValueProvider">
+      <Item value="GetValue`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ValueProviderResult">
+      <Item value="AttemptedValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlHead">
+      <Item value="Style" priority="0" />
+      <Item value="link" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

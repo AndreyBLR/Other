@@ -1,0 +1,5 @@
+c:\users\andrew\documents\visual studio 2010\Projects\ASP_AJAX\ASP_AJAX\bin\ASP_AJAX.dll
+c:\users\andrew\documents\visual studio 2010\Projects\ASP_AJAX\ASP_AJAX\bin\ASP_AJAX.pdb
+c:\users\andrew\documents\visual studio 2010\Projects\ASP_AJAX\ASP_AJAX\obj\Debug\ResolveAssemblyReference.cache
+c:\users\andrew\documents\visual studio 2010\Projects\ASP_AJAX\ASP_AJAX\obj\Debug\ASP_AJAX.dll
+c:\users\andrew\documents\visual studio 2010\Projects\ASP_AJAX\ASP_AJAX\obj\Debug\ASP_AJAX.pdb

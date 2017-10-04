@@ -1,0 +1,15 @@
+D:\Andrey Kukalev\AspNetMvcTask\MvcApp\bin\MvcApp.dll
+D:\Andrey Kukalev\AspNetMvcTask\MvcApp\bin\MvcApp.pdb
+D:\Andrey Kukalev\AspNetMvcTask\MvcApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Andrey Kukalev\AspNetMvcTask\MvcApp\obj\Debug\MvcApp.dll
+D:\Andrey Kukalev\AspNetMvcTask\MvcApp\obj\Debug\MvcApp.pdb
+D:\Andrey Kukalev\Projects\AspNetMvcTask\MvcApp\bin\MvcApp.dll
+D:\Andrey Kukalev\Projects\AspNetMvcTask\MvcApp\bin\MvcApp.pdb
+D:\Andrey Kukalev\Projects\AspNetMvcTask\MvcApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Andrey Kukalev\Projects\AspNetMvcTask\MvcApp\obj\Debug\MvcApp.dll
+D:\Andrey Kukalev\Projects\AspNetMvcTask\MvcApp\obj\Debug\MvcApp.pdb
+D:\Epam\Andrey Kukalev\AspNetMvcTask\MvcApp\bin\MvcApp.dll
+D:\Epam\Andrey Kukalev\AspNetMvcTask\MvcApp\bin\MvcApp.pdb
+D:\Epam\Andrey Kukalev\AspNetMvcTask\MvcApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Epam\Andrey Kukalev\AspNetMvcTask\MvcApp\obj\Debug\MvcApp.dll
+D:\Epam\Andrey Kukalev\AspNetMvcTask\MvcApp\obj\Debug\MvcApp.pdb

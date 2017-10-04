@@ -1,0 +1,978 @@
+<!--Use of the Calais Web Service is governed by the Terms of Service located at http://www.opencalais.com. By using this service or the results of the service you agree to these terms of service.--><!--Relations: PersonAttributes, PersonCareer, Quotation
+
+City: Frankfurt, Frankfurt am Main, New York
+Company: Cape Town Book Fair, Nintendo, Sony
+Continent: Africa, Asia, Latin America
+Country: Australia, Germany, South Africa, Sri Lanka
+EntertainmentAwardEvent: the German Book Prize, the German Young Literature Award, the LiBeratur-award
+IndustryTerm: media forms, value chain
+Organization: Publishers & Booksellers Association
+Person: Julia Franck, Michelle de Kretser, Saul Friedl�nder
+Position: author, co-founder, writer
+Product: PS2
+ProvinceOrState: New York-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:c="http://s.opencalais.com/1/pred/">
+	<rdf:Description c:allowDistribution="true" c:allowSearch="true" c:calaisRequestID="91ca98c6-f05f-69d7-12e7-2be23644304f" c:externalID="82224" c:id="http://id.opencalais.com/kOzn237SAc1UybFJArJvVw" rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"><rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/DocInfo"/>
+		<c:document><![CDATA[<document> 
+			<id>82224</id> 
+			<title>2007 Frankfurt International Book Fair opens</title> 
+			<date>October 11, 2007</date> 
+			<body>[[image:Buchmesse_I..JPG|thumb|right|200px|Frankfurt Book Fair (Archive picture). {{Image source|Florian K}}]] 
+			Wednesday morning, the Frankfurt Book Fair opened its gates to the first of an estimated 280,000 visitors this year in Frankfurt am Main, [[Germany]]. 
+			 
+			The Frankfurt Book Fair is the biggest book fair in the world. It also organises the participation of German publishers at more than 25 international book fairs and is the co-founder of the Cape Town Book Fair in [[South Africa]]. It maintains the most visited website worldwide for the publishing industry. 
+			 
+			The German Publishers &amp; Booksellers Association, which runs the Frankfurt Book Fair, says that the book market is thriving. It declared on Tuesday that the high number of exhibitors and the record numbers of 7,448 exhibitors from over 100 countries, showing 391,652 books, including 121,267 new books of this year, proves that the book market is thriving. 
+			 
+			Publishing houses have long since expanded into non-traditional markets. TV and merchandising rights have long played a role, but have become more and more important for larger projects. Two other media forms have also become more standard elements of the value chain. E-books and audiobooks are both big topics of this year&apos;s Book Fair. 
+			 
+			==== Awards for Julia Franck, Michelle de Kretser, Saul Friedl�nder and Nintendo ==== 
+			 
+			The various awards handed out during and around the fair show the variety and scope of media and interests represented at the Frankfurt Book Fair: 
+			* On Sunday, October 7, [[Australia]]n writer Michelle de Kretser, born in Colombo. [[Sri Lanka]], was awarded the LiBeratur-award for the German edition of her book &apos;The Hamilton Case&apos;, previously published in English with Little, Brown and Company, New York. The LiBeratur-award for an outstanding publication of a woman from [[Africa]], [[Asia]] and [[Latin America]] in German language in the previous year, was awarded for the 20th time. 
+			 
+			* On Tuesday, October 9, German author Julia Franck was honoured with the German Book Prize for her novel &apos;Die Mittagsfrau&apos;. Against the background of two world wars, Julia Franck tells the disturbing story of a woman who leaves her son, without fnding herself.  
+			* On Wednesday, October 10, the software award GIGA-Maus for family friendly and educational entertainment was awarded to Wii Sports (Nintendo) for best software of the year. The award of the children judges went to Buzz! Junior: Robo Jam(Sony, PS2). 
+			* On Sunday, October 14, the Peace Prize of the German Booksellers will be awarded to Saul Friedl�nder, for his retelling of the Shoah as one of the most important historiographers of the time. 
+			 
+			Prizes still open include the German Young Literature Award on Friday and the Fantasy Final of the first German Cosplay Masters at the comic-centre of the book fair. 
+			 
+			{{haveyoursay}} 
+			</body></document>]]>
+		</c:document>
+		<c:docTitle>2007 Frankfurt International Book Fair opens</c:docTitle>
+		<c:docDate>2007-10-11 00:00:00</c:docDate>
+		<c:externalMetadata></c:externalMetadata>
+		<c:submitter/>
+	</rdf:Description>
+	<rdf:Description c:contentType="text/raw" c:emVer="7.1.1103.5" c:langIdVer="DefaultLangId" c:language="English" c:processingVer="CalaisJob01" c:submissionDate="2011-03-01 13:46:26.919" rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/meta">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/DocInfoMeta"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:submitterCode>d98c1dd4-008f-04b2-e980-0998ecf8427e</c:submitterCode>
+		<c:signature>digestalg-1|blfxaix67XhpyLMANWJxOWQ1yK8=|Cmp7gJWSIZSoDRvlFwiiB6gRcP+M7rbELnnDFXtsGfEpgYvqYzuKJw==</c:signature>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/lid/DefaultLangId">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/lid/DefaultLangId"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:lang rdf:resource="http://d.opencalais.com/lid/DefaultLangId/English"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/cat/1">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/cat/DocCat"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:category rdf:resource="http://d.opencalais.com/cat/Calais/HumanInterest"/>
+		<c:classifierName>Calais</c:classifierName>
+		<c:categoryName>Human Interest</c:categoryName>
+		<c:score>0.815</c:score>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/cat/2">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/cat/DocCat"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:category rdf:resource="http://d.opencalais.com/cat/Calais/EntertainmentCulture"/>
+		<c:classifierName>Calais</c:classifierName>
+		<c:categoryName>Entertainment_Culture</c:categoryName>
+		<c:score>0.712</c:score>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/84a34c48-25ac-327f-a805-7b81fd570f7d">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Country"/>
+		<c:name>Australia</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/1">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/84a34c48-25ac-327f-a805-7b81fd570f7d"/>
+		<!--Country: Australia; -->
+		<c:detection>[Frankfurt Book Fair: * On Sunday, October 7, [[]Australia[]]n writer Michelle de Kretser, born in Colombo.]</c:detection>
+		<c:prefix>Frankfurt Book Fair: * On Sunday, October 7, [[</c:prefix>
+		<c:exact>Australia</c:exact>
+		<c:suffix>]]n writer Michelle de Kretser, born in Colombo.</c:suffix>
+		<c:offset>1675</c:offset>
+		<c:length>9</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/1">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/84a34c48-25ac-327f-a805-7b81fd570f7d"/>
+		<c:relevance>0.217</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/e911da6b-56e4-3544-9357-5d79d01c1538">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+		<c:name>author</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/2">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/e911da6b-56e4-3544-9357-5d79d01c1538"/>
+		<!--Position: author; -->
+		<c:detection>[20th time. * On Tuesday, October 9, German ]author[ Julia Franck was honoured with the German Book]</c:detection>
+		<c:prefix>20th time. * On Tuesday, October 9, German </c:prefix>
+		<c:exact>author</c:exact>
+		<c:suffix> Julia Franck was honoured with the German Book</c:suffix>
+		<c:offset>2137</c:offset>
+		<c:length>6</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/2">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/e911da6b-56e4-3544-9357-5d79d01c1538"/>
+		<c:relevance>0.139</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Country"/>
+		<c:name>Germany</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/3">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062"/>
+		<!--Country: Germany; -->
+		<c:detection>[visitors this year in Frankfurt am Main, [[]Germany[]]. The Frankfurt Book Fair is the biggest]</c:detection>
+		<c:prefix>visitors this year in Frankfurt am Main, [[</c:prefix>
+		<c:exact>Germany</c:exact>
+		<c:suffix>]]. The Frankfurt Book Fair is the biggest</c:suffix>
+		<c:offset>378</c:offset>
+		<c:length>7</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/3">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062"/>
+		<c:relevance>0.316</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/comphash-1/3b733986-1a54-3b5e-a09d-3151aca0be75">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Company"/>
+		<c:name>Cape Town Book Fair</c:name>
+		<c:nationality>N/A</c:nationality>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/4">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/comphash-1/3b733986-1a54-3b5e-a09d-3151aca0be75"/>
+		<!--Company: Cape Town Book Fair; -->
+		<c:detection>[book fairs and is the co-founder of the ]Cape Town Book Fair[ in [[South Africa]]. It maintains the most]</c:detection>
+		<c:prefix>book fairs and is the co-founder of the </c:prefix>
+		<c:exact>Cape Town Book Fair</c:exact>
+		<c:suffix> in [[South Africa]]. It maintains the most</c:suffix>
+		<c:offset>582</c:offset>
+		<c:length>19</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/4">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/comphash-1/3b733986-1a54-3b5e-a09d-3151aca0be75"/>
+		<c:relevance>0.305</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/4560cd7e-3c7e-3c90-b454-e49005b33ff2">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Country"/>
+		<c:name>Sri Lanka</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/5">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/4560cd7e-3c7e-3c90-b454-e49005b33ff2"/>
+		<!--Country: Sri Lanka; -->
+		<c:detection>[writer Michelle de Kretser, born in Colombo. [[]Sri Lanka[]], was awarded the LiBeratur-award for the]</c:detection>
+		<c:prefix>writer Michelle de Kretser, born in Colombo. [[</c:prefix>
+		<c:exact>Sri Lanka</c:exact>
+		<c:suffix>]], was awarded the LiBeratur-award for the</c:suffix>
+		<c:offset>1735</c:offset>
+		<c:length>9</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/5">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/4560cd7e-3c7e-3c90-b454-e49005b33ff2"/>
+		<c:relevance>0.190</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/94be08d4-2134-3470-ae35-c2a365c1bda9">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Organization"/>
+		<c:name>Publishers &amp; Booksellers Association</c:name>
+		<c:organizationtype>N/A</c:organizationtype>
+		<c:nationality>N/A</c:nationality>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/6">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/94be08d4-2134-3470-ae35-c2a365c1bda9"/>
+		<!--Organization: Publishers & Booksellers Association; -->
+		<c:detection>[for the publishing industry. The German ]Publishers &amp; Booksellers Association[, which runs the Frankfurt Book Fair, says that]</c:detection>
+		<c:prefix>for the publishing industry. The German </c:prefix>
+		<c:exact>Publishers &amp; Booksellers Association</c:exact>
+		<c:suffix>, which runs the Frankfurt Book Fair, says that</c:suffix>
+		<c:offset>714</c:offset>
+		<c:length>40</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/6">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/94be08d4-2134-3470-ae35-c2a365c1bda9"/>
+		<c:relevance>0.289</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/er/geo/country/ralg-geo1/8ba5bbdd-9e0c-1107-7dbf-5a9cc83d1c45">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/Country"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<!--Sri Lanka-->
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/4560cd7e-3c7e-3c90-b454-e49005b33ff2"/>
+		<c:name>Sri Lanka</c:name>
+		<c:latitude>7.56534590164</c:latitude>
+		<c:longitude>80.4303409836</c:longitude>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/er/geo/country/ralg-geo1/fb2a54d6-3748-4c4c-a8ad-b2343237b89f">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/Country"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<!--Australia-->
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/84a34c48-25ac-327f-a805-7b81fd570f7d"/>
+		<c:name>Australia</c:name>
+		<c:latitude>-32.34562</c:latitude>
+		<c:longitude>141.434598022</c:longitude>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/0486c077-881d-325e-805d-30b3825c3927">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Product"/>
+		<c:name>PS2</c:name>
+		<c:producttype>Electronics</c:producttype>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/7">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/0486c077-881d-325e-805d-30b3825c3927"/>
+		<!--Product: PS2; -->
+		<c:detection>[judges went to Buzz! Junior: Robo Jam(Sony, ]PS2[). * On Sunday, October 14, the Peace Prize of]</c:detection>
+		<c:prefix>judges went to Buzz! Junior: Robo Jam(Sony, </c:prefix>
+		<c:exact>PS2</c:exact>
+		<c:suffix>). * On Sunday, October 14, the Peace Prize of</c:suffix>
+		<c:offset>2624</c:offset>
+		<c:length>3</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/7">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/0486c077-881d-325e-805d-30b3825c3927"/>
+		<c:relevance>0.082</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/32249e5c-6267-34f8-8ae5-5a8cdab965bf">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/Quotation"/>
+		<!--Julia Franck-->
+		<c:person rdf:resource="http://d.opencalais.com/pershash-1/aa430e76-ce58-31df-9649-e8ca0a520d0b"/>
+		<c:quote>of a woman who leaves her son, without fnding herself</c:quote>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/8">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/32249e5c-6267-34f8-8ae5-5a8cdab965bf"/>
+		<!--Quotation: person: Julia Franck; quote: of a woman who leaves her son, without fnding herself; -->
+		<c:detection>[ Prize for her novel 'Die Mittagsfrau'. ]Against the background of two world wars, Julia Franck tells the disturbing story of a woman who leaves her son, without fnding herself.[* On Wednesday, October 10, the software award]</c:detection>
+		<c:prefix> Prize for her novel 'Die Mittagsfrau'. </c:prefix>
+		<c:exact>Against the background of two world wars, Julia Franck tells the disturbing story of a woman who leaves her son, without fnding herself.</c:exact>
+		<c:suffix> * On Wednesday, October 10, the software award</c:suffix>
+		<c:offset>2240</c:offset>
+		<c:length>136</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/792f470a-c52f-335e-8062-5ee38a760025">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonCareer"/>
+		<!--Julia Franck-->
+		<c:person rdf:resource="http://d.opencalais.com/pershash-1/aa430e76-ce58-31df-9649-e8ca0a520d0b"/>
+		<!--author-->
+		<c:position rdf:resource="http://d.opencalais.com/genericHasher-1/e911da6b-56e4-3544-9357-5d79d01c1538"/>
+		<c:careertype>professional</c:careertype>
+		<c:status>current</c:status>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/9">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/792f470a-c52f-335e-8062-5ee38a760025"/>
+		<!--PersonCareer: person: Julia Franck; position: author; careertype: professional; status: current; -->
+		<c:detection>[for the 20th time. * On Tuesday, October 9, ]German author Julia Franck[ was honoured with the German Book Prize for her]</c:detection>
+		<c:prefix>for the 20th time. * On Tuesday, October 9, </c:prefix>
+		<c:exact>German author Julia Franck</c:exact>
+		<c:suffix> was honoured with the German Book Prize for her</c:suffix>
+		<c:offset>2130</c:offset>
+		<c:length>26</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/46a5016b-3bd3-39d0-b3c8-cb574a58ef9a">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/City"/>
+		<c:name>Frankfurt</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/10">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/46a5016b-3bd3-39d0-b3c8-cb574a58ef9a"/>
+		<!--City: Frankfurt; -->
+		<c:detection>[&lt;id&gt;82224&lt;/id&gt; &lt;title&gt;2007 ]Frankfurt[ International Book Fair opens&lt;/title&gt;]</c:detection>
+		<c:prefix>&lt;id&gt;82224&lt;/id&gt; &lt;title&gt;2007 </c:prefix>
+		<c:exact>Frankfurt</c:exact>
+		<c:suffix> International Book Fair opens&lt;/title&gt;</c:suffix>
+		<c:offset>40</c:offset>
+		<c:length>9</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/8">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/46a5016b-3bd3-39d0-b3c8-cb574a58ef9a"/>
+		<c:relevance>0.319</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/er/geo/city/ralg-geo1/26114d5b-b0c4-796d-20e0-795383ff36f4">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/City"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<!--Frankfurt-->
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/46a5016b-3bd3-39d0-b3c8-cb574a58ef9a"/>
+		<c:name>Frankfurt,Brandenburg,Germany</c:name>
+		<c:shortname>Frankfurt</c:shortname>
+		<c:containedbystate>Brandenburg</c:containedbystate>
+		<c:containedbycountry>Germany</c:containedbycountry>
+		<c:latitude>50.1122124407</c:latitude>
+		<c:longitude>8.67919921875</c:longitude>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/er/company/ralg-tr1r/ec6f39f6-eec0-31e0-a383-1a86ff015588">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Company"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<!--Sony-->
+		<c:subject rdf:resource="http://d.opencalais.com/comphash-1/bdcf6711-0f97-3a84-9e83-abc2a14b58a7"/>
+		<c:score>1.0</c:score>
+		<c:name>Soni Kabushiki Kaisha</c:name>
+		<c:shortname>Sony Corp</c:shortname>
+		<c:ticker>SONYC</c:ticker>
+		<c:symbol>6758.T</c:symbol>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/a5359054-758f-3c20-ac97-d90fbc6a170e">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Continent"/>
+		<c:name>Asia</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/11">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/a5359054-758f-3c20-ac97-d90fbc6a170e"/>
+		<!--Continent: Asia; -->
+		<c:detection>[publication of a woman from [[Africa]], [[]Asia[]] and [[Latin America]] in German language in]</c:detection>
+		<c:prefix>publication of a woman from [[Africa]], [[</c:prefix>
+		<c:exact>Asia</c:exact>
+		<c:suffix>]] and [[Latin America]] in German language in</c:suffix>
+		<c:offset>2001</c:offset>
+		<c:length>4</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/9">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/a5359054-758f-3c20-ac97-d90fbc6a170e"/>
+		<c:relevance>0.163</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/comphash-1/bdcf6711-0f97-3a84-9e83-abc2a14b58a7">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Company"/>
+		<c:name>Sony</c:name>
+		<c:nationality>N/A</c:nationality>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/12">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/comphash-1/bdcf6711-0f97-3a84-9e83-abc2a14b58a7"/>
+		<!--Company: Sony; -->
+		<c:detection>[children judges went to Buzz! Junior: Robo Jam(]Sony[, PS2). * On Sunday, October 14, the Peace Prize]</c:detection>
+		<c:prefix>children judges went to Buzz! Junior: Robo Jam(</c:prefix>
+		<c:exact>Sony</c:exact>
+		<c:suffix>, PS2). * On Sunday, October 14, the Peace Prize</c:suffix>
+		<c:offset>2618</c:offset>
+		<c:length>4</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/10">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/comphash-1/bdcf6711-0f97-3a84-9e83-abc2a14b58a7"/>
+		<c:relevance>0.082</c:relevance>
+		</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/comphash-1/22b44d01-a1c3-3b6c-9c29-2028de65adf4">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Company"/>
+		<c:name>Nintendo</c:name>
+		<c:nationality>N/A</c:nationality>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/13">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/comphash-1/22b44d01-a1c3-3b6c-9c29-2028de65adf4"/>
+		<!--Company: Nintendo; -->
+		<c:detection>[Michelle de Kretser, Saul Friedl�nder and ]Nintendo[ ==== The various awards handed out during and]</c:detection>
+		<c:prefix>Michelle de Kretser, Saul Friedl�nder and </c:prefix>
+		<c:exact>Nintendo</c:exact>
+		<c:suffix> ==== The various awards handed out during and</c:suffix>
+		<c:offset>1484</c:offset>
+		<c:length>8</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/14">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/comphash-1/22b44d01-a1c3-3b6c-9c29-2028de65adf4"/>
+		<!--Company: Nintendo; -->
+		<c:detection>[entertainment was awarded to Wii Sports (]Nintendo[) for best software of the year. The award of the]</c:detection>
+		<c:prefix>entertainment was awarded to Wii Sports (</c:prefix>
+		<c:exact>Nintendo</c:exact>
+		<c:suffix>) for best software of the year. The award of the</c:suffix>
+		<c:offset>2513</c:offset>
+		<c:length>8</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/11">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/comphash-1/22b44d01-a1c3-3b6c-9c29-2028de65adf4"/>
+		<c:relevance>0.356</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/4417e140-898f-350e-bdeb-716fb639e5b5">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonCareer"/>
+		<!--Michelle de Kretser-->
+		<c:person rdf:resource="http://d.opencalais.com/pershash-1/d5ed81e7-78d9-3dc9-92d8-4c7c14e3f642"/>
+		<!--writer-->
+		<c:position rdf:resource="http://d.opencalais.com/genericHasher-1/a69a1d4c-2214-3b28-bca4-351920e672e5"/>
+		<!--Nintendo-->
+		<c:company rdf:resource="http://d.opencalais.com/comphash-1/22b44d01-a1c3-3b6c-9c29-2028de65adf4"/>
+		<c:careertype>professional</c:careertype>
+		<c:status>current</c:status>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/15">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/4417e140-898f-350e-bdeb-716fb639e5b5"/>
+		<!--PersonCareer: person: Michelle de Kretser; position: writer; company: Nintendo; careertype: professional; status: current; -->
+		<c:detection>[Fair: * On Sunday, October 7, [[Australia]]n ]writer Michelle de Kretser[, born in Colombo. [[Sri Lanka]], was awarded the]</c:detection>
+		<c:prefix>Fair: * On Sunday, October 7, [[Australia]]n </c:prefix>
+		<c:exact>writer Michelle de Kretser</c:exact>
+		<c:suffix>, born in Colombo. [[Sri Lanka]], was awarded the</c:suffix>
+		<c:offset>1688</c:offset>
+		<c:length>26</c:length>
+	</rdf:Description>
+		<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/19cc1d3f-0865-39b0-b3d6-b3739cf3e66a">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Continent"/>
+		<c:name>Africa</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/16">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/19cc1d3f-0865-39b0-b3d6-b3739cf3e66a"/>
+		<!--Continent: Africa; -->
+		<c:detection>[ for an outstanding publication of a woman from [[]Africa[]], [[Asia]] and [[Latin America]] in German]</c:detection>
+		<c:prefix> for an outstanding publication of a woman from [[</c:prefix>
+		<c:exact>Africa</c:exact>
+		<c:suffix>]], [[Asia]] and [[Latin America]] in German</c:suffix>
+		<c:offset>1989</c:offset>
+		<c:length>6</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/12">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/19cc1d3f-0865-39b0-b3d6-b3739cf3e66a"/>
+		<c:relevance>0.163</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/8db73e6b-7c2f-3f61-a3f2-8b7bbdba9204">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Continent"/>
+		<c:name>Latin America</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/17">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/8db73e6b-7c2f-3f61-a3f2-8b7bbdba9204"/>
+		<!--Continent: Latin America; -->
+		<c:detection>[of a woman from [[Africa]], [[Asia]] and [[]Latin America[]] in German language in the previous year, was]</c:detection>
+		<c:prefix>of a woman from [[Africa]], [[Asia]] and [[</c:prefix>
+		<c:exact>Latin America</c:exact>
+		<c:suffix>]] in German language in the previous year, was</c:suffix>
+		<c:offset>2014</c:offset>
+		<c:length>13</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/13">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/8db73e6b-7c2f-3f61-a3f2-8b7bbdba9204"/>
+		<c:relevance>0.163</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/eeda02db-d00d-3e41-9ec6-93c0788c05ad">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/IndustryTerm"/>
+		<c:name>media forms</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/18">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/eeda02db-d00d-3e41-9ec6-93c0788c05ad"/>
+		<!--IndustryTerm: media forms; -->
+		<c:detection>[ more and more important for larger projects. Two ]other media forms[ have also become more standard elements of the]</c:detection>
+		<c:prefix> more and more important for larger projects. Two </c:prefix>
+		<c:exact>other media forms</c:exact>
+		<c:suffix> have also become more standard elements of the</c:suffix>
+		<c:offset>1257</c:offset>
+		<c:length>17</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/14">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/eeda02db-d00d-3e41-9ec6-93c0788c05ad"/>
+		<c:relevance>0.268</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/er/company/ralg-tr1r/b410bd07-ff51-3b51-beb9-f68af0a24d51">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Company"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<!--Nintendo-->
+		<c:subject rdf:resource="http://d.opencalais.com/comphash-1/22b44d01-a1c3-3b6c-9c29-2028de65adf4"/>
+		<c:score>1.0</c:score>
+		<c:name>Nintendo Co.,Ltd.</c:name>
+		<c:shortname>Nintendo Co Ltd</c:shortname>
+		<c:ticker>NINTE</c:ticker>
+		<c:symbol>7974.OS</c:symbol>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/pershash-1/aa430e76-ce58-31df-9649-e8ca0a520d0b">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Person"/>
+		<c:name>Julia Franck</c:name>
+		<c:persontype>N/A</c:persontype>
+		<c:nationality>German</c:nationality>
+		<c:commonname>Julia Franck</c:commonname>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/19">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/aa430e76-ce58-31df-9649-e8ca0a520d0b"/>
+		<!--Person: Julia Franck; -->
+		<c:detection>[this year's Book Fair. ==== Awards for ]Julia Franck[, Michelle de Kretser, Saul Friedl�nder and]</c:detection>
+		<c:prefix>this year's Book Fair. ==== Awards for </c:prefix>
+		<c:exact>Julia Franck</c:exact>
+		<c:suffix>, Michelle de Kretser, Saul Friedl�nder and</c:suffix>
+		<c:offset>1428</c:offset>
+		<c:length>12</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/20">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/aa430e76-ce58-31df-9649-e8ca0a520d0b"/>
+		<!--Person: Julia Franck; -->
+		<c:detection>[time. * On Tuesday, October 9, German author ]Julia Franck[ was honoured with the German Book Prize for her]</c:detection>
+		<c:prefix>time. * On Tuesday, October 9, German author </c:prefix>
+		<c:exact>Julia Franck</c:exact>
+		<c:suffix> was honoured with the German Book Prize for her</c:suffix>
+		<c:offset>2144</c:offset>
+		<c:length>12</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/21">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/aa430e76-ce58-31df-9649-e8ca0a520d0b"/>
+		<!--Person: Julia Franck; -->
+		<c:detection>[was honoured with the German Book Prize for ]her[ novel 'Die Mittagsfrau'. Against the]</c:detection>
+		<c:prefix>was honoured with the German Book Prize for </c:prefix>
+		<c:exact>her</c:exact>
+		<c:suffix> novel 'Die Mittagsfrau'. Against the</c:suffix>
+		<c:offset>2201</c:offset>
+		<c:length>3</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/22">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/aa430e76-ce58-31df-9649-e8ca0a520d0b"/>
+		<!--Person: Julia Franck; -->
+		<c:detection>[Against the background of two world wars, ]Julia Franck[ tells the disturbing story of a woman who leaves]</c:detection>
+		<c:prefix>Against the background of two world wars, </c:prefix>
+		<c:exact>Julia Franck</c:exact>
+		<c:suffix> tells the disturbing story of a woman who leaves</c:suffix>
+		<c:offset>2282</c:offset>
+		<c:length>12</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/23">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/aa430e76-ce58-31df-9649-e8ca0a520d0b"/>
+		<!--Person: Julia Franck; -->
+		<c:detection>[ tells the disturbing story of a woman who leaves ]her[ son, without fnding herself. * On Wednesday,]</c:detection>
+		<c:prefix> tells the disturbing story of a woman who leaves </c:prefix>
+		<c:exact>her</c:exact>
+		<c:suffix> son, without fnding herself. * On Wednesday,</c:suffix>
+		<c:offset>2344</c:offset>
+		<c:length>3</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/15">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/aa430e76-ce58-31df-9649-e8ca0a520d0b"/>
+		<c:relevance>0.495</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/pershash-1/199354ce-120d-3fe3-b1b1-6385865df9ae">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Person"/>
+		<c:name>Saul Friedl�nder</c:name>
+		<c:persontype>N/A</c:persontype>
+		<c:nationality>N/A</c:nationality>
+		<c:commonname>Saul Friedl nder</c:commonname>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/24">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/199354ce-120d-3fe3-b1b1-6385865df9ae"/>
+		<!--Person: Saul Friedl�nder; -->
+		<c:detection>[Awards for Julia Franck, Michelle de Kretser, ]Saul Friedl�nder[ and Nintendo ==== The various awards handed]</c:detection>
+		<c:prefix>Awards for Julia Franck, Michelle de Kretser, </c:prefix>
+		<c:exact>Saul Friedl�nder</c:exact>
+		<c:suffix> and Nintendo ==== The various awards handed</c:suffix>
+		<c:offset>1463</c:offset>
+		<c:length>16</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/25">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/199354ce-120d-3fe3-b1b1-6385865df9ae"/>
+		<!--Person: Saul Friedl�nder; -->
+		<c:detection>[of the German Booksellers will be awarded to ]Saul Friedl�nder[, for his retelling of the Shoah as one of the]</c:detection>
+		<c:prefix>of the German Booksellers will be awarded to </c:prefix>
+		<c:exact>Saul Friedl�nder</c:exact>
+		<c:suffix>, for his retelling of the Shoah as one of the</c:suffix>
+		<c:offset>2717</c:offset>
+		<c:length>16</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/26">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/199354ce-120d-3fe3-b1b1-6385865df9ae"/>
+		<!--Person: Saul Friedl�nder; -->
+		<c:detection>[will be awarded to Saul Friedl�nder, for ]his[ retelling of the Shoah as one of the most]</c:detection>
+		<c:prefix>will be awarded to Saul Friedl�nder, for </c:prefix>
+		<c:exact>his</c:exact>
+		<c:suffix> retelling of the Shoah as one of the most</c:suffix>
+		<c:offset>2739</c:offset>
+		<c:length>3</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/16">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/199354ce-120d-3fe3-b1b1-6385865df9ae"/>
+		<c:relevance>0.417</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/er/geo/city/ralg-geo1/e17dac05-9dd9-4d19-1ab6-e565c16e5aac">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/City"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<!--Frankfurt am Main-->
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/b3413078-cd6d-3c4c-9b72-50b20cb8a99b"/>
+		<c:name>Frankfurt,Hesse,Germany</c:name>
+		<c:shortname>Frankfurt</c:shortname>
+		<c:containedbystate>Hesse</c:containedbystate>
+		<c:containedbycountry>Germany</c:containedbycountry>
+		<c:latitude>50.116667</c:latitude>
+		<c:longitude>8.683333</c:longitude>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/ProvinceOrState"/>
+		<c:name>New York</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/27">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe"/>
+		<!--ProvinceOrState: New York; -->
+		<c:detection>[in English with Little, Brown and Company, ]New York[. The LiBeratur-award for an outstanding]</c:detection>
+		<c:prefix>in English with Little, Brown and Company, </c:prefix>
+		<c:exact>New York</c:exact>
+		<c:suffix>. The LiBeratur-award for an outstanding</c:suffix>
+		<c:offset>1910</c:offset>
+		<c:length>8</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/17">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe"/>
+		<c:relevance>0.190</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/er/geo/country/ralg-geo1/28ef36b3-5ae8-cb1f-5425-78f03408b512">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/Country"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<!--Germany-->
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/398f0f7f-7b2f-3363-bda4-f09b836ed062"/>
+		<c:name>Germany</c:name>
+		<c:latitude>51.0</c:latitude>
+		<c:longitude>9.0</c:longitude>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/f01e371d-af10-33af-93e2-d06a1ff21f37">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/EntertainmentAwardEvent"/>
+		<c:name>the LiBeratur-award</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/28">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/f01e371d-af10-33af-93e2-d06a1ff21f37"/>
+		<!--EntertainmentAwardEvent: the LiBeratur-award; -->
+		<c:detection>[born in Colombo. [[Sri Lanka]], was awarded ]the LiBeratur-award[ for the German edition of her book 'The]</c:detection>
+		<c:prefix>born in Colombo. [[Sri Lanka]], was awarded </c:prefix>
+		<c:exact>the LiBeratur-award</c:exact>
+		<c:suffix> for the German edition of her book 'The</c:suffix>
+		<c:offset>1760</c:offset>
+		<c:length>19</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/18">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/f01e371d-af10-33af-93e2-d06a1ff21f37"/>
+		<c:relevance>0.190</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/er/geo/city/ralg-geo1/b3719a18-c511-51a8-b3f9-f8480b3b6e48">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/City"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<!--New York-->
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/9f45e0f5-aa73-39b8-b39e-2a1546da820a"/>
+		<c:name>New York City,New York,United States</c:name>
+		<c:shortname>New York City</c:shortname>
+		<c:containedbystate>New York</c:containedbystate>
+		<c:containedbycountry>United States</c:containedbycountry>
+		<c:latitude>40.7142</c:latitude>
+		<c:longitude>-74.0064</c:longitude>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/pershash-1/d5ed81e7-78d9-3dc9-92d8-4c7c14e3f642">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Person"/>
+		<c:name>Michelle de Kretser</c:name>
+		<c:persontype>N/A</c:persontype>
+		<c:nationality>N/A</c:nationality>
+		<c:commonname>Michelle de Kretser</c:commonname>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/29">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/d5ed81e7-78d9-3dc9-92d8-4c7c14e3f642"/>
+		<!--Person: Michelle de Kretser; -->
+		<c:detection>[Book Fair. ==== Awards for Julia Franck, ]Michelle de Kretser[, Saul Friedl�nder and Nintendo ==== The]</c:detection>
+		<c:prefix>Book Fair.==== Awards for Julia Franck, </c:prefix>
+		<c:exact>Michelle de Kretser</c:exact>
+		<c:suffix>, Saul Friedl�nder and Nintendo ==== The</c:suffix>
+		<c:offset>1442</c:offset>
+		<c:length>19</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/30">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/d5ed81e7-78d9-3dc9-92d8-4c7c14e3f642"/>
+		<!--Person: Michelle de Kretser; -->
+		<c:detection>[* On Sunday, October 7, [[Australia]]n writer ]Michelle de Kretser[, born in Colombo. [[Sri Lanka]], was awarded the]</c:detection>
+		<c:prefix> * On Sunday, October 7, [[Australia]]n writer </c:prefix>
+		<c:exact>Michelle de Kretser</c:exact>
+		<c:suffix>, born in Colombo. [[Sri Lanka]], was awarded the</c:suffix>
+		<c:offset>1695</c:offset>
+		<c:length>19</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/31">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/d5ed81e7-78d9-3dc9-92d8-4c7c14e3f642"/>
+		<!--Person: Michelle de Kretser; -->
+		<c:detection>[the LiBeratur-award for the German edition of ]her[ book 'The Hamilton Case', previously]</c:detection>
+		<c:prefix>the LiBeratur-award for the German edition of </c:prefix>
+		<c:exact>her</c:exact>
+		<c:suffix> book 'The Hamilton Case', previously</c:suffix>
+		<c:offset>1806</c:offset>
+		<c:length>3</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/19">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/pershash-1/d5ed81e7-78d9-3dc9-92d8-4c7c14e3f642"/>
+		<c:relevance>0.425</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/9f45e0f5-aa73-39b8-b39e-2a1546da820a">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/City"/>
+		<c:name>New York</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/32">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/9f45e0f5-aa73-39b8-b39e-2a1546da820a"/>
+		<!--City: New York; -->
+		<c:detection>[in English with Little, Brown and Company, ]New York[. The LiBeratur-award for an outstanding]</c:detection>
+		<c:prefix>in English with Little, Brown and Company, </c:prefix>
+		<c:exact>New York</c:exact>
+		<c:suffix>. The LiBeratur-award for an outstanding</c:suffix>
+		<c:offset>1910</c:offset>
+		<c:length>8</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/20">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/9f45e0f5-aa73-39b8-b39e-2a1546da820a"/>
+		<c:relevance>0.190</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/0695df78-4db2-3374-a80b-786bb3c9bcf9">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Country"/>
+		<c:name>South Africa</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/33">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/0695df78-4db2-3374-a80b-786bb3c9bcf9"/>
+		<!--Country: South Africa; -->
+		<c:detection>[the co-founder of the Cape Town Book Fair in [[]South Africa[]]. It maintains the most visited website]</c:detection>
+		<c:prefix>the co-founder of the Cape Town Book Fair in [[</c:prefix>
+		<c:exact>South Africa</c:exact>
+		<c:suffix>]]. It maintains the most visited website</c:suffix>
+		<c:offset>607</c:offset>
+		<c:length>12</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/21">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/0695df78-4db2-3374-a80b-786bb3c9bcf9"/>
+		<c:relevance>0.305</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/bb662ed1-6f4d-3a29-a837-8637cd479d4c">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+		<c:name>co-founder</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/34">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/bb662ed1-6f4d-3a29-a837-8637cd479d4c"/>
+		<!--Position: co-founder; -->
+		<c:detection>[at more than 25 international book fairs and is ]the co-founder[ of the Cape Town Book Fair in [[South Africa]].]</c:detection>
+		<c:prefix>at more than 25 international book fairs and is </c:prefix>
+		<c:exact>the co-founder</c:exact>
+		<c:suffix> of the Cape Town Book Fair in [[South Africa]].</c:suffix>
+		<c:offset>560</c:offset>
+		<c:length>14</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/22">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/bb662ed1-6f4d-3a29-a837-8637cd479d4c"/>
+		<c:relevance>0.305</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/b3413078-cd6d-3c4c-9b72-50b20cb8a99b">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/City"/>
+		<c:name>Frankfurt am Main</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/35">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/b3413078-cd6d-3c4c-9b72-50b20cb8a99b"/>
+		<!--City: Frankfurt am Main; -->
+		<c:detection>[of an estimated 280,000 visitors this year in ]Frankfurt am Main[, [[Germany]]. The Frankfurt Book Fair is the]</c:detection>
+		<c:prefix>of an estimated 280,000 visitors this year in </c:prefix>
+		<c:exact>Frankfurt am Main</c:exact>
+		<c:suffix>, [[Germany]]. The Frankfurt Book Fair is the</c:suffix>
+		<c:offset>357</c:offset>
+		<c:length>17</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/23">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/b3413078-cd6d-3c4c-9b72-50b20cb8a99b"/>
+		<c:relevance>0.316</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/16f87a24-4783-36a0-94fb-d1db9ac6f358">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/r/PersonAttributes"/>
+		<!--Michelle de Kretser-->
+		<c:person rdf:resource="http://d.opencalais.com/pershash-1/d5ed81e7-78d9-3dc9-92d8-4c7c14e3f642"/>
+		<c:birthplace>Colombo</c:birthplace>
+		<c:gender>F</c:gender>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/36">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/16f87a24-4783-36a0-94fb-d1db9ac6f358"/>
+		<!--PersonAttributes: person: Michelle de Kretser; birthplace: Colombo; gender: F; -->
+		<c:detection>[* On Sunday, October 7, [[Australia]]n writer ]Michelle de Kretser, born in Colombo[. [[Sri Lanka]], was awarded the LiBeratur-award]</c:detection>
+		<c:prefix>* On Sunday, October 7, [[Australia]]n writer </c:prefix>
+		<c:exact>Michelle de Kretser, born in Colombo</c:exact>
+		<c:suffix>. [[Sri Lanka]], was awarded the LiBeratur-award</c:suffix>
+		<c:offset>1695</c:offset>
+		<c:length>36</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/955041f4-2c4d-3b4c-80ae-a812018055b7">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/IndustryTerm"/>
+		<c:name>value chain</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/37">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/955041f4-2c4d-3b4c-80ae-a812018055b7"/>
+		<!--IndustryTerm: value chain; -->
+		<c:detection>[have also become more standard elements of the ]value chain[. E-books and audiobooks are both big topics of]</c:detection>
+		<c:prefix>have also become more standard elements of the </c:prefix>
+		<c:exact>value chain</c:exact>
+		<c:suffix>. E-books and audiobooks are both big topics of</c:suffix>
+		<c:offset>1322</c:offset>
+		<c:length>11</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/24">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/955041f4-2c4d-3b4c-80ae-a812018055b7"/>
+		<c:relevance>0.268</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/a69a1d4c-2214-3b28-bca4-351920e672e5">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/Position"/>
+		<c:name>writer</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/38">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/a69a1d4c-2214-3b28-bca4-351920e672e5"/>
+		<!--Position: writer; -->
+		<c:detection>[Fair:* On Sunday, October 7, [[Australia]]n ]writer[ Michelle de Kretser, born in Colombo. [[Sri]</c:detection>
+		<c:prefix>Fair: * On Sunday, October 7, [[Australia]]n </c:prefix>
+		<c:exact>writer</c:exact>
+		<c:suffix> Michelle de Kretser, born in Colombo. [[Sri</c:suffix>
+		<c:offset>1688</c:offset>
+		<c:length>6</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/25">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/a69a1d4c-2214-3b28-bca4-351920e672e5"/>
+		<c:relevance>0.217</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/er/geo/provinceorstate/ralg-geo1/2464781f-2743-853b-bb3a-0b37152c849e">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/ProvinceOrState"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<!--New York-->
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/5fc67ecf-e49d-3ab4-aaad-9cff97f00ffe"/>
+		<c:name>New York,United States</c:name>
+		<c:shortname>New York</c:shortname>
+		<c:containedbycountry>United States</c:containedbycountry>
+		<c:latitude>42.3481810333</c:latitude>
+		<c:longitude>-75.1889929444</c:longitude>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/cf1378c5-8e52-3cc9-be78-c4bf1959e4d7">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/EntertainmentAwardEvent"/>
+		<c:name>the German Book Prize</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/39">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/cf1378c5-8e52-3cc9-be78-c4bf1959e4d7"/>
+		<!--EntertainmentAwardEvent: the German Book Prize; -->
+		<c:detection>[9, German author Julia Franck was honoured with ]the German Book Prize[ for her novel 'Die Mittagsfrau'.]</c:detection>
+		<c:prefix>9, German author Julia Franck was honoured with </c:prefix>
+		<c:exact>the German Book Prize</c:exact>
+		<c:suffix> for her novel 'Die Mittagsfrau'.</c:suffix>
+		<c:offset>2175</c:offset>
+		<c:length>21</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/26">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/cf1378c5-8e52-3cc9-be78-c4bf1959e4d7"/>
+		<c:relevance>0.139</c:relevance>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/er/geo/country/ralg-geo1/c814068b-bc92-07ac-d130-de362b2d6ddc">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/er/Geo/Country"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<!--South Africa-->
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/0695df78-4db2-3374-a80b-786bb3c9bcf9"/>
+		<c:name>South Africa</c:name>
+		<c:latitude>-29.8191423168</c:latitude>
+		<c:longitude>25.3498974783</c:longitude>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/genericHasher-1/2bf4a9a2-38d7-31c7-9c5f-35220adb69d4">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/em/e/EntertainmentAwardEvent"/>
+		<c:name>the German Young Literature Award</c:name>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Instance/40">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/InstanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/2bf4a9a2-38d7-31c7-9c5f-35220adb69d4"/>
+		<!--EntertainmentAwardEvent: the German Young Literature Award; -->
+		<c:detection>[of the time. Prizes still open include ]the German Young Literature Award[ on Friday and the Fantasy Final of the first]</c:detection>
+		<c:prefix>of the time. Prizes still open include </c:prefix>
+		<c:exact>the German Young Literature Award</c:exact>
+		<c:suffix> on Friday and the Fantasy Final of the first</c:suffix>
+		<c:offset>2854</c:offset>
+		<c:length>33</c:length>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82/Relevance/27">
+		<rdf:type rdf:resource="http://s.opencalais.com/1/type/sys/RelevanceInfo"/>
+		<c:docId rdf:resource="http://d.opencalais.com/dochash-1/928e28dc-87b2-3e69-9cdc-c2cd44914b82"/>
+		<c:subject rdf:resource="http://d.opencalais.com/genericHasher-1/2bf4a9a2-38d7-31c7-9c5f-35220adb69d4"/>
+		<c:relevance>0.059</c:relevance>
+	</rdf:Description>
+</rdf:RDF>

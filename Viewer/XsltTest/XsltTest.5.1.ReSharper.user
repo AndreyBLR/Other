@@ -1,0 +1,44 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A095D76E-D273-42B2-9C47-8040499BA03D/f:Program.cs" caret="451" fromTop="15" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="1821" fromTop="22" />
+      <File id="d:Miscellaneous Files/f:output.xml/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?output.xml" caret="9035" fromTop="113" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="2785" fromTop="17" />
+      <File id="d:Miscellaneous Files/f:output.xml/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?output.xml" caret="0" fromTop="0" />
+      <File id="A095D76E-D273-42B2-9C47-8040499BA03D/f:Program.cs" caret="451" fromTop="15" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="2044" fromTop="6" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="2222" fromTop="11" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="1962" fromTop="16" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="2423" fromTop="15" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="861" fromTop="9" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="1913" fromTop="18" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="1941" fromTop="25" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="1869" fromTop="14" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="2227" fromTop="19" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="2693" fromTop="39" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="598" fromTop="4" />
+      <File id="d:Miscellaneous Files/f:XsltFile.xslt/l:D!?Epam?Projects?Viewer?XsltTest?XsltTest?bin?Debug?XsltFile.xslt" caret="1079" fromTop="14" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

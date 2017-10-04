@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyBlog</RootNamespace>
+    <AssemblyName>MyBlog</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\log4net\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MSCaptcha, Version=1.0.2832.11804, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MSCaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\admin.aspx" />
+    <Content Include="admin\categories.aspx" />
+    <Content Include="admin\gallery.aspx" />
+    <Content Include="admin\users.aspx" />
+    <Content Include="App_Data\Database.mdf" />
+    <Content Include="App_Data\Database_log.ldf">
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
+    <Content Include="article.aspx" />
+    <Content Include="Controls\TagsCloud.ascx" />
+    <Content Include="journal.aspx" />
+    <Content Include="Forms\AddArticleForm.ascx" />
+    <Content Include="default.aspx" />
+    <Content Include="admin\articles.aspx" />
+    <Content Include="Forms\AddCommentForm.ascx" />
+    <Content Include="Forms\RegistrationForm.ascx" />
+    <Content Include="gallery.aspx" />
+    <Content Include="highslide\graphics\close.png" />
+    <Content Include="highslide\graphics\closeX.png" />
+    <Content Include="highslide\graphics\controlbar-black-border.gif" />
+    <Content Include="highslide\graphics\controlbar-text-buttons.png" />
+    <Content Include="highslide\graphics\controlbar-white-small.gif" />
+    <Content Include="highslide\graphics\controlbar-white.gif" />
+    <Content Include="highslide\graphics\controlbar2.gif" />
+    <Content Include="highslide\graphics\controlbar3.gif" />
+    <Content Include="highslide\graphics\controlbar4-hover.gif" />
+    <Content Include="highslide\graphics\controlbar4.gif" />
+    <Content Include="highslide\graphics\fullexpand.gif" />
+    <Content Include="highslide\graphics\geckodimmer.png" />
+    <Content Include="highslide\graphics\icon.gif" />
+    <Content Include="highslide\graphics\loader.gif" />
+    <Content Include="highslide\graphics\loader.white.gif" />
+    <Content Include="highslide\graphics\outlines\beveled.png" />
+    <Content Include="highslide\graphics\outlines\drop-shadow.png" />
+    <Content Include="highslide\graphics\outlines\glossy-dark.png" />
+    <Content Include="highslide\graphics\outlines\outer-glow.png" />
+    <Content Include="highslide\graphics\outlines\rounded-black.png" />
+    <Content Include="highslide\graphics\outlines\rounded-white.png" />
+    <Content Include="highslide\graphics\resize.gif" />
+    <Content Include="highslide\graphics\scrollarrows.png" />
+    <Content Include="highslide\graphics\zoomin.cur" />
+    <Content Include="highslide\graphics\zoomout.cur" />
+    <Content Include="highslide\highslide-with-gallery.js" />
+    <Content Include="highslide\highslide.css" />
+    <Content Include="Images\Avatars\noavatar.gif" />
+    <Content Include="Logs\errors.txt" />
+    <Content Include="registration.aspx" />
+    <Content Include="search.aspx" />
+    <Content Include="Styles\default.css" />
+    <Content Include="Styles\highslide-with-gallery.js" />
+    <Content Include="Styles\highslide.css" />
+    <Content Include="Styles\img\bg.jpg" />
+    <Content Include="Styles\img\bgcontainer.jpg" />
+    <Content Include="Styles\img\bgcontent.gif" />
+    <Content Include="Styles\img\bgfooter.gif" />
+    <Content Include="Styles\img\divider.gif" />
+    <Content Include="Styles\img\gfx.jpg" />
+    <Content Include="Styles\img\header.jpg" />
+    <Content Include="Styles\img\map.jpg" />
+    <Content Include="Styles\img\pattern.gif" />
+    <Content Include="Styles\img\quote.gif" />
+    <Content Include="Styles\img\shortcut_icon.jpg" />
+    <Content Include="Styles\img\stripes.gif" />
+    <Content Include="user\comments.aspx" />
+    <Content Include="user\profile.aspx" />
+    <Content Include="user\warnings.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\categories.aspx.cs">
+      <DependentUpon>categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\categories.aspx.designer.cs">
+      <DependentUpon>categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\gallery.aspx.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\gallery.aspx.designer.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\users.aspx.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\users.aspx.designer.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="article.aspx.cs">
+      <DependentUpon>article.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="article.aspx.designer.cs">
+      <DependentUpon>article.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Helper.cs" />
+    <Compile Include="Controls\TagsCloud.ascx.cs">
+      <DependentUpon>TagsCloud.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TagsCloud.ascx.designer.cs">
+      <DependentUpon>TagsCloud.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="journal.aspx.cs">
+      <DependentUpon>journal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="journal.aspx.designer.cs">
+      <DependentUpon>journal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddArticleForm.ascx.cs">
+      <DependentUpon>AddArticleForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\AddArticleForm.ascx.designer.cs">
+      <DependentUpon>AddArticleForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\articles.aspx.cs">
+      <DependentUpon>articles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\articles.aspx.designer.cs">
+      <DependentUpon>articles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddCommentForm.ascx.cs">
+      <DependentUpon>AddCommentForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\AddCommentForm.ascx.designer.cs">
+      <DependentUpon>AddCommentForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RegistrationForm.ascx.cs">
+      <DependentUpon>RegistrationForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forms\RegistrationForm.ascx.designer.cs">
+      <DependentUpon>RegistrationForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="gallery.aspx.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gallery.aspx.designer.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\image.ashx.cs">
+      <DependentUpon>image.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="MyBlog.Master.cs">
+      <DependentUpon>MyBlog.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyBlog.Master.designer.cs">
+      <DependentUpon>MyBlog.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registration.aspx.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registration.aspx.designer.cs">
+      <DependentUpon>registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\comments.aspx.cs">
+      <DependentUpon>comments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\comments.aspx.designer.cs">
+      <DependentUpon>comments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\profile.aspx.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\profile.aspx.designer.cs">
+      <DependentUpon>profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\warnings.aspx.cs">
+      <DependentUpon>warnings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\warnings.aspx.designer.cs">
+      <DependentUpon>warnings.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MyBlog.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handlers\image.ashx" />
+    <None Include="highslide\graphics\outlines\Outlines.psd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Classes\Classes.csproj">
+      <Project>{56C00962-1AFC-41F9-BF81-8FB97AAF5B9D}</Project>
+      <Name>Classes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MBPresentation\MBPresentation.csproj">
+      <Project>{7105830C-BFB9-43A8-AC93-A33CF1F87FCE}</Project>
+      <Name>MBPresentation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14737</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

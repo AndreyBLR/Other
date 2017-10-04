@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Questions>
+  <Question ID ="1">
+      <Text>
+        Вставьте проверяемые безударные гласные А или О. Заштрихуйте клетки, соответствующие словам с буквой О.
+      </Text>
+      <Answers>
+        <Answer ID="1" IsTrue="true">ОСЛ__ЖНЕНИЕ</Answer>
+        <Answer ID="2" IsTrue="false">ХВ__ТАТЬ</Answer>
+        <Answer ID="3" IsTrue="false">К__РАТЕЛЬНЫЙ</Answer>
+        <Answer ID="4" IsTrue="true">НАК__ПИТЬ ДЕНЬГИ</Answer>
+        <Answer ID="5" IsTrue="true">НАСЛ__ЖДАТЬСЯ</Answer>
+      </Answers>
+  </Question>
+
+  <Question ID ="2">
+    <Text>
+      Вставьте проверяемые безударные гласные (E, И, А, Я). Заштрихуйте клетки, соответствующие словам с буквой E.
+    </Text>
+    <Answers>
+      <Answer ID="6" IsTrue="false">ЗАЩ__ЩАТЬСЯ</Answer>
+      <Answer ID="7" IsTrue="true">СТ__СНЁННЫЙ В СРЕДСТВАХ</Answer>
+      <Answer ID="8" IsTrue="true">НАКР__НИТЬСЯ</Answer>
+      <Answer ID="9" IsTrue="false">СТРАШНОЕ ПРИВ__ДЕНИЕ</Answer>
+      <Answer ID="10" IsTrue="true">Ш__ПТАТЬСЯ</Answer>
+    </Answers>
+  </Question>
+
+  <Question ID ="3">
+    <Text>
+      Вставьте непроверяемые безударные гласные А или О. Заштрихуйте клетки, соответствующие словам с буквой О.
+    </Text>
+    <Answers>
+      <Answer ID="11" IsTrue="false">ДИ__ГОНАЛЬ</Answer>
+      <Answer ID="12" IsTrue="true">АМ__РАЛЬНЫЙ</Answer>
+      <Answer ID="13" IsTrue="false">УТР__МБОВАТЬ</Answer>
+      <Answer ID="14" IsTrue="true">НЕГ__ДОВАТЬ</Answer>
+      <Answer ID="15" IsTrue="true">ДИСЛ__КАЦИЯ</Answer>
+    </Answers>
+  </Question>
+
+  <Question ID ="4">
+    <Text>
+      Вставьте непроверяемые безударные гласные (E, И, Я). Заштрихуйте клетки, соответствующие словам с буквой E
+    </Text>
+    <Answers>
+      <Answer ID="11" IsTrue="false">МЕЛ__ОРАЦИЯ</Answer>
+      <Answer ID="12" IsTrue="false">СТАЖ__РОВКА</Answer>
+      <Answer ID="13" IsTrue="true">ДИЛ__ТАНТ</Answer>
+      <Answer ID="14" IsTrue="true">ВИН__ГРЕТ</Answer>
+      <Answer ID="15" IsTrue="false">СТ__ПЕНДИЯ</Answer>
+    </Answers>
+  </Question>
+
+  <Question ID ="5">
+    <Text>
+      Вставьте чередующиеся безударные гласные А или О. Заштрихуйте клетки, соответствующие словам с буквой О.
+    </Text>
+    <Answers>
+      <Answer ID="11" IsTrue="true">СОПРИК__СНОВЕНИЕ</Answer>
+      <Answer ID="12" IsTrue="false">ИЗЛ__ГАТЬ</Answer>
+      <Answer ID="13" IsTrue="true">СОТВ__РЕНИЕ МИРА</Answer>
+      <Answer ID="14" IsTrue="true">ПОР__ВНУ</Answer>
+      <Answer ID="15" IsTrue="false">НЕПРИК__САЕМЫЙ</Answer>
+    </Answers>
+  </Question>
+
+  <Question ID ="6">
+    <Text>
+      Вставьте чередующиеся безударные гласные Е или И. Заштрихуйте клетки, соответствующие словам с буквой Е.
+    </Text>
+    <Answers>
+      <Answer ID="11" IsTrue="true">ОТБЛ__СК</Answer>
+      <Answer ID="12" IsTrue="true">ПРИБ__РУ КОМНАТУ</Answer>
+      <Answer ID="13" IsTrue="false">ПРИЧ__ТАЮЩИЙСЯ</Answer>
+      <Answer ID="14" IsTrue="false">НАЧ__НАЮЩИЙ</Answer>
+      <Answer ID="15" IsTrue="false">ПОДЖ__ГАТЬ</Answer>
+    </Answers>
+  </Question>
+
+  <Question ID ="7">
+    <Text>
+      Вставьте О или Ё после шипящих. Заштрихуйте клетки, соответствующие словам с буквой Ё.
+    </Text>
+    <Answers>
+      <Answer ID="11" IsTrue="false">ПУШ__К</Answer>
+      <Answer ID="12" IsTrue="false">Ш__КОВАЯ ТЕРАПИЯ</Answer>
+      <Answer ID="13" IsTrue="false">ПИРОГ С АЛЫЧ__Й</Answer>
+      <Answer ID="14" IsTrue="true">ИСКАЖ__ННОЕ ИЗОБРАЖЕНИЕ</Answer>
+      <Answer ID="15" IsTrue="false">РЕЧ__НКА</Answer>
+    </Answers>
+  </Question>
+
+  <Question ID ="8">
+    <Text>
+      Вставьте звонкие или глухие согласные. Заштрихуйте клетки, соответствующие словам со звонкими согласными (б, в, г, д, ж, з).
+    </Text>
+    <Answers>
+      <Answer ID="11" IsTrue="true">КИРГИ__КА</Answer>
+      <Answer ID="12" IsTrue="true">РО__КОЕ ПОВЕДЕНИЕ</Answer>
+      <Answer ID="13" IsTrue="true">СИЛЬНАЯ БОМБЕ__КА</Answer>
+      <Answer ID="14" IsTrue="false">КРОМЕ__НАЯ ТЬМА</Answer>
+      <Answer ID="15" IsTrue="false">ПРО__ЬБА О ПОМОЩИ</Answer>
+    </Answers>
+  </Question>
+
+  <Question ID ="9">
+    <Text>
+      Вставьте в слова, где нужно, непроизносимые согласные. Заштрихуйте клетки, соответствующие этим словам.
+    </Text>
+    <Answers>
+      <Answer ID="11" IsTrue="true">ТРОС__НИКОВЫЙ САХАР</Answer>
+      <Answer ID="12" IsTrue="false">БЕЗЫСКУС__НОСТЬ</Answer>
+      <Answer ID="13" IsTrue="true">ХЛЕС__НУТЬ ЛОШАДЬ</Answer>
+      <Answer ID="14" IsTrue="true">КРУТАЯ ЛЕС__НИЦА</Answer>
+      <Answer ID="15" IsTrue="false">ЖИВОПИС__НЫЙ ВИД</Answer>
+    </Answers>
+  </Question>
+
+  <Question ID ="10">
+    <Text>
+      Вставьте в слова, где нужно, согласную. Заштрихуйте клетки, соответствующие словам с удвоенной согласной.
+    </Text>
+    <Answers>
+      <Answer ID="11" IsTrue="false">ГА__ЛЕРЕЯ</Answer>
+      <Answer ID="12" IsTrue="true">ДИСКУ__СИЯ</Answer>
+      <Answer ID="13" IsTrue="true">КО__ТЕДЖ</Answer>
+      <Answer ID="14" IsTrue="true">ТО__НЕЛЬ</Answer>
+      <Answer ID="15" IsTrue="true">КО__МЕНТАРИЙ</Answer>
+    </Answers>
+  </Question>
+</Questions>

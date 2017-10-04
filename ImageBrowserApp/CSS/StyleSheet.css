@@ -1,0 +1,24 @@
+﻿.dropDownListClass
+{
+    background-color:Yellow;  
+    width:100px; 
+}
+
+.spanClass1
+{
+    color:Red;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.spanClass2
+{
+    color:Green;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.anchorClass
+{
+    color:Green;
+}

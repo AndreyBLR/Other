@@ -1,0 +1,21 @@
+D:\Andrey Kukalev\Projects\Viewer\Viewer\bin\Viewer.dll
+D:\Andrey Kukalev\Projects\Viewer\Viewer\bin\Viewer.pdb
+D:\Andrey Kukalev\Projects\Viewer\Viewer\obj\Debug\ResolveAssemblyReference.cache
+D:\Andrey Kukalev\Projects\Viewer\Viewer\obj\Debug\Viewer.dll
+D:\Andrey Kukalev\Projects\Viewer\Viewer\obj\Debug\Viewer.pdb
+D:\Epam\Projects\WebAppViewer\Viewer\Viewer\bin\Viewer.dll
+D:\Epam\Projects\WebAppViewer\Viewer\Viewer\bin\Viewer.pdb
+D:\Epam\Projects\WebAppViewer\Viewer\Viewer\obj\Debug\ResolveAssemblyReference.cache
+D:\Epam\Projects\WebAppViewer\Viewer\Viewer\obj\Debug\Viewer.dll
+D:\Epam\Projects\WebAppViewer\Viewer\Viewer\obj\Debug\Viewer.pdb
+D:\Andrey Kukalev\Projects\Viewer\Viewer\obj\Debug\Viewer.Properties.Resources.resources
+D:\Andrey Kukalev\Projects\Viewer\Viewer\obj\Debug\GenerateResource.read.1.tlog
+D:\Andrey Kukalev\Projects\Viewer\Viewer\obj\Debug\GenerateResource.write.1.tlog
+D:\Epam\Projects\Viewer\Viewer\bin\Viewer.dll
+D:\Epam\Projects\Viewer\Viewer\bin\Viewer.pdb
+D:\Epam\Projects\Viewer\Viewer\obj\Debug\ResolveAssemblyReference.cache
+D:\Epam\Projects\Viewer\Viewer\obj\Debug\Viewer.Properties.Resources.resources
+D:\Epam\Projects\Viewer\Viewer\obj\Debug\GenerateResource.read.1.tlog
+D:\Epam\Projects\Viewer\Viewer\obj\Debug\GenerateResource.write.1.tlog
+D:\Epam\Projects\Viewer\Viewer\obj\Debug\Viewer.dll
+D:\Epam\Projects\Viewer\Viewer\obj\Debug\Viewer.pdb

@@ -1,0 +1,553 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:app.config" caret="117" fromTop="2" />
+      <File id="76134D1B-9CBD-441C-A40A-39BA62A737F8/f:app.config" caret="0" fromTop="0" />
+      <File id="33CD7A63-CCD0-4422-9DFA-A92C673C48B7/f:Registration.cs" caret="276" fromTop="11" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Program.cs" caret="419" fromTop="14" />
+      <File id="33CD7A63-CCD0-4422-9DFA-A92C673C48B7/f:Student.cs" caret="476" fromTop="20" />
+      <File id="33CD7A63-CCD0-4422-9DFA-A92C673C48B7/f:PassportData.cs" caret="221" fromTop="9" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.Designer.cs" caret="13460" fromTop="16" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="723" fromTop="13" />
+      <File id="33CD7A63-CCD0-4422-9DFA-A92C673C48B7/f:TestingResult.cs" caret="0" fromTop="0" />
+      <File id="33CD7A63-CCD0-4422-9DFA-A92C673C48B7/f:Question.cs" caret="710" fromTop="8" />
+      <File id="33CD7A63-CCD0-4422-9DFA-A92C673C48B7/f:Answer.cs" caret="171" fromTop="8" />
+      <File id="76134D1B-9CBD-441C-A40A-39BA62A737F8/f:DataAccess.cs" caret="241" fromTop="2" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="76134D1B-9CBD-441C-A40A-39BA62A737F8/f:DataAccess.cs" caret="10395" fromTop="23" />
+      <File id="76134D1B-9CBD-441C-A40A-39BA62A737F8/f:DataAccess.cs" caret="8800" fromTop="5" />
+      <File id="76134D1B-9CBD-441C-A40A-39BA62A737F8/f:DataAccess.cs" caret="10598" fromTop="25" />
+      <File id="76134D1B-9CBD-441C-A40A-39BA62A737F8/f:DataAccess.cs" caret="9697" fromTop="14" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="4004" fromTop="15" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="4324" fromTop="21" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="2135" fromTop="14" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="3551" fromTop="25" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="3902" fromTop="26" />
+      <File id="76134D1B-9CBD-441C-A40A-39BA62A737F8/f:DataAccess.cs" caret="16262" fromTop="23" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="7208" fromTop="14" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="2135" fromTop="8" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="7196" fromTop="34" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="7196" fromTop="34" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="7196" fromTop="31" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="7196" fromTop="13" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="2571" fromTop="34" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="2320" fromTop="11" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="2243" fromTop="14" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="5591" fromTop="10" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="2545" fromTop="16" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.Designer.cs" caret="14353" fromTop="16" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.Designer.cs" caret="13460" fromTop="16" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="5488" fromTop="10" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="6410" fromTop="9" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="962" fromTop="9" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="7196" fromTop="24" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="2004" fromTop="31" />
+      <File id="904C11CB-10D4-43C5-831A-E97FC0B45F9C/f:Form1.cs" caret="1432" fromTop="19" />
+      <File id="76134D1B-9CBD-441C-A40A-39BA62A737F8/f:DataAccess.cs" caret="338" fromTop="5" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="String`0" priority="33" />
+      <Item value="private" priority="16" />
+      <Item value="char" priority="2" />
+      <Item value="public" priority="42" />
+      <Item value="Question`0" priority="13" />
+      <Item value="Char`0" priority="1" />
+      <Item value="_part" priority="1" />
+      <Item value="part" priority="6" />
+      <Item value="_text" priority="1" />
+      <Item value="text" priority="1" />
+      <Item value="_correctAnswer" priority="1" />
+      <Item value="correctAnswer" priority="0" />
+      <Item value="studentAnswer" priority="1" />
+      <Item value="return" priority="29" />
+      <Item value="_studentAnswer" priority="0" />
+      <Item value="CorrectAnswer" priority="0" />
+      <Item value="StudentAnswer" priority="0" />
+      <Item value="Registration`0" priority="6" />
+      <Item value="TypeLoadException`0" priority="0" />
+      <Item value="TypeLocality" priority="1" />
+      <Item value="typeLocality" priority="0" />
+      <Item value="Area" priority="2" />
+      <Item value="area" priority="0" />
+      <Item value="LocalityName" priority="1" />
+      <Item value="localityName" priority="0" />
+      <Item value="int" priority="20" />
+      <Item value="Int32`0" priority="6" />
+      <Item value="PassportData`0" priority="3" />
+      <Item value="FIO" priority="0" />
+      <Item value="fio" priority="0" />
+      <Item value="Series" priority="1" />
+      <Item value="series" priority="0" />
+      <Item value="number" priority="3" />
+      <Item value="Reg" priority="0" />
+      <Item value="reg" priority="2" />
+      <Item value="Student`0" priority="16" />
+      <Item value="PhoneNumber" priority="1" />
+      <Item value="phoneNumber" priority="0" />
+      <Item value="InstitutionType" priority="1" />
+      <Item value="institutionType" priority="0" />
+      <Item value="Passport" priority="1" />
+      <Item value="passport" priority="1" />
+      <Item value="List" priority="29" />
+      <Item value="_question" priority="2" />
+      <Item value="new" priority="67" />
+      <Item value="List&lt;Question&gt;" priority="4" />
+      <Item value="question" priority="9" />
+      <Item value="Stud" priority="1" />
+      <Item value="stud" priority="6" />
+      <Item value="Subject" priority="1" />
+      <Item value="subject" priority="11" />
+      <Item value="TestingResult`0" priority="10" />
+      <Item value="string" priority="5" />
+      <Item value="TestingResult" priority="2" />
+      <Item value="_result" priority="10" />
+      <Item value="List&lt;TestingResult&gt;" priority="1" />
+      <Item value="using" priority="13" />
+      <Item value="System" priority="9" />
+      <Item value="Microsoft" priority="0" />
+      <Item value="Entities" priority="2" />
+      <Item value="Linq" priority="1" />
+      <Item value="from" priority="7" />
+      <Item value="where" priority="6" />
+      <Item value="result" priority="35" />
+      <Item value="select" priority="7" />
+      <Item value="bool" priority="3" />
+      <Item value="Data" priority="1" />
+      <Item value="SqlConnection" priority="1" />
+      <Item value="connectionString" priority="2" />
+      <Item value="if" priority="45" />
+      <Item value="connection" priority="17" />
+      <Item value="try" priority="1" />
+      <Item value="true" priority="7" />
+      <Item value="false" priority="6" />
+      <Item value="null" priority="16" />
+      <Item value="ex" priority="1" />
+      <Item value="Configuration" priority="3" />
+      <Item value="DataAccessLibrary" priority="0" />
+      <Item value="DataAccess`0" priority="0" />
+      <Item value="DataAccess" priority="0" />
+      <Item value="da" priority="0" />
+      <Item value="ConfigXmlDocument`0" priority="2" />
+      <Item value="Xml" priority="0" />
+      <Item value="XDocument`0" priority="3" />
+      <Item value="xDocument" priority="0" />
+      <Item value="SqlCommand`0" priority="5" />
+      <Item value="SqlCommand" priority="4" />
+      <Item value="cmd" priority="47" />
+      <Item value="Common" priority="0" />
+      <Item value="DbCommandBuilder`0" priority="0" />
+      <Item value="dbCommandBuilder" priority="0" />
+      <Item value="SqlCommandBuilder" priority="0" />
+      <Item value="SqlDataAdapter`0" priority="0" />
+      <Item value="_da" priority="22" />
+      <Item value="reader" priority="48" />
+      <Item value="ConfigurationAllowDefinition`0" priority="0" />
+      <Item value="strinf" priority="0" />
+      <Item value="str" priority="0" />
+      <Item value="SqlParameter" priority="3" />
+      <Item value="s" priority="3" />
+      <Item value="SqlDataReader`0" priority="0" />
+      <Item value="sqlDataReader" priority="2" />
+      <Item value="XName" priority="0" />
+      <Item value="doc" priority="9" />
+      <Item value="item" priority="6" />
+      <Item value="var" priority="19" />
+      <Item value="foreach" priority="18" />
+      <Item value="Console`0" priority="1" />
+      <Item value="xElement" priority="0" />
+      <Item value="student" priority="22" />
+      <Item value="orderby" priority="0" />
+      <Item value="el" priority="3" />
+      <Item value="Student" priority="3" />
+      <Item value="passportData" priority="1" />
+      <Item value="PassportData" priority="1" />
+      <Item value="Registration" priority="1" />
+      <Item value="registration" priority="0" />
+      <Item value="void" priority="6" />
+      <Item value="Boolean`0" priority="1" />
+      <Item value="Answer`0" priority="12" />
+      <Item value="this" priority="3" />
+      <Item value="isTrue" priority="0" />
+      <Item value="answer" priority="13" />
+      <Item value="studAnswer" priority="3" />
+      <Item value="_answer" priority="2" />
+      <Item value="test" priority="9" />
+      <Item value="tests" priority="0" />
+      <Item value="questions" priority="6" />
+      <Item value="in" priority="4" />
+      <Item value="Question" priority="6" />
+      <Item value="value" priority="4" />
+      <Item value="_studAnswer" priority="1" />
+      <Item value="IsTrue" priority="0" />
+      <Item value="List&lt;Answer&gt;" priority="2" />
+      <Item value="listAnswers" priority="0" />
+      <Item value="Answer" priority="6" />
+      <Item value="else" priority="15" />
+      <Item value="questionsList" priority="0" />
+      <Item value="_studAnswers" priority="0" />
+      <Item value="Number" priority="0" />
+      <Item value="xTests" priority="1" />
+      <Item value="xTest" priority="2" />
+      <Item value="xQuestions" priority="0" />
+      <Item value="xAnswer" priority="2" />
+      <Item value="xQuestion" priority="2" />
+      <Item value="ReadOnlyException`0" priority="0" />
+      <Item value="_connection" priority="21" />
+      <Item value="temp" priority="17" />
+      <Item value="idQuestion" priority="0" />
+      <Item value="while" priority="3" />
+      <Item value="Convert`0" priority="3" />
+      <Item value="List&lt;int&gt;" priority="3" />
+      <Item value="id" priority="1" />
+      <Item value="Int" priority="1" />
+      <Item value="questionId" priority="4" />
+      <Item value="ReadAnswers`0" priority="1" />
+      <Item value="for" priority="1" />
+      <Item value="i" priority="5" />
+      <Item value="ReadStudAnswers`0" priority="0" />
+      <Item value="passNumber" priority="5" />
+      <Item value="idTestVersions" priority="3" />
+      <Item value="ReadQuestions`0" priority="0" />
+      <Item value="idRegistration" priority="2" />
+      <Item value="idArea" priority="2" />
+      <Item value="idLocalityName" priority="3" />
+      <Item value="idLocalityType" priority="1" />
+      <Item value="idInstitutionType" priority="1" />
+      <Item value="ReadTestingResult`0" priority="2" />
+      <Item value="ReadPassportData`0" priority="0" />
+      <Item value="tbPassNumber" priority="1" />
+      <Item value="Answers" priority="2" />
+      <Item value="StudAnswers" priority="2" />
+      <Item value="Comparer" priority="0" />
+      <Item value="a" priority="1" />
+      <Item value="Compare`0" priority="1" />
+      <Item value="ans" priority="1" />
+      <Item value="ind" priority="0" />
+      <Item value="lblStudName" priority="0" />
+      <Item value="lblLocality" priority="0" />
+      <Item value="res_1" priority="3" />
+      <Item value="toar" priority="0" />
+      <Item value="lblRes1Subj" priority="1" />
+      <Item value="lblRes1Ans" priority="0" />
+      <Item value="lblRes2Ans" priority="0" />
+      <Item value="istrue" priority="1" />
+      <Item value="Timer`0" priority="0" />
+      <Item value="Timer" priority="0" />
+      <Item value="tm" priority="3" />
+      <Item value="lblTimeSearch" priority="2" />
+      <Item value="Diagnostics" priority="0" />
+      <Item value="Stopwatch`0" priority="0" />
+      <Item value="sw" priority="0" />
+      <Item value="res_3" priority="1" />
+      <Item value="GroupBox`0" priority="2" />
+      <Item value="groupBox" priority="3" />
+      <Item value="ControlCollection`0" priority="0" />
+      <Item value="collection" priority="2" />
+      <Item value="ShowResult`0" priority="0" />
+      <Item value="list" priority="0" />
+      <Item value="List&lt;GroupBox&gt;" priority="0" />
+      <Item value="listGB" priority="2" />
+      <Item value="Double`0" priority="0" />
+      <Item value="double" priority="0" />
+      <Item value="f" priority="0" />
+      <Item value="SectionInformation`0" priority="0" />
+      <Item value="q" priority="2" />
+      <Item value="partA" priority="0" />
+      <Item value="partB" priority="0" />
+      <Item value="Open" priority="0" />
+      <Item value="Math`0" priority="0" />
+      <Item value="List&lt;Student&gt;" priority="0" />
+      <Item value="PassNumbers" priority="1" />
+      <Item value="StateChangeEventArgs`0" priority="0" />
+      <Item value="state" priority="0" />
+      <Item value="ReadStudent`0" priority="0" />
+      <Item value="enum" priority="1" />
+      <Item value="ReadStudMode`0" priority="9" />
+      <Item value="mode" priority="2" />
+      <Item value="switch" priority="2" />
+      <Item value="case" priority="7" />
+      <Item value="break" priority="7" />
+      <Item value="DataGridViewEditingControlShowingEventArgs`0" priority="0" />
+      <Item value="TableLayoutCellPaintEventArgs`0" priority="0" />
+      <Item value="DataTable`0" priority="3" />
+      <Item value="DataTable" priority="1" />
+      <Item value="dt" priority="9" />
+      <Item value="DataColumn" priority="0" />
+      <Item value="GetSchemaGridView`0" priority="0" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="subjects" priority="1" />
+      <Item value="DataRow`0" priority="1" />
+      <Item value="dr" priority="9" />
+      <Item value="dataGridView1" priority="1" />
+      <Item value="listStudents" priority="0" />
+      <Item value="subg" priority="0" />
+      <Item value="instTypes" priority="1" />
+      <Item value="Type`0" priority="0" />
+      <Item value="listInstType" priority="1" />
+      <Item value="type" priority="2" />
+      <Item value="DataType`0" priority="7" />
+      <Item value="listLocType" priority="0" />
+      <Item value="listStudent" priority="3" />
+      <Item value="passNumbers" priority="0" />
+      <Item value="Result" priority="1" />
+      <Item value="idSubj" priority="0" />
+      <Item value="GetSchemaGridView2`0" priority="1" />
+      <Item value="listSubjects" priority="1" />
+      <Item value="st" priority="2" />
+      <Item value="ValueType`0" priority="0" />
+      <Item value="students" priority="0" />
+      <Item value="AverageResult`0" priority="0" />
+      <Item value="listSubjStud" priority="0" />
+      <Item value="IEditableObject`0" priority="0" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="dataGridView2" priority="0" />
+      <Item value="e" priority="2" />
+      <Item value="GetDataRegStatistics`0" priority="0" />
+      <Item value="GetDataAverageBallet`0" priority="0" />
+      <Item value="GetSchemaGridView1`0" priority="0" />
+      <Item value="res_2" priority="0" />
+      <Item value="MessageBox`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Compare`0" priority="0" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="Format`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Entities.TestingResult">
+      <Item value="Subject" priority="7" />
+      <Item value="_question" priority="0" />
+      <Item value="Version" priority="0" />
+      <Item value="AddQuestion`0" priority="1" />
+      <Item value="NumberVersion" priority="0" />
+      <Item value="Question" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToString`0" priority="0" />
+      <Item value="Single`1" priority="2" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="Count`1" priority="1" />
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="ConnectionStrings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ConnectionString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLibrary.DataAccess">
+      <Item value="Connect`0" priority="1" />
+      <Item value="Insert`0" priority="0" />
+      <Item value="ReadAnswers`0" priority="0" />
+      <Item value="ReadStudAnswer`0" priority="0" />
+      <Item value="ReadQuestions`0" priority="0" />
+      <Item value="ReadTestingResult`0" priority="0" />
+      <Item value="ReadPassportData`0" priority="0" />
+      <Item value="ReadStudent`0" priority="2" />
+      <Item value="Open`0" priority="3" />
+      <Item value="Close`0" priority="3" />
+      <Item value="ReadAllStudents`0" priority="2" />
+      <Item value="ReadSubjects`0" priority="0" />
+      <Item value="ReadInstitutionType`0" priority="0" />
+      <Item value="ReadOtherData`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="DataSource" priority="0" />
+      <Item value="Database" priority="1" />
+      <Item value="ChangeDatabase`0" priority="1" />
+      <Item value="Open`0" priority="8" />
+      <Item value="Close`0" priority="13" />
+      <Item value="State" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlCommand">
+      <Item value="CommandText" priority="8" />
+      <Item value="Connection" priority="5" />
+      <Item value="ExecuteNonQuery`0" priority="2" />
+      <Item value="ExecuteReader`0" priority="10" />
+      <Item value="Parameters" priority="7" />
+      <Item value="CommandType" priority="0" />
+      <Item value="ExecuteScalar`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlDataReader">
+      <Item value="FieldCount" priority="1" />
+      <Item value="Read`0" priority="5" />
+      <Item value="HasRows" priority="4" />
+      <Item value="GetString`0" priority="5" />
+      <Item value="GetBoolean`0" priority="0" />
+      <Item value="Close`0" priority="5" />
+      <Item value="GetInt32`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlParameterCollection">
+      <Item value="Add`0" priority="4" />
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.Linq.XDocument">
+      <Item value="Load`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XDocument">
+      <Item value="Element`0" priority="6" />
+      <Item value="Descendants`0" priority="4" />
+      <Item value="Root" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XElement">
+      <Item value="Value" priority="15" />
+      <Item value="Name" priority="3" />
+      <Item value="Elements`0" priority="2" />
+      <Item value="Element`0" priority="6" />
+      <Item value="Descendants`0" priority="9" />
+      <Item value="Attribute`0" priority="5" />
+      <Item value="FirstAttribute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+      <Item value="ReadKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToString`0" priority="0" />
+      <Item value="Trim`0" priority="14" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Entities.Answer">
+      <Item value="Text" priority="7" />
+      <Item value="IsTrue" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Entities.Question">
+      <Item value="_answer" priority="0" />
+      <Item value="_studAnswer" priority="0" />
+      <Item value="AddAnswer`0" priority="1" />
+      <Item value="AddStudentAnswer`0" priority="0" />
+      <Item value="Part" priority="5" />
+      <Item value="Text" priority="1" />
+      <Item value="Answers" priority="1" />
+      <Item value="StudAnswers" priority="0" />
+      <Item value="IsTrue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XAttribute">
+      <Item value="Value" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="18" />
+      <Item value="Count" priority="15" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="Clear`0" priority="0" />
+      <Item value="Count`1" priority="1" />
+      <Item value="Any`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToByte`0" priority="0" />
+      <Item value="ToBoolean`0" priority="0" />
+      <Item value="ToDouble`0" priority="1" />
+      <Item value="ToInt32`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Entities.Student">
+      <Item value="AddResult`0" priority="1" />
+      <Item value="PhoneNumber" priority="0" />
+      <Item value="InstitutionType" priority="0" />
+      <Item value="Result" priority="19" />
+      <Item value="Passport" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlParameter">
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Entities.PassportData">
+      <Item value="Series" priority="0" />
+      <Item value="FIO" priority="1" />
+      <Item value="Reg" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Entities.Registration">
+      <Item value="Area" priority="1" />
+      <Item value="LocalityName" priority="2" />
+      <Item value="TypeLocality" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.GroupBox">
+      <Item value="Visible" priority="3" />
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Timer">
+      <Item value="Start`0" priority="0" />
+      <Item value="Stop`0" priority="0" />
+      <Item value="Interval" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Stopwatch">
+      <Item value="ElapsedMilliseconds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int64">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="TabIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.ConnectionState">
+      <Item value="Closed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DataAccessLibrary.ReadStudMode">
+      <Item value="Full" priority="4" />
+      <Item value="Partial" priority="1" />
+      <Item value="PartialWithTest" priority="0" />
+      <Item value="PartialWithSubject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Columns" priority="0" />
+      <Item value="NewRow`0" priority="1" />
+      <Item value="Rows" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="DataSource" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DataAccessLibrary.DataType">
+      <Item value="InstType" priority="1" />
+      <Item value="LocatyType" priority="2" />
+      <Item value="Subject" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControlEventArgs">
+      <Item value="TabPageIndex" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

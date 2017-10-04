@@ -1,0 +1,102 @@
+﻿
+.inputContent
+{
+    width:738px;
+    height:400px;
+}
+.TermsSidebar { display: block; margin: 0 0 15px 0; padding: 5px; border: 1px solid #9FB2C4; background:#EAEDF0; font-family: Tahoma,sans-serif; font-size: 11px; top:-170%; position:relative;}
+#termsContainer{width:35%;}
+#markupTextContainer{width: 65%}
+.container {
+    position:relative;
+    border:1px solid;
+    width:750px;
+    top:50%; 
+    margin:70px auto 0 auto; 
+    background:no-repeat url(kepka.jpg) right top;
+    text-align:justify;
+}
+/* Documents Entities: */
+.AnyTermHighlight					{ border-bottom: double #E9EA87; font-weight: bold; }
+.City					            { border-bottom: double #00FE64; }
+.Company					        { border-bottom: double #FE6C00; }
+.Continent				            { border-bottom: double #FF0000; }
+.Country					        { border-bottom: double #AEFE00; }
+.Date				                { border-bottom: double #E7904A; }
+.EmailAddress			            { border-bottom: double #FED700; }
+.FunctionEvent		                { border-bottom: double #00FEFE; }
+.Holiday			                { border-bottom: double #2BFE00; }
+.IndustryTerm			            { border-bottom: double #FFB400; }
+.MoneyAmount				        { border-bottom: double #0063FE; }
+.NaturalFeature			            { border-bottom: double #AF00FE; }
+.Organization			            { border-bottom: double #FE00D6; }
+.OrganizationDescription	        { border-bottom: double #FB171B; }
+.Person					            { border-bottom: double #8000FF; }
+.PersonDescription		            { border-bottom: double #FF0D89; }
+.PhoneNumber				        { border-bottom: double #EF3FFD; }
+.Product					        { border-bottom: double #C39370; }
+.ProvinceOrState			        { border-bottom: double #00FE64; }
+.Region					            { border-bottom: double #FE6C00; }
+.Technology				            { border-bottom: double #FF0000; }
+.Time					            { border-bottom: double #AEFE00; }
+.URL						        { border-bottom: double #8000FF; }
+.Weapon					            { border-bottom: double #FED700; }
+/* Exceptional Terms */
+.SBCategAddress						{ border-bottom: double #E9EA87; }
+.SBCategDocReportPeriod				{ border-bottom: double #E9EA87; }
+.SBCategDocType						{ border-bottom: double #E9EA87; }
+/* Documents Events & Facts */
+.AnyEventHighlight				    { background-color: #FEFF99; }
+.Acquisition					    { background-color: #7FFEB1; }
+.Alliance					        { background-color: #FEB57F; }
+.AnalystEarningsEstimate		    { background-color: #FF7F7F; }
+.AnalystRecommendation		        { background-color: #D6FE7F; }
+.Arrest						        { background-color: #BF7FFF; }
+.Bankruptcy					        { background-color: #FEEA7F; }
+.BusinessRelation			        { background-color: #7FFEFE; }
+.Buybacks					        { background-color: #94FE7F; }
+.CompanyAffiliates			        { background-color: #FFD97F; }
+.CompanyCustomer				    { background-color: #7FB0FE; }
+.CompanyEarningsAnnouncement	    { background-color: #D67FFE; }
+.CompanyEarningsGuidance		    { background-color: #FE7FEA; }
+.CompanyIndustry				    { background-color: #FB898B; }
+.CompanyInvestment			        { background-color: #F69EFD; }
+.CompanyLegalIssues			        { background-color: #FF86C4; }
+.CompanyLocation				    { background-color: #E7BB98; }
+.CompanyProduct				        { background-color: #C3AB99; }
+.CompanySynonym				        { background-color: #FDCF87; }
+.CompanyTechnology			        { background-color: #B5BDF3; }
+.CompanyTicker				        { background-color: #A4D2DE; }
+.CompanyUsingProduct			    { background-color: #FDB4FF; }
+.Conviction					        { background-color: #D9D8A0; }
+.CreditRating				        { background-color: #FBDAA5; }
+.EmployeeOf					        { background-color: #A0E6EF; }
+.FDAPhase					        { background-color: #E0DFB3; }
+.FamilyRelation				        { background-color: #EAEBA0; }
+.FinancialTransaction		        { background-color: #FFBEBB; }
+.Indictment					        { background-color: #FE7FB4; }
+.JointVenture				        { background-color: #B37FFE; }
+.LeaderOf					        { background-color: #7FD4FE; }
+.ManagementChange			        { background-color: #FF7FD9; }
+.MemberOf					        { background-color: #7FFEB1; }
+.Merger						        { background-color: #FEB57F; }
+.MoneyLaundering				    { background-color: #FF7F7F; }
+.PercentTrend				        { background-color: #D6FE7F; }
+.PersonCommunication			    { background-color: #BF7FFF; }
+.PersonDetails				        { background-color: #FEEA7F; }
+.PersonEducation				    { background-color: #7FFEFE; }
+.PersonPolitical				    { background-color: #94FE7F; }
+.PersonPoliticalPast			    { background-color: #FFD97F; }
+.PersonProfessional			        { background-color: #7FB0FE; }
+.PersonProfessionalPast		        { background-color: #D67FFE; }
+.PersonTravel				        { background-color: #FE7FEA; }
+.ProductIssues				        { background-color: #FB898B; }
+.ProductRecall				        { background-color: #F69EFD; }
+.ProductRelease				        { background-color: #FF86C4; }
+.StockSplit					        { background-color: #E7BB98; }
+.TechnologyOwnership			    { background-color: #C3AB99; }
+.Trial						        { background-color: #FDCF87; }
+.Position                           {border-bottom: medium double #E9EA87;}
+.Facility                           {border-bottom: medium double #E9EA87;}
+.OperatingSystem                    {border-bottom: medium double #E9EA87;}
+

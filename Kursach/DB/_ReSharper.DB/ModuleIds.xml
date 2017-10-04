@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="33CD7A63-CCD0-4422-9DFA-A92C673C48B7" ModuleId="Entities" />
+  <Module PersistentId="904C11CB-10D4-43C5-831A-E97FC0B45F9C" ModuleId="DB" />
+  <Module PersistentId="76134D1B-9CBD-441C-A40A-39BA62A737F8" ModuleId="DataAccessLibrary" />
+</Modules>

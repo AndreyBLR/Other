@@ -1,0 +1,413 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:FoodInstanceType.cs" caret="0" fromTop="0" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.Designer.cs" caret="19277" fromTop="361" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Vote.cs" caret="211" fromTop="9" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:DJ.cs" caret="0" fromTop="0" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Party.cs" caret="168" fromTop="8" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Film.cs" caret="0" fromTop="0" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Adress.cs" caret="209" fromTop="9" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Movie.cs" caret="0" fromTop="0" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Club.cs" caret="0" fromTop="0" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Rating.cs" caret="314" fromTop="12" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Instance.cs" caret="542" fromTop="16" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:InstanceType.cs" caret="151" fromTop="8" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="22073" fromTop="14" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="16086" fromTop="57" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="11527" fromTop="33" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="11353" fromTop="24" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="6440" fromTop="26" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="5885" fromTop="10" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="19840" fromTop="8" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="19840" fromTop="14" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="13340" fromTop="6" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="15596" fromTop="26" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="13692" fromTop="16" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="16063" fromTop="34" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="15768" fromTop="10" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="1445" fromTop="22" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="1806" fromTop="24" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="2912" fromTop="28" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="5730" fromTop="29" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="9490" fromTop="28" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="11651" fromTop="31" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="12071" fromTop="27" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="14072" fromTop="26" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="15050" fromTop="30" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="293" fromTop="8" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="21336" fromTop="24" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="21542" fromTop="30" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="22066" fromTop="26" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="20875" fromTop="10" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="19840" fromTop="10" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="12601" fromTop="17" />
+      <File id="6996F170-2080-4F49-8C60-49A6E29F7F2C/f:Form1.cs" caret="14799" fromTop="17" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="19840" fromTop="2" />
+      <File id="2AFC7D96-5D3D-4E4B-B9A2-F26D51C0F02F/f:Repository.cs" caret="350" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="String`0" priority="39" />
+      <Item value="Adress`0" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="Boolean`0" priority="1" />
+      <Item value="Rating`0" priority="0" />
+      <Item value="InstanceType`0" priority="4" />
+      <Item value="List" priority="27" />
+      <Item value="int" priority="9" />
+      <Item value="Int32`0" priority="22" />
+      <Item value="public" priority="32" />
+      <Item value="Quisine`0" priority="0" />
+      <Item value="DJ`0" priority="2" />
+      <Item value="Film`0" priority="5" />
+      <Item value="Party`0" priority="8" />
+      <Item value="private" priority="15" />
+      <Item value="new" priority="42" />
+      <Item value="Film" priority="2" />
+      <Item value="film" priority="17" />
+      <Item value="Movie`0" priority="9" />
+      <Item value="Movie" priority="0" />
+      <Item value="List&lt;int&gt;" priority="1" />
+      <Item value="cmd" priority="38" />
+      <Item value="var" priority="9" />
+      <Item value="if" priority="18" />
+      <Item value="dataReader" priority="40" />
+      <Item value="while" priority="6" />
+      <Item value="idFilms" priority="2" />
+      <Item value="for" priority="4" />
+      <Item value="i" priority="10" />
+      <Item value="result" priority="40" />
+      <Item value="Movies" priority="0" />
+      <Item value="List&lt;Film&gt;" priority="0" />
+      <Item value="ReadMovie`0" priority="2" />
+      <Item value="return" priority="7" />
+      <Item value="instance" priority="20" />
+      <Item value="ReadMoviesInstance`0" priority="0" />
+      <Item value="idInstance" priority="6" />
+      <Item value="string" priority="0" />
+      <Item value="Date" priority="0" />
+      <Item value="date" priority="1" />
+      <Item value="List&lt;string&gt;" priority="3" />
+      <Item value="Party" priority="0" />
+      <Item value="using" priority="5" />
+      <Item value="SqlCommand`0" priority="5" />
+      <Item value="SqlCommand" priority="5" />
+      <Item value="_connection" priority="5" />
+      <Item value="object" priority="0" />
+      <Item value="SqlParameter`0" priority="0" />
+      <Item value="PartyName" priority="1" />
+      <Item value="DJ" priority="0" />
+      <Item value="idStyle" priority="3" />
+      <Item value="Dj" priority="2" />
+      <Item value="SqlParameter" priority="4" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Club`0" priority="4" />
+      <Item value="Parties" priority="0" />
+      <Item value="List&lt;Party&gt;" priority="0" />
+      <Item value="idParties" priority="1" />
+      <Item value="switch" priority="1" />
+      <Item value="case" priority="3" />
+      <Item value="InstType`0" priority="9" />
+      <Item value="break" priority="4" />
+      <Item value="ReadPartiesInstance`0" priority="0" />
+      <Item value="idInstances" priority="1" />
+      <Item value="FoodInstanceType`0" priority="3" />
+      <Item value="FoodInstanceType" priority="0" />
+      <Item value="idFoodInstType" priority="1" />
+      <Item value="idQuisine" priority="0" />
+      <Item value="ReadFoodInstanceType`0" priority="0" />
+      <Item value="ref" priority="17" />
+      <Item value="RichTextBox`0" priority="7" />
+      <Item value="Instance`0" priority="14" />
+      <Item value="richTextBox" priority="18" />
+      <Item value="foreach" priority="8" />
+      <Item value="in" priority="1" />
+      <Item value="listInst" priority="0" />
+      <Item value="item" priority="13" />
+      <Item value="ShowMoviesInstanceType`0" priority="1" />
+      <Item value="richTextBox1" priority="15" />
+      <Item value="instances" priority="2" />
+      <Item value="Font`0" priority="1" />
+      <Item value="Font" priority="0" />
+      <Item value="SystemFonts`0" priority="0" />
+      <Item value="font" priority="2" />
+      <Item value="Bold" priority="0" />
+      <Item value="Personal" priority="0" />
+      <Item value="Comfort" priority="0" />
+      <Item value="void" priority="8" />
+      <Item value="_r" priority="22" />
+      <Item value="from" priority="2" />
+      <Item value="listInstance" priority="3" />
+      <Item value="where" priority="1" />
+      <Item value="movies" priority="2" />
+      <Item value="IEnumerable" priority="2" />
+      <Item value="idMovies" priority="1" />
+      <Item value="ShowMovies`0" priority="0" />
+      <Item value="movie" priority="1" />
+      <Item value="select" priority="0" />
+      <Item value="name" priority="0" />
+      <Item value="Instance" priority="1" />
+      <Item value="idAdress" priority="0" />
+      <Item value="idRating" priority="0" />
+      <Item value="idPayment" priority="0" />
+      <Item value="List&lt;Instance&gt;" priority="0" />
+      <Item value="list" priority="9" />
+      <Item value="textBox1" priority="0" />
+      <Item value="Button`0" priority="0" />
+      <Item value="Button" priority="0" />
+      <Item value="this" priority="1" />
+      <Item value="Point`0" priority="1" />
+      <Item value="Point" priority="1" />
+      <Item value="p" priority="13" />
+      <Item value="e" priority="2" />
+      <Item value="LinkLabel`0" priority="4" />
+      <Item value="LinkLabel" priority="1" />
+      <Item value="l" priority="4" />
+      <Item value="X" priority="0" />
+      <Item value="Label`0" priority="1" />
+      <Item value="Label" priority="0" />
+      <Item value="label" priority="5" />
+      <Item value="Asd`0" priority="0" />
+      <Item value="ShowMoviesInstance`0" priority="2" />
+      <Item value="ShowLinkMovieInstances`0" priority="0" />
+      <Item value="LinkClicked`0" priority="0" />
+      <Item value="MessageBox`0" priority="1" />
+      <Item value="sender" priority="1" />
+      <Item value="r" priority="1" />
+      <Item value="rbMTheatre" priority="2" />
+      <Item value="false" priority="8" />
+      <Item value="rbMovies" priority="1" />
+      <Item value="Name" priority="0" />
+      <Item value="idMovie" priority="1" />
+      <Item value="Region`0" priority="0" />
+      <Item value="ShowLinkMovies`0" priority="1" />
+      <Item value="k" priority="0" />
+      <Item value="textBox2" priority="0" />
+      <Item value="ShowMovie`0" priority="0" />
+      <Item value="rbClubs" priority="1" />
+      <Item value="rbParties" priority="2" />
+      <Item value="ShowInstance`0" priority="1" />
+      <Item value="richTextBox2" priority="3" />
+      <Item value="ShowLinkPartyInstances`0" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="NameParties" priority="2" />
+      <Item value="listParties" priority="0" />
+      <Item value="party" priority="6" />
+      <Item value="club" priority="1" />
+      <Item value="_connectionString" priority="0" />
+      <Item value="rbTypeFoodInst" priority="3" />
+      <Item value="type" priority="0" />
+      <Item value="ShowLinkFoodInstanceTypes`0" priority="0" />
+      <Item value="richTextBox3" priority="4" />
+      <Item value="temp" priority="1" />
+      <Item value="Array`0" priority="0" />
+      <Item value="lbl" priority="0" />
+      <Item value="Club" priority="2" />
+      <Item value="Vote`0" priority="3" />
+      <Item value="List&lt;Vote&gt;" priority="0" />
+      <Item value="Vote" priority="0" />
+      <Item value="vote" priority="3" />
+      <Item value="ReadVotes`0" priority="1" />
+      <Item value="ShowVotes`0" priority="0" />
+      <Item value="ShowPartiesInstance`0" priority="0" />
+      <Item value="rbQuisine" priority="1" />
+      <Item value="ShowLinkQuisine`0" priority="0" />
+      <Item value="flag" priority="1" />
+      <Item value="true" priority="0" />
+      <Item value="RadioButtonReset`0" priority="3" />
+      <Item value="enum" priority="0" />
+      <Item value="DataReadEnum`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlCommand">
+      <Item value="CommandText" priority="10" />
+      <Item value="ExecuteReader`0" priority="7" />
+      <Item value="Connection" priority="6" />
+      <Item value="Parameters" priority="5" />
+      <Item value="ExecuteScalar`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlDataReader">
+      <Item value="Read`0" priority="9" />
+      <Item value="HasRows" priority="6" />
+      <Item value="GetInt32`0" priority="7" />
+      <Item value="Close`0" priority="8" />
+      <Item value="GetString`0" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="10" />
+      <Item value="Count" priority="3" />
+      <Item value="Distinct`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.Movie">
+      <Item value="Movies" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.Instance">
+      <Item value="Type" priority="8" />
+      <Item value="Name" priority="3" />
+      <Item value="Description" priority="0" />
+      <Item value="WorkingDay" priority="0" />
+      <Item value="Phone" priority="0" />
+      <Item value="Adress" priority="1" />
+      <Item value="Rating" priority="2" />
+      <Item value="Votes" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.Film">
+      <Item value="Date" priority="3" />
+      <Item value="Name" priority="2" />
+      <Item value="Genre" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlParameterCollection">
+      <Item value="Add`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.Party">
+      <Item value="Name" priority="0" />
+      <Item value="Description" priority="1" />
+      <Item value="Data" priority="0" />
+      <Item value="Style" priority="2" />
+      <Item value="Dj" priority="4" />
+      <Item value="Date" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.DJ">
+      <Item value="Name" priority="1" />
+      <Item value="Description" priority="0" />
+      <Item value="Rating" priority="0" />
+      <Item value="Style" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.Club">
+      <Item value="Parties" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Models.InstType">
+      <Item value="Film" priority="4" />
+      <Item value="Club" priority="4" />
+      <Item value="Food" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.Repository">
+      <Item value="ReadInstances`0" priority="4" />
+      <Item value="ReadMovies`0" priority="0" />
+      <Item value="Open`0" priority="8" />
+      <Item value="Close`0" priority="7" />
+      <Item value="ReadInstance`0" priority="2" />
+      <Item value="ReadMovie`0" priority="1" />
+      <Item value="ReadParties`0" priority="0" />
+      <Item value="ReadParty`0" priority="0" />
+      <Item value="ReadFoodInstanceTypes`0" priority="0" />
+      <Item value="ReadQuisine`0" priority="0" />
+      <Item value="ReadOtherData`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.FoodInstanceType">
+      <Item value="SeatAmount" priority="0" />
+      <Item value="Quisine" priority="2" />
+      <Item value="Type" priority="1" />
+      <Item value="Category" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RichTextBox">
+      <Item value="Text" priority="13" />
+      <Item value="Clear`0" priority="3" />
+      <Item value="Font" priority="2" />
+      <Item value="Controls" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToString`0" priority="1" />
+      <Item value="Clone`0" priority="0" />
+      <Item value="Trim`0" priority="17" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.Adress">
+      <Item value="Street" priority="0" />
+      <Item value="Home" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.Rating">
+      <Item value="Personal" priority="0" />
+      <Item value="Comfort" priority="0" />
+      <Item value="General" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DBKurs.Form1">
+      <Item value="Controls" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Add`0" priority="2" />
+      <Item value="Clear`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Location" priority="1" />
+      <Item value="Left" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="Y" priority="9" />
+      <Item value="X" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Location" priority="1" />
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.LinkLabelLinkClickedEventArgs">
+      <Item value="Link" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.LinkLabel">
+      <Item value="Text" priority="5" />
+      <Item value="LinkClicked" priority="0" />
+      <Item value="Name" priority="0" />
+      <Item value="Parent" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Text" priority="0" />
+      <Item value="Location" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.LinkLabel+Link">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RadioButton">
+      <Item value="Checked" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.FontStyle">
+      <Item value="Italic" priority="1" />
+      <Item value="Regular" priority="0" />
+      <Item value="Strikeout" priority="1" />
+      <Item value="Underline" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Models.Vote">
+      <Item value="Name" priority="1" />
+      <Item value="TextVote" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Models.DataReadEnum">
+      <Item value="FoodInstanceTypes" priority="1" />
+      <Item value="Quisines" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

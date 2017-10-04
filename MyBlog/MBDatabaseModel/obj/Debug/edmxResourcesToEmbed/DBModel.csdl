@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MBDatabaseModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="MBConnectionString" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="aspnet_Applications" EntityType="MBDatabaseModel.aspnet_Applications" />
+    <EntitySet Name="aspnet_Membership" EntityType="MBDatabaseModel.aspnet_Membership" />
+    <EntitySet Name="aspnet_Profile" EntityType="MBDatabaseModel.aspnet_Profile" />
+    <EntitySet Name="aspnet_Roles" EntityType="MBDatabaseModel.aspnet_Roles" />
+    <EntitySet Name="aspnet_Users" EntityType="MBDatabaseModel.aspnet_Users" />
+    <EntitySet Name="Categories" EntityType="MBDatabaseModel.Category" />
+    <EntitySet Name="Comments" EntityType="MBDatabaseModel.Comment" />
+    <EntitySet Name="Galleries" EntityType="MBDatabaseModel.Gallery" />
+    <EntitySet Name="Media" EntityType="MBDatabaseModel.Media" />
+    <EntitySet Name="PostMedias" EntityType="MBDatabaseModel.PostMedia" />
+    <EntitySet Name="Posts" EntityType="MBDatabaseModel.Post" />
+    <AssociationSet Name="FK__aspnet_Me__Appli__300424B4" Association="MBDatabaseModel.FK__aspnet_Me__Appli__300424B4">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Ro__Appli__52593CB8" Association="MBDatabaseModel.FK__aspnet_Ro__Appli__52593CB8">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Us__Appli__1BFD2C07" Association="MBDatabaseModel.FK__aspnet_Us__Appli__1BFD2C07">
+      <End Role="aspnet_Applications" EntitySet="aspnet_Applications" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Me__UserI__30F848ED" Association="MBDatabaseModel.FK__aspnet_Me__UserI__30F848ED">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Membership" EntitySet="aspnet_Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK__aspnet_Pr__UserI__46E78A0C" Association="MBDatabaseModel.FK__aspnet_Pr__UserI__46E78A0C">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="aspnet_Profile" EntitySet="aspnet_Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_aspnet_Users" Association="MBDatabaseModel.FK_Comments_aspnet_Users">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posts_aspnet_Users" Association="MBDatabaseModel.FK_Posts_aspnet_Users">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="Posts" EntitySet="Posts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Gallery_Categories1" Association="MBDatabaseModel.FK_Gallery_Categories1">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Gallery" EntitySet="Galleries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posts_Categories" Association="MBDatabaseModel.FK_Posts_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Posts" EntitySet="Posts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_Posts" Association="MBDatabaseModel.FK_Comments_Posts">
+      <End Role="Posts" EntitySet="Posts" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Gallery_Media" Association="MBDatabaseModel.FK_Gallery_Media">
+      <End Role="Media" EntitySet="Media" />
+      <End Role="Gallery" EntitySet="Galleries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PostMedia_Media" Association="MBDatabaseModel.FK_PostMedia_Media">
+      <End Role="Media" EntitySet="Media" />
+      <End Role="PostMedia" EntitySet="PostMedias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PostMedia_Posts" Association="MBDatabaseModel.FK_PostMedia_Posts">
+      <End Role="Posts" EntitySet="Posts" />
+      <End Role="PostMedia" EntitySet="PostMedias" />
+    </AssociationSet>
+    <AssociationSet Name="aspnet_UsersInRoles" Association="MBDatabaseModel.aspnet_UsersInRoles">
+      <End Role="aspnet_Roles" EntitySet="aspnet_Roles" />
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+    </AssociationSet>
+    <EntitySet Name="Profiles" EntityType="MBDatabaseModel.Profile" />
+    <AssociationSet Name="FK_Profiles_aspnet_Users" Association="MBDatabaseModel.FK_Profiles_aspnet_Users">
+      <End Role="aspnet_Users" EntitySet="aspnet_Users" />
+      <End Role="Profiles" EntitySet="Profiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Profiles_Media" Association="MBDatabaseModel.FK_Profiles_Media">
+      <End Role="Media" EntitySet="Media" />
+      <End Role="Profile" EntitySet="Profiles" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="aspnet_Applications">
+    <Key>
+      <PropertyRef Name="ApplicationId" />
+    </Key>
+    <Property Name="ApplicationName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredApplicationName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Membership" Relationship="MBDatabaseModel.FK__aspnet_Me__Appli__300424B4" FromRole="aspnet_Applications" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_Roles" Relationship="MBDatabaseModel.FK__aspnet_Ro__Appli__52593CB8" FromRole="aspnet_Applications" ToRole="aspnet_Roles" />
+    <NavigationProperty Name="aspnet_Users" Relationship="MBDatabaseModel.FK__aspnet_Us__Appli__1BFD2C07" FromRole="aspnet_Applications" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Membership">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordFormat" Type="Int32" Nullable="false" />
+    <Property Name="PasswordSalt" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="MobilePIN" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredEmail" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordQuestion" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="PasswordAnswer" Type="String" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="IsApproved" Type="Boolean" Nullable="false" />
+    <Property Name="IsLockedOut" Type="Boolean" Nullable="false" />
+    <Property Name="CreateDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastPasswordChangedDate" Type="DateTime" Nullable="false" />
+    <Property Name="LastLockoutDate" Type="DateTime" Nullable="false" />
+    <Property Name="FailedPasswordAttemptCount" Type="Int32" Nullable="false" />
+    <Property Name="FailedPasswordAttemptWindowStart" Type="DateTime" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptCount" Type="Int32" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptWindowStart" Type="DateTime" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="MBDatabaseModel.FK__aspnet_Me__Appli__300424B4" FromRole="aspnet_Membership" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Users" Relationship="MBDatabaseModel.FK__aspnet_Me__UserI__30F848ED" FromRole="aspnet_Membership" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Profile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="PropertyNames" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PropertyValuesString" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PropertyValuesBinary" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <Property Name="LastUpdatedDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="aspnet_Users" Relationship="MBDatabaseModel.FK__aspnet_Pr__UserI__46E78A0C" FromRole="aspnet_Profile" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Roles">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="RoleId" Type="Guid" Nullable="false" />
+    <Property Name="RoleName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredRoleName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="256" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="MBDatabaseModel.FK__aspnet_Ro__Appli__52593CB8" FromRole="aspnet_Roles" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Users" Relationship="MBDatabaseModel.aspnet_UsersInRoles" FromRole="aspnet_Roles" ToRole="aspnet_Users" />
+  </EntityType>
+  <EntityType Name="aspnet_Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LoweredUserName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="MobileAlias" Type="String" MaxLength="16" Unicode="true" FixedLength="false" />
+    <Property Name="IsAnonymous" Type="Boolean" Nullable="false" />
+    <Property Name="LastActivityDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="aspnet_Applications" Relationship="MBDatabaseModel.FK__aspnet_Us__Appli__1BFD2C07" FromRole="aspnet_Users" ToRole="aspnet_Applications" />
+    <NavigationProperty Name="aspnet_Membership" Relationship="MBDatabaseModel.FK__aspnet_Me__UserI__30F848ED" FromRole="aspnet_Users" ToRole="aspnet_Membership" />
+    <NavigationProperty Name="aspnet_Profile" Relationship="MBDatabaseModel.FK__aspnet_Pr__UserI__46E78A0C" FromRole="aspnet_Users" ToRole="aspnet_Profile" />
+    <NavigationProperty Name="Comments" Relationship="MBDatabaseModel.FK_Comments_aspnet_Users" FromRole="aspnet_Users" ToRole="Comments" />
+    <NavigationProperty Name="Posts" Relationship="MBDatabaseModel.FK_Posts_aspnet_Users" FromRole="aspnet_Users" ToRole="Posts" />
+    <NavigationProperty Name="aspnet_Roles" Relationship="MBDatabaseModel.aspnet_UsersInRoles" FromRole="aspnet_Users" ToRole="aspnet_Roles" />
+    <NavigationProperty Name="Profiles" Relationship="MBDatabaseModel.FK_Profiles_aspnet_Users" FromRole="aspnet_Users" ToRole="Profiles" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CategoryDesc" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Galleries" Relationship="MBDatabaseModel.FK_Gallery_Categories1" FromRole="Categories" ToRole="Gallery" />
+    <NavigationProperty Name="Posts" Relationship="MBDatabaseModel.FK_Posts_Categories" FromRole="Categories" ToRole="Posts" />
+    <Property Type="Guid" Name="CategoryId" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="CommentId" />
+    </Key>
+    <Property Name="CommentId" Type="Guid" Nullable="false" />
+    <Property Name="CommentAuthorId" Type="Guid" Nullable="false" />
+    <Property Name="CommentDate" Type="DateTime" />
+    <Property Name="CommentAuthorIp" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="CommentText" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="CommentPostId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="aspnet_Users" Relationship="MBDatabaseModel.FK_Comments_aspnet_Users" FromRole="Comments" ToRole="aspnet_Users" />
+    <NavigationProperty Name="Post" Relationship="MBDatabaseModel.FK_Comments_Posts" FromRole="Comments" ToRole="Posts" />
+  </EntityType>
+  <EntityType Name="Gallery">
+    <Key>
+      <PropertyRef Name="ImageId" />
+    </Key>
+    <Property Name="ImageId" Type="Guid" Nullable="false" />
+    <Property Name="ImageCategoryName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ImageDescription" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ImageRating" Type="Int32" />
+    <Property Name="ImageDate" Type="DateTime" />
+    <NavigationProperty Name="Category" Relationship="MBDatabaseModel.FK_Gallery_Categories1" FromRole="Gallery" ToRole="Categories" />
+    <NavigationProperty Name="Medium" Relationship="MBDatabaseModel.FK_Gallery_Media" FromRole="Gallery" ToRole="Media" />
+    <Property Type="Binary" Name="ImageSmall" MaxLength="Max" FixedLength="false" />
+    <Property Type="Binary" Name="Thumb" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Media">
+    <Key>
+      <PropertyRef Name="MediaId" />
+    </Key>
+    <Property Name="MediaId" Type="Guid" Nullable="false" />
+    <Property Name="MediaType" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="MadiaFile" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="MediaFileExtension" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Gallery" Relationship="MBDatabaseModel.FK_Gallery_Media" FromRole="Media" ToRole="Gallery" />
+    <NavigationProperty Name="PostMedias" Relationship="MBDatabaseModel.FK_PostMedia_Media" FromRole="Media" ToRole="PostMedia" />
+    <NavigationProperty Name="Profiles" Relationship="MBDatabaseModel.FK_Profiles_Media" FromRole="Media" ToRole="Profile" />
+  </EntityType>
+  <EntityType Name="PostMedia">
+    <Key>
+      <PropertyRef Name="PostMediaId" />
+    </Key>
+    <Property Name="PostId" Type="Guid" Nullable="false" />
+    <Property Name="MediaId" Type="Guid" Nullable="false" />
+    <Property Name="PostMediaId" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Medium" Relationship="MBDatabaseModel.FK_PostMedia_Media" FromRole="PostMedia" ToRole="Media" />
+    <NavigationProperty Name="Post" Relationship="MBDatabaseModel.FK_PostMedia_Posts" FromRole="PostMedia" ToRole="Posts" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="PostId" />
+    </Key>
+    <Property Name="PostId" Type="Guid" Nullable="false" />
+    <Property Name="PostLink" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PostType" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="PostTitle" Type="String" MaxLength="300" Unicode="true" FixedLength="false" />
+    <Property Name="PostParentId" Type="Guid" />
+    <Property Name="PostText" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PostDate" Type="DateTime" />
+    <Property Name="PostDateModified" Type="DateTime" />
+    <Property Name="CommentStatus" Type="Boolean" />
+    <Property Name="CommentCount" Type="Int32" />
+    <Property Name="PostAuthorId" Type="Guid" Nullable="false" />
+    <Property Name="PostExcerpt" Type="String" MaxLength="1000" Unicode="true" FixedLength="false" />
+    <Property Name="PostCategoryName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="PostRating" Type="Int32" />
+    <NavigationProperty Name="aspnet_Users" Relationship="MBDatabaseModel.FK_Posts_aspnet_Users" FromRole="Posts" ToRole="aspnet_Users" />
+    <NavigationProperty Name="Category" Relationship="MBDatabaseModel.FK_Posts_Categories" FromRole="Posts" ToRole="Categories" />
+    <NavigationProperty Name="Comments" Relationship="MBDatabaseModel.FK_Comments_Posts" FromRole="Posts" ToRole="Comments" />
+    <NavigationProperty Name="PostMedias" Relationship="MBDatabaseModel.FK_PostMedia_Posts" FromRole="Posts" ToRole="PostMedia" />
+  </EntityType>
+  <Association Name="FK__aspnet_Me__Appli__300424B4">
+    <End Role="aspnet_Applications" Type="MBDatabaseModel.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="MBDatabaseModel.aspnet_Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Ro__Appli__52593CB8">
+    <End Role="aspnet_Applications" Type="MBDatabaseModel.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Roles" Type="MBDatabaseModel.aspnet_Roles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Roles">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Us__Appli__1BFD2C07">
+    <End Role="aspnet_Applications" Type="MBDatabaseModel.aspnet_Applications" Multiplicity="1" />
+    <End Role="aspnet_Users" Type="MBDatabaseModel.aspnet_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Applications">
+        <PropertyRef Name="ApplicationId" />
+      </Principal>
+      <Dependent Role="aspnet_Users">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Me__UserI__30F848ED">
+    <End Role="aspnet_Users" Type="MBDatabaseModel.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Membership" Type="MBDatabaseModel.aspnet_Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Membership">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__aspnet_Pr__UserI__46E78A0C">
+    <End Role="aspnet_Users" Type="MBDatabaseModel.aspnet_Users" Multiplicity="1" />
+    <End Role="aspnet_Profile" Type="MBDatabaseModel.aspnet_Profile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="aspnet_Profile">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_aspnet_Users">
+    <End Role="aspnet_Users" Type="MBDatabaseModel.aspnet_Users" Multiplicity="1" />
+    <End Role="Comments" Type="MBDatabaseModel.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="CommentAuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posts_aspnet_Users">
+    <End Role="aspnet_Users" Type="MBDatabaseModel.aspnet_Users" Multiplicity="1" />
+    <End Role="Posts" Type="MBDatabaseModel.Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Posts">
+        <PropertyRef Name="PostAuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Gallery_Categories1">
+    <End Role="Categories" Type="MBDatabaseModel.Category" Multiplicity="1" />
+    <End Role="Gallery" Type="MBDatabaseModel.Gallery" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryName" />
+      </Principal>
+      <Dependent Role="Gallery">
+        <PropertyRef Name="ImageCategoryName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posts_Categories">
+    <End Role="Categories" Type="MBDatabaseModel.Category" Multiplicity="1" />
+    <End Role="Posts" Type="MBDatabaseModel.Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryName" />
+      </Principal>
+      <Dependent Role="Posts">
+        <PropertyRef Name="PostCategoryName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_Posts">
+    <End Role="Posts" Type="MBDatabaseModel.Post" Multiplicity="1" />
+    <End Role="Comments" Type="MBDatabaseModel.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Posts">
+        <PropertyRef Name="PostId" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="CommentPostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Gallery_Media">
+    <End Role="Media" Type="MBDatabaseModel.Media" Multiplicity="1" />
+    <End Role="Gallery" Type="MBDatabaseModel.Gallery" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Media">
+        <PropertyRef Name="MediaId" />
+      </Principal>
+      <Dependent Role="Gallery">
+        <PropertyRef Name="ImageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PostMedia_Media">
+    <End Role="Media" Type="MBDatabaseModel.Media" Multiplicity="1" />
+    <End Role="PostMedia" Type="MBDatabaseModel.PostMedia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Media">
+        <PropertyRef Name="MediaId" />
+      </Principal>
+      <Dependent Role="PostMedia">
+        <PropertyRef Name="MediaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PostMedia_Posts">
+    <End Role="Posts" Type="MBDatabaseModel.Post" Multiplicity="1" />
+    <End Role="PostMedia" Type="MBDatabaseModel.PostMedia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Posts">
+        <PropertyRef Name="PostId" />
+      </Principal>
+      <Dependent Role="PostMedia">
+        <PropertyRef Name="PostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="aspnet_UsersInRoles">
+    <End Role="aspnet_Roles" Type="MBDatabaseModel.aspnet_Roles" Multiplicity="*" />
+    <End Role="aspnet_Users" Type="MBDatabaseModel.aspnet_Users" Multiplicity="*" />
+  </Association>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Type="Guid" Name="UserId" Nullable="false" />
+    <Property Type="String" Name="Location" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Age" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Binary" Name="Avatar" MaxLength="Max" FixedLength="false" />
+    <Property Type="Int32" Name="Comments" />
+    <Property Type="Int32" Name="Warnings" />
+    <Property Type="String" Name="Autograph" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Gender" MaxLength="6" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="aspnet_Users" Relationship="MBDatabaseModel.FK_Profiles_aspnet_Users" FromRole="Profiles" ToRole="aspnet_Users" />
+    <NavigationProperty Name="Media" Relationship="MBDatabaseModel.FK_Profiles_Media" FromRole="Profile" ToRole="Media" />
+  </EntityType>
+  <Association Name="FK_Profiles_aspnet_Users">
+    <End Type="MBDatabaseModel.aspnet_Users" Role="aspnet_Users" Multiplicity="1" />
+    <End Type="MBDatabaseModel.Profile" Role="Profiles" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="aspnet_Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Profiles">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Profiles_Media">
+    <End Type="MBDatabaseModel.Media" Role="Media" Multiplicity="0..1" />
+    <End Type="MBDatabaseModel.Profile" Role="Profile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Media">
+        <PropertyRef Name="MediaId" />
+      </Principal>
+      <Dependent Role="Profile">
+        <PropertyRef Name="Avatar" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

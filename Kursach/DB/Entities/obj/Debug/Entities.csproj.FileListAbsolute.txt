@@ -1,0 +1,5 @@
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\Entities\bin\Debug\Entities.dll
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\Entities\bin\Debug\Entities.pdb
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\Entities\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\Entities\obj\Debug\Entities.dll
+C:\Documents and Settings\Andrew\мои документы\visual studio 2010\Projects\DB\Entities\obj\Debug\Entities.pdb

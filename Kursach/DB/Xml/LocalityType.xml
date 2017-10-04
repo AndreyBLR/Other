@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LocalityTypes>
+  <LocalityType ID ="1">Город</LocalityType>
+  <LocalityType ID ="2">Село</LocalityType>
+</LocalityTypes>

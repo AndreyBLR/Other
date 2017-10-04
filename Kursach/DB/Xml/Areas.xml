@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Areas>
+  <Area ID ="1">Минская</Area>
+  <Area ID ="2">Брестская</Area>
+  <Area ID ="3">Гомельская</Area>
+  <Area ID ="4">Могилевская</Area>
+  <Area ID ="5">Гродненская</Area>
+  <Area ID ="6">Витебская</Area>
+</Areas>

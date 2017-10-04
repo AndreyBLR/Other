@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MyBlog.master.cs" Inherits="MyBlog.MyBlog" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/> 
+<meta name="author" content="author"/> 
+<link href="~/Styles/img/shortcut_icon.jpg" rel='shortcut icon' />
+<link rel="stylesheet" type="text/css" href="~/Styles/default.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="~/highslide/highslide.css" />
+<script type="text/javascript">
+    function Search() {
+        var str = document.getElementById('txtSearch').value;
+        var reg = /^[А-ЯA-Za-zа-я0-9 _,.]{1,30}$/;
+        if (!(reg.test(str))) {
+            alert("No correct text");
+        }
+        else
+            top.location.href = 'search.aspx?searchStr=' + str;
+    };
+</script>
+<script type="text/javascript" src="../highslide/highslide-with-gallery.js"></script>
+<asp:ContentPlaceHolder ID="jsPlaceHolder" runat="server" />
+<title>MyBlog</title>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+	        <div class="gfx"><span></span></div>
+	        <div class="top">
+		        <div class="navigation">
+			        <a  id="selected" href="../default.aspx">home</a>
+			        <a href="../journal.aspx">the journal</a>
+			        <a href="../gallery.aspx">image gallery</a>
+                    <asp:LoginView ID="adminRef" runat="server">
+                        <RoleGroups>
+                            <asp:RoleGroup Roles="Admin">
+                                <ContentTemplate>
+                                    <a href="../user/profile.aspx">profile</a>
+                                    <a href="../admin/admin.aspx">admin</a>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                            <asp:RoleGroup Roles="User">
+                                <ContentTemplate>
+                                    <asp:HyperLink ID="profileLink" runat="server" NavigateUrl="~/user/profile.aspx" Text="profile"></asp:HyperLink>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                        </RoleGroups>
+                    </asp:LoginView>
+		        </div>
+		        <div class="pattern"></div>
+                <asp:ContentPlaceHolder ID="loginStatusPlaceHolder" runat="server"/>
+                <div style="position:absolute; left:40px; top:400px; width: 230px; height:auto">
+                    <asp:ContentPlaceHolder ID="leftBlockPlaceHolder" runat="server" />
+                </div>
+                <div style="position:absolute; left:40px; top:150px; width: 230px; height:auto">
+                    <input id="txtSearch" type="text" maxlength="50" style="width: 240px" />
+                    <input id="btnFind" type="button" value="Search" onclick="Search()" />
+                </div>
+		        <div class="header" >
+			        <h1><asp:ContentPlaceHolder ID="headerPlaceHolder" runat="server" /></h1>
+			        <p><asp:ContentPlaceHolder ID="descHeaderPlaceHolder" runat="server" /></p>
+		        </div>
+		        <div class="pattern"><span></span></div>
+	        </div>
+	        <div class="content">
+		        <div class="spacer">
+                    <asp:ContentPlaceHolder ID="categiriesPlaceHolder" runat="server" />
+                </div>
+		        <asp:ContentPlaceHolder ID="contentPlaceHolder" runat="server" />
+	        </div>
+	        <div class="footer">
+		        <div class="left">
+			        &copy; 2008 <a >Website.com</a>. Valid <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer">XHTML</a>
+		        </div>
+		        <div class="right"><a href="http://templates.arcsin.se/">Website template</a> by <a href="http://arcsin.se/">Arcsin</a></div>
+		        <div class="clearer">&nbsp;</div>
+	        </div>
+        </div>
+    </form>
+</body>
+</html>
