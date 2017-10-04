@@ -1,0 +1,14 @@
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\Classes\bin\Debug\Classes.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\Classes\bin\Debug\Classes.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\Classes\bin\Debug\log4net.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\Classes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\Classes\obj\Debug\Classes.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\Classes\obj\Debug\Classes.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\Classes\bin\Debug\Classes.dll.config
+D:\Epam\Projects\MyBlog\MyBlog\Classes\bin\Debug\Classes.dll.config
+D:\Epam\Projects\MyBlog\MyBlog\Classes\bin\Debug\Classes.dll
+D:\Epam\Projects\MyBlog\MyBlog\Classes\bin\Debug\Classes.pdb
+D:\Epam\Projects\MyBlog\MyBlog\Classes\bin\Debug\log4net.dll
+D:\Epam\Projects\MyBlog\MyBlog\Classes\obj\Debug\ResolveAssemblyReference.cache
+D:\Epam\Projects\MyBlog\MyBlog\Classes\obj\Debug\Classes.dll
+D:\Epam\Projects\MyBlog\MyBlog\Classes\obj\Debug\Classes.pdb

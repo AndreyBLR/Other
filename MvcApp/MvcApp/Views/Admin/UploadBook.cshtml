@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "UploadBook";
+}
+
+
+<h2>UploadBook</h2>
+
+@using (Html.BeginForm("UploadBook", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.Hidden("id", ViewData["bookId"])
+    <table>
+        <tr>
+            <td>
+                File:
+            </td>
+            <td>
+                <input type="file" id="fileId" name="uploadFile" />
+           </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit" /></td>
+        </tr>
+    </table>    
+
+}

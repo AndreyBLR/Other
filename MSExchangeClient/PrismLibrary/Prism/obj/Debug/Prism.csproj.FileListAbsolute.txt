@@ -1,0 +1,10 @@
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism\bin\Debug\Microsoft.Practices.Prism.dll
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism\obj\Debug\ResolveAssemblyReference.cache
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism\obj\Debug\Microsoft.Practices.Prism.Properties.Resources.resources
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism\obj\Debug\GenerateResource.read.1.tlog
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism\obj\Debug\GenerateResource.write.1.tlog
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism\obj\Debug\Microsoft.Practices.Prism.dll
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism\obj\Debug\Microsoft.Practices.Prism.pdb
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism\bin\Debug\Microsoft.Practices.Prism.XML

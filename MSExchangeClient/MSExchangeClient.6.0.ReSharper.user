@@ -1,0 +1,131 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellView.xaml" caret="0" fromTop="0" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:App.xaml" caret="285" fromTop="7" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellView.xaml.cs" caret="556" fromTop="19" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellViewModel.cs" caret="123" fromTop="4" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellPresenter.cs" caret="457" fromTop="19" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="933" fromTop="26" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:App.xaml.cs" caret="447" fromTop="17" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/f:MailModule.cs" caret="216" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="3130" fromTop="14" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellPresenter.cs" caret="198" fromTop="9" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellPresenter.cs" caret="356" fromTop="15" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellPresenter.cs" caret="88" fromTop="3" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellViewModel.cs" caret="199" fromTop="8" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellViewModel.cs" caret="123" fromTop="4" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellView.xaml.cs" caret="502" fromTop="16" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellView.xaml.cs" caret="329" fromTop="8" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellView.xaml.cs" caret="556" fromTop="19" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="3130" fromTop="17" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="3130" fromTop="22" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellPresenter.cs" caret="600" fromTop="19" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="3130" fromTop="31" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="3130" fromTop="44" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/f:MailModule.cs" caret="212" fromTop="8" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/f:MailModule.cs" caret="282" fromTop="12" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="1005" fromTop="35" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="144" fromTop="7" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="603" fromTop="26" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="1005" fromTop="42" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="603" fromTop="19" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="1051" fromTop="26" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="3130" fromTop="21" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="369" fromTop="5" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="934" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="interface" priority="30" />
+      <Item value="Container" priority="191" />
+      <Item value="return" priority="95" />
+      <Item value="new" priority="191" />
+      <Item value="ShellViewModel`0" priority="31" />
+      <Item value="IShellPresenter`0" priority="95" />
+      <Item value="ShellPresenter`0" priority="63" />
+      <Item value="IShellViewModel`0" priority="31" />
+      <Item value="ViewModel" priority="32" />
+      <Item value="IShellView`0" priority="63" />
+      <Item value="public" priority="31" />
+      <Item value="container" priority="95" />
+      <Item value="View" priority="31" />
+      <Item value="private" priority="95" />
+      <Item value="IUnityContainer`0" priority="31" />
+      <Item value="_container" priority="31" />
+      <Item value="#region" priority="31" />
+      <Item value="Bootstrapper`0" priority="31" />
+      <Item value="bootstrapper" priority="64" />
+      <Item value="Bootstrapper" priority="28" />
+      <Item value="CreateShell`0" priority="31" />
+      <Item value="UnityServiceLocator`0" priority="31" />
+      <Item value="null" priority="31" />
+      <Item value="protected" priority="63" />
+      <Item value="override" priority="159" />
+      <Item value="var" priority="31" />
+      <Item value="Application`0" priority="31" />
+      <Item value="shell" priority="31" />
+      <Item value="as" priority="31" />
+      <Item value="Window`0" priority="65" />
+      <Item value="this" priority="63" />
+      <Item value="ShellView`0" priority="32" />
+      <Item value="ShellView" priority="28" />
+      <Item value="ModuleCatalog" priority="90" />
+      <Item value="IModule`0" priority="31" />
+      <Item value="typeof" priority="95" />
+      <Item value="ModuleInfo" priority="28" />
+      <Item value="MailModule`0" priority="95" />
+      <Item value="DescribeModule`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.Unity.IUnityContainer">
+      <Item value="RegisterType`0" priority="26" />
+      <Item value="Resolve`1" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MSExchangeClient.App.Shell.Interfaces.IShellPresenter">
+      <Item value="View" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MSExchangeClient.App.Bootstrapper">
+      <Item value="Run`0" priority="26" />
+      <Item value="Shell" priority="26" />
+      <Item value="ModuleCatalog" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Window">
+      <Item value="Show`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Practices.ServiceLocation.ServiceLocator">
+      <Item value="Current" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Application">
+      <Item value="Current" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Application">
+      <Item value="MainWindow" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MSExchangeClient.App.Shell.ShellPresenter">
+      <Item value="View" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.Prism.Modularity.IModuleCatalog">
+      <Item value="AddModule`0" priority="107" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

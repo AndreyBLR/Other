@@ -1,0 +1,21 @@
+E:\MvcApp\MvcApp\bin\MvcApp.dll
+E:\MvcApp\MvcApp\bin\MvcApp.pdb
+E:\MvcApp\MvcApp\bin\EntityFramework.dll
+E:\MvcApp\MvcApp\bin\EntityFramework.xml
+E:\MvcApp\MvcApp\obj\Debug\ResolveAssemblyReference.cache
+E:\MvcApp\MvcApp\obj\Debug\MvcApp.dll
+E:\MvcApp\MvcApp\obj\Debug\MvcApp.pdb
+D:\MvcApp\MvcApp\bin\MvcApp.dll
+D:\MvcApp\MvcApp\bin\MvcApp.pdb
+D:\MvcApp\MvcApp\bin\EntityFramework.dll
+D:\MvcApp\MvcApp\bin\EntityFramework.xml
+D:\MvcApp\MvcApp\obj\Debug\ResolveAssemblyReference.cache
+D:\MvcApp\MvcApp\obj\Debug\MvcApp.dll
+D:\MvcApp\MvcApp\obj\Debug\MvcApp.pdb
+E:\Новая папка (2)\MvcApp\MvcApp\bin\MvcApp.dll
+E:\Новая папка (2)\MvcApp\MvcApp\bin\MvcApp.pdb
+E:\Новая папка (2)\MvcApp\MvcApp\bin\EntityFramework.dll
+E:\Новая папка (2)\MvcApp\MvcApp\bin\EntityFramework.xml
+E:\Новая папка (2)\MvcApp\MvcApp\obj\Debug\ResolveAssemblyReference.cache
+E:\Новая папка (2)\MvcApp\MvcApp\obj\Debug\MvcApp.dll
+E:\Новая папка (2)\MvcApp\MvcApp\obj\Debug\MvcApp.pdb

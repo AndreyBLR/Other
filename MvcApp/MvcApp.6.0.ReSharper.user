@@ -1,0 +1,306 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/f:Model.Designer.cs" caret="5048" fromTop="27" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Controllers/f:AccountController.cs" caret="2361" fromTop="16" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Admin/f:UploadBook.cshtml" caret="387" fromTop="16" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Shared/f:_Layout.cshtml" caret="708" fromTop="19" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Search/f:Search.cshtml" caret="1763" fromTop="36" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Controllers/f:SearchController.cs" caret="935" fromTop="33" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Admin/f:Admin.cshtml" caret="64" fromTop="6" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Admin/f:Genres.cshtml" caret="231" fromTop="11" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Controllers/f:AdminController.cs" caret="1759" fromTop="18" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Models/f:AccountModels.cs" caret="0" fromTop="0" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="5823" fromTop="39" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/f:Web.config" caret="972" fromTop="12" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Book/f:Index.cshtml" caret="179" fromTop="10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="6098" fromTop="27" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="6098" fromTop="26" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="5989" fromTop="33" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="5778" fromTop="21" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="3256" fromTop="27" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="2686" fromTop="10" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="3244" fromTop="18" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="3245" fromTop="22" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System.Web.Security.Roles">
+      <Item value="CreateRole`0" priority="53" />
+      <Item value="AddUserToRole`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="Roles`0" priority="63" />
+      <Item value="if" priority="315" />
+      <Item value="User" priority="211" />
+      <Item value="public" priority="639" />
+      <Item value="ActionResult`0" priority="31" />
+      <Item value="static" priority="223" />
+      <Item value="string" priority="508" />
+      <Item value="Book`0" priority="187" />
+      <Item value="book" priority="1115" />
+      <Item value="private" priority="31" />
+      <Item value="new" priority="546" />
+      <Item value="DBEntities" priority="28" />
+      <Item value="_datacontext" priority="191" />
+      <Item value="Book" priority="115" />
+      <Item value="Genre" priority="305" />
+      <Item value="GenreId" priority="63" />
+      <Item value="Guid`0" priority="674" />
+      <Item value="GenreName" priority="32" />
+      <Item value="genre" priority="575" />
+      <Item value="GenreDescription" priority="32" />
+      <Item value="Genre`0" priority="90" />
+      <Item value="BookAddInf" priority="32" />
+      <Item value="BookAuthor" priority="32" />
+      <Item value="BookImage" priority="32" />
+      <Item value="var" priority="255" />
+      <Item value="byte" priority="188" />
+      <Item value="bookDb" priority="191" />
+      <Item value="from" priority="31" />
+      <Item value="where" priority="159" />
+      <Item value="select" priority="95" />
+      <Item value="void" priority="63" />
+      <Item value="Comment" priority="148" />
+      <Item value="MvcApp" priority="86" />
+      <Item value="comment" priority="283" />
+      <Item value="commentDb" priority="127" />
+      <Item value="genreDb" priority="63" />
+      <Item value="Comment`0" priority="95" />
+      <Item value="return" priority="255" />
+      <Item value="View`0" priority="95" />
+      <Item value="HttpPost" priority="95" />
+      <Item value="Html" priority="298" />
+      <Item value="Model" priority="251" />
+      <Item value="inherits" priority="59" />
+      <Item value="System" priority="31" />
+      <Item value="Web" priority="26" />
+      <Item value="Mvc" priority="26" />
+      <Item value="WebViewPage" priority="26" />
+      <Item value="using" priority="60" />
+      <Item value="tr" priority="59" />
+      <Item value="Models" priority="53" />
+      <Item value="DataAccess" priority="95" />
+      <Item value="model" priority="63" />
+      <Item value="ViewData" priority="287" />
+      <Item value="IEnumerable" priority="225" />
+      <Item value="x" priority="131" />
+      <Item value="_dataContext" priority="127" />
+      <Item value="item" priority="458" />
+      <Item value="Name" priority="91" />
+      <Item value="Desc" priority="27" />
+      <Item value="DataAccessManager`0" priority="287" />
+      <Item value="bookId" priority="352" />
+      <Item value="file" priority="159" />
+      <Item value="Hidden`0" priority="3" />
+      <Item value="UploadBook" priority="32" />
+      <Item value="RedirectToAction`0" priority="127" />
+      <Item value="FormMethod`0" priority="31" />
+      <Item value="ValueType`0" priority="63" />
+      <Item value="uploadFile" priority="127" />
+      <Item value="foreach" priority="29" />
+      <Item value="in" priority="31" />
+      <Item value="Author" priority="32" />
+      <Item value="AddInf" priority="32" />
+      <Item value="genreId" priority="58" />
+      <Item value="name" priority="159" />
+      <Item value="null" priority="159" />
+      <Item value="else" priority="63" />
+      <Item value="books" priority="63" />
+      <Item value="BindingList&lt;Book&gt;" priority="28" />
+      <Item value="BookId" priority="63" />
+      <Item value="List&lt;Genre&gt;" priority="58" />
+      <Item value="genres" priority="159" />
+      <Item value="File`0" priority="31" />
+      <Item value="ActionLink`0" priority="3" />
+      <Item value="ToString`0" priority="26" />
+      <Item value="user" priority="96" />
+      <Item value="CommentId" priority="65" />
+      <Item value="Text" priority="65" />
+      <Item value="text" priority="32" />
+      <Item value="UserId" priority="32" />
+      <Item value="MembershipUser`0" priority="31" />
+      <Item value="userName" priority="63" />
+      <Item value="TempData" priority="31" />
+      <Item value="User`0" priority="31" />
+      <Item value="Comments" priority="32" />
+      <Item value="NickName" priority="31" />
+      <Item value="List&lt;Comment&gt;" priority="29" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="IsInRole`0" priority="53" />
+      <Item value="Identity" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.DBEntities">
+      <Item value="Books" priority="161" />
+      <Item value="Genres" priority="135" />
+      <Item value="SaveChanges`0" priority="107" />
+      <Item value="Comments" priority="54" />
+      <Item value="aspnet_Users" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="AddObject`0" priority="80" />
+      <Item value="DeleteObject`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="245" />
+      <Item value="Parse`0" priority="190" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Models.Genre">
+      <Item value="Name" priority="164" />
+      <Item value="Desc" priority="108" />
+      <Item value="GenreId" priority="136" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Models.Book">
+      <Item value="AddInf" priority="162" />
+      <Item value="Author" priority="189" />
+      <Item value="Genre" priority="135" />
+      <Item value="Name" priority="188" />
+      <Item value="File" priority="26" />
+      <Item value="BookId" priority="243" />
+      <Item value="Comments" priority="161" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Book">
+      <Item value="BookName" priority="135" />
+      <Item value="Genre" priority="163" />
+      <Item value="GenreId" priority="53" />
+      <Item value="BookAddInf" priority="54" />
+      <Item value="BookFile" priority="80" />
+      <Item value="BookId" priority="135" />
+      <Item value="BookAuthor" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Genre">
+      <Item value="GenreName" priority="109" />
+      <Item value="GenreId" priority="108" />
+      <Item value="GenreDescription" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="FirstOrDefault`1" priority="80" />
+      <Item value="First`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Comment">
+      <Item value="CommentId" priority="53" />
+      <Item value="CommentText" priority="54" />
+      <Item value="Book" priority="26" />
+      <Item value="UserId" priority="53" />
+      <Item value="aspnet_Users" priority="109" />
+      <Item value="BookId" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Models.Comment">
+      <Item value="Text" priority="53" />
+      <Item value="CommentId" priority="26" />
+      <Item value="User" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlCodeCompletionContext">
+      <Item value="table" priority="29" />
+      <Item value="tr" priority="15" />
+      <Item value="formenctype" priority="5" />
+      <Item value="width" priority="5" />
+      <Item value="rowspan" priority="5" />
+      <Item value="border" priority="5" />
+      <Item value="align" priority="17" />
+      <Item value="left" priority="5" />
+      <Item value="colspan" priority="11" />
+      <Item value="height" priority="5" />
+      <Item value="center" priority="11" />
+      <Item value="&amp;nbsp;" priority="0" />
+      <Item value="href" priority="5" />
+      <Item value="~" priority="5" />
+      <Item value="App_Data" priority="5" />
+      <Item value="br" priority="6" />
+      <Item value="hr" priority="5" />
+      <Item value="value" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="RazorTransitionCompletionContext">
+      <Item value="Html" priority="63" />
+      <Item value="inherits" priority="15" />
+      <Item value="using" priority="7" />
+      <Item value="foreach" priority="7" />
+      <Item value="book" priority="31" />
+      <Item value="if" priority="15" />
+      <Item value="genre" priority="9" />
+      <Item value="Model" priority="15" />
+      <Item value="User" priority="7" />
+      <Item value="comment" priority="19" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="TextAreaFor`2" priority="26" />
+      <Item value="BeginForm`0" priority="53" />
+      <Item value="ListBoxFor`2" priority="26" />
+      <Item value="Hidden`0" priority="26" />
+      <Item value="ActionLink`0" priority="53" />
+      <Item value="TextBox`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DataAccess.DataAccessManager">
+      <Item value="AddGenre`0" priority="26" />
+      <Item value="ReadGenres`0" priority="80" />
+      <Item value="UpdateBook`0" priority="26" />
+      <Item value="ReadBooks`0" priority="53" />
+      <Item value="DeleteBook`0" priority="26" />
+      <Item value="ReadFile`0" priority="26" />
+      <Item value="ReadBook`0" priority="53" />
+      <Item value="CreateComment`0" priority="26" />
+      <Item value="ReadComments`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.FormMethod">
+      <Item value="Post" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpPostedFileBase">
+      <Item value="InputStream" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Length" priority="80" />
+      <Item value="Read`0" priority="80" />
+      <Item value="ReadByte`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Contains`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlEntityCodeCompletionContext">
+      <Item value="&amp;nbsp;" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.aspnet_Users">
+      <Item value="UserName" priority="54" />
+      <Item value="UserId" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Membership">
+      <Item value="GetUser`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Security.MembershipUser">
+      <Item value="ProviderUserKey" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Models.User">
+      <Item value="Id" priority="53" />
+      <Item value="NickName" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

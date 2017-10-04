@@ -1,0 +1,49 @@
+﻿@using MvcApp.Models
+@inherits System.Web.Mvc.WebViewPage<IEnumerable<BookModel>>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Message</h2>
+<p>
+    <table>
+    @if (Model.Count() == 0)
+    {
+        <tr>
+            <td><h2>No results</h2></td>
+        </tr>
+    }
+    else
+    {
+        foreach (var book in Model)
+        {
+            <tr>
+                <table>
+                    <tr>
+                        <td width="50">Name: </td>
+                        <td  width="400" align="left"><a href="../Book/ShowBook/@book.Id">@book.Name</a></td>
+                        <td width="100" rowspan="3">
+                            <a href="../Book/DownloadBook/@book.Id">Download</a> 
+                            &nbsp;
+                            @if ((User.IsInRole("Admin")))
+                            {
+                                <a href="../Admin/DeleteBook/@book.Id">Delete</a>
+                            } 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="50">Author: </td>
+                        <td width="400" align="left">@book.Author</td>
+                    </tr>
+                    <tr>
+                        <td width="50">Inf: </td>
+                        <td width="400" align="left">@book.AddInf</td>
+                    </tr>
+                </table>
+            </tr>  
+            <tr><td><br /></td></tr> 
+        }
+    }
+    </table>
+</p>

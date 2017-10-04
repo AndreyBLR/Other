@@ -1,0 +1,28 @@
+﻿@using System.Collections
+@using MvcApp.Models
+@inherits System.Web.Mvc.WebViewPage<CommentModel>
+
+@{
+    ViewBag.Title = "UpdateComment";
+}
+
+<h2>UpdateComment</h2>
+
+@using (Html.BeginForm("UpdateComment", "Book"))
+{
+    <input type="hidden" value="@Model.Id" name="id" />
+    <table align="center">
+        <tr>
+            <td>
+                Text:
+            </td>
+            <td>
+                <input type="text" value="@Model.Text" name="text" />
+            </td>
+        </tr>
+        <tr>
+         <td><input type="submit" value="Change" /></td>
+        </tr>
+    </table>
+}
+

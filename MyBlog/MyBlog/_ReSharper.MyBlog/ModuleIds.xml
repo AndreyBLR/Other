@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="7105830C-BFB9-43A8-AC93-A33CF1F87FCE" ModuleId="MBPresentation" />
+  <Module PersistentId="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4" ModuleId="MyBlog" />
+  <Module PersistentId="986001FA-2C10-4488-AFA2-5EA481A95779" ModuleId="DBManagers" />
+  <Module PersistentId="BC835989-E8BA-44B6-9000-7349668E3302" ModuleId="MBServiceLibrary" />
+  <Module PersistentId="2CBD8084-DE86-4ED7-95B0-F344C0A1AA02" ModuleId="MBDatabaseModel" />
+  <Module PersistentId="56C00962-1AFC-41F9-BF81-8FB97AAF5B9D" ModuleId="Classes" />
+</Modules>

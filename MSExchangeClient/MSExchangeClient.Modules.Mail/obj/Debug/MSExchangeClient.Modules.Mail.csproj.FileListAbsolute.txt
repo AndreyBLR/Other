@@ -1,0 +1,69 @@
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\MSExchangeClient.Modules.Mail.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\MSExchangeClient.Modules.Mail.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.xml
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\ResolveAssemblyReference.cache
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\MSExchangeClient.Modules.Mail.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\MSExchangeClient.Modules.Mail.pdb
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.pdb
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.xml
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\System.Windows.Interactivity.xml
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\MSExchangeClient.Modules.Mail.dll
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\MSExchangeClient.Modules.Mail.pdb
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\System.Windows.Interactivity.dll
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.dll
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.xml
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\System.Windows.Interactivity.xml
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.xml
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\ResolveAssemblyReference.cache
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\MSExchangeClient.Modules.Mail.dll
+D:\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\MSExchangeClient.Modules.Mail.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\ResolveAssemblyReference.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\MSExchangeClient.Modules.Mail.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\MSExchangeClient.Modules.Mail.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\MSExchangeClient.Modules.Mail.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Prism.xml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\MSExchangeClient.Modules.Mail.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\Views\MailContent\MailContentView.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\Views\MailContent\MailContentView.g.cs
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\MSExchangeClient.Modules.Mail_MarkupCompile.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\MSExchangeClient.Modules.Mail.g.resources
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\Dialogs\SendMessage\SendMessageView.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\Views\NavigationPane\NavigationPaneView.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\Dialogs\SendMessage\SendMessageView.g.cs
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\Views\NavigationPane\NavigationPaneView.g.cs
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\MSExchangeClient.Infrastructure.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\MSExchangeClient.Infrastructure.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\MSExchangeClient.Modules.Core.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\MSExchangeClient.Modules.Core.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\MSExchangeClient.Modules.Mail_MarkupCompile.lref
+D:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\Views\MailList\MailListView.baml
+D:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\Views\MailList\MailListView.g.cs
+D:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\Views\Main\MailMainView.g.cs
+D:\Диплом\MSExchangeClient\MSExchangeClient.Modules.Mail\obj\Debug\Views\Main\MailMainView.baml

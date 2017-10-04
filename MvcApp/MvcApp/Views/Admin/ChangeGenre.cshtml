@@ -1,0 +1,35 @@
+﻿@using MvcApp.Models
+@inherits System.Web.Mvc.WebViewPage<GenreModel>
+
+@{
+    ViewBag.Title = "Change genre";
+}
+
+<h2>ChangeGenre</h2>
+
+@using (Html.BeginForm("ChangeGenre", "Admin"))
+{
+    <input type="hidden" value="@Model.Id" name="id" />
+    <table>
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                <input type="text" value="@Model.Name" name="name" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Description:
+            </td>
+            <td>
+                <input type="text" value="@Model.Desc" name="desc" />
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit" /></td>
+        </tr>
+    </table>
+}
+

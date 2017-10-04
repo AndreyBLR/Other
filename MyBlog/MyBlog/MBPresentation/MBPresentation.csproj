@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7105830C-BFB9-43A8-AC93-A33CF1F87FCE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MBPresentation</RootNamespace>
+    <AssemblyName>MBPresentation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\PresenterInterfaces\Page\IAdminArticlesPagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\IAdminGalleryPagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\IArticlePagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\ICategoriesPagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\ICommentsPagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\IGalleryPagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Handler\IImageHttpHandlerPresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\IJournalPagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\IProfilePagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\IRegistrationPagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\ISearchPagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\IUsersPagePresenter.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\IWarningsPagePresenter.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\IAdminArticlesPage.cs" />
+    <Compile Include="Interfaces\PresenterInterfaces\Page\IDefaultPagePresenter.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\IAdminGalleryPage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\IArticlePage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\ICategoriesPage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\ICommentsPage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\IDefaultPage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\IGalleryPage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Handler\IImageHttpHandler.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\IJournalPage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\IProfilePage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\IRegistrationPage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\ISearchPage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\IUsersPage.cs" />
+    <Compile Include="Interfaces\ViewInterfaces\Page\IWarningsPage.cs" />
+    <Compile Include="Presenters\Page\AdminArticlesPagePresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presenters\Page\AdminGalleryPagePresenter.cs" />
+    <Compile Include="Presenters\Page\ArticlePagePresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presenters\Page\CategoriesPagePresenter.cs" />
+    <Compile Include="Presenters\Page\CommentsPagePresenter.cs" />
+    <Compile Include="Presenters\Page\DefaultPagePresenter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Presenters\Page\GalleryPagePresenter.cs" />
+    <Compile Include="Presenters\Handler\ImageHttpHandlerPresenter.cs" />
+    <Compile Include="Presenters\Page\JournalPagePresenter.cs" />
+    <Compile Include="Presenters\Page\ProfilePagePresenter.cs" />
+    <Compile Include="Presenters\Page\RegistrationPagePresenter.cs" />
+    <Compile Include="Presenters\Page\SearchPagePresenter.cs" />
+    <Compile Include="Presenters\Page\UsersPagePresenter.cs" />
+    <Compile Include="Presenters\Page\WarningsPagePresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\ServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Tag.cs" />
+    <Compile Include="VoidEvendHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\item3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\item4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference\MBPresentation.ServiceReference.Category.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\MBPresentation.ServiceReference.Comment.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\MBPresentation.ServiceReference.Image.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\MBPresentation.ServiceReference.Post.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\MBPresentation.ServiceReference.Profile.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\MBPresentation.ServiceReference.Warning.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference\ModelService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MBServiceLibrary\MBServiceLibrary.csproj">
+      <Project>{BC835989-E8BA-44B6-9000-7349668E3302}</Project>
+      <Name>MBServiceLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

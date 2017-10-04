@@ -1,0 +1,32 @@
+﻿@using MvcApp.Models
+@inherits System.Web.Mvc.WebViewPage<GenreModel>
+@{
+    ViewBag.Title = "Add genre";
+}
+
+<h2>Add genre</h2>
+
+@using (Html.BeginForm("CreateGenre", "Admin"))
+{
+    <table>
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                @Html.TextAreaFor(model => model.Name);
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Description:
+            </td>
+            <td>
+                @Html.TextAreaFor(model => model.Desc);
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit" /></td>
+        </tr>
+    </table>
+}

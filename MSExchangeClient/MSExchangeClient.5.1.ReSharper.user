@@ -1,0 +1,123 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailContent/d:Interfaces/f:IMailContentView.cs" caret="0" fromTop="0" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailContent/f:MailContentView.xaml.cs" caret="820" fromTop="11" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Enums/f:MailRegionsNames.cs" caret="170" fromTop="6" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:Main/d:Interfaces/f:IMailMainView.cs" caret="169" fromTop="6" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:Main/f:MailMainView.xaml" caret="67" fromTop="0" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:Main/f:MailMainView.xaml.cs" caret="327" fromTop="9" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/f:NavigationPaneView.xaml" caret="536" fromTop="1" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/f:MailListView.xaml" caret="535" fromTop="7" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailContent/f:MailContentView.xaml" caret="530" fromTop="1" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/f:NavigationPanePresenter.cs" caret="658" fromTop="17" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/d:Interfaces/f:INavigationPanePresenter.cs" caret="0" fromTop="0" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/d:Interfaces/f:INavigationPaneViewModel.cs" caret="0" fromTop="0" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/d:Interfaces/f:INavigationPaneView.cs" caret="0" fromTop="0" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/f:NavigationPaneViewModel.cs" caret="0" fromTop="0" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/f:NavigationPaneView.xaml.cs" caret="0" fromTop="0" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/f:MailListView.xaml.cs" caret="760" fromTop="17" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailContent/d:Interfaces/f:IMailContentPresenter.cs" caret="225" fromTop="8" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailContent/f:MailContentPresenter.cs" caret="375" fromTop="7" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/d:Interfaces/f:IMailListPresenter.cs" caret="0" fromTop="0" />
+      <File id="77138947-1D13-4E22-AEE0-5D0DD046CA34/d:Modularity/f:ModuleInitializer.cs" caret="3215" fromTop="15" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/f:MailListPresenter.cs" caret="253" fromTop="8" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/f:MailModule.cs" caret="1719" fromTop="0" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:App.xaml.cs" caret="424" fromTop="15" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/f:Bootstrapper.cs" caret="1056" fromTop="7" />
+      <File id="0E98E0A7-BD17-45BF-8996-78A6FC35919D/d:Shell/f:ShellView.xaml" caret="3958" fromTop="8" />
+      <File id="02CAAC6D-E233-48BA-ABD2-D2DF4A210367/f:CoreModule.cs" caret="684" fromTop="3" />
+      <File id="02CAAC6D-E233-48BA-ABD2-D2DF4A210367/d:SideBar/f:SideBarPresenter.cs" caret="0" fromTop="0" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/d:Interfaces/f:IMailListView.cs" caret="0" fromTop="0" />
+      <File id="08FCFCE3-8721-4A35-A272-2DB5B815BF26/d:Enums/f:RegionsNames.cs" caret="0" fromTop="0" />
+      <File id="17831F3B-6B82-4916-BD2B-2CE2071EA622/f:UnityBootstrapper.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/f:NavigationPanePresenter.cs" caret="678" fromTop="14" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/d:Interfaces/f:INavigationPanePresenter.cs" caret="231" fromTop="8" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/d:Interfaces/f:INavigationPaneView.cs" caret="226" fromTop="8" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/f:NavigationPaneView.xaml.cs" caret="796" fromTop="14" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/f:MailModule.cs" caret="1044" fromTop="8" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Enums/f:MailRegionsNames.cs" caret="170" fromTop="6" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:Main/f:MailMainView.xaml" caret="959" fromTop="10" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:Main/d:Interfaces/f:IMailMainView.cs" caret="169" fromTop="6" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:Main/f:MailMainView.xaml.cs" caret="299" fromTop="6" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:Main/f:MailMainView.xaml.cs" caret="327" fromTop="9" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:Main/f:MailMainView.xaml" caret="67" fromTop="0" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:NavigationPane/f:NavigationPaneView.xaml" caret="536" fromTop="1" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/f:MailModule.cs" caret="1404" fromTop="10" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/f:MailListView.xaml" caret="521" fromTop="7" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailContent/f:MailContentView.xaml" caret="530" fromTop="1" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailContent/f:MailContentPresenter.cs" caret="635" fromTop="18" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailContent/d:Interfaces/f:IMailContentPresenter.cs" caret="225" fromTop="8" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailContent/f:MailContentPresenter.cs" caret="321" fromTop="9" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailContent/f:MailContentPresenter.cs" caret="697" fromTop="19" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/f:MailListPresenter.cs" caret="634" fromTop="18" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/d:Interfaces/f:IMailListView.cs" caret="214" fromTop="8" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/f:MailListPresenter.cs" caret="590" fromTop="16" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/f:MailListPresenter.cs" caret="390" fromTop="12" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/d:Interfaces/f:IMailListPresenter.cs" caret="219" fromTop="8" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/d:Views/d:MailList/f:MailListView.xaml.cs" caret="760" fromTop="17" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/f:MailModule.cs" caret="1563" fromTop="17" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/f:MailModule.cs" caret="2102" fromTop="17" />
+      <File id="31DDC142-5869-4256-B6B2-2E504E64F9F5/f:MailModule.cs" caret="2485" fromTop="12" />
+      <File id="02CAAC6D-E233-48BA-ABD2-D2DF4A210367/f:CoreModule.cs" caret="1279" fromTop="21" />
+      <File id="02CAAC6D-E233-48BA-ABD2-D2DF4A210367/f:CoreModule.cs" caret="803" fromTop="5" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@MSExchangeClient.Infrastructure.Enums.RegionsNames">
+      <Item value="NavigationPaneLocation" priority="1" />
+      <Item value="MainContentLocation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="1" />
+      <Item value="void" priority="1" />
+      <Item value="IMailListViewModel`0" priority="0" />
+      <Item value="MailListViewModel`0" priority="0" />
+      <Item value="IMailListView`0" priority="0" />
+      <Item value="MailListView`0" priority="0" />
+      <Item value="IMailContentView`0" priority="1" />
+      <Item value="IMailListPresenter`0" priority="0" />
+      <Item value="ConfigurationModuleCatalog`0" priority="0" />
+      <Item value="MailContentView`0" priority="0" />
+      <Item value="AppDomainSetup`0" priority="0" />
+      <Item value="NavigationPaneViewModel`0" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="INavigationPaneView`0" priority="0" />
+      <Item value="INavigationPaneViewModel`0" priority="0" />
+      <Item value="Activate`0" priority="0" />
+      <Item value="_regionManager" priority="0" />
+      <Item value="_container" priority="0" />
+      <Item value="IMailMainView`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MSExchangeClient.Modules.Mail.Enums.MailRegionsNames">
+      <Item value="MailListLocation" priority="0" />
+      <Item value="MailContentLocation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.Prism.Regions.IRegion">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.Unity.IUnityContainer">
+      <Item value="RegisterType`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,20 @@
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MyBlog\bin\MyBlog.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MyBlog\bin\MyBlog.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MyBlog\bin\MBPresentation.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MyBlog\bin\MBPresentation.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MyBlog\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MyBlog\obj\Debug\MyBlog.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MyBlog\obj\Debug\MyBlog.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MyBlog\bin\log4net.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MyBlog\bin\Classes.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MyBlog\bin\Classes.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MyBlog\bin\MyBlog.dll
+D:\Epam\Projects\MyBlog\MyBlog\MyBlog\bin\MyBlog.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MyBlog\bin\Classes.dll
+D:\Epam\Projects\MyBlog\MyBlog\MyBlog\bin\log4net.dll
+D:\Epam\Projects\MyBlog\MyBlog\MyBlog\bin\MBPresentation.dll
+D:\Epam\Projects\MyBlog\MyBlog\MyBlog\bin\Classes.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MyBlog\bin\MBPresentation.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MyBlog\obj\Debug\ResolveAssemblyReference.cache
+D:\Epam\Projects\MyBlog\MyBlog\MyBlog\obj\Debug\MyBlog.dll
+D:\Epam\Projects\MyBlog\MyBlog\MyBlog\obj\Debug\MyBlog.pdb

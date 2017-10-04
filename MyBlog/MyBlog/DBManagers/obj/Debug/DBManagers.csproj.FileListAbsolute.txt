@@ -1,0 +1,26 @@
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\bin\Debug\Database.mdf
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\bin\Debug\Database_log.ldf
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\bin\Debug\DBManagers.dll.config
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\bin\Debug\DBManagers.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\bin\Debug\DBManagers.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\bin\Debug\MBDatabaseModel.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\bin\Debug\MBDatabaseModel.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\obj\Debug\DBManagers.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\obj\Debug\DBManagers.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\bin\Debug\Classes.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\bin\Debug\log4net.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\DBManagers\bin\Debug\Classes.pdb
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\bin\Debug\Database.mdf
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\bin\Debug\Database_log.ldf
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\bin\Debug\DBManagers.dll.config
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\bin\Debug\DBManagers.dll
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\bin\Debug\DBManagers.pdb
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\bin\Debug\Classes.dll
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\bin\Debug\log4net.dll
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\bin\Debug\MBDatabaseModel.dll
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\bin\Debug\Classes.pdb
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\bin\Debug\MBDatabaseModel.pdb
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\obj\Debug\ResolveAssemblyReference.cache
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\obj\Debug\DBManagers.dll
+D:\Epam\Projects\MyBlog\MyBlog\DBManagers\obj\Debug\DBManagers.pdb

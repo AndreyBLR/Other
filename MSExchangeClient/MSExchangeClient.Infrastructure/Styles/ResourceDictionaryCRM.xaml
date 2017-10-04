@@ -1,0 +1,2112 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"    
+	                xmlns:Microsoft_Windows_Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero"
+	                xmlns:converters="clr-namespace:MSExchangeClient.Infrastructure.Converters">
+	<ResourceDictionary.MergedDictionaries>
+		<ResourceDictionary Source="Brushes.xaml"/>
+	</ResourceDictionary.MergedDictionaries>
+    <converters:Bool2SizeConverter x:Key="Bool2SizeConverter"/>
+    <!-- Resource dictionary entries should be defined here. -->
+	<Style x:Key="ExpanderHeaderFocusVisual">
+		<Setter Property="Control.Template">
+			<Setter.Value>
+				<ControlTemplate>
+					<Border>
+						<Rectangle SnapsToDevicePixels="true" Margin="0" Stroke="Black" StrokeDashArray="1 2" StrokeThickness="1"/>
+					</Border>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<LinearGradientBrush x:Key="ExpanderArrowFill" EndPoint="0,1" StartPoint="0,0">
+		<GradientStop Color="White" Offset="0"/>
+		<GradientStop Color="#FFBFBFBF" Offset="0.5"/>
+		<GradientStop Color="#FF878787" Offset="1"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="ExpanderArrowHoverFill" EndPoint="0,1" StartPoint="0,0">
+		<GradientStop Color="#FFF0F8FE" Offset="0"/>
+		<GradientStop Color="#FFE0F3FE" Offset="0.3"/>
+		<GradientStop Color="#FF6FA7C5" Offset="1"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="ExpanderArrowPressedFill" EndPoint="0,1" StartPoint="0,0">
+		<GradientStop Color="#FFDCF0FA" Offset="0"/>
+		<GradientStop Color="#FFC5E6F7" Offset="0.2"/>
+		<GradientStop Color="#FF5690D0" Offset="1"/>
+	</LinearGradientBrush>
+	<Style x:Key="ExpanderDownHeaderStyle" TargetType="{x:Type ToggleButton}">
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ToggleButton}">
+					<ControlTemplate.Resources>
+						<Storyboard x:Key="StoryboardExpanderCRMDownHeaderStyleAnimation">
+							<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="HeaderDesignGrid" Storyboard.TargetProperty="(UIElement.Visibility)">
+								<DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Hidden}"/>
+								<DiscreteObjectKeyFrame KeyTime="00:00:00.2000000" Value="{x:Static Visibility.Hidden}"/>
+							</ObjectAnimationUsingKeyFrames>
+							<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.Visibility)" Duration="00:00:00.0010000">
+								<DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+							</ObjectAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0" KeySpline="0,1,1,1"/>
+								<SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+					</ControlTemplate.Resources>
+					<Border Padding="{TemplateBinding Padding}" x:Name="border">
+						<Grid SnapsToDevicePixels="False" Background="Transparent">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="Auto"/>
+								<ColumnDefinition Width="Auto"/>
+								<ColumnDefinition Width="*"/>
+							</Grid.ColumnDefinitions>
+							<Rectangle 
+								Margin="0,0,0,0" 
+								Fill="#FFFFC959" 
+								RadiusX="0" 
+								RadiusY="0" 
+								Grid.Column="0"
+								Grid.ColumnSpan="3" 
+								x:Name="rectangle"
+								Visibility="Hidden" 
+								IsEnabled="True"/>
+							<Grid Grid.Column="0" Grid.ColumnSpan="3" x:Name="HeaderDesignGrid" Visibility="Hidden">
+								<Grid.RowDefinitions>
+									<RowDefinition Height="Auto"/>
+									<RowDefinition Height="*"/>
+								</Grid.RowDefinitions>
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition Width="Auto"/>
+									<ColumnDefinition Width="*"/>
+									<ColumnDefinition Width="Auto"/>
+								</Grid.ColumnDefinitions>
+								<Path 
+									HorizontalAlignment="Stretch" 
+									x:Name="THighLight" 
+									VerticalAlignment="Stretch" 
+									Stretch="Fill" 
+									Data="M6.9999987,0 L257.25,0 C261.116,1.7138088E-06 264.25,3.1340085 264.25,7.0000036 L264.25,25.934227 1.7053026E-13,25.934227 1.7053026E-13,7.0000036 C-8.3033029E-07,3.1340085 3.1340059,1.7138088E-06 6.9999987,0 z" 
+									Visibility="Visible"
+									Margin="0,0,0,-6.934" 
+									Grid.ColumnSpan="3">
+									<Path.Fill>
+										<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+											<GradientStop Color="#FFFFAF00" Offset="0"/>
+											<GradientStop Color="#FFFEDF7B" Offset="1"/>
+										</LinearGradientBrush>
+									</Path.Fill>
+								</Path>
+								<Image 
+									HorizontalAlignment="Stretch" 
+									Grid.Column="2" 
+									Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_03.png" 
+									Stretch="Fill" 
+									Visibility="Visible" 
+									x:Name="RTImage"/>
+								<Image 
+									Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_01.png" 
+									Stretch="Fill" 
+									Visibility="Visible" 
+									x:Name="LTImage"/>
+								<Rectangle 
+									Visibility="Visible" 
+									x:Name="LCRectangle" 
+									VerticalAlignment="Stretch" 
+									Fill="{DynamicResource GlassExpandLC}" 
+									Grid.Row="1"/>
+								<Rectangle 
+									Visibility="Visible" 
+									Margin="0,0,0,0" 
+									x:Name="RCRectangle" 
+									VerticalAlignment="Stretch" 
+									Fill="{DynamicResource GlassExpandRC}" 
+									Grid.Column="2" Grid.Row="1"/>
+								<Rectangle 
+									Visibility="Visible" 
+									HorizontalAlignment="Stretch" 
+									Margin="0,0,0,0" 
+									x:Name="CTRectangle" 
+									Fill="{DynamicResource ImageBrushGlassExpandTC}" 
+									Grid.Column="1"/>
+							</Grid>
+							<Path 
+								SnapsToDevicePixels="false" 
+								Margin="14,0,0,0" 
+								x:Name="arrow" 
+								VerticalAlignment="Center" 
+								Stroke="#666" 
+								StrokeThickness="2" 
+								Data="M8,1 L4.5,4.5 1,1" 
+								Height="5.5" 
+								Width="Auto"
+								Grid.Column="1" 
+								HorizontalAlignment="Left"/>
+							<ContentPresenter 
+								Grid.Column="2" 
+								SnapsToDevicePixels="True" 
+								HorizontalAlignment="Stretch" 
+								Margin="4,0,5,0" 
+								VerticalAlignment="Center" 								
+								RecognizesAccessKey="True" 
+								x:Name="contentPresenter" 
+								/>
+						</Grid>
+					</Border>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsChecked" Value="true">
+							<Setter Property="Data" TargetName="arrow" Value="M 1,4.5  L 4.5,1  L 8,4.5"/>
+							<Setter Property="Visibility" TargetName="THighLight" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="RTImage" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="LTImage" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="LCRectangle" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="RCRectangle" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="CTRectangle" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="HeaderDesignGrid" Value="Visible"/>
+							<Setter Property="Opacity" TargetName="HeaderDesignGrid" Value="1"/>
+							<Setter Property="BitmapEffect" TargetName="HeaderDesignGrid">
+								<Setter.Value>
+									<BlurBitmapEffect Radius="0"/>
+								</Setter.Value>
+							</Setter>
+						</Trigger>
+						<Trigger Property="IsMouseOver" Value="true">
+							<Trigger.ExitActions>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+							</Trigger.EnterActions>
+							<Setter Property="Stroke" TargetName="arrow" Value="#222"/>
+							<Setter Property="Visibility" TargetName="THighLight" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="RTImage" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="LTImage" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="LCRectangle" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="RCRectangle" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="CTRectangle" Value="Visible"/>
+							<Setter Property="BitmapEffect" TargetName="HeaderDesignGrid">
+								<Setter.Value>
+									<BlurBitmapEffect Radius="0"/>
+								</Setter.Value>
+							</Setter>
+							<Setter Property="Opacity" TargetName="HeaderDesignGrid" Value="1"/>
+							<Setter Property="Visibility" TargetName="HeaderDesignGrid" Value="Visible"/>
+						</Trigger>
+						
+						<MultiTrigger>
+							<MultiTrigger.ExitActions>
+								<StopStoryboard BeginStoryboardName="StoryboardExpanderCRMDownHeaderStyleAnimation_BeginStoryboard"/>
+							</MultiTrigger.ExitActions>
+							<MultiTrigger.EnterActions>
+								<BeginStoryboard Storyboard="{StaticResource StoryboardExpanderCRMDownHeaderStyleAnimation}" x:Name="StoryboardExpanderCRMDownHeaderStyleAnimation_BeginStoryboard"/>
+							</MultiTrigger.EnterActions>
+							<MultiTrigger.Conditions>
+								<Condition Property="IsMouseOver" Value="True"/>
+								<Condition Property="IsChecked" Value="False"/>
+							</MultiTrigger.Conditions>
+							<Setter Property="Visibility" TargetName="HeaderDesignGrid" Value="Hidden"/>
+							<Setter Property="Visibility" TargetName="rectangle" Value="Hidden"/>
+						</MultiTrigger>
+						<Trigger Property="IsPressed" Value="true">
+							<Trigger.EnterActions>
+							</Trigger.EnterActions>
+							<Setter Property="Stroke" TargetName="arrow" Value="#FF003366"/>
+							<Setter Property="Visibility" TargetName="THighLight" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="RTImage" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="LTImage" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="LCRectangle" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="RCRectangle" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="CTRectangle" Value="Visible"/>
+							<Setter Property="Opacity" TargetName="HeaderDesignGrid" Value="1"/>
+							<Setter Property="BitmapEffect" TargetName="HeaderDesignGrid">
+								<Setter.Value>
+									<BlurBitmapEffect Radius="0"/>
+								</Setter.Value>
+							</Setter>
+							<Setter Property="Visibility" TargetName="HeaderDesignGrid" Value="Hidden"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<Style x:Key="ExpanderRightHeaderStyle" TargetType="{x:Type ToggleButton}">
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ToggleButton}">
+					<Border Padding="{TemplateBinding Padding}">
+						<Grid SnapsToDevicePixels="False" Background="Transparent">
+							<Grid.RowDefinitions>
+								<RowDefinition Height="19"/>
+								<RowDefinition Height="*"/>
+							</Grid.RowDefinitions>
+							<Grid>
+								<Grid.LayoutTransform>
+									<TransformGroup>
+										<TransformGroup.Children>
+											<TransformCollection>
+												<RotateTransform Angle="-90"/>
+											</TransformCollection>
+										</TransformGroup.Children>
+									</TransformGroup>
+								</Grid.LayoutTransform>
+								<Ellipse HorizontalAlignment="Center" x:Name="circle" VerticalAlignment="Center" Width="19" Height="19" Fill="{DynamicResource ExpanderArrowFill}" Stroke="DarkGray"/>
+								<Path SnapsToDevicePixels="false" HorizontalAlignment="Center" x:Name="arrow" VerticalAlignment="Center" Stroke="#666" StrokeThickness="2" Data="M 1,1.5 L 4.5,5 L 8,1.5"/>
+							</Grid>
+							<ContentPresenter SnapsToDevicePixels="True" HorizontalAlignment="Center" Margin="0,4,0,0" VerticalAlignment="Top" Grid.Row="1" RecognizesAccessKey="True"/>
+						</Grid>
+					</Border>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsChecked" Value="true">
+							<Setter Property="Data" TargetName="arrow" Value="M 1,4.5  L 4.5,1  L 8,4.5"/>
+						</Trigger>
+						<Trigger Property="IsMouseOver" Value="true">
+							<Setter Property="Stroke" TargetName="circle" Value="#FF3C7FB1"/>
+							<Setter Property="Fill" TargetName="circle" Value="{DynamicResource ExpanderArrowHoverFill}"/>
+							<Setter Property="Stroke" TargetName="arrow" Value="#222"/>
+						</Trigger>
+						<Trigger Property="IsPressed" Value="true">
+							<Setter Property="Stroke" TargetName="circle" Value="#FF526C7B"/>
+							<Setter Property="StrokeThickness" TargetName="circle" Value="1.5"/>
+							<Setter Property="Fill" TargetName="circle" Value="{DynamicResource ExpanderArrowPressedFill}"/>
+							<Setter Property="Stroke" TargetName="arrow" Value="#FF003366"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<Style x:Key="ExpanderUpHeaderStyle" TargetType="{x:Type ToggleButton}">
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ToggleButton}">
+					<Border Padding="{TemplateBinding Padding}">
+						<Grid SnapsToDevicePixels="False" Background="Transparent">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="19"/>
+								<ColumnDefinition Width="*"/>
+							</Grid.ColumnDefinitions>
+							<Grid>
+								<Grid.LayoutTransform>
+									<TransformGroup>
+										<TransformGroup.Children>
+											<TransformCollection>
+												<RotateTransform Angle="180"/>
+											</TransformCollection>
+										</TransformGroup.Children>
+									</TransformGroup>
+								</Grid.LayoutTransform>
+								<Ellipse HorizontalAlignment="Center" x:Name="circle" VerticalAlignment="Center" Width="19" Height="19" Fill="{DynamicResource ExpanderArrowFill}" Stroke="DarkGray"/>
+								<Path SnapsToDevicePixels="false" HorizontalAlignment="Center" x:Name="arrow" VerticalAlignment="Center" Stroke="#666" StrokeThickness="2" Data="M 1,1.5 L 4.5,5 L 8,1.5"/>
+							</Grid>
+							<ContentPresenter SnapsToDevicePixels="True" HorizontalAlignment="Left" Margin="4,0,0,0" VerticalAlignment="Center" Grid.Column="1" RecognizesAccessKey="True"/>
+						</Grid>
+					</Border>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsChecked" Value="true">
+							<Setter Property="Data" TargetName="arrow" Value="M 1,4.5  L 4.5,1  L 8,4.5"/>
+						</Trigger>
+						<Trigger Property="IsMouseOver" Value="true">
+							<Setter Property="Stroke" TargetName="circle" Value="#FF3C7FB1"/>
+							<Setter Property="Fill" TargetName="circle" Value="{DynamicResource ExpanderArrowHoverFill}"/>
+							<Setter Property="Stroke" TargetName="arrow" Value="#222"/>
+						</Trigger>
+						<Trigger Property="IsPressed" Value="true">
+							<Setter Property="Stroke" TargetName="circle" Value="#FF526C7B"/>
+							<Setter Property="StrokeThickness" TargetName="circle" Value="1.5"/>
+							<Setter Property="Fill" TargetName="circle" Value="{DynamicResource ExpanderArrowPressedFill}"/>
+							<Setter Property="Stroke" TargetName="arrow" Value="#FF003366"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<Style x:Key="ExpanderLeftHeaderStyle" TargetType="{x:Type ToggleButton}">
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ToggleButton}">
+					<Border Padding="{TemplateBinding Padding}">
+						<Grid SnapsToDevicePixels="False" Background="Transparent">
+							<Grid.RowDefinitions>
+								<RowDefinition Height="19"/>
+								<RowDefinition Height="*"/>
+							</Grid.RowDefinitions>
+							<Grid>
+								<Grid.LayoutTransform>
+									<TransformGroup>
+										<TransformGroup.Children>
+											<TransformCollection>
+												<RotateTransform Angle="90"/>
+											</TransformCollection>
+										</TransformGroup.Children>
+									</TransformGroup>
+								</Grid.LayoutTransform>
+								<Ellipse HorizontalAlignment="Center" x:Name="circle" VerticalAlignment="Center" Width="19" Height="19" Fill="{DynamicResource ExpanderArrowFill}" Stroke="DarkGray"/>
+								<Path SnapsToDevicePixels="false" HorizontalAlignment="Center" x:Name="arrow" VerticalAlignment="Center" Stroke="#666" StrokeThickness="2" Data="M 1,1.5 L 4.5,5 L 8,1.5"/>
+							</Grid>
+							<ContentPresenter SnapsToDevicePixels="True" HorizontalAlignment="Center" Margin="0,4,0,0" VerticalAlignment="Top" Grid.Row="1" RecognizesAccessKey="True"/>
+						</Grid>
+					</Border>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsChecked" Value="true">
+							<Setter Property="Data" TargetName="arrow" Value="M 1,4.5  L 4.5,1  L 8,4.5"/>
+						</Trigger>
+						<Trigger Property="IsMouseOver" Value="true">
+							<Setter Property="Stroke" TargetName="circle" Value="#FF3C7FB1"/>
+							<Setter Property="Fill" TargetName="circle" Value="{DynamicResource ExpanderArrowHoverFill}"/>
+							<Setter Property="Stroke" TargetName="arrow" Value="#222"/>
+						</Trigger>
+						<Trigger Property="IsPressed" Value="true">
+							<Setter Property="Stroke" TargetName="circle" Value="#FF526C7B"/>
+							<Setter Property="StrokeThickness" TargetName="circle" Value="1.5"/>
+							<Setter Property="Fill" TargetName="circle" Value="{DynamicResource ExpanderArrowPressedFill}"/>
+							<Setter Property="Stroke" TargetName="arrow" Value="#FF003366"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<Style x:Key="ExpanderStyleCRM" TargetType="{x:Type Expander}">
+		<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+		<Setter Property="Background" Value="Transparent"/>
+		<Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+		<Setter Property="VerticalContentAlignment" Value="Stretch"/>
+		<Setter Property="BorderBrush" Value="Transparent"/>
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type Expander}">
+					<ControlTemplate.Resources>
+						<Storyboard x:Key="StoryboardExpanderCRMContentAnimation">
+							<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ExpanderDesignGrid" Storyboard.TargetProperty="(UIElement.Visibility)">
+								<DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+								<DiscreteObjectKeyFrame KeyTime="00:00:00.5000000" Value="{x:Static Visibility.Visible}"/>
+							</ObjectAnimationUsingKeyFrames>
+							<!--<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ExpanderDesignGrid" Storyboard.TargetProperty="(FrameworkElement.Height)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0" KeySpline="0,0.664,0.339,1"/>
+								<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="200" KeySpline="0,0.519,0.283,1"/>
+							</DoubleAnimationUsingKeyFrames>-->
+							<ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="RectangleDarkener" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+								<SplineColorKeyFrame KeyTime="00:00:00" Value="#FFFFC959" KeySpline="0,1,1,1"/>
+								<SplineColorKeyFrame KeyTime="00:00:00.5000000" Value="#00FFC959"/>
+							</ColorAnimationUsingKeyFrames>
+						</Storyboard>
+						<Storyboard x:Key="StoryboardExpanderCRMOverCollapsed">
+							<ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="dockPanel" Storyboard.TargetProperty="(Panel.Background).(SolidColorBrush.Color)">
+								<SplineColorKeyFrame KeyTime="00:00:00" Value="#002B3C4A" KeySpline="0,1,1,1"/>
+								<SplineColorKeyFrame KeyTime="00:00:00.2000000" Value="#7F2B3C4A" KeySpline="0,1,1,1"/>
+							</ColorAnimationUsingKeyFrames>
+						</Storyboard>
+					</ControlTemplate.Resources>
+					<Border SnapsToDevicePixels="true" 
+							Background="{TemplateBinding Background}" 
+							BorderBrush="{TemplateBinding BorderBrush}" 
+							BorderThickness="{TemplateBinding BorderThickness}" 
+							CornerRadius="3" x:Name="border" Visibility="Visible">
+						<DockPanel Background="#002B3C4A" x:Name="dockPanel">
+							<ToggleButton
+								FontFamily="{TemplateBinding FontFamily}" 
+								FontSize="{TemplateBinding FontSize}" 
+								FontStretch="{TemplateBinding FontStretch}" 
+								FontStyle="{TemplateBinding FontStyle}" 
+								FontWeight="{TemplateBinding FontWeight}" 
+								Foreground="{TemplateBinding Foreground}" 
+								HorizontalContentAlignment="Stretch" 
+								Padding="{TemplateBinding Padding}" 
+								VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}" 
+								FocusVisualStyle="{StaticResource ExpanderHeaderFocusVisual}" 
+								MinHeight="0" MinWidth="0" 
+								x:Name="HeaderSite" 
+								Style="{StaticResource ExpanderDownHeaderStyle}" 
+								Content="{TemplateBinding Header}" 
+								ContentTemplate="{TemplateBinding HeaderTemplate}" 
+								ContentTemplateSelector="{TemplateBinding HeaderTemplateSelector}" 
+								DockPanel.Dock="Top" 
+								IsChecked="{Binding Path=IsExpanded, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+							<Grid x:Name="ExpanderDesignGrid" DockPanel.Dock="Bottom" Visibility="Collapsed" Height="Auto">
+								<Grid.RowDefinitions>
+									<RowDefinition Height="*"/>
+									<RowDefinition Height="11"/>
+								</Grid.RowDefinitions>
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition Width="17"/>
+									<ColumnDefinition Width="*"/>
+									<ColumnDefinition Width="17"/>
+								</Grid.ColumnDefinitions>
+								
+								<Rectangle 
+									Margin="0,0,0,0" 
+									x:Name="RectangleDarkener" 
+									Fill="#FFFFC959" 
+									RadiusX="5" 
+									RadiusY="5" 
+									Grid.Column="0" 
+									Grid.Row="0"
+									Grid.ColumnSpan="3" 
+									Grid.RowSpan="2"/>
+								<Image 
+									
+									x:Name="LCImage" 
+									Grid.Row="0" 
+									Grid.Column="0"
+									Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_04.png" 
+									Stretch="Fill"
+									StretchDirection="Both"/>
+								<Image 
+									x:Name="RCImage" 
+									Grid.Column="2" 
+									Grid.Row="0" 
+									Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_06.png" 
+									Stretch="Fill"
+									StretchDirection="Both"/>
+								<Image 
+									x:Name="LBImage" 
+									Grid.Row="1" 
+									Grid.Column="0"
+									Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_07.png" 
+									Stretch="Fill"/>
+								<Image 
+									x:Name="RBImage" 
+									Grid.Row="1" 
+									Grid.Column="2" 
+									Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_09.png" 
+									Stretch="Fill"/>
+								<Image 
+									
+									x:Name="CBImage" 
+									Grid.Column="1" 
+									Grid.Row="1" 
+									Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_08.png" 
+									Stretch="Fill"/>
+
+								<ContentPresenter 
+									Grid.Column="0"
+									Grid.ColumnSpan="3"
+									Grid.Row="0"
+									HorizontalAlignment="Stretch" 
+									Margin="5,0,5,0" 
+									VerticalAlignment="Stretch" 
+									x:Name="contentPresenter"
+									Height="Auto"/>
+							</Grid>
+						</DockPanel>
+					</Border>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsExpanded" Value="true">
+							<Trigger.ExitActions>
+								<StopStoryboard BeginStoryboardName="StoryboardExpanderCRMContentAnimation_BeginStoryboard"/>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+								<BeginStoryboard x:Name="StoryboardExpanderCRMContentAnimation_BeginStoryboard" Storyboard="{StaticResource StoryboardExpanderCRMContentAnimation}"/>
+							</Trigger.EnterActions>
+							<Setter Property="Height" TargetName="HeaderSite" Value="30"/>
+							<Setter Property="VerticalAlignment" TargetName="contentPresenter" Value="Stretch"/>
+							<Setter Property="Visibility" TargetName="ExpanderDesignGrid" Value="{Binding Path=Visibility, ElementName=border, Mode=OneWay}"/>
+							<Setter Property="Opacity" TargetName="RectangleDarkener" Value="0"/>
+						</Trigger>
+						<Trigger Property="ExpandDirection" Value="Right">
+							<Setter Property="DockPanel.Dock" TargetName="HeaderSite" Value="Left"/>
+							<Setter Property="Style" TargetName="HeaderSite" Value="{StaticResource ExpanderRightHeaderStyle}"/>
+						</Trigger>
+						<Trigger Property="ExpandDirection" Value="Up">
+							<Setter Property="DockPanel.Dock" TargetName="HeaderSite" Value="Bottom"/>
+							<Setter Property="Style" TargetName="HeaderSite" Value="{StaticResource ExpanderUpHeaderStyle}"/>
+						</Trigger>
+						<Trigger Property="ExpandDirection" Value="Left">
+							<Setter Property="DockPanel.Dock" TargetName="HeaderSite" Value="Right"/>
+							<Setter Property="Style" TargetName="HeaderSite" Value="{StaticResource ExpanderLeftHeaderStyle}"/>
+						</Trigger>
+						<Trigger Property="IsEnabled" Value="false">
+							<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<ImageBrush x:Key="GlassExpand" Stretch="None" TileMode="None" ImageSource="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10.png">
+	</ImageBrush>
+	<ImageBrush x:Key="GlassExpandTL" Stretch="None" TileMode="None" ImageSource="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_01.png"/>
+	<ImageBrush x:Key="ImageBrushGlassExpandTC" Stretch="Fill" ImageSource="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_02.png"/>
+	<ImageBrush x:Key="GlassExpandLC" Stretch="Fill" ImageSource="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_04.png"/>
+	<ImageBrush x:Key="GlassExpandRC" ImageSource="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_06.png"/>
+	<SolidColorBrush x:Key="ListBorder" Color="#828790"/>
+	
+	<Style x:Key="ListBoxStyleCRM" TargetType="{x:Type ListBox}">
+		<Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+		<Setter Property="BorderBrush" Value="{StaticResource ListBorder}"/>
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+		<Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+		<Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+		<Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ListBox}">
+					<Border SnapsToDevicePixels="true" x:Name="Bd" BorderThickness="{TemplateBinding BorderThickness}">
+						<Grid>
+							<Grid x:Name="DesignGrid" Grid.Row="3" Grid.Column="3" Margin="-2,-3,-2,-3">
+								<Grid.RowDefinitions>
+									<RowDefinition Height="17"/>
+									<RowDefinition Height="*"/>
+									<RowDefinition Height="17"/>
+								</Grid.RowDefinitions>
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition Width="17"/>
+									<ColumnDefinition Width="*"/>
+									<ColumnDefinition Width="17"/>
+								</Grid.ColumnDefinitions>
+								<Image x:Name="LCImage" Grid.RowSpan="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_04.png" Stretch="Fill" Height="Auto" Grid.Row="1"/>
+								<Image x:Name="RCImage" Grid.Column="2" Grid.RowSpan="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_06.png" Stretch="Fill" Height="Auto" VerticalAlignment="Stretch" Grid.Row="1"/>
+								<Image x:Name="LBImage" Grid.Row="2" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_07.png" Stretch="Fill"/>
+								<Image x:Name="RBImage" Grid.Column="2" Grid.Row="2" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_09.png" Stretch="Fill"/>
+								<Image x:Name="CBImage" Grid.Column="1" Grid.ColumnSpan="1" Grid.Row="2" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_08.png" Stretch="Fill"/>
+								<Image Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_01.png" Stretch="Fill"/>
+								<Image Grid.Column="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_02.png" Stretch="Fill"/>
+								<Image Grid.Column="2" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_03.png" Stretch="Fill"/>
+							</Grid>
+                            <Rectangle x:Name="FillRegion" RadiusX="5" RadiusY="5"/>
+							<ScrollViewer Focusable="false" Padding="{TemplateBinding Padding}" Template="{DynamicResource ScrollViewerControlTemplateCRM}" Margin="2,2,-2,-2">
+								<ItemsPresenter Margin="5,0,5,0"/>
+							</ScrollViewer>
+						</Grid>
+					</Border>
+					<ControlTemplate.Triggers>
+						<!--<Trigger Property="IsEnabled" Value="false"/>-->
+						<Trigger Property="IsGrouping" Value="true">
+							<Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+						</Trigger>
+                        <Trigger Property="Validation.HasError" Value="true">
+                            <Setter Property="ToolTip" Value="{Binding RelativeSource={RelativeSource Self}, Path=(Validation.Errors)[0].ErrorContent}"/>
+                            <Setter TargetName="FillRegion" Property="Fill" Value="{StaticResource ValidationErrorBackgroundBrush3}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+    </Style>	
+	
+	<Style x:Key="ListBoxStyleCRM2" TargetType="{x:Type ListBox}">
+		<Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+		<Setter Property="BorderBrush" Value="{StaticResource ListBorder}"/>
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+		<Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
+		<Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+		<Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ListBox}">
+					<Border SnapsToDevicePixels="true" x:Name="Bd" BorderThickness="{TemplateBinding BorderThickness}" Padding="1">
+						<ScrollViewer Focusable="false"
+									  Padding="{TemplateBinding Padding}" 
+									  Template="{DynamicResource ScrollViewerControlTemplateCRM}">
+							<ItemsPresenter/>
+						</ScrollViewer>
+					</Border>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsEnabled" Value="false"/>
+						<Trigger Property="IsGrouping" Value="true">
+							<Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	
+	<Style x:Key="ScrollViewerStyleCRM" TargetType="{x:Type ScrollViewer}">
+		<Setter Property="Template" Value="{DynamicResource ScrollViewerControlTemplateCRM}"/>
+		<Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
+	</Style>
+
+	<ControlTemplate x:Key="ScrollViewerControlTemplateCRM" TargetType="{x:Type ScrollViewer}">
+		<Grid x:Name="Grid" Background="{TemplateBinding Background}">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+			<Rectangle x:Name="Corner" Grid.Column="1" Grid.Row="1"/>
+			<ScrollContentPresenter Margin="{TemplateBinding Padding}" x:Name="PART_ScrollContentPresenter" Grid.Column="0" Grid.Row="0" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}" CanContentScroll="{TemplateBinding CanContentScroll}" CanHorizontallyScroll="False" CanVerticallyScroll="False"/>
+			<ScrollBar Visibility="{TemplateBinding ComputedVerticalScrollBarVisibility}" Cursor="Arrow" x:Name="PART_VerticalScrollBar" Style="{DynamicResource ScrollBarStyleCRM}" Grid.Column="1" Grid.Row="0" ViewportSize="{TemplateBinding ViewportHeight}" Maximum="{TemplateBinding ScrollableHeight}" Minimum="0" Value="{Binding Path=VerticalOffset, Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" AutomationProperties.AutomationId="VerticalScrollBar"/>
+			<ScrollBar Visibility="{TemplateBinding ComputedHorizontalScrollBarVisibility}" Cursor="Arrow" x:Name="PART_HorizontalScrollBar" Grid.Column="0" Grid.Row="1" Orientation="Horizontal" ViewportSize="{TemplateBinding ViewportWidth}" Maximum="{TemplateBinding ScrollableWidth}" Minimum="0" Value="{Binding Path=HorizontalOffset, Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" AutomationProperties.AutomationId="HorizontalScrollBar" Style="{DynamicResource ScrollBarStyleCRM}"/>
+		</Grid>
+	</ControlTemplate>
+	<Style x:Key="ScrollBarButtonCRM" TargetType="{x:Type RepeatButton}">
+		<Setter Property="OverridesDefaultStyle" Value="true"/>
+		<Setter Property="Focusable" Value="false"/>
+		<Setter Property="IsTabStop" Value="false"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type RepeatButton}">
+					<ControlTemplate.Resources>
+						<Storyboard x:Key="StoryboardScrollBarButtonCRMAnimation">
+							<ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ellipse" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+								<SplineColorKeyFrame KeyTime="00:00:00" Value="#7F000000"/>
+								<SplineColorKeyFrame KeyTime="00:00:00.2000000" Value="#BF000000" KeySpline="0.504,0,0.5,0.999"/>
+							</ColorAnimationUsingKeyFrames>
+						</Storyboard>
+					</ControlTemplate.Resources>
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="*"/>
+						</Grid.ColumnDefinitions>
+						<Rectangle Margin="0,0,0,0" Fill="#02FFFFFF" Grid.ColumnSpan="1"/>
+						<Ellipse HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Width="4" Height="4" Fill="#4C000000" Grid.Column="0" Grid.ColumnSpan="1" x:Name="ellipse"/>
+					</Grid>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsMouseOver" Value="True">
+							<Trigger.ExitActions>
+								<StopStoryboard BeginStoryboardName="StoryboardScrollBarButtonCRMAnimation_BeginStoryboard"/>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+								<BeginStoryboard Storyboard="{StaticResource StoryboardScrollBarButtonCRMAnimation}" x:Name="StoryboardScrollBarButtonCRMAnimation_BeginStoryboard"/>
+							</Trigger.EnterActions>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<Style x:Key="VerticalScrollBarPageButtonCRM" TargetType="{x:Type RepeatButton}">
+		<Setter Property="OverridesDefaultStyle" Value="true"/>
+		<Setter Property="Background" Value="Transparent"/>
+		<Setter Property="Focusable" Value="false"/>
+		<Setter Property="IsTabStop" Value="false"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type RepeatButton}">
+					<Grid>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="2*"/>
+							<ColumnDefinition Width="3*"/>
+						</Grid.ColumnDefinitions>
+						<Rectangle Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Fill="#02000000" Grid.ColumnSpan="2"/>
+						<Rectangle Margin="40,0,41,0" Fill="#26000000" Width="4" Grid.Column="1" HorizontalAlignment="Center"/>
+					</Grid>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+    <Style x:Key="ScrollBarThumbCRM" TargetType="{x:Type Thumb}">
+        <Setter Property="OverridesDefaultStyle" Value="true"/>
+        <Setter Property="IsTabStop" Value="false"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <ControlTemplate.Resources>
+                        <Storyboard x:Key="StoryboardScrollThumbCRMAnimation" AutoReverse="False">
+                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle1" Storyboard.TargetProperty="(UIElement.Opacity)">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.5"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </ControlTemplate.Resources>
+                    <Grid>
+                        <Rectangle x:Name="rectangle1" Grid.Column="0" Grid.Row="0" Opacity="0.5" Fill="#7F000000"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="HorizontalContentAlignment" Value="Left"/>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Trigger.ExitActions>
+                                <StopStoryboard BeginStoryboardName="StoryboardScrollThumbCRMAnimation_BeginStoryboard"/>
+                            </Trigger.ExitActions>
+                            <Trigger.EnterActions>
+                                <BeginStoryboard Storyboard="{StaticResource StoryboardScrollThumbCRMAnimation}" x:Name="StoryboardScrollThumbCRMAnimation_BeginStoryboard"/>
+                            </Trigger.EnterActions>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="HorizontalScrollBarPageButton" TargetType="{x:Type RepeatButton}">
+		<Setter Property="OverridesDefaultStyle" Value="true"/>
+		<Setter Property="Background" Value="Transparent"/>
+		<Setter Property="Focusable" Value="false"/>
+		<Setter Property="IsTabStop" Value="false"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type RepeatButton}">
+					<Rectangle Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" Fill="{TemplateBinding Background}"/>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<Style x:Key="ScrollBarStyleCRM" TargetType="{x:Type ScrollBar}">
+		<Setter Property="Stylus.IsPressAndHoldEnabled" Value="false"/>
+		<Setter Property="Stylus.IsFlicksEnabled" Value="false"/>
+		<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+		<Setter Property="Width" Value="{DynamicResource {x:Static SystemParameters.VerticalScrollBarWidthKey}}"/>
+		<Setter Property="MinWidth" Value="{DynamicResource {x:Static SystemParameters.VerticalScrollBarWidthKey}}"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ScrollBar}">
+					<ControlTemplate.Resources>
+						<Storyboard x:Key="StoryboardScrollBarCRMBorderAnimation">
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DesignGrid" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.5" KeySpline="0.504,0,0.492,1"/>
+								<SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+					</ControlTemplate.Resources>
+					<Grid SnapsToDevicePixels="true" x:Name="Bg" Visibility="Visible">
+						<Grid.RowDefinitions>
+							<RowDefinition MaxHeight="{DynamicResource {x:Static SystemParameters.VerticalScrollBarButtonHeightKey}}"/>
+							<RowDefinition Height="0.00001*"/>
+							<RowDefinition MaxHeight="{DynamicResource {x:Static SystemParameters.VerticalScrollBarButtonHeightKey}}"/>
+						</Grid.RowDefinitions>
+						<Grid Opacity="0.5" Visibility="Visible" x:Name="DesignGrid" VerticalAlignment="Stretch" Grid.RowSpan="3">
+							<Grid.RowDefinitions>
+								<RowDefinition Height="8"/>
+								<RowDefinition Height="*"/>
+								<RowDefinition Height="6"/>
+							</Grid.RowDefinitions>
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="8"/>
+								<ColumnDefinition Width="*"/>
+							</Grid.ColumnDefinitions>
+							<Rectangle Margin="0,0,0,0" VerticalAlignment="Stretch" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="3">
+								<Rectangle.Fill>
+									<LinearGradientBrush EndPoint="1,0" >
+										<GradientStop Color="#4C000000" Offset="0"/>
+										<GradientStop Color="#7FFFFFFF" Offset="1"/>
+										<GradientStop Color="#00000000" Offset="0.509"/>
+										<GradientStop Color="#00FFFFFF" Offset="0.514"/>
+									</LinearGradientBrush>
+								</Rectangle.Fill>
+							</Rectangle>
+						</Grid>
+						<RepeatButton IsEnabled="{TemplateBinding IsMouseOver}" Style="{StaticResource ScrollBarButtonCRM}" Command="{x:Static ScrollBar.LineUpCommand}" Microsoft_Windows_Themes:ScrollChrome.ScrollGlyph="UpArrow"/>
+						<Track IsEnabled="{TemplateBinding IsMouseOver}" x:Name="PART_Track" Grid.Row="1" IsDirectionReversed="true">
+							<Track.DecreaseRepeatButton>
+								<RepeatButton Style="{StaticResource VerticalScrollBarPageButtonCRM}" Command="{x:Static ScrollBar.PageUpCommand}"/>
+							</Track.DecreaseRepeatButton>
+							<Track.IncreaseRepeatButton>
+								<RepeatButton Style="{StaticResource VerticalScrollBarPageButtonCRM}" Command="{x:Static ScrollBar.PageDownCommand}"/>
+							</Track.IncreaseRepeatButton>
+							<Track.Thumb>
+								<Thumb Style="{DynamicResource ScrollBarThumbCRM}" Microsoft_Windows_Themes:ScrollChrome.ScrollGlyph="VerticalGripper"/>
+							</Track.Thumb>
+						</Track>
+						<RepeatButton IsEnabled="{TemplateBinding IsMouseOver}" Style="{StaticResource ScrollBarButtonCRM}" Grid.Row="2" Command="{x:Static ScrollBar.LineDownCommand}" Microsoft_Windows_Themes:ScrollChrome.ScrollGlyph="DownArrow"/>
+					</Grid>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsMouseOver" Value="True">
+							<Trigger.ExitActions>
+								<StopStoryboard BeginStoryboardName="StoryboardScrollBarCRMBorderAnimation_BeginStoryboard"/>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+								<BeginStoryboard Storyboard="{StaticResource StoryboardScrollBarCRMBorderAnimation}" x:Name="StoryboardScrollBarCRMBorderAnimation_BeginStoryboard"/>
+							</Trigger.EnterActions>
+						</Trigger>
+						<Trigger Property="IsEnabled" Value="false">
+							<Setter Property="Background" TargetName="Bg" Value="{x:Null}"/>
+							<Setter Property="Visibility" TargetName="DesignGrid" Value="Hidden"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+		<Style.Triggers>
+			<Trigger Property="Orientation" Value="Horizontal">
+				<Setter Property="Width" Value="Auto"/>
+				<Setter Property="MinWidth" Value="0"/>
+				<Setter Property="Height" Value="{DynamicResource {x:Static SystemParameters.HorizontalScrollBarHeightKey}}"/>
+				<Setter Property="MinHeight" Value="{DynamicResource {x:Static SystemParameters.HorizontalScrollBarHeightKey}}"/>
+				<Setter Property="Template">
+					<Setter.Value>
+						<ControlTemplate TargetType="{x:Type ScrollBar}">
+							<ControlTemplate.Resources>
+								<Storyboard x:Key="Border">
+									<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DesignGrid" Storyboard.TargetProperty="(UIElement.Opacity)">
+										<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.5" KeySpline="1,0,1,1"/>
+										<SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1" KeySpline="1,0,1,1"/>
+									</DoubleAnimationUsingKeyFrames>
+								</Storyboard>
+							</ControlTemplate.Resources>
+							<Grid SnapsToDevicePixels="true" x:Name="Bg">
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition MaxWidth="{DynamicResource {x:Static SystemParameters.HorizontalScrollBarButtonWidthKey}}"/>
+									<ColumnDefinition Width="0.00001*"/>
+									<ColumnDefinition MaxWidth="{DynamicResource {x:Static SystemParameters.HorizontalScrollBarButtonWidthKey}}"/>
+								</Grid.ColumnDefinitions>
+								<Grid Opacity="0.5" x:Name="DesignGrid" Grid.ColumnSpan="3">
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="*"/>
+									</Grid.ColumnDefinitions>
+									<Grid.RowDefinitions>
+										<RowDefinition Height="*"/>
+									</Grid.RowDefinitions>
+									<Rectangle>
+										<Rectangle.Fill>
+											<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+												<GradientStop Color="#4C000000" Offset="0"/>
+												<GradientStop Color="#7FFFFFFF" Offset="1"/>
+												<GradientStop Color="#00FFFFFF" Offset="0.498"/>
+												<GradientStop Color="#00000000" Offset="0.493"/>
+											</LinearGradientBrush>
+										</Rectangle.Fill>
+									</Rectangle>
+								</Grid>
+								<RepeatButton IsEnabled="{TemplateBinding IsMouseOver}" Style="{StaticResource ScrollBarButtonCRM}" Command="{x:Static ScrollBar.LineLeftCommand}" Microsoft_Windows_Themes:ScrollChrome.ScrollGlyph="LeftArrow"/>
+								<Track IsEnabled="{TemplateBinding IsMouseOver}" x:Name="PART_Track" Grid.Column="1">
+									<Track.DecreaseRepeatButton>
+										<RepeatButton Style="{StaticResource HorizontalScrollBarPageButton}" Command="{x:Static ScrollBar.PageLeftCommand}"/>
+									</Track.DecreaseRepeatButton>
+									<Track.IncreaseRepeatButton>
+										<RepeatButton Style="{StaticResource HorizontalScrollBarPageButton}" Command="{x:Static ScrollBar.PageRightCommand}"/>
+									</Track.IncreaseRepeatButton>
+									<Track.Thumb>
+										<Thumb Style="{StaticResource ScrollBarThumbCRM}" Microsoft_Windows_Themes:ScrollChrome.ScrollGlyph="HorizontalGripper"/>
+									</Track.Thumb>
+								</Track>
+								<RepeatButton IsEnabled="{TemplateBinding IsMouseOver}" Style="{StaticResource ScrollBarButtonCRM}" Grid.Column="2" Command="{x:Static ScrollBar.LineRightCommand}" Microsoft_Windows_Themes:ScrollChrome.ScrollGlyph="RightArrow"/>
+							</Grid>
+							<ControlTemplate.Triggers>
+								<Trigger Property="IsMouseOver" Value="True">
+									<Trigger.ExitActions>
+										<StopStoryboard BeginStoryboardName="Border_BeginStoryboard"/>
+									</Trigger.ExitActions>
+									<Trigger.EnterActions>
+										<BeginStoryboard Storyboard="{StaticResource Border}" x:Name="Border_BeginStoryboard"/>
+									</Trigger.EnterActions>
+								</Trigger>
+							</ControlTemplate.Triggers>
+						</ControlTemplate>
+					</Setter.Value>
+				</Setter>
+				<Setter Property="Background" Value="{x:Null}"/>
+				<Setter Property="Foreground" Value="{x:Null}"/>
+			</Trigger>
+		</Style.Triggers>
+	</Style>
+
+	<Style x:Key="GridSplitterPreviewStyle">
+		<Setter Property="Control.Template">
+			<Setter.Value>
+				<ControlTemplate>
+					<Rectangle Fill="#80000000"/>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<ImageBrush x:Key="ImageBrushGridSplitterCenter" ImageSource="/MSExchangeClient.Infrastructure;component/Styles/Images/GridSplitter_02.png" Stretch="Fill"/>
+	<LinearGradientBrush x:Key="TextBoxBorder" EndPoint="0,20" StartPoint="0,0" MappingMode="Absolute">
+		<GradientStop Color="#ABADB3" Offset="0.05"/>
+		<GradientStop Color="#E2E3EA" Offset="0.07"/>
+		<GradientStop Color="#E3E9EF" Offset="1"/>
+	</LinearGradientBrush>
+	<Style x:Key="TextBoxStyleCRM" BasedOn="{x:Null}" TargetType="{x:Type TextBox}">
+		<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+		<Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.WindowBrushKey}}"/>
+		<Setter Property="BorderBrush" Value="{StaticResource TextBoxBorder}"/>
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="Padding" Value="1"/>
+		<Setter Property="AllowDrop" Value="true"/>
+		<Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type TextBox}">
+					<ControlTemplate.Resources>
+						<Storyboard x:Key="StoryboardTextboxCRMFocus">
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DesignGrid" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0" KeySpline="0.5,0,0.5,1"/>
+								<SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+							</DoubleAnimationUsingKeyFrames>
+							<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DesignGrid" Storyboard.TargetProperty="(UIElement.Visibility)">
+								<DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+								<DiscreteObjectKeyFrame KeyTime="00:00:00.2000000" Value="{x:Static Visibility.Visible}"/>
+							</ObjectAnimationUsingKeyFrames>
+						</Storyboard>
+						<Storyboard x:Key="StoryboardTextboxCRMLeave">
+							<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DesignGrid" Storyboard.TargetProperty="(UIElement.Visibility)">
+								<DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+								<DiscreteObjectKeyFrame KeyTime="00:00:02" Value="{x:Static Visibility.Hidden}"/>
+							</ObjectAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DesignGrid" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="1" KeySpline="0,1,1,1"/>
+								<SplineDoubleKeyFrame KeySpline="0,1,1,1" KeyTime="00:00:02" Value="0"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+					</ControlTemplate.Resources>
+					<!--<Microsoft_Windows_Themes:ListBoxChrome SnapsToDevicePixels="true" x:Name="Bd">-->
+						<Grid Margin="0,1,0,1">
+							<Grid HorizontalAlignment="Stretch" x:Name="DesignGrid" Width="Auto" Opacity="1" Visibility="Visible">
+								<Rectangle Opacity="0.3" HorizontalAlignment="Stretch" Width="Auto" RadiusX="3" RadiusY="3" SnapsToDevicePixels="True" Visibility="Visible" Margin="-1,-1,-1,-1" x:Name="Stroke" StrokeThickness="2">
+									<Rectangle.Stroke>
+										<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+											<GradientStop Color="#FF000000" Offset="0"/>
+											<GradientStop Color="#FFCCCCCC" Offset="1"/>
+										</LinearGradientBrush>
+									</Rectangle.Stroke>
+								</Rectangle>
+								<Rectangle Opacity="1" HorizontalAlignment="Stretch" Width="Auto" RadiusX="3" RadiusY="3" SnapsToDevicePixels="True" Visibility="Visible" Margin="0,0,0,0" x:Name="Background" StrokeThickness="2">
+									<Rectangle.Fill>
+										<LinearGradientBrush EndPoint="134.5,63.333" StartPoint="134.5,-16.25" MappingMode="Absolute">
+											<GradientStop Color="#FF000000" Offset="0"/>
+											<GradientStop Color="#FFFFFFFF" Offset="1"/>
+											<GradientStop Color="#B2FFFFFF" Offset="0.237"/>
+											<GradientStop Color="#7FFFFFFF" Offset="0.71"/>
+										</LinearGradientBrush>
+									</Rectangle.Fill>
+								</Rectangle>
+							</Grid>
+							<ScrollViewer SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" x:Name="PART_ContentHost" Margin="0,0,0,0"
+										  VerticalAlignment="Center"/>
+						</Grid>
+					<!--</Microsoft_Windows_Themes:ListBoxChrome>-->
+					<ControlTemplate.Triggers>
+						<MultiTrigger>
+							<MultiTrigger.Conditions>
+								<Condition Property="IsReadOnly" Value="True" />
+								<Condition Property="Validation.HasError" Value="False"/>
+							</MultiTrigger.Conditions>
+							<Setter Property="Visibility" TargetName="Background" Value="Hidden"/>
+						</MultiTrigger>
+						<!--<Trigger Property="IsReadOnly" Value="True">
+							<Setter Property="Visibility" TargetName="Background" Value="Hidden"/>
+						</Trigger>-->
+						<Trigger Property="IsMouseOver" Value="True">
+							<!--<Trigger.ExitActions>
+								<BeginStoryboard Storyboard="{StaticResource StoryboardTextboxCRMLeave}" x:Name="StoryboardTextboxCRMLeave_BeginStoryboard"/>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+								<BeginStoryboard Storyboard="{StaticResource StoryboardTextboxCRMFocus}"/>
+							</Trigger.EnterActions>-->
+						</Trigger>
+						<Trigger Property="IsEnabled" Value="false">
+							<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+							<!--<Setter Property="Visibility" TargetName="Background" Value="Hidden"/>-->
+						</Trigger>
+						<!--<Trigger Property="IsFocused" Value="True">
+							<Trigger.EnterActions>
+								<BeginStoryboard Storyboard="{StaticResource StoryboardTextboxCRMFocus}"/>
+							</Trigger.EnterActions>
+							<Trigger.ExitActions>
+								<BeginStoryboard Storyboard="{StaticResource StoryboardTextboxCRMLeave}" x:Name="StoryboardTextboxCRMLeave_BeginStoryboard1"/>
+							</Trigger.ExitActions>
+							<Setter Property="Visibility" TargetName="DesignGrid" Value="Visible"/>
+						</Trigger>-->
+						<Trigger Property="Validation.HasError" Value="True">
+							<Setter Property="ToolTip"
+								Value="{Binding RelativeSource={RelativeSource Self},
+								Path=(Validation.Errors)[0].ErrorContent}"/>
+							<Setter TargetName="Background" Property="Visibility" Value="Visible"/>
+							<Setter TargetName="Background" Property="Fill"
+								Value="{StaticResource ValidationErrorBackgroundBrush2}"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<Style x:Key="ButtonFocusVisual">
+		<Setter Property="Control.Template">
+			<Setter.Value>
+				<ControlTemplate>
+					<Rectangle SnapsToDevicePixels="true" Margin="2" Stroke="Black" StrokeDashArray="1 2" StrokeThickness="1"/>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	<LinearGradientBrush x:Key="ButtonNormalBackground" EndPoint="0,1" StartPoint="0,0">
+		<GradientStop Color="#F3F3F3" Offset="0"/>
+		<GradientStop Color="#EBEBEB" Offset="0.5"/>
+		<GradientStop Color="#DDDDDD" Offset="0.5"/>
+		<GradientStop Color="#CDCDCD" Offset="1"/>
+	</LinearGradientBrush>
+	<SolidColorBrush x:Key="ButtonNormalBorder" Color="#FF707070"/>
+	<Style x:Key="ToggleButtonCRMExpandSearch" TargetType="{x:Type ToggleButton}">
+		<Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+		<Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
+		<Setter Property="BorderBrush" Value="{StaticResource ButtonNormalBorder}"/>
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="Padding" Value="1"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ToggleButton}">
+					<Border x:Name="Border" Background="Transparent" CornerRadius="3">
+						<Path Width="16" Fill="#FFFFFFFF" Stretch="Fill" Data="M 1022.2271728515625,489.5592041015625 C1022.2271728515625,489.5592041015625 1017.89208984375,485.1549072265625 1017.89208984375,485.1549072265625 1015.6328125,486.5130615234375 1012.66845703125,486.20587158203125 1010.72705078125,484.230224609375 1008.42431640625,481.8907470703125 1008.42431640625,478.09527587890625 1010.72705078125,475.75543212890625 1013.030029296875,473.41485595703125 1016.763916015625,473.41485595703125 1019.06396484375,475.75543212890625 1020.9083251953125,477.62994384765625 1021.275146484375,480.43701171875 1020.166259765625,482.682373046875 1020.166259765625,482.682373046875 1024.579833984375,487.16827392578125 1024.579833984375,487.16827392578125 1025.951416015625,488.56195068359375 1023.646484375,491.0010986328125 1022.2271728515625,489.5592041015625 1022.2271728515625,489.5592041015625 1022.2271728515625,489.5592041015625 1022.2271728515625,489.5592041015625 zM 1017.32958984375,482.4658203125 C1018.67236328125,481.1009521484375 1018.67236328125,478.8843994140625 1017.32958984375,477.51953125 1015.986083984375,476.1546630859375 1013.806396484375,476.1546630859375 1012.462158203125,477.51953125 1011.1207275390625,478.8843994140625 1011.1207275390625,481.1009521484375 1012.462158203125,482.4658203125 1013.806396484375,483.83001708984375 1015.986083984375,483.83001708984375 1017.32958984375,482.4658203125 1017.32958984375,482.4658203125 1017.32958984375,482.4658203125 1017.32958984375,482.4658203125 z" Height="16" x:Name="path" Margin="0,0,0,0"/>
+					</Border>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsKeyboardFocused" Value="true"/>
+						<Trigger Property="IsChecked" Value="true"/>
+						<Trigger Property="IsEnabled" Value="false">
+							<Setter Property="Foreground" Value="#ADADAD"/>
+						</Trigger>
+						<Trigger Property="IsMouseOver" Value="true">
+							<Setter TargetName="Border" Property="Background" Value="#597A5300"></Setter>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<Style x:Key="GridSplitterStyleCRM" TargetType="{x:Type GridSplitter}">
+		<Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+		<Setter Property="PreviewStyle" Value="{StaticResource GridSplitterPreviewStyle}"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type GridSplitter}">
+					<ControlTemplate.Resources>
+						<Storyboard x:Key="StoryboardGridSplitterCRM" AutoReverse="False" RepeatBehavior="1x">
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ImageR_Copy" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+								<SplineDoubleKeyFrame KeySpline="1,0,1,1" KeyTime="00:00:00.2000000" Value="1"/>
+							</DoubleAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="RectangleC_Copy" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+								<SplineDoubleKeyFrame KeySpline="1,0,1,1" KeyTime="00:00:00.2000000" Value="1"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+					</ControlTemplate.Resources>
+					<Border BorderThickness="{TemplateBinding BorderThickness}" x:Name="border">
+						<Border.BitmapEffect>
+							<OuterGlowBitmapEffect Opacity="0" GlowColor="#FFFFFFFF" GlowSize="1"/>
+						</Border.BitmapEffect>
+						<Grid Height="8" x:Name="DesignGrid">
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="30"/>
+								<ColumnDefinition Width="*"/>
+								<ColumnDefinition Width="30"/>
+							</Grid.ColumnDefinitions>
+							<Image Margin="0,2.001,0,1.999" Grid.Column="0" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GridSplitter_01.png" Stretch="Fill" x:Name="ImageL"/>
+							<Image Margin="0,2.001,0,1.999" VerticalAlignment="Stretch" Grid.Column="2" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GridSplitter_03.png" Stretch="Fill" x:Name="ImageR"/>
+							<Rectangle Margin="0,2.001,0,1.999" VerticalAlignment="Stretch" Fill="{DynamicResource ImageBrushGridSplitterCenter}" Stroke="{x:Null}" Grid.Column="1" x:Name="RectangleC"/>
+							<Image Margin="0,2.001,0,1.999" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GridSplitter_01.png" Stretch="Fill" x:Name="ImageL_Copy" Opacity="0" Visibility="Visible"/>
+							<Image Margin="0,2.001,0,1.999" VerticalAlignment="Stretch" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GridSplitter_03.png" Stretch="Fill" x:Name="ImageR_Copy" Opacity="0" Visibility="Visible" Grid.Column="2"/>
+							<Rectangle Margin="0,2.001,0,1.999" VerticalAlignment="Stretch" Fill="{DynamicResource ImageBrushGridSplitterCenter}" Stroke="{x:Null}" x:Name="RectangleC_Copy" Opacity="0" Visibility="Visible" Grid.Column="1"/>
+						</Grid>
+					</Border>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsMouseOver" Value="True">
+							<Trigger.ExitActions>
+								<StopStoryboard BeginStoryboardName="StoryboardGridSplitterCRM_BeginStoryboard"/>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+								<BeginStoryboard Storyboard="{StaticResource StoryboardGridSplitterCRM}" x:Name="StoryboardGridSplitterCRM_BeginStoryboard"/>
+							</Trigger.EnterActions>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<Style x:Key="ButtonStyleCRM_Redirect" TargetType="{x:Type Button}">
+		<Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+		<Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
+		<Setter Property="BorderBrush" Value="{StaticResource ButtonNormalBorder}"/>
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="Padding" Value="1"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type Button}">
+					<Viewbox x:Name="Group_257" Width="33.5" Height="15.292">
+						<Canvas Width="33.4997" Height="15.292">
+							<Path x:Name="Path_258" Width="33.4997" Height="15.2688" Canvas.Left="0" Canvas.Top="0" Stretch="Fill" StrokeLineJoin="Round" Stroke="#FF5F6363" Data="F1 M 1.5,0.5L 27.9998,0.500366C 29.6665,0.791992 32.9997,7.50125 32.9997,7.50125C 31.7915,10.417 29.4581,14.7087 27.9998,14.7504C 26.5415,14.792 12.6667,14.75 1.5,14.75C 0.947708,14.75 0.5,14.3023 0.5,13.75L 0.5,1.5C 0.5,0.947693 0.947708,0.5 1.5,0.5 Z ">
+								<Path.Fill>
+									<LinearGradientBrush StartPoint="0.52821,0.913998" EndPoint="0.52821,0.0554796">
+										<GradientStop Color="#FFD7D7D7" Offset="0"/>
+										<GradientStop Color="#FFFFFFFF" Offset="1"/>
+									</LinearGradientBrush>
+								</Path.Fill>
+							</Path>
+							<Viewbox x:Name="Group_259">
+								<ContentPresenter Margin="3,1,1,1"/>
+							</Viewbox>
+						</Canvas>
+					</Viewbox>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsMouseOver" Value="true">
+							<Setter Property="Fill" TargetName="Path_258" Value="{DynamicResource ButtonNormalBackground}"/>
+							<Setter Property="Stroke" TargetName="Path_258" Value="{DynamicResource ButtonNormalBorder}"/>
+						</Trigger>
+						<Trigger Property="IsEnabled" Value="false">
+							<Setter Property="Foreground" Value="#ADADAD"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+
+	<Style x:Key="ButtonStyleCRM_BarBottom" TargetType="{x:Type Button}">
+		<Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+		<Setter Property="Background" Value="{StaticResource ButtonNormalBackground}"/>
+		<Setter Property="BorderBrush" Value="{StaticResource ButtonNormalBorder}"/>
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="Padding" Value="1"/>
+		<Setter Property="Width" Value="Auto" />
+		<Setter Property="Height" Value="35" />
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type Button}">
+					<ControlTemplate.Resources>
+						<Storyboard x:Key="Flick" AutoReverse="True" RepeatBehavior="Forever">
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="HighLight" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.6"/>
+								<SplineDoubleKeyFrame KeyTime="00:00:01" Value="0.2"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+						<Storyboard x:Key="Highlight">
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="HighLight" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0" KeySpline="0,1,1,1"/>
+								<SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0.5"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+					</ControlTemplate.Resources>
+					<Grid Width="Auto" Height="Auto" x:Name="grid">
+						<Rectangle RenderTransformOrigin="0.5,0.5" x:Name="HighLight" Fill="#FFDAFF00" Opacity="0">
+							<Rectangle.BitmapEffect>
+								<BlurBitmapEffect Radius="15"/>
+							</Rectangle.BitmapEffect>
+							<Rectangle.RenderTransform>
+								<TransformGroup>
+									<ScaleTransform ScaleX="1" ScaleY="1"/>
+									<SkewTransform AngleX="0" AngleY="0"/>
+									<RotateTransform Angle="0"/>
+									<TranslateTransform X="0" Y="0"/>
+								</TransformGroup>
+							</Rectangle.RenderTransform>
+						</Rectangle>
+						<Grid x:Name="Bottom" Margin="0,0,0,0" Visibility="Visible">
+							<Grid.RowDefinitions>
+								<RowDefinition Height="*"/>
+								<RowDefinition Height="35"/>
+							</Grid.RowDefinitions>
+							<Grid.ColumnDefinitions>
+								<ColumnDefinition Width="12"/>
+								<ColumnDefinition Width="*"/>
+								<ColumnDefinition Width="12"/>
+							</Grid.ColumnDefinitions>
+							<Image Grid.Row="0" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glasspanel10-clear_10.png" Stretch="Fill" Grid.RowSpan="1"/>
+							<Image Grid.Row="0" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glasspanel10-clear_10-05+.png" Stretch="Fill" Width="Auto" Grid.Column="2" Grid.RowSpan="1"/>
+							<Image Grid.Column="1" Grid.Row="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GlasspanelpanelButtons_sliced_12.png" Stretch="Fill" HorizontalAlignment="Stretch" Width="Auto" />
+							<Image Grid.Column="0" Grid.Row="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GlasspanelpanelButtons_01-06.png" Stretch="Fill"/>
+							<Image Grid.Column="2" Grid.Row="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GlasspanelpanelButtons_01-08.png" Stretch="Fill"/>
+						</Grid>
+						<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="contentPresenter"/>
+					</Grid>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsMouseOver" Value="True">
+							<Trigger.ExitActions>
+								<StopStoryboard BeginStoryboardName="Highlight_BeginStoryboard"/>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+								<BeginStoryboard Storyboard="{StaticResource Highlight}" x:Name="Highlight_BeginStoryboard"/>
+							</Trigger.EnterActions>
+						</Trigger>
+						<Trigger Property="IsCancel" Value="False"/>
+						<Trigger Property="IsKeyboardFocused" Value="true">
+							<Trigger.ExitActions>
+								<StopStoryboard BeginStoryboardName="Flick_BeginStoryboard"/>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+								<BeginStoryboard Storyboard="{StaticResource Flick}" x:Name="Flick_BeginStoryboard"/>
+							</Trigger.EnterActions>
+						</Trigger>
+						<Trigger Property="ToggleButton.IsChecked" Value="true">
+							<Trigger.ExitActions>
+								<StopStoryboard BeginStoryboardName="Flick_BeginStoryboard"/>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+								<BeginStoryboard Storyboard="{StaticResource Flick}" x:Name="Flick_BeginStoryboard1"/>
+							</Trigger.EnterActions>
+						</Trigger>
+						<Trigger Property="IsEnabled" Value="false">
+							<Setter Property="Foreground" Value="#ADADAD"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<Style x:Key="DecoratedBorder" TargetType="{x:Type ContentControl}" >
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ContentControl}">
+					<Grid x:Name="DesignGrid">
+						<Grid.RowDefinitions>
+							<RowDefinition Height="17"/>
+							<RowDefinition Height="*"/>
+							<RowDefinition Height="17"/>
+						</Grid.RowDefinitions>
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="17"/>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="17"/>
+						</Grid.ColumnDefinitions>
+						<Image x:Name="LCImage" 
+							   Grid.Column="0"
+							   Grid.Row="1"
+							   Grid.RowSpan="1" 
+							   Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_04.png" 
+							   Stretch="Fill" 
+							   Height="Auto" 
+							   />
+						<Image x:Name="RCImage" 
+							   Grid.Column="2" 
+							   Grid.Row="1"
+							   Grid.RowSpan="1" 
+							   Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_06.png" 
+							   Stretch="Fill" 
+							   Height="Auto" 
+							   VerticalAlignment="Stretch"/>
+						<Image x:Name="LBImage" 
+							   Grid.Column="0"
+							   Grid.Row="2" 
+							   Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_07.png"
+							   Stretch="Fill"/>
+						<Image x:Name="RBImage" 
+							   Grid.Column="2" 
+							   Grid.Row="2" 
+							   Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_09.png" 
+							   Stretch="Fill"/>
+						<Image x:Name="CBImage" 
+							   Grid.Column="1" 
+							   Grid.ColumnSpan="1" 
+							   Grid.Row="2" 
+							   Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_08.png" 
+							   Stretch="Fill"/>
+						<Image Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_01.png" 
+							   Grid.Column="0"
+							   Grid.Row="0"
+							   Stretch="Fill"/>
+						<Image Grid.Column="1" 
+							   Grid.Row="0"
+							   Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_02.png" 
+							   Stretch="Fill"/>
+						<Image Grid.Column="2" 
+							   Grid.Row="0"
+							   Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glass_Expand-10_03.png" 
+							   Stretch="Fill"/>
+						<ContentPresenter Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Margin="3,-15"
+										  ContentSource="Content" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+										  Height="Auto"/>
+					</Grid>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+	<Style x:Key="ButtonStyleCRM" TargetType="{x:Type Button}">
+		<Setter Property="FocusVisualStyle">
+			<Setter.Value>
+				<Style>
+					<Setter Property="Control.Template">
+						<Setter.Value>
+							<ControlTemplate>
+								<Rectangle SnapsToDevicePixels="true" Margin="2" Stroke="Black" StrokeDashArray="1 2" StrokeThickness="1"/>
+							</ControlTemplate>
+						</Setter.Value>
+					</Setter>
+				</Style>
+			</Setter.Value>
+		</Setter>
+		<Setter Property="BorderThickness" Value="1"/>
+		<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="Padding" Value="1"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type Button}">
+					<ControlTemplate.Resources>
+						<Storyboard x:Key="Flicker" AutoReverse="True" RepeatBehavior="Forever">
+							<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="Highlight" Storyboard.TargetProperty="(UIElement.Visibility)">
+								<DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+							</ObjectAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Highlight" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+								<SplineDoubleKeyFrame KeyTime="00:00:01" Value="0.5"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+					</ControlTemplate.Resources>
+					<Grid>
+						<Rectangle SnapsToDevicePixels="True" RadiusX="3" RadiusY="3" x:Name="Highlight" Opacity="1" Visibility="Hidden" Fill="{DynamicResource HighLightBackgroundCRM}">
+							<Rectangle.BitmapEffect>
+								<BlurBitmapEffect Radius="10" KernelType="Box"/>
+							</Rectangle.BitmapEffect>
+						</Rectangle>
+						<Rectangle SnapsToDevicePixels="True" RadiusX="2.5" RadiusY="2.5" x:Name="FocusBorder" Visibility="Collapsed" Margin="1,1,1,1" StrokeThickness="2" Stroke="{DynamicResource FocusBorderCRM}"/>
+						<Rectangle SnapsToDevicePixels="True" RadiusX="3" RadiusY="3" x:Name="Glare" Fill="{DynamicResource DefaultForegroundCRM}" Stroke="{DynamicResource DefaultBorderCRM}">
+						</Rectangle>
+						<ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+					</Grid>
+					<ControlTemplate.Triggers>
+						<Trigger Property="IsKeyboardFocused" Value="true">
+							<Trigger.ExitActions>
+								<StopStoryboard BeginStoryboardName="Flicker_BeginStoryboard"/>
+								<StopStoryboard BeginStoryboardName="Flicker_BeginStoryboard"/>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+								<BeginStoryboard x:Name="Flicker_BeginStoryboard" Storyboard="{StaticResource Flicker}"/>
+							</Trigger.EnterActions>
+							<Setter Property="Visibility" TargetName="FocusBorder" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+							<Setter Property="Opacity" TargetName="Highlight" Value="0.595"/>
+							<Setter Property="Margin" TargetName="Glare" Value="0,0,0,0"/>
+						</Trigger>
+						<Trigger Property="ToggleButton.IsChecked" Value="true">
+							<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+							<Setter Property="BitmapEffect" TargetName="Highlight">
+								<Setter.Value>
+									<BlurBitmapEffect KernelType="Box" Radius="0"/>
+								</Setter.Value>
+							</Setter>
+							<Setter Property="Opacity" TargetName="Highlight" Value="0.7"/>
+							<Setter Property="Fill" TargetName="Highlight" Value="{DynamicResource HighlightCheckedCRM}"/>
+							<Setter Property="Fill" TargetName="Glare" Value="{DynamicResource PressedBorderCRM}"/>
+							<Setter Property="Stroke" TargetName="Glare" Value="{DynamicResource PressedForegroundCRM}"/>
+						</Trigger>
+						<Trigger Property="IsEnabled" Value="false">
+							<Setter Property="Foreground" Value="#ADADAD"/>
+							<Setter Property="Fill" TargetName="Glare" Value="{x:Null}"/>
+							<Setter Property="Stroke" TargetName="Glare" Value="{DynamicResource DisabledBorderCRM}"/>
+						</Trigger>
+						<Trigger Property="IsPressed" Value="True">
+							<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+							<Setter Property="Fill" TargetName="Glare">
+								<Setter.Value>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#26000000" Offset="0"/>
+										<GradientStop Color="#7FFFFFFF" Offset="1"/>
+										<GradientStop Color="#0CFFFFFF" Offset="0.496"/>
+										<GradientStop Color="#0C000000" Offset="0.487"/>
+									</LinearGradientBrush>
+								</Setter.Value>
+							</Setter>
+							<Setter Property="Stroke" TargetName="Glare">
+								<Setter.Value>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#66000000" Offset="0.192"/>
+										<GradientStop Color="#FFFFFFFF" Offset="1"/>
+										<GradientStop Color="#BFFFFFFF" Offset="0.955"/>
+									</LinearGradientBrush>
+								</Setter.Value>
+							</Setter>
+							<Setter Property="BitmapEffect" TargetName="Highlight">
+								<Setter.Value>
+									<BlurBitmapEffect KernelType="Box" Radius="0"/>
+								</Setter.Value>
+							</Setter>
+							<Setter Property="Visibility" TargetName="FocusBorder" Value="Hidden"/>
+							<Setter Property="Opacity" TargetName="Highlight" Value="0.495"/>
+							<Setter Property="Fill" TargetName="Highlight" Value="{DynamicResource HighlightCheckedCRM}"/>
+						</Trigger>
+						<Trigger Property="IsMouseOver" Value="True">
+							<Trigger.ExitActions>
+							</Trigger.ExitActions>
+							<Trigger.EnterActions>
+							</Trigger.EnterActions>
+							<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+							<Setter Property="Opacity" TargetName="Highlight" Value="1"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+    <Style x:Key="RepeatButtonStyleCRM" TargetType="{x:Type RepeatButton}">
+        <Setter Property="FocusVisualStyle">
+            <Setter.Value>
+                <Style>
+                    <Setter Property="Control.Template">
+                        <Setter.Value>
+                            <ControlTemplate>
+                                <Rectangle SnapsToDevicePixels="true" Margin="2" Stroke="Black" StrokeDashArray="1 2" StrokeThickness="1"/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <ControlTemplate.Resources>
+                        <Storyboard x:Key="Flicker" AutoReverse="True" RepeatBehavior="Forever">
+                            <ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="Highlight" Storyboard.TargetProperty="(UIElement.Visibility)">
+                                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+                            </ObjectAnimationUsingKeyFrames>
+                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Highlight" Storyboard.TargetProperty="(UIElement.Opacity)">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:01" Value="0.5"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </ControlTemplate.Resources>
+                    <Grid>
+                        <Rectangle SnapsToDevicePixels="True" RadiusX="3" RadiusY="3" x:Name="Highlight" Opacity="1" Visibility="Hidden" Fill="{DynamicResource HighLightBackgroundCRM}">
+                            <Rectangle.BitmapEffect>
+                                <BlurBitmapEffect Radius="10" KernelType="Box"/>
+                            </Rectangle.BitmapEffect>
+                        </Rectangle>
+                        <Rectangle SnapsToDevicePixels="True" RadiusX="2.5" RadiusY="2.5" x:Name="FocusBorder" Visibility="Collapsed" Margin="1,1,1,1" StrokeThickness="2" Stroke="{DynamicResource FocusBorderCRM}"/>
+                        <Rectangle SnapsToDevicePixels="True" RadiusX="3" RadiusY="3" x:Name="Glare" Fill="{DynamicResource DefaultForegroundCRM}" Stroke="{DynamicResource DefaultBorderCRM}">
+                        </Rectangle>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="true">
+                            <Trigger.ExitActions>
+                                <StopStoryboard BeginStoryboardName="Flicker_BeginStoryboard"/>
+                                <StopStoryboard BeginStoryboardName="Flicker_BeginStoryboard"/>
+                            </Trigger.ExitActions>
+                            <Trigger.EnterActions>
+                                <BeginStoryboard x:Name="Flicker_BeginStoryboard" Storyboard="{StaticResource Flicker}"/>
+                            </Trigger.EnterActions>
+                            <Setter Property="Visibility" TargetName="FocusBorder" Value="Visible"/>
+                            <Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+                            <Setter Property="Opacity" TargetName="Highlight" Value="0.595"/>
+                            <Setter Property="Margin" TargetName="Glare" Value="0,0,0,0"/>
+                        </Trigger>
+                        <Trigger Property="ToggleButton.IsChecked" Value="true">
+                            <Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+                            <Setter Property="BitmapEffect" TargetName="Highlight">
+                                <Setter.Value>
+                                    <BlurBitmapEffect KernelType="Box" Radius="0"/>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Opacity" TargetName="Highlight" Value="0.7"/>
+                            <Setter Property="Fill" TargetName="Highlight" Value="{DynamicResource HighlightCheckedCRM}"/>
+                            <Setter Property="Fill" TargetName="Glare" Value="{DynamicResource PressedBorderCRM}"/>
+                            <Setter Property="Stroke" TargetName="Glare" Value="{DynamicResource PressedForegroundCRM}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="#ADADAD"/>
+                            <Setter Property="Fill" TargetName="Glare" Value="{x:Null}"/>
+                            <Setter Property="Stroke" TargetName="Glare" Value="{DynamicResource DisabledBorderCRM}"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+                            <Setter Property="Fill" TargetName="Glare">
+                                <Setter.Value>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#26000000" Offset="0"/>
+                                        <GradientStop Color="#7FFFFFFF" Offset="1"/>
+                                        <GradientStop Color="#0CFFFFFF" Offset="0.496"/>
+                                        <GradientStop Color="#0C000000" Offset="0.487"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Stroke" TargetName="Glare">
+                                <Setter.Value>
+                                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                        <GradientStop Color="#66000000" Offset="0.192"/>
+                                        <GradientStop Color="#FFFFFFFF" Offset="1"/>
+                                        <GradientStop Color="#BFFFFFFF" Offset="0.955"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="BitmapEffect" TargetName="Highlight">
+                                <Setter.Value>
+                                    <BlurBitmapEffect KernelType="Box" Radius="0"/>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Visibility" TargetName="FocusBorder" Value="Hidden"/>
+                            <Setter Property="Opacity" TargetName="Highlight" Value="0.495"/>
+                            <Setter Property="Fill" TargetName="Highlight" Value="{DynamicResource HighlightCheckedCRM}"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Trigger.ExitActions>
+                            </Trigger.ExitActions>
+                            <Trigger.EnterActions>
+                            </Trigger.EnterActions>
+                            <Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+                            <Setter Property="Opacity" TargetName="Highlight" Value="1"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <Style x:Key="ContentControlStyleCRM" TargetType="{x:Type ContentControl}">
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ContentControl}">
+					<ControlTemplate.Resources>
+						<Storyboard x:Key="Flicker" AutoReverse="True" RepeatBehavior="Forever">
+							<ObjectAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="Highlight" Storyboard.TargetProperty="(UIElement.Visibility)">
+								<DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+							</ObjectAnimationUsingKeyFrames>
+							<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Highlight" Storyboard.TargetProperty="(UIElement.Opacity)">
+								<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.7"/>
+								<SplineDoubleKeyFrame KeyTime="00:00:01" Value="0.2"/>
+							</DoubleAnimationUsingKeyFrames>
+						</Storyboard>
+					</ControlTemplate.Resources>
+					<Grid Width="Auto" Height="Auto">
+						<Rectangle SnapsToDevicePixels="True" RadiusX="3" x:Name="Highlight" Fill="#FFDAFF00" Visibility="Hidden" Margin="0,0,0,0" RadiusY="3">
+							<Rectangle.BitmapEffect>
+								<BlurBitmapEffect KernelType="Box" Radius="15"/>
+							</Rectangle.BitmapEffect>
+						</Rectangle>
+						<Rectangle SnapsToDevicePixels="True" RadiusX="3" x:Name="Border" Visibility="Hidden" Stroke="#FFCEFF00" RadiusY="3" Margin="1,1,1,1" StrokeThickness="1.5"/>
+						<Rectangle SnapsToDevicePixels="True" x:Name="Glare" RadiusX="3" RadiusY="3">
+							<Rectangle.Stroke>
+								<LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+									<GradientStop Offset="0.192" Color="#FFFFFFFF"/>
+									<GradientStop Offset="1" Color="#66000000"/>
+									<GradientStop Color="#26000000" Offset="0.955"/>
+								</LinearGradientBrush>
+							</Rectangle.Stroke>
+							<Rectangle.Fill>
+								<LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+									<GradientStop Color="#26000000" Offset="0.17"/>
+									<GradientStop Color="#7FFFFFFF" Offset="0.728"/>
+									<GradientStop Color="#0CFFFFFF" Offset="0.496"/>
+									<GradientStop Color="#0C000000" Offset="0.496"/>
+								</LinearGradientBrush>
+							</Rectangle.Fill>
+						</Rectangle>
+						<ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+					</Grid>
+					<ControlTemplate.Triggers>
+						<Trigger Property="Content" Value="{x:Null}"/>
+						<EventTrigger RoutedEvent="Mouse.MouseDown"/>
+						<Trigger Property="IsFocused" Value="True">
+							<Trigger.EnterActions>
+								<BeginStoryboard x:Name="Flicker_BeginStoryboard" Storyboard="{StaticResource Flicker}"/>
+							</Trigger.EnterActions>
+							<Trigger.ExitActions>
+								<StopStoryboard BeginStoryboardName="Flicker_BeginStoryboard"/>
+							</Trigger.ExitActions>
+							<Setter Property="Visibility" TargetName="Border" Value="Visible"/>
+							<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+							<Setter Property="Opacity" TargetName="Highlight" Value="0.2"/>
+						</Trigger>
+						<Trigger Property="IsMouseOver" Value="True">
+							<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+							<Setter Property="Opacity" TargetName="Highlight" Value="0.5"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+	
+	<!-- Simple ComboBox Toggle Button - This is used in ComboBox to expand and collapse the ComboBox Popup-->
+	<!--<ControlTemplate x:Key="ComboBoxToggleButton" TargetType="{x:Type ToggleButton}">
+		<Grid>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition/>
+				<ColumnDefinition Width="20"/>
+			</Grid.ColumnDefinitions>
+			<Rectangle x:Name="Highlight" Grid.ColumnSpan="2" Fill="{DynamicResource HighLightBackgroundCRM}" Visibility="Hidden"/>
+			<Rectangle x:Name="FocusBorder" Stroke="{DynamicResource FocusBorderCRM}" Grid.ColumnSpan="1" Margin="1,1,1,1" StrokeThickness="2" RadiusX="3" RadiusY="3" Visibility="Hidden"/>
+			<Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Stretch" 
+					   x:Name="Rectangle" VerticalAlignment="Stretch" 
+					   Width="Auto" Height="Auto" RadiusX="3" 
+					   RadiusY="3" Fill="{DynamicResource DefaultForegroundCRM}" 
+					   Stroke="{DynamicResource DefaultBorderCRM}"/>
+			<Rectangle Grid.Column="0" HorizontalAlignment="Stretch" 
+					   VerticalAlignment="Stretch" Width="Auto" 
+					   Height="Auto" RadiusX="3" RadiusY="3" 
+					   Stroke="{DynamicResource DefaultBorderCRM}" 
+					   x:Name="rectangle"/>
+			<Path Grid.Column="1" HorizontalAlignment="Center" x:Name="Arrow" VerticalAlignment="Center" Fill="{DynamicResource GlyphBrush}" Data="M 0 0 L 4 4 L 8 0 Z"/>
+		</Grid>
+		<ControlTemplate.Triggers>
+			<Trigger Property="IsFocused" Value="True">
+				<Setter Property="Visibility" TargetName="FocusBorder" Value="Visible"/>
+				<Setter Property="Opacity" TargetName="Highlight" Value="0"/>
+				<Setter Property="Grid.ColumnSpan" TargetName="FocusBorder" Value="1"/>
+			</Trigger>
+			<Trigger Property="IsMouseOver" Value="true">
+				<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+			</Trigger>
+			<Trigger Property="IsChecked" Value="true">
+				<Setter Property="Fill" TargetName="Rectangle" Value="{DynamicResource PressedForegroundCRM}"/>
+				<Setter Property="Stroke" TargetName="Rectangle" Value="{DynamicResource PressedBorderCRM}"/>
+				<Setter Property="Stroke" TargetName="rectangle" Value="{DynamicResource PressedBorderCRM}"/>
+				<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+			</Trigger>
+			<Trigger Property="IsEnabled" Value="False">
+				<Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+				<Setter Property="Fill" Value="{DynamicResource DisabledForegroundBrush}" TargetName="Arrow"/>
+				<Setter Property="Stroke" TargetName="Rectangle" Value="{DynamicResource DisabledBorderCRM}"/>
+				<Setter Property="Stroke" TargetName="rectangle" Value="{DynamicResource DisabledBorderCRM}"/>
+				<Setter Property="Fill" TargetName="Rectangle" Value="{x:Null}"/>
+				<Setter Property="Fill" TargetName="rectangle" Value="{x:Null}"/>
+			</Trigger>
+			<Trigger Property="IsEnabled" Value="False">
+				<Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+				<Setter Property="Fill" Value="{DynamicResource DisabledForegroundBrush}" TargetName="Arrow"/>
+				<Setter Property="Stroke" TargetName="Rectangle" Value="{DynamicResource DisabledBorderCRM}"/>
+				<Setter Property="Stroke" TargetName="rectangle" Value="{DynamicResource DisabledBorderCRM}"/>
+				<Setter Property="Fill" TargetName="Rectangle" Value="{x:Null}"/>
+				<Setter Property="Fill" TargetName="rectangle" Value="{x:Null}"/>
+			</Trigger>
+			<Trigger Property="Tag" Value="Invalid">
+				<Setter TargetName="rectangle" Property="Fill"
+						Value="{StaticResource ValidationErrorBackgroundBrush3}"/>
+			</Trigger>
+		</ControlTemplate.Triggers>
+	</ControlTemplate>-->
+
+<ControlTemplate x:Key="ComboBoxToggleButton" TargetType="{x:Type ToggleButton}">
+		<Grid>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition/>
+				<ColumnDefinition Width="20"/>
+			</Grid.ColumnDefinitions>
+			<Rectangle x:Name="Highlight" Grid.ColumnSpan="2" Fill="{DynamicResource HighLightBackgroundCRM}" Visibility="Hidden"/>
+			<Rectangle x:Name="FocusBorder" Stroke="{DynamicResource FocusBorderCRM}" Grid.ColumnSpan="1" Margin="1,1,1,1" StrokeThickness="2" RadiusX="3" RadiusY="3" Visibility="Hidden"/>
+			<Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Stretch" x:Name="Rectangle" VerticalAlignment="Stretch" Width="Auto" Height="Auto" RadiusX="3" RadiusY="3" Fill="{DynamicResource DefaultForegroundCRM}" Stroke="{DynamicResource DefaultBorderCRM}"/>
+			<Path Grid.Column="1" HorizontalAlignment="Center" x:Name="Arrow" VerticalAlignment="Center" Fill="{DynamicResource GlyphBrush}" Data="M 0 0 L 4 4 L 8 0 Z"/>
+		</Grid>
+		<ControlTemplate.Triggers>
+			<Trigger Property="IsFocused" Value="True">
+				<Setter Property="Visibility" TargetName="FocusBorder" Value="Visible"/>
+				<Setter Property="Opacity" TargetName="Highlight" Value="0"/>
+				<Setter Property="Grid.ColumnSpan" TargetName="FocusBorder" Value="1"/>
+			</Trigger>
+			<Trigger Property="IsMouseOver" Value="true">
+				<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+				<Setter Property="RadiusX" TargetName="Highlight" Value="3"/>
+				<Setter Property="RadiusY" TargetName="Highlight" Value="3"/>
+			</Trigger>
+			<Trigger Property="IsChecked" Value="true">
+				<Setter Property="Fill" TargetName="Rectangle" Value="{DynamicResource PressedForegroundCRM}"/>
+				<Setter Property="Stroke" TargetName="Rectangle" Value="{DynamicResource PressedBorderCRM}"/>
+				<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+			</Trigger>
+			<Trigger Property="IsEnabled" Value="False">
+				<Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+				<Setter Property="Fill" Value="{DynamicResource DisabledForegroundBrush}" TargetName="Arrow"/>
+				<Setter Property="Stroke" TargetName="Rectangle" Value="{DynamicResource DisabledBorderCRM}"/>
+				<Setter Property="Fill" TargetName="Rectangle" Value="{x:Null}"/>
+			</Trigger>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsMouseOver" Value="True"/>
+                    <Condition Property="Tag" Value="Invalid"/>
+                </MultiTrigger.Conditions>
+                <Setter Property="Fill" Value="{DynamicResource ValidationErrorBackgroundBrushCRM}" TargetName="Rectangle"/>
+            </MultiTrigger>
+            <Trigger Property="Tag" Value="Invalid">
+                <Setter Property="Fill" Value="{DynamicResource ValidationErrorBackgroundBrushCRM}" TargetName="Rectangle"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+	</ControlTemplate>
+
+	<!-- This is the area which contains the selected item in the ComboBox -->
+
+	<ControlTemplate x:Key="ComboBoxTextBox" TargetType="{x:Type TextBox}">
+		<!-- This must be named as PART_ContentHost -->
+		<Border x:Name="PART_ContentHost" Focusable="False" Background="{TemplateBinding Background}"/>
+	</ControlTemplate>
+
+	<!-- Simple ComboBox 
+	This uses the ComboBoxToggleButton to expand and collapse a Popup control
+	SimpleScrollViewer to allow items to be scrolled and SimpleComboBoxItem to define the look of each item 
+	The Popup shows a list of items in a StackPanel-->
+
+    <Style x:Key="ComboBoxStyleCRM" TargetType="{x:Type ComboBox}">
+        <Setter Property="SnapsToDevicePixels" Value="true"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ComboBox}">
+                    <Grid>
+                        <!-- The ToggleButton is databound to the ComboBox itself to toggle IsDropDownOpen -->
+                        <ToggleButton Grid.Column="2" Template="{DynamicResource ToggleButtonControlTemplateCRM}" x:Name="ToggleButton" Focusable="false" IsChecked="{Binding Path=IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" ClickMode="Press" IsEnabled="True"/>
+                        <ContentPresenter HorizontalAlignment="Left" Margin="3,3,23,3" x:Name="ContentSite" VerticalAlignment="Center" Content="{TemplateBinding SelectionBoxItem}" ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}" IsHitTestVisible="False"/>
+
+                        <!-- The TextBox must be named PART_EditableTextBox or ComboBox will not recognize it -->
+                        <TextBox Visibility="Hidden" Template="{DynamicResource ComboBoxTextBox}" HorizontalAlignment="Left" Margin="3,3,23,3" x:Name="PART_EditableTextBox" Style="{x:Null}" VerticalAlignment="Center" Focusable="True" Background="Transparent" IsReadOnly="{TemplateBinding IsReadOnly}"/>
+
+                        <!-- The Popup shows the list of items in the ComboBox. IsOpen is databound to IsDropDownOpen which is toggled via the ComboBoxToggleButton -->
+                        <Popup IsOpen="{TemplateBinding IsDropDownOpen}" Placement="Bottom" x:Name="Popup" Focusable="False" AllowsTransparency="True" PopupAnimation="Slide">
+                            <Grid MaxHeight="{TemplateBinding MaxDropDownHeight}" MinWidth="{TemplateBinding ActualWidth}" x:Name="DropDown" SnapsToDevicePixels="True">
+                                <Border x:Name="DropDownBorder" Background="#FFFFFFFF" BorderBrush="#FF7E7E7E" BorderThickness="1"/>
+                                <ScrollViewer Margin="4,6,4,6" Style="{DynamicResource SimpleScrollViewer}" SnapsToDevicePixels="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" CanContentScroll="True">
+
+                                    <!-- The StackPanel is used to display the children by setting IsItemsHost to be True -->
+                                    <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained"/>
+
+                                </ScrollViewer>
+                            </Grid>
+                        </Popup>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <!-- This forces the DropDown to have a minimum size if it is empty -->
+                        <Trigger Property="HasItems" Value="false">
+                            <Setter Property="MinHeight" Value="95" TargetName="DropDownBorder"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+                        </Trigger>
+                        <Trigger Property="IsGrouping" Value="true">
+                            <Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+                        </Trigger>
+                        <Trigger Property="AllowsTransparency" SourceName="Popup" Value="true">
+                            <Setter Property="CornerRadius" Value="4" TargetName="DropDownBorder"/>
+                            <Setter Property="Margin" Value="0,2,0,0" TargetName="DropDownBorder"/>
+                        </Trigger>
+                        <Trigger Property="IsEditable" Value="true">
+                            <Setter Property="IsTabStop" Value="false"/>
+                            <Setter Property="Visibility" Value="Visible" TargetName="PART_EditableTextBox"/>
+                            <Setter Property="Visibility" Value="Hidden" TargetName="ContentSite"/>
+                            <Setter Property="Margin" TargetName="Popup" Value="-19,16.5,19,-16.5"/>
+                            <Setter Property="Template" TargetName="ToggleButton" Value="{DynamicResource ToggleButtonEditableControlTemplateCRM}"/>
+                            <Setter Property="IsEnabled" TargetName="ToggleButton" Value="True"/>
+                        </Trigger>
+                        <Trigger Property="Validation.HasError" Value="true">
+                            <Setter Property="ToolTip"
+								Value="{Binding RelativeSource={RelativeSource Self},
+								Path=(Validation.Errors)[0].ErrorContent}"/>
+                            <Setter TargetName="ToggleButton" Property="Tag"
+								Value="Invalid"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <ControlTemplate x:Key="ToggleButtonControlTemplateCRM" TargetType="{x:Type ToggleButton}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+            <Rectangle x:Name="Highlight" Visibility="Visible" RadiusX="3" RadiusY="3" Grid.ColumnSpan="2"/>
+            <Rectangle x:Name="Rectangle" Width="Auto" Height="Auto" RadiusX="3" RadiusY="3" Fill="{DynamicResource DefaultForegroundCRM}" Stroke="{DynamicResource DefaultBorderCRM}" Visibility="Visible" Grid.ColumnSpan="2"/>
+            <Path Grid.Column="1" HorizontalAlignment="Center" x:Name="Arrow" VerticalAlignment="Center" Fill="{DynamicResource GlyphBrush}" Data="M 0 0 L 4 4 L 8 0 Z"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="true">
+                <Setter Property="Fill" TargetName="Highlight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+            </Trigger>
+            <Trigger Property="IsChecked" Value="true">
+                <Setter Property="Fill" TargetName="Highlight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+                <Setter Property="Fill" TargetName="Rectangle" Value="{DynamicResource PressedForegroundCRM}"/>
+                <Setter Property="Stroke" TargetName="Rectangle" Value="{DynamicResource PressedBorderCRM}"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+                <Setter Property="Fill" Value="{DynamicResource DisabledForegroundBrush}" TargetName="Arrow"/>
+                <Setter Property="Fill" TargetName="Rectangle" Value="{x:Null}"/>
+                <Setter Property="Stroke" TargetName="Rectangle" Value="{DynamicResource DisabledBorderCRM}"/>
+            </Trigger>
+            <Trigger Property="Tag" Value="Invalid">
+                <Setter Property="Fill" TargetName="Highlight" Value="{DynamicResource ValidationErrorBackgroundBrushCRM}"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+    <ControlTemplate x:Key="ToggleButtonEditableControlTemplateCRM" TargetType="{x:Type ToggleButton}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+            <Rectangle x:Name="Highlight" StrokeThickness="2" RadiusX="4" RadiusY="4" Visibility="Visible" HorizontalAlignment="Stretch" Fill="{DynamicResource DefaultLightBackgroundCRM}" Grid.ColumnSpan="2" Margin="0,0,0,0"/>
+            <Border x:Name="border2" Background="{x:Null}" CornerRadius="0,3,3,0" Grid.Column="1"/>
+            <Border Background="{DynamicResource ComboBoxBackgroundCRM}" BorderBrush="{DynamicResource TextboxBorderCRM}" BorderThickness="1,1,1,1" CornerRadius="0,3,3,0" x:Name="border1" Grid.Column="1"/>
+            <Border Background="{DynamicResource ComboBoxBackgroundCRM}" BorderBrush="{DynamicResource TextboxBorderCRM}" BorderThickness="1,1,0,1" CornerRadius="3,0,0,3" x:Name="border"/>
+            <Path Grid.Column="1" HorizontalAlignment="Center" x:Name="Arrow" VerticalAlignment="Center" Fill="{DynamicResource GlyphBrush}" Data="M 0 0 L 4 4 L 8 0 Z"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="true">
+                <Setter Property="BorderBrush" TargetName="border1" Value="{DynamicResource DefaultBorderCRM}"/>
+                <Setter Property="Background" TargetName="border1" Value="{DynamicResource DefaultForegroundCRM}"/>
+                <Setter Property="Background" TargetName="border2" Value="{x:Null}"/>
+            </Trigger>
+            <Trigger Property="IsChecked" Value="true">
+                <Setter Property="Background" TargetName="border1" Value="{DynamicResource PressedForegroundCRM}"/>
+                <Setter Property="BorderBrush" TargetName="border1" Value="{DynamicResource PressedBorderCRM}"/>
+                <Setter Property="Background" TargetName="border2" Value="{DynamicResource HighLightBackgroundCRM}"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+                <Setter Property="Fill" Value="{DynamicResource DisabledForegroundBrush}" TargetName="Arrow"/>
+                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource DisabledBorderBrush}"/>
+                <Setter Property="BorderBrush" TargetName="border1" Value="{DynamicResource DisabledBorderBrush}"/>
+                <Setter Property="Background" TargetName="border1" Value="{x:Null}"/>
+                <Setter Property="Background" TargetName="border" Value="{x:Null}"/>
+                <Setter Property="Background" TargetName="border2" Value="{x:Null}"/>
+                <Setter Property="Fill" TargetName="Highlight" Value="{x:Null}"/>
+            </Trigger>
+            <Trigger Property="Tag" Value="Invalid">
+                <Setter Property="Fill" TargetName="Highlight" Value="{DynamicResource ValidationErrorBackgroundBrushCRM}"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+
+    <!-- Simple ComboBoxItem - This is used for each item inside of the ComboBox. You can change the selected color of each item below-->
+	<Style x:Key="SimpleComboBoxItem" TargetType="{x:Type ComboBoxItem}">
+		<Setter Property="SnapsToDevicePixels" Value="true"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ComboBoxItem}">
+					<Grid SnapsToDevicePixels="true">
+						<Border x:Name="Border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}"/>
+						<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+					</Grid>
+					<ControlTemplate.Triggers>
+
+						<!-- Change IsHighlighted SelectedBackgroundBrush to set the selection color for the items -->
+						<Trigger Property="IsHighlighted" Value="true">
+							<Setter Property="Background" Value="{DynamicResource SelectedBackgroundBrush}" TargetName="Border"/>
+						</Trigger>
+
+						<Trigger Property="IsEnabled" Value="false">
+							<Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+    <Style x:Key="ButtonStyleCRM_CommandBottomLeft" TargetType="{x:Type Button}">
+        <Setter Property="FocusVisualStyle">
+            <Setter.Value>
+                <Style>
+                    <Setter Property="Control.Template">
+                        <Setter.Value>
+                            <ControlTemplate>
+                                <Rectangle SnapsToDevicePixels="true" Margin="2" Stroke="Black" StrokeDashArray="1 2" StrokeThickness="1"/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <ControlTemplate.Resources>
+                        <Storyboard x:Key="Flick" AutoReverse="True" RepeatBehavior="Forever">
+                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="HighLight" Storyboard.TargetProperty="(UIElement.Opacity)">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:01" Value="0.3"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </ControlTemplate.Resources>
+                    <Grid x:Name="grid">
+                        <Grid.Background>
+                            <SolidColorBrush/>
+                        </Grid.Background>
+                        <Border x:Name="HighLight" CornerRadius="0,0,0,7" Background="{DynamicResource ButtonBarBackgroundDefaultBrushCRM}"/>
+                        <Grid x:Name="Bottom">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="12"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="12"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Row="0" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glasspanel10-clear_10.png" Stretch="Fill" Grid.RowSpan="1"/>
+                            <Image HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GlasspanelpanelButtons_sliced_12.png" Stretch="Fill"/>
+                            <Image Grid.Row="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GlasspanelpanelButtons_01-06.png" Stretch="Fill"/>
+                        </Grid>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="contentPresenter" BitmapEffect="{DynamicResource GliphDefaultShadowSRM}"/>
+                        <Rectangle HorizontalAlignment="Right" x:Name="RightEmboss" Width="1" Fill="{DynamicResource EmbossDarkBrushCRM}"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsFocused" Value="True">
+                            <Trigger.ExitActions>
+                                <StopStoryboard BeginStoryboardName="Flick_BeginStoryboard"/>
+                            </Trigger.ExitActions>
+                            <Trigger.EnterActions>
+                                <BeginStoryboard Storyboard="{StaticResource Flick}" x:Name="Flick_BeginStoryboard"/>
+                            </Trigger.EnterActions>
+                            <Setter Property="Background" TargetName="HighLight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" TargetName="HighLight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrushCRM}"/>
+                            <Setter Property="Background" TargetName="HighLight" Value="{x:Null}"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" TargetName="HighLight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+                            <Setter Property="Margin" TargetName="contentPresenter" Value="0,2,0,0"/>
+                            <Setter Property="Fill" TargetName="RightEmboss" Value="{DynamicResource EmbossLightBrushCRM}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="ButtonStyleCRM_CommandBottomRight" TargetType="{x:Type Button}">
+        <Setter Property="FocusVisualStyle">
+            <Setter.Value>
+                <Style>
+                    <Setter Property="Control.Template">
+                        <Setter.Value>
+                            <ControlTemplate>
+                                <Rectangle SnapsToDevicePixels="true" Margin="2" Stroke="Black" StrokeDashArray="1 2" StrokeThickness="1"/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <ControlTemplate.Resources>
+                        <Storyboard x:Key="Flick" AutoReverse="True" RepeatBehavior="Forever">
+                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="HighLight" Storyboard.TargetProperty="(UIElement.Opacity)">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:01" Value="0.3"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </ControlTemplate.Resources>
+                    <Grid x:Name="grid">
+                        <Border x:Name="HighLight" CornerRadius="0,0,7,0" Background="{DynamicResource ButtonBarBackgroundDefaultBrushCRM}"/>
+                        <Grid x:Name="Bottom">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="12"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="12"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Row="0" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glasspanel10-clear_10-05+.png" Grid.Column="2" Grid.RowSpan="1" Stretch="Fill"/>
+                            <Image Grid.Column="0" Grid.Row="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GlasspanelpanelButtons_sliced_12.png" Stretch="Fill"/>
+                            <Image Grid.Column="2" Grid.Row="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GlasspanelpanelButtons_01-08.png" Stretch="Fill"/>
+                        </Grid>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="contentPresenter" BitmapEffect="{DynamicResource GliphDefaultShadowSRM}"/>
+                        <Rectangle Fill="{DynamicResource EmbossLightBrushCRM}" HorizontalAlignment="Left" x:Name="LeftEmboss" Width="1"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsKeyboardFocused" Value="True">
+                            <Trigger.ExitActions>
+                                <StopStoryboard BeginStoryboardName="Flick_BeginStoryboard"/>
+                            </Trigger.ExitActions>
+                            <Trigger.EnterActions>
+                                <BeginStoryboard Storyboard="{StaticResource Flick}" x:Name="Flick_BeginStoryboard"/>
+                            </Trigger.EnterActions>
+                            <Setter Property="Background" TargetName="HighLight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" TargetName="HighLight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrushCRM}"/>
+                            <Setter Property="Background" TargetName="HighLight" Value="{x:Null}"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" TargetName="HighLight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+                            <Setter Property="Margin" TargetName="contentPresenter" Value="0,2,0,0"/>
+                            <Setter Property="Fill" TargetName="LeftEmboss" Value="{DynamicResource EmbossDarkBrushCRM}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="ButtonStyleCRM_CommandBottomCenter" TargetType="{x:Type Button}">
+        <Setter Property="FocusVisualStyle">
+            <Setter.Value>
+                <Style>
+                    <Setter Property="Control.Template">
+                        <Setter.Value>
+                            <ControlTemplate>
+                                <Rectangle SnapsToDevicePixels="true" Margin="2" Stroke="Black" StrokeDashArray="1 2" StrokeThickness="1"/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <ControlTemplate.Resources>
+                        <Storyboard x:Key="Flick" AutoReverse="True" RepeatBehavior="Forever">
+                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="HighLight" Storyboard.TargetProperty="(UIElement.Opacity)">
+                                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                                <SplineDoubleKeyFrame KeyTime="00:00:01" Value="0.3"/>
+                            </DoubleAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </ControlTemplate.Resources>
+                    <Grid x:Name="grid">
+                        <Border x:Name="HighLight" Background="{DynamicResource ButtonBarBackgroundDefaultBrushCRM}" />
+                        <Grid x:Name="Bottom">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="12"/>
+                            </Grid.RowDefinitions>
+                            <Image Grid.Column="0" Grid.Row="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GlasspanelpanelButtons_sliced_12.png" Stretch="Fill"/>
+                        </Grid>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="contentPresenter" BitmapEffect="{DynamicResource GliphDefaultShadowSRM}"/>
+                        <Rectangle HorizontalAlignment="Left" Width="1" Fill="{DynamicResource EmbossLightBrushCRM}" x:Name="LeftEmboss"/>
+                        <Rectangle HorizontalAlignment="Right" Width="1" Fill="{DynamicResource EmbossDarkBrushCRM}" x:Name="RightEmboss"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsFocused" Value="True">
+                            <Trigger.EnterActions>
+                                <BeginStoryboard Storyboard="{StaticResource Flick}"/>
+                            </Trigger.EnterActions>
+                            <Setter Property="Background" TargetName="HighLight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" TargetName="HighLight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrushCRM}"/>
+                            <Setter Property="Background" TargetName="HighLight" Value="{x:Null}"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" TargetName="HighLight" Value="{DynamicResource HighLightBackgroundCRM}"/>
+                            <Setter Property="Margin" TargetName="contentPresenter" Value="0,2,0,0"/>
+                            <Setter Property="Fill" TargetName="RightEmboss" Value="{DynamicResource EmbossLightBrushCRM}"/>
+                            <Setter Property="Fill" TargetName="LeftEmboss" Value="{DynamicResource EmbossDarkBrushCRM}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+</ResourceDictionary>

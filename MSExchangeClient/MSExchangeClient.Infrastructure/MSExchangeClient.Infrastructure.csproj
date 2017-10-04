@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{08FCFCE3-8721-4A35-A272-2DB5B815BF26}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MSExchangeClient.Infrastructure</RootNamespace>
+    <AssemblyName>MSExchangeClient.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Converters\Bool2SizeConverter.cs" />
+    <Compile Include="Enums\RegionsNames.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Styles\Images\add.png" />
+    <Resource Include="Styles\Images\CreateAccount.png" />
+    <Resource Include="Styles\Images\CreateCase.png" />
+    <Resource Include="Styles\Images\CreateContact.png" />
+    <Resource Include="Styles\Images\CreateLead.png" />
+    <Resource Include="Styles\Images\CreateOpportunity.png" />
+    <Resource Include="Styles\Images\disconnect.png" />
+    <Resource Include="Styles\Images\ExclamationMark.png" />
+    <Resource Include="Styles\Images\Glasspanel10-clear.png" />
+    <Resource Include="Styles\Images\Glasspanel10-clear_01-03.png" />
+    <Resource Include="Styles\Images\Glasspanel10-clear_01-06.png" />
+    <Resource Include="Styles\Images\Glasspanel10-clear_01-08.png" />
+    <Resource Include="Styles\Images\Glasspanel10-clear_01.png" />
+    <Resource Include="Styles\Images\Glasspanel10-clear_10-05+.png" />
+    <Resource Include="Styles\Images\Glasspanel10-clear_10-05.png" />
+    <Resource Include="Styles\Images\Glasspanel10-clear_10.png" />
+    <Resource Include="Styles\Images\Glasspanel10-clear_sliced_03.png" />
+    <Resource Include="Styles\Images\Glasspanel10-clear_sliced_14.png" />
+    <Resource Include="Styles\Images\GlasspanelpanelButtons_01-03.png" />
+    <Resource Include="Styles\Images\GlasspanelpanelButtons_01-06.png" />
+    <Resource Include="Styles\Images\GlasspanelpanelButtons_01-08.png" />
+    <Resource Include="Styles\Images\GlasspanelpanelButtons_01.png" />
+    <Resource Include="Styles\Images\GlasspanelpanelButtons_sliced_03.png" />
+    <Resource Include="Styles\Images\GlasspanelpanelButtons_sliced_12.png" />
+    <Resource Include="Styles\Images\GlasspanelTC.png" />
+    <Resource Include="Styles\Images\GlasspanelTL.png" />
+    <Resource Include="Styles\Images\GlasspanelTR.png" />
+    <Resource Include="Styles\Images\Glass_Expand-10.png" />
+    <Resource Include="Styles\Images\Glass_Expand-10_01.png" />
+    <Resource Include="Styles\Images\Glass_Expand-10_02.png" />
+    <Resource Include="Styles\Images\Glass_Expand-10_03.png" />
+    <Resource Include="Styles\Images\Glass_Expand-10_04.png" />
+    <Resource Include="Styles\Images\Glass_Expand-10_05.png" />
+    <Resource Include="Styles\Images\Glass_Expand-10_06.png" />
+    <Resource Include="Styles\Images\Glass_Expand-10_07.png" />
+    <Resource Include="Styles\Images\Glass_Expand-10_08.png" />
+    <Resource Include="Styles\Images\Glass_Expand-10_09.png" />
+    <Resource Include="Styles\Images\GridSplitter_01.png" />
+    <Resource Include="Styles\Images\GridSplitter_02.png" />
+    <Resource Include="Styles\Images\GridSplitter_03.png" />
+    <Resource Include="Styles\Images\image1.png" />
+    <Resource Include="Styles\Images\image11.png" />
+    <Resource Include="Styles\Images\image4.png" />
+    <Resource Include="Styles\Images\image41.png" />
+    <Resource Include="Styles\Images\image42.png" />
+    <Resource Include="Styles\Images\image43.png" />
+    <Resource Include="Styles\Images\prick_r1_c1.png" />
+    <Resource Include="Styles\Images\prick_r1_c2.png" />
+    <Resource Include="Styles\Images\prick_r1_c3.png" />
+    <Resource Include="Styles\Images\prick_r2_c1.png" />
+    <Resource Include="Styles\Images\prick_r2_c2.png" />
+    <Resource Include="Styles\Images\prick_r2_c3.png" />
+    <Resource Include="Styles\Images\prick_r3_c1.png" />
+    <Resource Include="Styles\Images\prick_r3_c2.png" />
+    <Resource Include="Styles\Images\prick_r3_c3.png" />
+    <Resource Include="Styles\Images\scroll_border_01.png" />
+    <Resource Include="Styles\Images\scroll_border_02.png" />
+    <Resource Include="Styles\Images\scroll_border_04.png" />
+    <Resource Include="Styles\Images\scroll_border_07.png" />
+    <Resource Include="Styles\Images\scroll_border_08.png" />
+    <Resource Include="Styles\Images\separator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Styles\Brushes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\CheckBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\ComboBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Menu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\PopupDialogStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\ProgressBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\ResourceDictionaryCRM.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\SharedResources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

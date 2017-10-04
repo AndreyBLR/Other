@@ -1,0 +1,56 @@
+﻿@using MvcApp.Models
+@inherits System.Web.Mvc.WebViewPage<BookModel>
+@{
+    ViewBag.Title = "Add book";
+}
+
+<h2>Add book</h2>
+
+@using (Html.BeginForm("CreateBook", "Admin"))
+{
+    <table align="center">
+        <tr>
+            <td>
+                Book name:
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Name, new { style = "width:244px;" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Book author:
+            </td>
+            <td>
+                @Html.TextBoxFor(model => model.Author, new { style = "width:244px;" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Additional information:
+            </td>
+            <td>
+                @Html.TextAreaFor(model => model.AddInf, new { style = "width:244px;" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Genre:
+            </td>
+            <td>
+                @Html.ListBoxFor(model => model.Genre.Id, new MultiSelectList((IEnumerable<GenreModel>)ViewData["Genres"], "Id", "Name", ((IEnumerable<GenreModel>)ViewData["Genres"]).Select(x => new SelectListItem()
+                                                                                                                                                                        {
+                                                                                                                                                                            Selected = true,
+                                                                                                                                                                            Text = x.Name,
+                                                                                                                                                                            Value = x.Id.ToString()
+                                                                                                                                                                        }).ToList()
+                                                                   ), new { style = "width:250px;" }
+                                )
+                                
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="Create" /></td>
+        </tr>
+    </table>
+}

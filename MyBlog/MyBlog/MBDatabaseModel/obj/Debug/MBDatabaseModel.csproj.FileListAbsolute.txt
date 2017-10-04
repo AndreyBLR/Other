@@ -1,0 +1,16 @@
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBDatabaseModel\bin\Debug\Database.mdf
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBDatabaseModel\bin\Debug\Database_log.ldf
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBDatabaseModel\bin\Debug\MBDatabaseModel.dll.config
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBDatabaseModel\bin\Debug\MBDatabaseModel.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBDatabaseModel\bin\Debug\MBDatabaseModel.pdb
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBDatabaseModel\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBDatabaseModel\obj\Debug\MBDatabaseModel.dll
+C:\Users\Andrew\documents\visual studio 2010\Projects\MyBlog\MBDatabaseModel\obj\Debug\MBDatabaseModel.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MBDatabaseModel\bin\Debug\Database.mdf
+D:\Epam\Projects\MyBlog\MyBlog\MBDatabaseModel\bin\Debug\Database_log.ldf
+D:\Epam\Projects\MyBlog\MyBlog\MBDatabaseModel\bin\Debug\MBDatabaseModel.dll.config
+D:\Epam\Projects\MyBlog\MyBlog\MBDatabaseModel\bin\Debug\MBDatabaseModel.dll
+D:\Epam\Projects\MyBlog\MyBlog\MBDatabaseModel\bin\Debug\MBDatabaseModel.pdb
+D:\Epam\Projects\MyBlog\MyBlog\MBDatabaseModel\obj\Debug\ResolveAssemblyReference.cache
+D:\Epam\Projects\MyBlog\MyBlog\MBDatabaseModel\obj\Debug\MBDatabaseModel.dll
+D:\Epam\Projects\MyBlog\MyBlog\MBDatabaseModel\obj\Debug\MBDatabaseModel.pdb

@@ -1,0 +1,36 @@
+﻿@using MvcApp.Models
+@inherits System.Web.Mvc.WebViewPage<IEnumerable<GenreModel>>
+
+@{
+    ViewBag.Title = "Genres";
+}
+
+<h2>Genres</h2>
+@Html.ActionLink("Add genre", "CreateGenre", "Admin")
+
+<table>
+    @foreach (var genre in Model)
+    {
+        <tr>
+            <table>
+                <tr>
+                    <td width="50">Name: </td>
+                    <td  width="400" align="left">@genre.Name</td>
+                    <td width="100" rowspan="3">
+                        @if ((User.IsInRole("Admin")))
+                        {
+                            <a href="/Admin/DeleteGenre/@genre.Id">Delete</a>
+                            <a href="/Admin/ChangeGenre/@genre.Id">Change</a>
+                        } 
+                    </td>
+                </tr>
+                <tr>
+                    <td width="50">Description: </td>
+                    <td width="400" align="left">@genre.Desc</td>
+                </tr>
+            </table>
+
+        </tr>  
+        <tr><td><br /></td></tr>  
+    }
+</table>

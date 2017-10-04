@@ -1,0 +1,273 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<!-- Validation Brushes -->
+
+    <BitmapEffectGroup x:Key="GliphDefaultShadowCRM" >
+        <DropShadowBitmapEffect Color="#FFFFFFFF" Direction="270" ShadowDepth="1" Softness="0"/>
+        <DropShadowBitmapEffect Direction="270" Opacity="0.165" ShadowDepth="3" Softness="0.1"/>
+    </BitmapEffectGroup>
+    <LinearGradientBrush x:Key="EmbossLightBrushCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#E5FFFFFF" Offset="0.115"/>
+        <GradientStop Color="#00FFFFFF" Offset="1"/>
+        <GradientStop Color="#00FFFFFF" Offset="0"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="EmbossDarkBrushCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#26000000" Offset="0.195"/>
+        <GradientStop Color="#00000000" Offset="1"/>
+        <GradientStop Color="#00000000" Offset="0"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="ButtonBarBackgroundDefaultBrushCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#12000000" Offset="0.525"/>
+        <GradientStop Color="#02FFFFFF" Offset="0.52"/>
+        <GradientStop Color="#02000000" Offset="1"/>
+        <GradientStop Color="#4DFFFFFF" Offset="0"/>
+    </LinearGradientBrush>
+    <RadialGradientBrush x:Key="BackgroundBrush">
+        <RadialGradientBrush.RelativeTransform>
+            <TransformGroup>
+                <ScaleTransform CenterX="0.5" CenterY="0.5" ScaleX="1" ScaleY="1"/>
+                <SkewTransform AngleX="0" AngleY="0" CenterX="0.5" CenterY="0.5"/>
+                <RotateTransform Angle="0" CenterX="0.5" CenterY="0.5"/>
+                <TranslateTransform X="0" Y="0"/>
+            </TransformGroup>
+        </RadialGradientBrush.RelativeTransform>
+        <GradientStop Color="#FDBFDBFF" Offset="0"/>
+        <GradientStop Color="#00FFFFFF" Offset="1"/>
+    </RadialGradientBrush>
+    <SolidColorBrush x:Key="GliphDisabledBrushCRM" Color="#FF9CACBC"/>
+    <SolidColorBrush x:Key="GliphBlueBrushCRM" Color="#FF269EBF"/>
+    <SolidColorBrush x:Key="GliphGreenBrushCRM" Color="#FF6AAB00"/>
+    <SolidColorBrush x:Key="GliphOrangeBrushCRM" Color="#FFEA7500"/>
+    <SolidColorBrush x:Key="GliphGrayBrushCRM" Color="#FF766F65"/>
+    <!--New Brushes-->
+
+    <SolidColorBrush x:Key="ValidationErrorBackgroundBrushCRM" Color="#FDFFC8C8"/>
+    <SolidColorBrush x:Key="DefaultLightBackgroundCRM" Color="#BAFFFFFF"/>
+    <LinearGradientBrush x:Key="ComboBoxBackgroundCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#19000000" Offset="0"/>
+        <GradientStop Color="#FFFFFFFF" Offset="1"/>
+        <GradientStop Color="#01000000" Offset="0.15"/>
+        <GradientStop Color="#00FFFFFF" Offset="0.845"/>
+    </LinearGradientBrush>
+
+    <!--End of new Brushes-->
+
+    <LinearGradientBrush x:Key="ValidationErrorBackgroundBrush2" EndPoint="134.5,63.333" StartPoint="134.5,-16.25" MappingMode="Absolute">
+		<GradientStop Color="#FF000000" Offset="0"/>
+		<GradientStop Color="#FFFFAAAA" Offset="1"/>
+		<GradientStop Color="#B2FFAAAA" Offset="0.237"/>
+		<GradientStop Color="#7FFFAAAA" Offset="0.71"/>
+	</LinearGradientBrush>
+
+	<LinearGradientBrush x:Key="ValidationErrorBackgroundBrush3" EndPoint="0.5,1" StartPoint="0.5,0">
+		<GradientStop Color="#73FFAAAA" Offset="1"/>
+	</LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="GliphDefaultSRM" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#4C000000" Offset="0"/>
+        <GradientStop Color="#4C000000" Offset="1"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="ValidationErrorBackgroundBrush" Color="#FFEAF2"/>
+
+	<!-- Кисти заливки -->
+
+	<LinearGradientBrush x:Key="NormalBrush" StartPoint="0,0" EndPoint="0,1">
+		<GradientBrush.GradientStops>
+			<GradientStopCollection>
+				<GradientStop Color="#FFF" Offset="0.0"/>
+				<GradientStop Color="#CCC" Offset="1.0"/>
+			</GradientStopCollection>
+		</GradientBrush.GradientStops>
+	</LinearGradientBrush>
+
+	<LinearGradientBrush x:Key="HorizontalNormalBrush" StartPoint="0,0"
+                       EndPoint="1,0">
+		<GradientBrush.GradientStops>
+			<GradientStopCollection>
+				<GradientStop Color="#FFF" Offset="0.0"/>
+				<GradientStop Color="#CCC" Offset="1.0"/>
+			</GradientStopCollection>
+		</GradientBrush.GradientStops>
+	</LinearGradientBrush>
+
+	<LinearGradientBrush x:Key="LightBrush" StartPoint="0,0" EndPoint="0,1">
+		<GradientBrush.GradientStops>
+			<GradientStopCollection>
+				<GradientStop Color="#FFF" Offset="0.0"/>
+				<GradientStop Color="#EEE" Offset="1.0"/>
+			</GradientStopCollection>
+		</GradientBrush.GradientStops>
+	</LinearGradientBrush>
+
+	<LinearGradientBrush x:Key="HorizontalLightBrush" StartPoint="0,0"
+                       EndPoint="1,0">
+		<GradientBrush.GradientStops>
+			<GradientStopCollection>
+				<GradientStop Color="#FFF" Offset="0.0"/>
+				<GradientStop Color="#EEE" Offset="1.0"/>
+			</GradientStopCollection>
+		</GradientBrush.GradientStops>
+	</LinearGradientBrush>
+
+	<LinearGradientBrush x:Key="DarkBrush" StartPoint="0,0" EndPoint="0,1">
+		<GradientBrush.GradientStops>
+			<GradientStopCollection>
+				<GradientStop Color="#FFF" Offset="0.0"/>
+				<GradientStop Color="#AAA" Offset="1.0"/>
+			</GradientStopCollection>
+		</GradientBrush.GradientStops>
+	</LinearGradientBrush>
+
+	<LinearGradientBrush x:Key="PressedBrush" StartPoint="0,0" EndPoint="0,1">
+		<GradientBrush.GradientStops>
+			<GradientStopCollection>
+				<GradientStop Color="#BBB" Offset="0.0"/>
+				<GradientStop Color="#EEE" Offset="0.1"/>
+				<GradientStop Color="#EEE" Offset="0.9"/>
+				<GradientStop Color="#FFF" Offset="1.0"/>
+			</GradientStopCollection>
+		</GradientBrush.GradientStops>
+	</LinearGradientBrush>
+
+	<!-- TopLevelMenu item highlight brush -->
+	<LinearGradientBrush x:Key="TopLevelMenuItemHighlightBrush" EndPoint="0.5,1" StartPoint="0.5,0">
+		<GradientStop Color="#FF8EACD6" Offset="0.293"/>
+		<GradientStop Color="#FFDFE5EE" Offset="1"/>
+		<GradientStop Color="#FE8B97A7" Offset="0.006"/>
+		<GradientStop Color="#FE5C759B" Offset="0.061"/>
+	</LinearGradientBrush>
+
+
+	<SolidColorBrush x:Key="DisabledForegroundBrush" Color="#4C000000" />
+	<SolidColorBrush x:Key="DisabledBackgroundBrush" Color="#EEE" />
+	<SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FFF" />
+	<SolidColorBrush x:Key="SelectedBackgroundBrush" Color="#DDD" />
+
+	<!-- Контурные кисти -->
+
+	<LinearGradientBrush x:Key="NormalBorderBrush" StartPoint="0,0"
+                       EndPoint="0,1">
+		<GradientBrush.GradientStops>
+			<GradientStopCollection>
+				<GradientStop Color="#CCC" Offset="0.0"/>
+				<GradientStop Color="#444" Offset="1.0"/>
+			</GradientStopCollection>
+		</GradientBrush.GradientStops>
+	</LinearGradientBrush>
+
+	<LinearGradientBrush x:Key="HorizontalNormalBorderBrush" StartPoint="0,0"
+                       EndPoint="1,0">
+		<GradientBrush.GradientStops>
+			<GradientStopCollection>
+				<GradientStop Color="#CCC" Offset="0.0"/>
+				<GradientStop Color="#444" Offset="1.0"/>
+			</GradientStopCollection>
+		</GradientBrush.GradientStops>
+	</LinearGradientBrush>
+
+	<LinearGradientBrush x:Key="DefaultedBorderBrush" StartPoint="0,0" 
+                       EndPoint="0,1">
+		<GradientBrush.GradientStops>
+			<GradientStopCollection>
+				<GradientStop Color="#777" Offset="0.0"/>
+				<GradientStop Color="#000" Offset="1.0"/>
+			</GradientStopCollection>
+		</GradientBrush.GradientStops>
+	</LinearGradientBrush>
+
+	<LinearGradientBrush x:Key="PressedBorderBrush" StartPoint="0,0"
+                       EndPoint="0,1">
+		<GradientBrush.GradientStops>
+			<GradientStopCollection>
+				<GradientStop Color="#444" Offset="0.0"/>
+				<GradientStop Color="#888" Offset="1.0"/>
+			</GradientStopCollection>
+		</GradientBrush.GradientStops>
+	</LinearGradientBrush>
+
+	<SolidColorBrush x:Key="DisabledBorderBrush" Color="#AAA" />
+	<SolidColorBrush x:Key="SolidBorderBrush" Color="#888" />
+	<SolidColorBrush x:Key="LightBorderBrush" Color="#AAA" />
+
+	<!-- Дополнительные кисти -->
+
+	<SolidColorBrush x:Key="GlyphBrush" Color="#444" />
+	<SolidColorBrush x:Key="LightColorBrush" Color="#DDD" />
+
+
+	<!-- BRUSHES FROM DESIGNER BEGIN -->
+
+	<LinearGradientBrush x:Key="DefaultForegroundCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+		<GradientStop Color="#26000000" Offset="1"/>
+		<GradientStop Color="#7FFFFFFF" Offset="0"/>
+		<GradientStop Color="#0CFFFFFF" Offset="0.5"/>
+		<GradientStop Color="#0C000000" Offset="0.5"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="DefaultBorderCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+		<GradientStop Color="#66000000" Offset="1"/>
+		<GradientStop Color="#FFFFFFFF" Offset="0"/>
+		<GradientStop Color="#0CFFFFFF" Offset="0.5"/>
+		<GradientStop Color="#0C000000" Offset="0.5"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="PressedBorderCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+		<GradientStop Color="#66000000" Offset="0.192"/>
+		<GradientStop Color="#FFFFFFFF" Offset="1"/>
+		<GradientStop Color="#BFFFFFFF" Offset="0.955"/>
+	</LinearGradientBrush>		
+	<LinearGradientBrush x:Key="PressedForegroundCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+		<GradientStop Color="#30000000" Offset="0"/>
+		<GradientStop Color="#7FFFFFFF" Offset="1"/>
+		<GradientStop Color="#0A000000" Offset="0.513"/>
+		<GradientStop Color="#0CFFFFFF" Offset="0.513"/>
+	</LinearGradientBrush>
+	<DrawingBrush x:Key="DisabledForegroundCRM" Viewbox="0,0,125,35" ViewboxUnits="Absolute">
+		<DrawingBrush.Drawing>
+			<GeometryDrawing Brush="#00000000">
+				<GeometryDrawing.Geometry>
+					<RectangleGeometry RadiusX="3" RadiusY="3" Rect="0.5,0.5,124,34"/>
+				</GeometryDrawing.Geometry>
+				<GeometryDrawing.Pen>
+					<Pen Brush="#FFA5A5A5" DashCap="Flat" EndLineCap="Flat" LineJoin="Miter" MiterLimit="10" StartLineCap="Flat" Thickness="1"/>
+				</GeometryDrawing.Pen>
+			</GeometryDrawing>
+		</DrawingBrush.Drawing>
+	</DrawingBrush>
+	<SolidColorBrush x:Key="FocusBorderCRM" Color="#FFFBFF00"/>
+	<DrawingBrush x:Key="HighlightCheckedCRM" Viewbox="0,0,125,35" ViewboxUnits="Absolute">
+		<DrawingBrush.Drawing>
+			<DrawingGroup Opacity="1">
+				<DrawingGroup.BitmapEffect>
+					<BlurBitmapEffect KernelType="Box" Radius="0"/>
+				</DrawingGroup.BitmapEffect>
+			</DrawingGroup>
+		</DrawingBrush.Drawing>
+	</DrawingBrush>
+	<LinearGradientBrush x:Key="TextboxBorderCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+		<GradientStop Color="#55000000" Offset="0"/>
+		<GradientStop Color="#FFFFFFFF" Offset="0.15"/>
+	</LinearGradientBrush>
+	<LinearGradientBrush x:Key="TextBoxBackgroundCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+		<GradientStop Color="#FFDDDDDD" Offset="0"/>
+		<GradientStop Color="#FFFFFFFF" Offset="1"/>
+		<GradientStop Color="#BBFFFFFF" Offset="0.15"/>
+		<GradientStop Color="#BBFFFFFF" Offset="0.85"/>
+	</LinearGradientBrush>
+	<DrawingBrush x:Key="TextBoxDisabledBorderCRM"/>
+	<DrawingBrush x:Key="TextBoxDisabledBackgroundCRM"/>
+	<LinearGradientBrush x:Key="DisabledBorderCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+		<GradientStop Color="#FFA5A5A5" Offset="0"/>
+		<GradientStop Color="#FFA5A5A5" Offset="1"/>
+	</LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="HighLightBackgroundCRM" EndPoint="0.5,1" StartPoint="0.5,0">
+        <GradientStop Color="#CCD7FF37" Offset="0.935"/>
+        <GradientStop Color="#33D7FF37" Offset="0.005"/>
+        <GradientStop Color="#4CD7FF37" Offset="1"/>
+    </LinearGradientBrush>
+
+    <!-- BRUSHES FROM DESIGNER END -->
+
+
+</ResourceDictionary>

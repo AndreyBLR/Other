@@ -1,0 +1,17 @@
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Modules.Core.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Modules.Core.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\Microsoft.Practices.Prism.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Infrastructure.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Infrastructure.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\Microsoft.Practices.Prism.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\Microsoft.Practices.Prism.xml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\ResolveAssemblyReference.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\ModuleNavigationPane\ModuleNavigationPaneView.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\Settings\SettingsView.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\ModuleNavigationPane\ModuleNavigationPaneView.g.cs
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\Settings\SettingsView.g.cs
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Modules.Core_MarkupCompile.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Modules.Core.g.resources
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Modules.Core.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Modules.Core.pdb

@@ -1,0 +1,15 @@
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Core\bin\Debug\MSExchangeClient.Core.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Core\bin\Debug\MSExchangeClient.Core.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Core\obj\Debug\ResolveAssemblyReference.cache
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Core\obj\Debug\MSExchangeClient.Core.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Core\obj\Debug\MSExchangeClient.Core.pdb
+D:\MSExchangeClient\MSExchangeClient.Core\bin\Debug\MSExchangeClient.Core.dll
+D:\MSExchangeClient\MSExchangeClient.Core\bin\Debug\MSExchangeClient.Core.pdb
+D:\MSExchangeClient\MSExchangeClient.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\MSExchangeClient\MSExchangeClient.Core\obj\Debug\MSExchangeClient.Core.dll
+D:\MSExchangeClient\MSExchangeClient.Core\obj\Debug\MSExchangeClient.Core.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Core\bin\Debug\MSExchangeClient.Core.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Core\bin\Debug\MSExchangeClient.Core.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Core\obj\Debug\ResolveAssemblyReference.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.Core\obj\Debug\MSExchangeClient.Core.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Core\obj\Debug\MSExchangeClient.Core.pdb

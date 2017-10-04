@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="F36F1987-E6D5-4F3A-A91B-59FBC0A66868" ModuleId="MvcApp" />
+  <Module PersistentId="DC823656-85BC-4A32-830F-F2B31A3F3BAB" ModuleId="DataAccess" />
+</Modules>

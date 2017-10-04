@@ -1,0 +1,105 @@
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.App.exe
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.App.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.xml
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.xml
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\Shell\ShellView.baml
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\Shell\ShellView.g.cs
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\App.g.cs
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App_MarkupCompile.cache
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.g.resources
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.Properties.Resources.resources
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.exe
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.Modules.Mail.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\System.Windows.Interactivity.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.Modules.Mail.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Andrey_Kukalev\Documents\Visual Studio 2010\Projects\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.exe
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.pdb
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.App.exe
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.App.pdb
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.dll
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.Modules.Mail.dll
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\System.Windows.Interactivity.dll
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.Modules.Mail.pdb
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.pdb
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.xml
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.Interactivity.xml
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.pdb
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.xml
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\MSExchangeClient\MSExchangeClient.App\bin\Debug\System.Windows.Interactivity.xml
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\Shell\ShellView.baml
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\Shell\ShellView.g.cs
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\App.g.cs
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App_MarkupCompile.cache
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.g.resources
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.Properties.Resources.resources
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.exe
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\Shell\ShellView.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\Shell\ShellView.g.cs
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\App.g.cs
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App_MarkupCompile.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.g.resources
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\MSExchangeClient.App.Properties.Resources.resources
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.App.exe
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.App.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.Modules.Mail.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.Modules.Mail.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.UnityExtensions.xml
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Prism.xml
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.xml
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.Infrastructure.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.Infrastructure.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.Modules.Core.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\MSExchangeClient.Modules.Core.pdb
+D:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\RibbonControlsLibrary.dll
+D:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Windows.Shell.dll
+D:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\RibbonControlsLibrary.pdb
+D:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\RibbonControlsLibrary.xml
+D:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Windows.Shell.pdb
+D:\Диплом\MSExchangeClient\MSExchangeClient.App\bin\Debug\Microsoft.Windows.Shell.xml

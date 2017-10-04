@@ -1,0 +1,194 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+	<ResourceDictionary.MergedDictionaries>
+		<ResourceDictionary Source="Brushes.xaml">
+		</ResourceDictionary>
+	</ResourceDictionary.MergedDictionaries>
+
+	<!-- Simple ComboBox Toggle Button - This is used in ComboBox to expand and collapse the ComboBox Popup-->
+	<ControlTemplate x:Key="ComboBoxToggleButton" TargetType="{x:Type ToggleButton}">
+		<Grid>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition/>
+				<ColumnDefinition Width="20"/>
+			</Grid.ColumnDefinitions>
+			<Rectangle x:Name="Highlight" Grid.ColumnSpan="2" Fill="{DynamicResource HighLightBackgroundCRM}" Visibility="Hidden"/>
+			<Rectangle x:Name="FocusBorder" Stroke="{DynamicResource FocusBorderCRM}" Grid.ColumnSpan="1" Margin="1,1,1,1" StrokeThickness="2" RadiusX="3" RadiusY="3" Visibility="Hidden"/>
+			<Rectangle Grid.ColumnSpan="2" HorizontalAlignment="Stretch" x:Name="Rectangle" VerticalAlignment="Stretch" Width="Auto" Height="Auto" RadiusX="3" RadiusY="3" Fill="{DynamicResource DefaultForegroundCRM}" Stroke="{DynamicResource DefaultBorderCRM}"/>
+			<Path Grid.Column="1" HorizontalAlignment="Center" x:Name="Arrow" VerticalAlignment="Center" Fill="{DynamicResource GlyphBrush}" Data="M 0 0 L 4 4 L 8 0 Z"/>
+		</Grid>
+		<ControlTemplate.Triggers>
+			<Trigger Property="IsFocused" Value="True">
+				<Setter Property="Visibility" TargetName="FocusBorder" Value="Visible"/>
+				<Setter Property="Opacity" TargetName="Highlight" Value="0"/>
+				<Setter Property="Grid.ColumnSpan" TargetName="FocusBorder" Value="1"/>
+			</Trigger>
+			<Trigger Property="IsMouseOver" Value="true">
+				<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+				<Setter Property="RadiusX" TargetName="Highlight" Value="3"/>
+				<Setter Property="RadiusY" TargetName="Highlight" Value="3"/>
+			</Trigger>
+			<Trigger Property="IsChecked" Value="true">
+				<Setter Property="Fill" TargetName="Rectangle" Value="{DynamicResource PressedForegroundCRM}"/>
+				<Setter Property="Stroke" TargetName="Rectangle" Value="{DynamicResource PressedBorderCRM}"/>
+				<Setter Property="Visibility" TargetName="Highlight" Value="Visible"/>
+			</Trigger>
+			<Trigger Property="IsEnabled" Value="False">
+				<Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+				<Setter Property="Fill" Value="{DynamicResource DisabledForegroundBrush}" TargetName="Arrow"/>
+				<Setter Property="Stroke" TargetName="Rectangle" Value="{DynamicResource DisabledBorderCRM}"/>
+				<Setter Property="Fill" TargetName="Rectangle" Value="{x:Null}"/>
+			</Trigger>
+		</ControlTemplate.Triggers>
+	</ControlTemplate>
+
+	<ControlTemplate x:Key="ComboBoxTextBox" TargetType="{x:Type TextBox}">
+		<!-- This must be named as PART_ContentHost -->
+		<ScrollViewer x:Name="PART_ContentHost" Background="Transparent" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+	</ControlTemplate>
+
+	<!-- Simple ScrollViewer 
+	ScrollViewer is a Grid control which has a ContentPresenter and a Horizontal and Vertical ScrollBar 
+	It is used by ListBox, MenuItem, ComboBox, and TreeView -->
+	<Style x:Key="SimpleScrollViewer" TargetType="{x:Type ScrollViewer}" BasedOn="{x:Null}">
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ScrollViewer}">
+					<Grid Background="{TemplateBinding Background}">
+						<Grid.ColumnDefinitions>
+							<ColumnDefinition Width="*"/>
+							<ColumnDefinition Width="Auto"/>
+						</Grid.ColumnDefinitions>
+						<Grid.RowDefinitions>
+							<RowDefinition Height="*"/>
+							<RowDefinition Height="Auto"/>
+						</Grid.RowDefinitions>
+						<ScrollContentPresenter Grid.Column="0" Grid.Row="0" Margin="{TemplateBinding Padding}" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}" CanContentScroll="{TemplateBinding CanContentScroll}"/>
+
+						<!-- The visibility of the ScrollBars is controlled by the implementation fo the control -->
+						<ScrollBar Visibility="{TemplateBinding ComputedHorizontalScrollBarVisibility}" Grid.Column="0" Grid.Row="1" x:Name="PART_HorizontalScrollBar" Style="{DynamicResource SimpleScrollBar}" Orientation="Horizontal" Value="{Binding Path=HorizontalOffset, Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" ViewportSize="{TemplateBinding ViewportWidth}" Minimum="0" Maximum="{TemplateBinding ScrollableWidth}" AutomationProperties.AutomationId="HorizontalScrollBar"/>
+						<ScrollBar Visibility="{TemplateBinding ComputedVerticalScrollBarVisibility}" Grid.Column="1" Grid.Row="0" x:Name="PART_VerticalScrollBar" Style="{DynamicResource SimpleScrollBar}" Orientation="Vertical" Value="{Binding Path=VerticalOffset, Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" ViewportSize="{TemplateBinding ViewportHeight}" Minimum="0" Maximum="{TemplateBinding ScrollableHeight}" AutomationProperties.AutomationId="VerticalScrollBar"/>
+					</Grid>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+
+    <Style x:Key="LabelNewStyleCRM" TargetType="{x:Type Label}">
+        <Setter Property="SnapsToDevicePixels" Value="true"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Label}">
+                    <Grid>
+                        <Border x:Name="HighLight" CornerRadius="0,7,0,0" Background="{DynamicResource ButtonBarBackgroundDefaultBrushCRM}"/>
+                        <Grid x:Name="Top" Visibility="Visible">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="12"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="12"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Row="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/Glasspanel10-clear_10-05+.png" Grid.Column="1" Grid.RowSpan="1" Stretch="Fill"/>
+                            <Image Grid.Column="1" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GlasspanelpanelButtons_01-03.png" Stretch="Fill"/>
+                            <Image Grid.Column="0" Source="/MSExchangeClient.Infrastructure;component/Styles/Images/GlasspanelpanelButtons_sliced_03.png" Stretch="Fill"/>
+                        </Grid>
+                        <!-- The ToggleButton is databound to the ComboBox itself to toggle IsDropDownOpen -->
+                        <ContentPresenter HorizontalAlignment="Left" Margin="3,3,7,3" x:Name="ContentSite" VerticalAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <ControlTemplate x:Key="ToggleButtonEditableControlTemplateCRM" TargetType="{x:Type ToggleButton}">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="20"/>
+            </Grid.ColumnDefinitions>
+            <Rectangle x:Name="Highlight" StrokeThickness="2" RadiusX="4" RadiusY="4" Visibility="Visible" HorizontalAlignment="Stretch" Fill="{DynamicResource DefaultLightBackgroundCRM}" Grid.ColumnSpan="2" Margin="0,0,0,0"/>
+            <Border x:Name="border2" Background="{x:Null}" CornerRadius="0,3,3,0" Grid.Column="1"/>
+            <Border Background="{DynamicResource ComboBoxBackgroundCRM}" BorderBrush="{DynamicResource TextboxBorderCRM}" BorderThickness="1,1,1,1" CornerRadius="0,3,3,0" x:Name="border1" Grid.Column="1"/>
+            <Border Background="{DynamicResource ComboBoxBackgroundCRM}" BorderBrush="{DynamicResource TextboxBorderCRM}" BorderThickness="1,1,0,1" CornerRadius="3,0,0,3" x:Name="border"/>
+            <Path Grid.Column="1" HorizontalAlignment="Center" x:Name="Arrow" VerticalAlignment="Center" Fill="{DynamicResource GlyphBrush}" Data="M 0 0 L 4 4 L 8 0 Z"/>
+        </Grid>
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsMouseOver" Value="true">
+                <Setter Property="BorderBrush" TargetName="border1" Value="{DynamicResource DefaultBorderCRM}"/>
+                <Setter Property="Background" TargetName="border1" Value="{DynamicResource DefaultForegroundCRM}"/>
+                <Setter Property="Background" TargetName="border2" Value="{x:Null}"/>
+            </Trigger>
+            <Trigger Property="IsChecked" Value="true">
+                <Setter Property="Background" TargetName="border1" Value="{DynamicResource PressedForegroundCRM}"/>
+                <Setter Property="BorderBrush" TargetName="border1" Value="{DynamicResource PressedBorderCRM}"/>
+                <Setter Property="Background" TargetName="border2" Value="{DynamicResource HighLightBackgroundCRM}"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+                <Setter Property="Fill" Value="{DynamicResource DisabledForegroundBrush}" TargetName="Arrow"/>
+                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource DisabledBorderBrush}"/>
+                <Setter Property="BorderBrush" TargetName="border1" Value="{DynamicResource DisabledBorderBrush}"/>
+                <Setter Property="Background" TargetName="border1" Value="{x:Null}"/>
+                <Setter Property="Background" TargetName="border" Value="{x:Null}"/>
+                <Setter Property="Background" TargetName="border2" Value="{x:Null}"/>
+                <Setter Property="Fill" TargetName="Highlight" Value="{x:Null}"/>
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+
+    <Style x:Key="ComboBoxStyleCRM" TargetType="{x:Type ComboBox}">
+		<Setter Property="SnapsToDevicePixels" Value="true"/>
+		<Setter Property="Template">
+			<Setter.Value>
+				<ControlTemplate TargetType="{x:Type ComboBox}">
+					<Grid>
+						<!-- The ToggleButton is databound to the ComboBox itself to toggle IsDropDownOpen -->
+						<ToggleButton Grid.Column="2" Template="{DynamicResource ComboBoxToggleButton}" x:Name="ToggleButton" Focusable="false" IsChecked="{Binding Path=IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}" ClickMode="Press"/>
+						<ContentPresenter HorizontalAlignment="Left" Margin="3,3,23,3" x:Name="ContentSite" VerticalAlignment="Center" Content="{TemplateBinding SelectionBoxItem}" ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}" ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}" IsHitTestVisible="False"/>
+
+						<!-- The TextBox must be named PART_EditableTextBox or ComboBox will not recognize it -->
+						<TextBox Width="68" Visibility="Hidden" Template="{DynamicResource ComboBoxTextBox}" HorizontalAlignment="Left" Margin="3,3,3,3" x:Name="PART_EditableTextBox" Style="{DynamicResource TextBoxStyleCRM}" VerticalAlignment="Center" Focusable="True" Background="Transparent" />
+
+						<!-- The Popup shows the list of items in the ComboBox. IsOpen is databound to IsDropDownOpen which is toggled via the ComboBoxToggleButton -->
+						<Popup IsOpen="{TemplateBinding IsDropDownOpen}" Placement="Bottom" x:Name="Popup" Focusable="False" AllowsTransparency="False" PopupAnimation="Slide">
+							<Grid MaxHeight="{TemplateBinding MaxDropDownHeight}" MinWidth="{TemplateBinding ActualWidth}" x:Name="DropDown" SnapsToDevicePixels="True">
+								<Border x:Name="DropDownBorder" Background="#FFFFFFFF" BorderBrush="#FF7E7E7E" BorderThickness="1"/>
+								<ScrollViewer Margin="4,6,4,6" Style="{DynamicResource SimpleScrollViewer}" SnapsToDevicePixels="True" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" CanContentScroll="True" Template="{DynamicResource ScrollViewerControlTemplateCRM}">
+
+									<!-- The StackPanel is used to display the children by setting IsItemsHost to be True -->
+									<StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained"/>
+
+								</ScrollViewer>
+							</Grid>
+						</Popup>
+					</Grid>
+					<ControlTemplate.Triggers>
+						<!-- This forces the DropDown to have a minimum size if it is empty -->
+						<Trigger Property="HasItems" Value="false">
+							<Setter Property="MinHeight" Value="95" TargetName="DropDownBorder"/>
+						</Trigger>
+						<Trigger Property="IsEnabled" Value="false">
+							<Setter Property="Foreground" Value="{DynamicResource DisabledForegroundBrush}"/>
+						</Trigger>
+						<Trigger Property="IsGrouping" Value="true">
+							<Setter Property="ScrollViewer.CanContentScroll" Value="false"/>
+						</Trigger>
+						<Trigger Property="AllowsTransparency" SourceName="Popup" Value="true">
+							<Setter Property="CornerRadius" Value="4" TargetName="DropDownBorder"/>
+							<Setter Property="Margin" Value="0,2,0,0" TargetName="DropDownBorder"/>
+						</Trigger>
+						<Trigger Property="IsEditable" Value="true">
+							<Setter Property="IsTabStop" Value="false"/>
+							<Setter Property="Visibility" Value="Visible" TargetName="PART_EditableTextBox"/>
+							<Setter Property="Visibility" Value="Hidden" TargetName="ContentSite"/>
+							<Setter Property="Template" TargetName="ToggleButton" Value="{DynamicResource ToggleButtonEditableControlTemplateCRM}"/>
+						</Trigger>
+					</ControlTemplate.Triggers>
+				</ControlTemplate>
+			</Setter.Value>
+		</Setter>
+	</Style>
+</ResourceDictionary>

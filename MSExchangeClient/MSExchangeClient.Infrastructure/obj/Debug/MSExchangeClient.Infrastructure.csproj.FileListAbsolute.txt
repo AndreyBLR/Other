@@ -1,0 +1,27 @@
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Infrastructure\bin\Debug\MSExchangeClient.Infrastructure.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Infrastructure\bin\Debug\MSExchangeClient.Infrastructure.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\MSExchangeClient.Infrastructure.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\MSExchangeClient.Infrastructure.pdb
+D:\MSExchangeClient\MSExchangeClient.Infrastructure\bin\Debug\MSExchangeClient.Infrastructure.dll
+D:\MSExchangeClient\MSExchangeClient.Infrastructure\bin\Debug\MSExchangeClient.Infrastructure.pdb
+D:\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+D:\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\MSExchangeClient.Infrastructure.dll
+D:\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\MSExchangeClient.Infrastructure.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\bin\Debug\MSExchangeClient.Infrastructure.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\bin\Debug\MSExchangeClient.Infrastructure.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\Styles\Brushes.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\Styles\CheckBox.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\Styles\ComboBox.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\Styles\Menu.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\Styles\PopupDialogStyles.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\Styles\ProgressBar.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\Styles\SharedResources.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\GeneratedInternalTypeHelper.g.cs
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\MSExchangeClient.Infrastructure_MarkupCompile.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\MSExchangeClient.Infrastructure_MarkupCompile.lref
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\Styles\ResourceDictionaryCRM.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\MSExchangeClient.Infrastructure.g.resources
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\MSExchangeClient.Infrastructure.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Infrastructure\obj\Debug\MSExchangeClient.Infrastructure.pdb

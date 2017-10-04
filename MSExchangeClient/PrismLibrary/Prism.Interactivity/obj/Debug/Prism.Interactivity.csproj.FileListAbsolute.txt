@@ -1,0 +1,10 @@
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism.Interactivity\bin\Debug\Microsoft.Practices.Prism.Interactivity.dll
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism.Interactivity\bin\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism.Interactivity\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism.Interactivity\bin\Debug\System.Windows.Interactivity.dll
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism.Interactivity\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism.Interactivity\bin\Debug\System.Windows.Interactivity.xml
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism.Interactivity\obj\Debug\ResolveAssemblyReference.cache
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism.Interactivity\obj\Debug\Microsoft.Practices.Prism.Interactivity.dll
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism.Interactivity\obj\Debug\Microsoft.Practices.Prism.Interactivity.pdb
+D:\Диплом\MSExchangeClient\PrismLibrary\Prism.Interactivity\bin\Debug\Microsoft.Practices.Prism.Interactivity.XML

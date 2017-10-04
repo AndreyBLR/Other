@@ -1,0 +1,23 @@
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Common.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Common.pdb
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Common\obj\Debug\ResolveAssemblyReference.cache
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Common.dll
+c:\users\andrey_kukalev\documents\visual studio 2010\Projects\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Common.pdb
+D:\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Common.dll
+D:\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Common.pdb
+D:\MSExchangeClient\MSExchangeClient.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Common.dll
+D:\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Common.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Common.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Common.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\ResolveAssemblyReference.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Common.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Common.pdb
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\Settings\SettingsView.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\Settings\SettingsView.g.cs
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Common_MarkupCompile.cache
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\MSExchangeClient.Common.g.resources
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\ModuleNavigationPane\ModuleNavigationPaneView.baml
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\obj\Debug\ModuleNavigationPane\ModuleNavigationPaneView.g.cs
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Infrastructure.dll
+d:\Диплом\MSExchangeClient\MSExchangeClient.Common\bin\Debug\MSExchangeClient.Infrastructure.pdb

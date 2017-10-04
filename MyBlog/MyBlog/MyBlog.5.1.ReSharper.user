@@ -1,0 +1,1620 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="7105830C-BFB9-43A8-AC93-A33CF1F87FCE/f:app.config" caret="914" fromTop="11" />
+      <File id="2CBD8084-DE86-4ED7-95B0-F344C0A1AA02/f:App.Config" caret="0" fromTop="0" />
+      <File id="2CBD8084-DE86-4ED7-95B0-F344C0A1AA02/f:EntityDataModel.Designer.cs" caret="5927" fromTop="19" />
+      <File id="7105830C-BFB9-43A8-AC93-A33CF1F87FCE/d:Presenters/d:Page/f:CommentsPagePresenter.cs" caret="1279" fromTop="18" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:Logs/f:errors.txt" caret="176" fromTop="3" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:Classes/f:Helper.cs" caret="218" fromTop="7" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:gallery.aspx.cs" caret="48" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:registration.aspx.cs" caret="13" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:search.aspx.cs" caret="1641" fromTop="9" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:article.aspx.cs" caret="5563" fromTop="11" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:warnings.aspx.cs" caret="1693" fromTop="2" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:comments.aspx.cs" caret="337" fromTop="11" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:default.aspx.cs" caret="82" fromTop="1" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:gallery.aspx" caret="166" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:article.aspx" caret="166" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:warnings.aspx" caret="173" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:comments.aspx" caret="173" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:Handlers/f:image.ashx.cs" caret="1446" fromTop="17" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:default.aspx" caret="0" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:profile.aspx" caret="5896" fromTop="13" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:profile.aspx.cs" caret="1814" fromTop="18" />
+      <File id="7105830C-BFB9-43A8-AC93-A33CF1F87FCE/d:Presenters/d:Page/f:DefaultPagePresenter.cs" caret="800" fromTop="19" />
+      <File id="7105830C-BFB9-43A8-AC93-A33CF1F87FCE/d:Interfaces/d:ViewInterfaces/d:Page/f:ICommentsPage.cs" caret="0" fromTop="0" />
+      <File id="986001FA-2C10-4488-AFA2-5EA481A95779/f:PostsManager.cs" caret="29774" fromTop="20" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:journal.aspx" caret="0" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:journal.aspx.cs" caret="422" fromTop="0" />
+      <File id="BC835989-E8BA-44B6-9000-7349668E3302/f:IModelService.cs" caret="1808" fromTop="27" />
+      <File id="BC835989-E8BA-44B6-9000-7349668E3302/f:ModelService.cs" caret="2695" fromTop="15" />
+      <File id="7105830C-BFB9-43A8-AC93-A33CF1F87FCE/d:Presenters/d:Page/f:JournalPagePresenter.cs" caret="0" fromTop="0" />
+      <File id="986001FA-2C10-4488-AFA2-5EA481A95779/f:App.Config" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:warnings.aspx.cs" caret="4591" fromTop="14" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:warnings.aspx.cs" caret="4591" fromTop="22" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:warnings.aspx.cs" caret="1738" fromTop="18" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:warnings.aspx.cs" caret="4673" fromTop="18" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:profile.aspx.cs" caret="2174" fromTop="15" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:profile.aspx.cs" caret="796" fromTop="15" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:profile.aspx.cs" caret="13" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:comments.aspx.cs" caret="5417" fromTop="25" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:comments.aspx.cs" caret="3181" fromTop="26" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:comments.aspx.cs" caret="2654" fromTop="20" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:comments.aspx.cs" caret="2323" fromTop="15" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:default.aspx.cs" caret="82" fromTop="1" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:journal.aspx" caret="166" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:gallery.aspx" caret="166" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:default.aspx" caret="167" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/f:article.aspx" caret="166" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:warnings.aspx" caret="173" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:profile.aspx" caret="171" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:comments.aspx" caret="173" fromTop="0" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:Handlers/f:image.ashx.cs" caret="1475" fromTop="10" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:Handlers/f:image.ashx.cs" caret="796" fromTop="3" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:Handlers/f:image.ashx.cs" caret="1444" fromTop="17" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:profile.aspx" caret="5893" fromTop="13" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:profile.aspx" caret="5555" fromTop="5" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:profile.aspx.cs" caret="1078" fromTop="3" />
+      <File id="3F6396D0-6A0E-4DBD-9DBF-DEC23E21B2D4/d:user/f:profile.aspx.cs" caret="1814" fromTop="18" />
+      <File id="BC835989-E8BA-44B6-9000-7349668E3302/f:ModelService.cs" caret="2318" fromTop="15" />
+      <File id="BC835989-E8BA-44B6-9000-7349668E3302/f:ModelService.cs" caret="3072" fromTop="3" />
+      <File id="BC835989-E8BA-44B6-9000-7349668E3302/f:ModelService.cs" caret="2990" fromTop="26" />
+      <File id="BC835989-E8BA-44B6-9000-7349668E3302/f:ModelService.cs" caret="2695" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Guid`0" priority="88" />
+      <Item value="LinqToSqlUser`0" priority="0" />
+      <Item value="new" priority="171" />
+      <Item value="LinqToSqlUser" priority="0" />
+      <Item value="uint" priority="0" />
+      <Item value="MBBusinessManagers" priority="3" />
+      <Item value="using" priority="26" />
+      <Item value="MBLibrary" priority="1" />
+      <Item value="MBDatabaseEntities`0" priority="0" />
+      <Item value="MBDatabaseEntities" priority="1" />
+      <Item value="enum" priority="1" />
+      <Item value="public" priority="131" />
+      <Item value="PostsManager`0" priority="48" />
+      <Item value="_dataContext" priority="46" />
+      <Item value="Post`0" priority="21" />
+      <Item value="var" priority="86" />
+      <Item value="from" priority="33" />
+      <Item value="where" priority="21" />
+      <Item value="post" priority="64" />
+      <Item value="id" priority="6" />
+      <Item value="select" priority="30" />
+      <Item value="return" priority="62" />
+      <Item value="query" priority="49" />
+      <Item value="int" priority="12" />
+      <Item value="orderby" priority="2" />
+      <Item value="ascending" priority="0" />
+      <Item value="IList" priority="0" />
+      <Item value="for" priority="2" />
+      <Item value="index" priority="4" />
+      <Item value="i" priority="9" />
+      <Item value="List" priority="55" />
+      <Item value="result" priority="22" />
+      <Item value="List&lt;Post&gt;" priority="0" />
+      <Item value="interface" priority="11" />
+      <Item value="event" priority="40" />
+      <Item value="EventHandler`0" priority="1" />
+      <Item value="void" priority="97" />
+      <Item value="MBPresentation" priority="15" />
+      <Item value="Interfaces" priority="10" />
+      <Item value="PresenterInterfaces" priority="3" />
+      <Item value="IDefaultPagePresenter`0" priority="0" />
+      <Item value="ViewInterfaces" priority="7" />
+      <Item value="IDefaultPage`0" priority="4" />
+      <Item value="DefaultPagePresenter`0" priority="1" />
+      <Item value="_page" priority="125" />
+      <Item value="page" priority="10" />
+      <Item value="DefaultPageReadPosts`0" priority="0" />
+      <Item value="delegate" priority="1" />
+      <Item value="Properties" priority="0" />
+      <Item value="ValueType`0" priority="2" />
+      <Item value="_posts" priority="4" />
+      <Item value="value" priority="3" />
+      <Item value="ReadPostsEvent" priority="2" />
+      <Item value="VoidEventHandler`0" priority="41" />
+      <Item value="if" priority="136" />
+      <Item value="temp" priority="3" />
+      <Item value="postsRepeater" priority="1" />
+      <Item value="private" priority="29" />
+      <Item value="Presenters" priority="2" />
+      <Item value="_default`0" priority="0" />
+      <Item value="_presenter" priority="12" />
+      <Item value="DefaultPagePresenter" priority="1" />
+      <Item value="postsManager" priority="1" />
+      <Item value="PostsManager" priority="0" />
+      <Item value="MBServiceLibrary" priority="1" />
+      <Item value="ModelService`0" priority="1" />
+      <Item value="ModelService" priority="0" />
+      <Item value="src" priority="16" />
+      <Item value="Post" priority="18" />
+      <Item value="partial" priority="0" />
+      <Item value="ServiceReference" priority="0" />
+      <Item value="this" priority="43" />
+      <Item value="ToList`1" priority="11" />
+      <Item value="HyperLink`0" priority="5" />
+      <Item value="switch" priority="5" />
+      <Item value="case" priority="13" />
+      <Item value="break" priority="18" />
+      <Item value="default" priority="3" />
+      <Item value="addArticlePlaceHolder" priority="4" />
+      <Item value="TextMode" priority="1" />
+      <Item value="_postChanged" priority="0" />
+      <Item value="_postToAdd" priority="1" />
+      <Item value="changeArticlePlaceHolder" priority="0" />
+      <Item value="IAdminArticlesPage`0" priority="0" />
+      <Item value="ArticlesPageAddPost`0" priority="0" />
+      <Item value="ArticlePageChangePost`0" priority="0" />
+      <Item value="PostTitle" priority="0" />
+      <Item value="postTitleTextBox" priority="1" />
+      <Item value="PostText" priority="0" />
+      <Item value="postTextTextBox" priority="2" />
+      <Item value="PostDate" priority="0" />
+      <Item value="DateTime`0" priority="11" />
+      <Item value="PostId" priority="9" />
+      <Item value="PostExcerpt" priority="0" />
+      <Item value="PostToAdd" priority="1" />
+      <Item value="AddPostEvent" priority="1" />
+      <Item value="TableHeaderScope`0" priority="0" />
+      <Item value="Columns" priority="1" />
+      <Item value="Rows" priority="0" />
+      <Item value="TextBoxMode`0" priority="0" />
+      <Item value="Wrap" priority="0" />
+      <Item value="AddBtnClick`0" priority="1" />
+      <Item value="Text" priority="7" />
+      <Item value="Button`0" priority="0" />
+      <Item value="Button" priority="0" />
+      <Item value="btn" priority="1" />
+      <Item value="String`0" priority="53" />
+      <Item value="TextBox`0" priority="10" />
+      <Item value="TextBox" priority="2" />
+      <Item value="tb2" priority="0" />
+      <Item value="aspnet_Membership`0" priority="0" />
+      <Item value="registrationForm" priority="1" />
+      <Item value="login" priority="1" />
+      <Item value="password" priority="1" />
+      <Item value="e_mail" priority="1" />
+      <Item value="PostAuthorId" priority="0" />
+      <Item value="User" priority="40" />
+      <Item value="Guid" priority="1" />
+      <Item value="CommentCount" priority="0" />
+      <Item value="CommentStatus" priority="0" />
+      <Item value="true" priority="9" />
+      <Item value="PostRating" priority="0" />
+      <Item value="PostCategoryId" priority="1" />
+      <Item value="PostType" priority="0" />
+      <Item value="PostParentId" priority="0" />
+      <Item value="null" priority="22" />
+      <Item value="PostLink" priority="0" />
+      <Item value="PostDateModified" priority="0" />
+      <Item value="article`0" priority="0" />
+      <Item value="ArticlePagePresenter" priority="0" />
+      <Item value="IArticlePagePresenter`0" priority="0" />
+      <Item value="ArticlePagePresenter`0" priority="0" />
+      <Item value="IArticlePage`0" priority="1" />
+      <Item value="ArticlePageReadPost`0" priority="0" />
+      <Item value="ModelServiceClient`0" priority="24" />
+      <Item value="_postId" priority="3" />
+      <Item value="_post" priority="6" />
+      <Item value="Convert`0" priority="10" />
+      <Item value="titleArticle" priority="0" />
+      <Item value="textArticle" priority="0" />
+      <Item value="metaArticle" priority="0" />
+      <Item value="ProfileParameter`0" priority="8" />
+      <Item value="Page`0" priority="0" />
+      <Item value="Page" priority="15" />
+      <Item value="false" priority="16" />
+      <Item value="registrationBtn" priority="0" />
+      <Item value="Literal`0" priority="1" />
+      <Item value="regCompleteText" priority="0" />
+      <Item value="Parent" priority="1" />
+      <Item value="else" priority="45" />
+      <Item value="Request" priority="64" />
+      <Item value="Response" priority="30" />
+      <Item value="RoleGroup`0" priority="2" />
+      <Item value="RoleServiceManager`0" priority="2" />
+      <Item value="Roles`0" priority="1" />
+      <Item value="System" priority="4" />
+      <Item value="Web" priority="4" />
+      <Item value="Profile" priority="1" />
+      <Item value="profile`0" priority="3" />
+      <Item value="ProfileBase`0" priority="2" />
+      <Item value="Category`0" priority="27" />
+      <Item value="category" priority="47" />
+      <Item value="ICategoriesPage`0" priority="2" />
+      <Item value="_categories" priority="3" />
+      <Item value="ICategoriesPagePresenter`0" priority="0" />
+      <Item value="CategoriesPagePresenter`0" priority="1" />
+      <Item value="ReadCategories`0" priority="11" />
+      <Item value="ReadCategoriesEvent" priority="4" />
+      <Item value="categoriesGrid" priority="1" />
+      <Item value="Categories`0" priority="0" />
+      <Item value="CategoriesPagePresenter" priority="0" />
+      <Item value="repeater" priority="2" />
+      <Item value="item" priority="42" />
+      <Item value="_newCategory" priority="4" />
+      <Item value="name" priority="2" />
+      <Item value="description" priority="1" />
+      <Item value="CreateCategotyEvent" priority="1" />
+      <Item value="CreateCategory`0" priority="0" />
+      <Item value="OperationContract" priority="20" />
+      <Item value="Category" priority="18" />
+      <Item value="Action`0" priority="4" />
+      <Item value="action" priority="0" />
+      <Item value="DetailsViewDeletedEventArgs`0" priority="0" />
+      <Item value="Void`0" priority="1" />
+      <Item value="DeleteCategory`0" priority="0" />
+      <Item value="_deleteCategoryName" priority="1" />
+      <Item value="DeleteCategoryEvent" priority="1" />
+      <Item value="LoginView1" priority="1" />
+      <Item value="Profile`0" priority="7" />
+      <Item value="HttpContext`0" priority="3" />
+      <Item value="profile" priority="15" />
+      <Item value="Eval`0" priority="7" />
+      <Item value="profileForm" priority="1" />
+      <Item value="v" priority="2" />
+      <Item value="IEnumerable" priority="1" />
+      <Item value="ProfileServiceManager`0" priority="1" />
+      <Item value="ProfileServiceManager" priority="1" />
+      <Item value="nickname" priority="0" />
+      <Item value="protected" priority="3" />
+      <Item value="object" priority="1" />
+      <Item value="EventArgs`0" priority="1" />
+      <Item value="role" priority="0" />
+      <Item value="user" priority="4" />
+      <Item value="First`1" priority="0" />
+      <Item value="gender" priority="2" />
+      <Item value="age" priority="2" />
+      <Item value="comments" priority="5" />
+      <Item value="regUserWizardStep1" priority="0" />
+      <Item value="regUserWizard" priority="0" />
+      <Item value="warnings" priority="0" />
+      <Item value="location" priority="1" />
+      <Item value="avatar" priority="2" />
+      <Item value="autograph" priority="1" />
+      <Item value="SaveProfile`0" priority="0" />
+      <Item value="Container" priority="0" />
+      <Item value="comment" priority="37" />
+      <Item value="struct" priority="1" />
+      <Item value="Int32`0" priority="29" />
+      <Item value="set" priority="0" />
+      <Item value="SComment`0" priority="4" />
+      <Item value="List&lt;SComment&gt;" priority="0" />
+      <Item value="foreach" priority="10" />
+      <Item value="aspnet_Profile`0" priority="0" />
+      <Item value="ProfileAuthenticationOption`0" priority="0" />
+      <Item value="SComment" priority="0" />
+      <Item value="Age" priority="0" />
+      <Item value="ProfileInfo`0" priority="1" />
+      <Item value="ProfileInfo" priority="0" />
+      <Item value="ProfileBase" priority="0" />
+      <Item value="p" priority="0" />
+      <Item value="f" priority="1" />
+      <Item value="ProfileModule`0" priority="0" />
+      <Item value="ProfileModule" priority="0" />
+      <Item value="ProfileProvider`0" priority="0" />
+      <Item value="HttpRequest`0" priority="0" />
+      <Item value="HttpContextBase`0" priority="0" />
+      <Item value="Media`0" priority="3" />
+      <Item value="image" priority="59" />
+      <Item value="Gallery`0" priority="11" />
+      <Item value="byte" priority="8" />
+      <Item value="Media" priority="1" />
+      <Item value="m" priority="1" />
+      <Item value="BadImageFormatException`0" priority="1" />
+      <Item value="IGalleryPage`0" priority="2" />
+      <Item value="IGalleryPagePresenter`0" priority="0" />
+      <Item value="GetDataItem`0" priority="1" />
+      <Item value="CreateImage" priority="1" />
+      <Item value="buf" priority="3" />
+      <Item value="ImageToSave" priority="0" />
+      <Item value="Bitmap" priority="7" />
+      <Item value="MemoryStream`0" priority="4" />
+      <Item value="MemoryStream" priority="7" />
+      <Item value="IImageHttpHandler`0" priority="2" />
+      <Item value="image`0" priority="0" />
+      <Item value="IImageHttpHandlerPresenter`0" priority="0" />
+      <Item value="ImageHttpHandlerPresenter`0" priority="1" />
+      <Item value="_handler" priority="4" />
+      <Item value="handler" priority="0" />
+      <Item value="ReadImage`0" priority="2" />
+      <Item value="svc" priority="43" />
+      <Item value="ImageId" priority="3" />
+      <Item value="context" priority="6" />
+      <Item value="ImageHttpHandlerPresenter" priority="0" />
+      <Item value="ReadImage" priority="1" />
+      <Item value="Image" priority="46" />
+      <Item value="Bitmap`0" priority="7" />
+      <Item value="stream" priority="16" />
+      <Item value="Length" priority="9" />
+      <Item value="bitmap" priority="1" />
+      <Item value="Images" priority="10" />
+      <Item value="Gallery" priority="1" />
+      <Item value="List&lt;Gallery&gt;" priority="2" />
+      <Item value="ImagesId" priority="2" />
+      <Item value="ReadImagesId`0" priority="0" />
+      <Item value="ReadImagesId" priority="1" />
+      <Item value="newBitmap" priority="0" />
+      <Item value="memstr" priority="6" />
+      <Item value="ImageFormatConverter`0" priority="1" />
+      <Item value="dest" priority="0" />
+      <Item value="ImageFormat`0" priority="1" />
+      <Item value="buffer" priority="0" />
+      <Item value="ScaleImage`0" priority="0" />
+      <Item value="bm" priority="4" />
+      <Item value="ArticlePageReadCategories`0" priority="0" />
+      <Item value="RegisterRequiresViewStateEncryption`0" priority="0" />
+      <Item value="Categories" priority="8" />
+      <Item value="ReadCategory`0" priority="1" />
+      <Item value="ReadCategories" priority="1" />
+      <Item value="MakeHtmlTable`0" priority="1" />
+      <Item value="Helper`0" priority="28" />
+      <Item value="source" priority="9" />
+      <Item value="Stream`0" priority="1" />
+      <Item value="html" priority="17" />
+      <Item value="TestDeviceFilter`0" priority="0" />
+      <Item value="articlePL" priority="0" />
+      <Item value="ReadPosts`0" priority="5" />
+      <Item value="ReadPosts" priority="1" />
+      <Item value="articleRep" priority="1" />
+      <Item value="Posts" priority="5" />
+      <Item value="articlesPL" priority="0" />
+      <Item value="ReadRandomImages`0" priority="0" />
+      <Item value="Random`0" priority="0" />
+      <Item value="rand" priority="7" />
+      <Item value="IndexOutOfRangeException`0" priority="0" />
+      <Item value="ReadRandomImages" priority="1" />
+      <Item value="in" priority="1" />
+      <Item value="image1" priority="2" />
+      <Item value="image2" priority="0" />
+      <Item value="PostReading" priority="4" />
+      <Item value="PostRead`0" priority="0" />
+      <Item value="readonly" priority="2" />
+      <Item value="IJournalPagePresenter`0" priority="0" />
+      <Item value="JournalPagePresenter`0" priority="1" />
+      <Item value="IJournalPage`0" priority="0" />
+      <Item value="PostsRead`0" priority="0" />
+      <Item value="count" priority="9" />
+      <Item value="descending" priority="0" />
+      <Item value="Count" priority="10" />
+      <Item value="PostsReading" priority="5" />
+      <Item value="artRepeater" priority="1" />
+      <Item value="articles" priority="4" />
+      <Item value="journal`0" priority="0" />
+      <Item value="JournalPagePresenter" priority="0" />
+      <Item value="bool" priority="4" />
+      <Item value="WebPageTraceListener`0" priority="0" />
+      <Item value="param" priority="2" />
+      <Item value="CategoriesReading" priority="5" />
+      <Item value="SaveBtn" priority="0" />
+      <Item value="AddBtn" priority="0" />
+      <Item value="title" priority="2" />
+      <Item value="PostChanged" priority="12" />
+      <Item value="text" priority="13" />
+      <Item value="excerpt" priority="2" />
+      <Item value="Boolean`0" priority="5" />
+      <Item value="PostAdding" priority="0" />
+      <Item value="CatagoryName" priority="0" />
+      <Item value="try" priority="28" />
+      <Item value="article" priority="3" />
+      <Item value="PostChanging" priority="0" />
+      <Item value="DeletePost`0" priority="0" />
+      <Item value="catch" priority="14" />
+      <Item value="DeletePost" priority="0" />
+      <Item value="mode" priority="6" />
+      <Item value="FormViewMode`0" priority="2" />
+      <Item value="DataSourceCacheDurationConverter`0" priority="0" />
+      <Item value="ObjectDataSource`0" priority="0" />
+      <Item value="ObjectDataSource" priority="0" />
+      <Item value="b" priority="0" />
+      <Item value="view" priority="0" />
+      <Item value="forms" priority="2" />
+      <Item value="multiView" priority="9" />
+      <Item value="articlesView" priority="1" />
+      <Item value="left" priority="1" />
+      <Item value="dstheight" priority="15" />
+      <Item value="CategoryId" priority="2" />
+      <Item value="CategoryReading" priority="2" />
+      <Item value="CategoryList" priority="4" />
+      <Item value="NewCategory" priority="1" />
+      <Item value="Cache" priority="29" />
+      <Item value="absoluteExpiration" priority="0" />
+      <Item value="Caching" priority="0" />
+      <Item value="Cache`0" priority="0" />
+      <Item value="TimeSpan`0" priority="0" />
+      <Item value="IProfilePagePresenter`0" priority="0" />
+      <Item value="ProfilePagePresenter`0" priority="0" />
+      <Item value="IProfilePage`0" priority="2" />
+      <Item value="ReadProfile`0" priority="5" />
+      <Item value="UpdateProfile`0" priority="2" />
+      <Item value="UserId" priority="10" />
+      <Item value="Membership`0" priority="16" />
+      <Item value="MembershipUser" priority="0" />
+      <Item value="ProfileReading" priority="3" />
+      <Item value="UserProfile" priority="25" />
+      <Item value="MBDatabase`0" priority="1" />
+      <Item value="MBDatabaseModel" priority="1" />
+      <Item value="ToString`0" priority="1" />
+      <Item value="RegistrationPagePresenter`0" priority="0" />
+      <Item value="IRegistrationPagePresenter`0" priority="1" />
+      <Item value="CreateProfile`0" priority="1" />
+      <Item value="ProfileCreating" priority="2" />
+      <Item value="registration`0" priority="0" />
+      <Item value="IRegistrationPage`0" priority="0" />
+      <Item value="RegistrationPagePresenter" priority="0" />
+      <Item value="Comment`0" priority="16" />
+      <Item value="WeakReference`0" priority="0" />
+      <Item value="Comment" priority="16" />
+      <Item value="CommentCreating" priority="1" />
+      <Item value="CreateComment`0" priority="1" />
+      <Item value="Exception`0" priority="11" />
+      <Item value="loginView" priority="5" />
+      <Item value="Comments" priority="0" />
+      <Item value="Warnings" priority="0" />
+      <Item value="e" priority="9" />
+      <Item value="userName" priority="0" />
+      <Item value="aspnet_Users`0" priority="0" />
+      <Item value="usersRepeater" priority="1" />
+      <Item value="users" priority="2" />
+      <Item value="usersView" priority="0" />
+      <Item value="gallery" priority="0" />
+      <Item value="AdminArticlesPagePresenter`0" priority="1" />
+      <Item value="AdminGalleryPagePresenter`0" priority="0" />
+      <Item value="IAdminArticlesPagePresenter`0" priority="0" />
+      <Item value="IAdminGalleryPage`0" priority="0" />
+      <Item value="AdminArticlesPagePresenter" priority="0" />
+      <Item value="CreateImage`0" priority="2" />
+      <Item value="DeleteImage`0" priority="1" />
+      <Item value="ReadImages`0" priority="2" />
+      <Item value="ImagesReading" priority="5" />
+      <Item value="AppDomainSetup`0" priority="0" />
+      <Item value="formView" priority="0" />
+      <Item value="imagesView" priority="0" />
+      <Item value="ImageCreating" priority="4" />
+      <Item value="cacheImages" priority="1" />
+      <Item value="gallery`0" priority="0" />
+      <Item value="imageList" priority="7" />
+      <Item value="AddComment`0" priority="0" />
+      <Item value="textBox" priority="5" />
+      <Item value="DataContext`0" priority="5" />
+      <Item value="categoryName" priority="19" />
+      <Item value="static" priority="12" />
+      <Item value="dataCoxtext" priority="0" />
+      <Item value="Image`0" priority="8" />
+      <Item value="ReadImagesById`0" priority="0" />
+      <Item value="ID" priority="0" />
+      <Item value="postId" priority="8" />
+      <Item value="ReadComment`0" priority="1" />
+      <Item value="RemoveComment`0" priority="0" />
+      <Item value="DeleteComment`0" priority="1" />
+      <Item value="CommentId" priority="3" />
+      <Item value="commentId" priority="6" />
+      <Item value="CommentsReading" priority="0" />
+      <Item value="CommentReading" priority="2" />
+      <Item value="CommentsPagePresenter`0" priority="0" />
+      <Item value="comments`0" priority="0" />
+      <Item value="CommentsPagePresenter" priority="0" />
+      <Item value="ReadComments`0" priority="0" />
+      <Item value="MembershipProvider" priority="0" />
+      <Item value="AuthorId" priority="0" />
+      <Item value="CommentRemoving" priority="2" />
+      <Item value="CommentChanging" priority="1" />
+      <Item value="commentChangeForm" priority="0" />
+      <Item value="commentsView" priority="1" />
+      <Item value="commentRepeater" priority="1" />
+      <Item value="CommentList" priority="2" />
+      <Item value="ChangeComment`0" priority="0" />
+      <Item value="PlaceHolder`0" priority="0" />
+      <Item value="Items" priority="0" />
+      <Item value="ReadPost`0" priority="1" />
+      <Item value="Nullable`0" priority="1" />
+      <Item value="dateItem" priority="2" />
+      <Item value="pl" priority="0" />
+      <Item value="LinkButton`0" priority="0" />
+      <Item value="NavigateUrl" priority="2" />
+      <Item value="deletePL" priority="0" />
+      <Item value="deleteCommentPL" priority="0" />
+      <Item value="changeCommentPL" priority="0" />
+      <Item value="allCommentsPL" priority="0" />
+      <Item value="ImageDeleting" priority="0" />
+      <Item value="Match`0" priority="0" />
+      <Item value="imagePattern" priority="7" />
+      <Item value="while" priority="3" />
+      <Item value="idImage" priority="2" />
+      <Item value="Regex`0" priority="0" />
+      <Item value="Regex" priority="0" />
+      <Item value="positionImagePattern" priority="0" />
+      <Item value="positionImage" priority="0" />
+      <Item value="style" priority="1" />
+      <Item value="imageId" priority="1" />
+      <Item value="CategoryName" priority="5" />
+      <Item value="txbDesc" priority="2" />
+      <Item value="CacheImage`0" priority="0" />
+      <Item value="dataContext" priority="9" />
+      <Item value="ImageUpdating" priority="0" />
+      <Item value="plLoadForm" priority="0" />
+      <Item value="UpdateImage`0" priority="0" />
+      <Item value="ImageReading" priority="1" />
+      <Item value="IFormatProvider`0" priority="0" />
+      <Item value="lblUserName" priority="1" />
+      <Item value="Label`0" priority="0" />
+      <Item value="WebControl`0" priority="0" />
+      <Item value="Pair`0" priority="2" />
+      <Item value="TagsCloud`0" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="_tagList" priority="2" />
+      <Item value="tagList" priority="2" />
+      <Item value="tag" priority="6" />
+      <Item value="tagsCloud" priority="7" />
+      <Item value="InputControl" priority="0" />
+      <Item value="List&lt;Tag&gt;" priority="1" />
+      <Item value="Tag`0" priority="1" />
+      <Item value="TagName" priority="1" />
+      <Item value="tags" priority="0" />
+      <Item value="GetPostsCount`0" priority="1" />
+      <Item value="PostsCountReading" priority="1" />
+      <Item value="GetTags`0" priority="0" />
+      <Item value="viewForm" priority="5" />
+      <Item value="ind" priority="1" />
+      <Item value="ind1" priority="2" />
+      <Item value="ind2" priority="1" />
+      <Item value="indImage1" priority="0" />
+      <Item value="PostList" priority="6" />
+      <Item value="ReagTags`0" priority="0" />
+      <Item value="Tag" priority="0" />
+      <Item value="TagsReading" priority="3" />
+      <Item value="ReadTags`0" priority="3" />
+      <Item value="TagList" priority="3" />
+      <Item value="fontsize" priority="1" />
+      <Item value="max" priority="0" />
+      <Item value="part" priority="1" />
+      <Item value="btnSave" priority="0" />
+      <Item value="Double`0" priority="4" />
+      <Item value="Avatar" priority="1" />
+      <Item value="imgUserAvatar" priority="1" />
+      <Item value="userId" priority="18" />
+      <Item value="ProfileUpdating" priority="1" />
+      <Item value="CreateAvatar`0" priority="0" />
+      <Item value="viewUserProfile" priority="0" />
+      <Item value="viewChangeUserProfile" priority="0" />
+      <Item value="lblNickName" priority="0" />
+      <Item value="lblUserRole" priority="0" />
+      <Item value="lblUserGender" priority="0" />
+      <Item value="lblUserAge" priority="0" />
+      <Item value="lblUserLocation" priority="0" />
+      <Item value="lblUserComments" priority="0" />
+      <Item value="lblUserWarnings" priority="1" />
+      <Item value="lblUserAuthograph" priority="0" />
+      <Item value="ReadCategoryByName`0" priority="4" />
+      <Item value="UnBanUser`0" priority="0" />
+      <Item value="IUsersPagePresenter`0" priority="0" />
+      <Item value="UsersPagePresenter`0" priority="0" />
+      <Item value="IUsersPage`0" priority="0" />
+      <Item value="Ban`0" priority="0" />
+      <Item value="Unban`0" priority="0" />
+      <Item value="AddWarning`0" priority="1" />
+      <Item value="DeleteWarning`0" priority="1" />
+      <Item value="users`0" priority="0" />
+      <Item value="UsersPagePresenter" priority="0" />
+      <Item value="UserBanning" priority="1" />
+      <Item value="WarningAdding" priority="1" />
+      <Item value="WarningDeleting" priority="1" />
+      <Item value="ReadUser`0" priority="0" />
+      <Item value="UserReading" priority="2" />
+      <Item value="lstUsers" priority="1" />
+      <Item value="lstProfile" priority="3" />
+      <Item value="lstUserProfile" priority="2" />
+      <Item value="list" priority="4" />
+      <Item value="List&lt;Profile&gt;" priority="0" />
+      <Item value="txb" priority="1" />
+      <Item value="FileUpload`0" priority="1" />
+      <Item value="fileUpload" priority="4" />
+      <Item value="FileUpload" priority="0" />
+      <Item value="txbCaptcha" priority="2" />
+      <Item value="ISearchPage`0" priority="2" />
+      <Item value="SearchPagePresenter`0" priority="0" />
+      <Item value="Search`0" priority="2" />
+      <Item value="searchString" priority="3" />
+      <Item value="CaptchaControl`0" priority="0" />
+      <Item value="sealed" priority="0" />
+      <Item value="search`0" priority="0" />
+      <Item value="SearchPagePresenter" priority="0" />
+      <Item value="string" priority="3" />
+      <Item value="SearchString" priority="7" />
+      <Item value="Searching" priority="1" />
+      <Item value="txbSearch" priority="1" />
+      <Item value="lstSearchResult" priority="5" />
+      <Item value="Result" priority="3" />
+      <Item value="count1" priority="2" />
+      <Item value="count2" priority="0" />
+      <Item value="lastIndex" priority="2" />
+      <Item value="Title" priority="2" />
+      <Item value="T`0" priority="0" />
+      <Item value="StringBuilder" priority="1" />
+      <Item value="ListViewItem`0" priority="0" />
+      <Item value="changeCommentView" priority="0" />
+      <Item value="lstComments" priority="1" />
+      <Item value="noCommentsView" priority="0" />
+      <Item value="out" priority="4" />
+      <Item value="EntityCollection" priority="0" />
+      <Item value="OrderByDescending`2" priority="2" />
+      <Item value="UserStatusReading" priority="2" />
+      <Item value="ReadUserStatus`0" priority="6" />
+      <Item value="IsBanned" priority="4" />
+      <Item value="WarningsPagePresenter`0" priority="0" />
+      <Item value="warning" priority="1" />
+      <Item value="BanUser`0" priority="0" />
+      <Item value="MembershipUserCollection" priority="0" />
+      <Item value="lnk" priority="2" />
+      <Item value="Exception" priority="0" />
+      <Item value="log4net" priority="2" />
+      <Item value="Config" priority="1" />
+      <Item value="ConfiguratorAttribute`0" priority="1" />
+      <Item value="BasicConfigurator`0" priority="1" />
+      <Item value="RollingFileAppender`0" priority="0" />
+      <Item value="Load" priority="0" />
+      <Item value="Logger`0" priority="13" />
+      <Item value="log" priority="0" />
+      <Item value="appender" priority="1" />
+      <Item value="Filter" priority="0" />
+      <Item value="LoggerMatchFilter`0" priority="0" />
+      <Item value="AcceptOnMatch" priority="0" />
+      <Item value="LoggerToMatch" priority="0" />
+      <Item value="Encoding`0" priority="0" />
+      <Item value="XmlConfigurator`0" priority="1" />
+      <Item value="Uri`0" priority="0" />
+      <Item value="Uri" priority="0" />
+      <Item value="ex" priority="6" />
+      <Item value="finally" priority="0" />
+      <Item value="DBManagers" priority="1" />
+      <Item value="contentType" priority="0" />
+      <Item value="ReadProfileById`0" priority="0" />
+      <Item value="ReadPostById`0" priority="0" />
+      <Item value="categories" priority="1" />
+      <Item value="ddlCategoryList" priority="0" />
+      <Item value="Nullable" priority="0" />
+      <Item value="ddlCategories" priority="0" />
+      <Item value="cache" priority="0" />
+      <Item value="IsPostBack" priority="1" />
+      <Item value="categoryId" priority="2" />
+      <Item value="categoriesView" priority="0" />
+      <Item value="DropDownList`0" priority="0" />
+      <Item value="ddlCategory" priority="0" />
+      <Item value="captcha" priority="1" />
+      <Item value="srcwidth" priority="12" />
+      <Item value="srcheight" priority="11" />
+      <Item value="dstwidth" priority="8" />
+      <Item value="ImageSmall" priority="0" />
+      <Item value="top" priority="0" />
+      <Item value="x_ratio" priority="1" />
+      <Item value="y_ratio" priority="1" />
+      <Item value="width" priority="1" />
+      <Item value="height" priority="0" />
+      <Item value="newWidth" priority="1" />
+      <Item value="newHeight" priority="1" />
+      <Item value="Session" priority="1" />
+      <Item value="postList" priority="1" />
+      <Item value="ChangeExcerpt`0" priority="0" />
+      <Item value="ViewStateMode" priority="0" />
+      <Item value="EnableViewState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBLibrary.MBDatabaseEntities">
+      <Item value="Posts" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBLibrary.Post">
+      <Item value="PostId" priority="0" />
+      <Item value="PostDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="First`1" priority="17" />
+      <Item value="ToList`1" priority="9" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Take`1" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
+      <Item value="ToList`1" priority="0" />
+      <Item value="Count`1" priority="1" />
+      <Item value="Concat`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="11" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="ToArray`0" priority="0" />
+      <Item value="LastIndexOf`0" priority="0" />
+      <Item value="Count" priority="2" />
+      <Item value="Max`2" priority="0" />
+      <Item value="ChangeExcerpt`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.IDefaultPage">
+      <Item value="ReadPostsEvent" priority="0" />
+      <Item value="Posts" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Repeater">
+      <Item value="DataSource" priority="11" />
+      <Item value="DataBind`0" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBBusinessManagers.PostsManager">
+      <Item value="ReadPosts`0" priority="1" />
+      <Item value="PostCreate`0" priority="0" />
+      <Item value="ReadPostById`0" priority="0" />
+      <Item value="ReadCategories`0" priority="0" />
+      <Item value="CreateCategory`0" priority="0" />
+      <Item value="DeleteCategory`0" priority="0" />
+      <Item value="ReadGalleryImageByCategory`0" priority="0" />
+      <Item value="ReadGalleryImageById`0" priority="0" />
+      <Item value="ReadPostsByCategory`0" priority="0" />
+      <Item value="CreateGalleryImage`0" priority="0" />
+      <Item value="ReadGalleryImagesByCategory`0" priority="0" />
+      <Item value="PostUpdate`0" priority="0" />
+      <Item value="DeletePost`0" priority="0" />
+      <Item value="ReadCategoryById`0" priority="0" />
+      <Item value="CategoryUpdate`0" priority="0" />
+      <Item value="CreateProfile`0" priority="0" />
+      <Item value="ReadProfileById`0" priority="0" />
+      <Item value="UpdateProfile`0" priority="0" />
+      <Item value="CreateComment`0" priority="0" />
+      <Item value="UpdateComment`0" priority="0" />
+      <Item value="DeleteComment`0" priority="0" />
+      <Item value="DeleteImage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBServiceLibrary.ModelService">
+      <Item value="ReadPosts`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.ModelServiceClient">
+      <Item value="ReadPosts`0" priority="5" />
+      <Item value="PostsCreate`0" priority="0" />
+      <Item value="ReadPostById`0" priority="2" />
+      <Item value="ReadCategories`0" priority="5" />
+      <Item value="CreateCategory`0" priority="0" />
+      <Item value="DeleteCategory`0" priority="0" />
+      <Item value="ReadGalleryImageById`0" priority="0" />
+      <Item value="ReadGalleryImagesIdByCategory`0" priority="0" />
+      <Item value="ReadGalleryImagesByCategory`0" priority="1" />
+      <Item value="ReadPostsByCategory`0" priority="2" />
+      <Item value="PostUpdate`0" priority="1" />
+      <Item value="DeletePost`0" priority="0" />
+      <Item value="ReadCategoryById`0" priority="0" />
+      <Item value="CategoryUpdate`0" priority="0" />
+      <Item value="UpdateProfile`0" priority="0" />
+      <Item value="ReadProfileById`0" priority="2" />
+      <Item value="CreateProfile`0" priority="0" />
+      <Item value="CreateComment`0" priority="0" />
+      <Item value="CreateImage`0" priority="1" />
+      <Item value="CreateGalleryImage`0" priority="0" />
+      <Item value="DeleteImage`0" priority="1" />
+      <Item value="CreatePost`0" priority="0" />
+      <Item value="DeleteComment`0" priority="0" />
+      <Item value="UpdateImage`0" priority="0" />
+      <Item value="ReadImageById`0" priority="0" />
+      <Item value="GetPostsCount`0" priority="0" />
+      <Item value="GetImagesCount`0" priority="0" />
+      <Item value="BanUser`0" priority="0" />
+      <Item value="UnBanUser`0" priority="0" />
+      <Item value="AddWarningUser`0" priority="0" />
+      <Item value="SearchPosts`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.Images.articles">
+      <Item value="Request" priority="3" />
+      <Item value="title" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.PlaceHolder">
+      <Item value="Controls" priority="12" />
+      <Item value="ViewStateMode" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ControlCollection">
+      <Item value="Add`0" priority="5" />
+      <Item value="Clear`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.PresenterInterfaces.IAdminArticlesPage">
+      <Item value="AddPostEvent" priority="0" />
+      <Item value="ChangePostEvent" priority="0" />
+      <Item value="PostToAdd" priority="0" />
+      <Item value="ReadCategoriesEvent" priority="0" />
+      <Item value="Categories" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.MBDatabaseEntities">
+      <Item value="Attach`0" priority="0" />
+      <Item value="AddToPosts`0" priority="0" />
+      <Item value="SaveChanges`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="41" />
+      <Item value="Visible" priority="2" />
+      <Item value="UniqueID" priority="0" />
+      <Item value="TextMode" priority="0" />
+      <Item value="ValidationGroup" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="TimeOfDay" priority="0" />
+      <Item value="Ticks" priority="0" />
+      <Item value="Millisecond" priority="0" />
+      <Item value="Minute" priority="0" />
+      <Item value="AddMinutes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="4" />
+      <Item value="Parse`0" priority="22" />
+      <Item value="TryParse`0" priority="7" />
+      <Item value="Empty" priority="4" />
+      <Item value="ParseExact`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Remove`0" priority="5" />
+      <Item value="Count`1" priority="0" />
+      <Item value="ToString`0" priority="7" />
+      <Item value="Trim`0" priority="2" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="IndexOf`0" priority="2" />
+      <Item value="LastIndexOf`0" priority="3" />
+      <Item value="Length" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.UI.WebControls.TextBoxMode">
+      <Item value="MultiLine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Click" priority="4" />
+      <Item value="Visible" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Membership">
+      <Item value="CreateUser`0" priority="1" />
+      <Item value="GetUser`0" priority="15" />
+      <Item value="Provider" priority="1" />
+      <Item value="GetAllUsers`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ASP.forms_registrationform_ascx">
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.Forms.RegistrationForm">
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="41" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="Name" priority="29" />
+      <Item value="IsAuthenticated" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Security.MembershipUser">
+      <Item value="ProviderUserKey" priority="15" />
+      <Item value="UserName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.Post">
+      <Item value="PostLink" priority="1" />
+      <Item value="PostId" priority="0" />
+      <Item value="PostTitle" priority="6" />
+      <Item value="PostText" priority="18" />
+      <Item value="PostDate" priority="0" />
+      <Item value="aspnet_Users" priority="1" />
+      <Item value="Comments" priority="6" />
+      <Item value="PostCategoryName" priority="1" />
+      <Item value="CommentStatus" priority="3" />
+      <Item value="PostExcerpt" priority="15" />
+      <Item value="PostDateModified" priority="0" />
+      <Item value="Categories" priority="3" />
+      <Item value="PostCategoryId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.IArticlePage">
+      <Item value="Post" priority="2" />
+      <Item value="ReadPost" priority="0" />
+      <Item value="PostId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="Include`0" priority="13" />
+      <Item value="AddObject`0" priority="6" />
+      <Item value="DeleteObject`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.article">
+      <Item value="Response" priority="1" />
+      <Item value="Page" priority="0" />
+      <Item value="Request" priority="1" />
+      <Item value="ReadPost" priority="0" />
+      <Item value="IsStartupScriptRegistered`0" priority="0" />
+      <Item value="IsSet`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="Params" priority="61" />
+      <Item value="QueryString" priority="1" />
+      <Item value="UrlReferrer" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.MBConnectionString">
+      <Item value="AcceptAllChanges`0" priority="0" />
+      <Item value="Posts" priority="4" />
+      <Item value="Categories" priority="2" />
+      <Item value="SaveChanges`0" priority="6" />
+      <Item value="DeleteObject`0" priority="1" />
+      <Item value="Attach`0" priority="1" />
+      <Item value="Media" priority="2" />
+      <Item value="Galleries" priority="8" />
+      <Item value="Profiles" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectQuery`1">
+      <Item value="Include`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.aspnet_Users">
+      <Item value="UserName" priority="6" />
+      <Item value="aspnet_Profile" priority="0" />
+      <Item value="Profiles" priority="6" />
+      <Item value="UserId" priority="0" />
+      <Item value="aspnet_Roles" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.registration">
+      <Item value="Response" priority="0" />
+      <Item value="Request" priority="0" />
+      <Item value="User" priority="0" />
+      <Item value="Page" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect`0" priority="24" />
+      <Item value="OutputStream" priority="6" />
+      <Item value="Write`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HyperLink">
+      <Item value="NavigateUrl" priority="1" />
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.Roles">
+      <Item value="CreateRole`0" priority="1" />
+      <Item value="AddUserToRole`0" priority="2" />
+      <Item value="GetRolesForUser`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Image">
+      <Item value="Width" priority="0" />
+      <Item value="ImageUrl" priority="2" />
+      <Item value="AlternateText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Profile.ProfileBase">
+      <Item value="Properties" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.ICategoriesPage">
+      <Item value="Category" priority="1" />
+      <Item value="ReadCategoriesEvent" priority="0" />
+      <Item value="CreateCategotyEvent" priority="0" />
+      <Item value="NewCategory" priority="0" />
+      <Item value="DeleteCategory" priority="1" />
+      <Item value="DeleteCategoryEvent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="0" />
+      <Item value="DataBind`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.Category">
+      <Item value="CategoryName" priority="22" />
+      <Item value="CategoryDesc" priority="2" />
+      <Item value="CategoryId" priority="3" />
+      <Item value="Posts" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.Category">
+      <Item value="CategoryName" priority="24" />
+      <Item value="CategoryId" priority="10" />
+      <Item value="CategoryDesc" priority="1" />
+      <Item value="ContentType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LoginView">
+      <Item value="LoggedInTemplate" priority="2" />
+      <Item value="PreRender" priority="0" />
+      <Item value="FindControl`0" priority="5" />
+      <Item value="Visible" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ITemplate">
+      <Item value="InstantiateIn`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="User" priority="3" />
+      <Item value="Request" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MyBlog.profile">
+      <Item value="postEventArgumentID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.Profile">
+      <Item value="BuildProfileTree`0" priority="1" />
+      <Item value="Page" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Profile" priority="2" />
+      <Item value="Request" priority="4" />
+      <Item value="Response" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Profile.ProfileBase">
+      <Item value="Properties" priority="5" />
+      <Item value="Context" priority="0" />
+      <Item value="IsAnonymous" priority="0" />
+      <Item value="Providers" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FormView">
+      <Item value="DataItem" priority="1" />
+      <Item value="DataSource" priority="1" />
+      <Item value="DataBind`0" priority="1" />
+      <Item value="CurrentMode" priority="2" />
+      <Item value="SelectedValue" priority="0" />
+      <Item value="ChangeMode`0" priority="1" />
+      <Item value="EditItemTemplate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ProfileServiceManager">
+      <Item value="LoadProperties" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="TabIndex" priority="0" />
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CreateUserWizardStep">
+      <Item value="AllowReturn" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CreateUserWizard">
+      <Item value="UserName" priority="0" />
+      <Item value="CreatingUser" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.user.profile">
+      <Item value="Request" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.Comment">
+      <Item value="aspnet_Users" priority="18" />
+      <Item value="CommentText" priority="4" />
+      <Item value="CommentDate" priority="5" />
+      <Item value="CommentId" priority="1" />
+      <Item value="CommentAuthorId" priority="1" />
+      <Item value="CommentPostId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.aspnet_Profile">
+      <Item value="PropertyValuesString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Profile.ProfileManager">
+      <Item value="FindProfilesByUserName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Profile.ProfileAuthenticationOption">
+      <Item value="All" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Profile.ProfileInfo">
+      <Item value="UserName" priority="0" />
+      <Item value="Size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.Gallery">
+      <Item value="Category" priority="1" />
+      <Item value="ImageCategoryName" priority="1" />
+      <Item value="ImageId" priority="1" />
+      <Item value="Medium" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.Post">
+      <Item value="Category" priority="0" />
+      <Item value="PostCategoryName" priority="0" />
+      <Item value="PostDate" priority="0" />
+      <Item value="EntityKey" priority="0" />
+      <Item value="PostId" priority="0" />
+      <Item value="aspnet_Users" priority="0" />
+      <Item value="Comments" priority="9" />
+      <Item value="CommentCount" priority="0" />
+      <Item value="Categories" priority="16" />
+      <Item value="PostCategoryId" priority="4" />
+      <Item value="PostText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.Gallery">
+      <Item value="Medium" priority="16" />
+      <Item value="ImageId" priority="4" />
+      <Item value="ImageRating" priority="0" />
+      <Item value="ImageDate" priority="0" />
+      <Item value="ImageDescription" priority="2" />
+      <Item value="ImageCategoryName" priority="0" />
+      <Item value="ImageSmall" priority="6" />
+      <Item value="Thumb" priority="0" />
+      <Item value="Media" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.Media">
+      <Item value="MediaType" priority="0" />
+      <Item value="MediaId" priority="2" />
+      <Item value="MadiaFile" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.IImageHttpHandler">
+      <Item value="ReadImage" priority="0" />
+      <Item value="Image" priority="0" />
+      <Item value="ImageId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Write`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.IGalleryPage">
+      <Item value="ImagesId" priority="0" />
+      <Item value="ReadImagesId" priority="0" />
+      <Item value="ReadCategories" priority="0" />
+      <Item value="Categories" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="Save`0" priority="3" />
+      <Item value="Height" priority="4" />
+      <Item value="Width" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Jpeg" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="Read`0" priority="4" />
+      <Item value="Length" priority="3" />
+      <Item value="Write`0" priority="1" />
+      <Item value="ToArray`0" priority="1" />
+      <Item value="Close`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="4" />
+      <Item value="ToDouble`0" priority="2" />
+      <Item value="ToBoolean`0" priority="2" />
+      <Item value="ToSingle`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Image">
+      <Item value="Save`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="DataSource" priority="1" />
+      <Item value="DataBind`0" priority="1" />
+      <Item value="SelectedItem" priority="5" />
+      <Item value="Items" priority="1" />
+      <Item value="SelectedValue" priority="1" />
+      <Item value="SelectedIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="ToString`0" priority="1" />
+      <Item value="Text" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MyBlog.Helper">
+      <Item value="ScaleImage`0" priority="2" />
+      <Item value="IsSet`0" priority="21" />
+      <Item value="ParseText`0" priority="2" />
+      <Item value="GuidParse`0" priority="0" />
+      <Item value="ConvertToGuid`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.gallery">
+      <Item value="Response" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.IArticlePage">
+      <Item value="Posts" priority="0" />
+      <Item value="ReadPosts" priority="0" />
+      <Item value="PostReading" priority="0" />
+      <Item value="PostId" priority="0" />
+      <Item value="CommentCreating" priority="0" />
+      <Item value="Comment" priority="0" />
+      <Item value="CommentReading" priority="0" />
+      <Item value="CommentRemoving" priority="0" />
+      <Item value="Post" priority="1" />
+      <Item value="IsBanned" priority="2" />
+      <Item value="UserId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.IDefaultPage">
+      <Item value="Posts" priority="1" />
+      <Item value="ReadRandomImages" priority="0" />
+      <Item value="Images" priority="0" />
+      <Item value="PostReading" priority="0" />
+      <Item value="ImagesReading" priority="0" />
+      <Item value="PostList" priority="1" />
+      <Item value="ImageList" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.IJournalPage">
+      <Item value="PostsReading" priority="0" />
+      <Item value="Posts" priority="0" />
+      <Item value="Category" priority="0" />
+      <Item value="Count" priority="1" />
+      <Item value="PostsCountReading" priority="0" />
+      <Item value="CategoryName" priority="0" />
+      <Item value="TagsReading" priority="0" />
+      <Item value="PostList" priority="0" />
+      <Item value="TagList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.journal">
+      <Item value="Request" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.Profile">
+      <Item value="UserId" priority="2" />
+      <Item value="Comments" priority="2" />
+      <Item value="IsBanned" priority="1" />
+      <Item value="Warnings" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.IAdminArticlesPage">
+      <Item value="PostAdding" priority="0" />
+      <Item value="PostChanging" priority="0" />
+      <Item value="CategoriesReading" priority="0" />
+      <Item value="PostReading" priority="0" />
+      <Item value="PostChanged" priority="1" />
+      <Item value="PostId" priority="1" />
+      <Item value="Posts" priority="0" />
+      <Item value="CatagoryName" priority="0" />
+      <Item value="Count" priority="0" />
+      <Item value="PostsReading" priority="0" />
+      <Item value="DeletePost" priority="0" />
+      <Item value="Image" priority="0" />
+      <Item value="ImageCreating" priority="0" />
+      <Item value="Images" priority="0" />
+      <Item value="Post" priority="1" />
+      <Item value="CategoryList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.UI.WebControls.FormViewMode">
+      <Item value="Insert" priority="0" />
+      <Item value="ReadOnly" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.View">
+      <Item value="Visible" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.MultiView">
+      <Item value="SetActiveView`0" priority="9" />
+      <Item value="GetActiveView`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.ICategoriesPage">
+      <Item value="Category" priority="1" />
+      <Item value="CategoryId" priority="1" />
+      <Item value="CategoryName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Caching.Cache">
+      <Item value="Add`0" priority="1" />
+      <Item value="Insert`0" priority="7" />
+      <Item value="Remove`0" priority="6" />
+      <Item value="GetEnumerator`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Caching.Cache">
+      <Item value="NoAbsoluteExpiration" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromSeconds`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.IProfilePage">
+      <Item value="ProfileReading" priority="0" />
+      <Item value="ProfileUpdate" priority="0" />
+      <Item value="UserProfile" priority="1" />
+      <Item value="UserId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.Profile">
+      <Item value="Gender" priority="2" />
+      <Item value="Age" priority="2" />
+      <Item value="Location" priority="2" />
+      <Item value="Comments" priority="1" />
+      <Item value="Warnings" priority="1" />
+      <Item value="Avatar" priority="4" />
+      <Item value="Autograph" priority="1" />
+      <Item value="UserId" priority="2" />
+      <Item value="aspnet_Users" priority="0" />
+      <Item value="IsBanned" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.MBDatabase">
+      <Item value="Gallery" priority="3" />
+      <Item value="Comments" priority="2" />
+      <Item value="SaveChanges`0" priority="3" />
+      <Item value="Profiles" priority="0" />
+      <Item value="Posts" priority="0" />
+      <Item value="aspnet_Users" priority="1" />
+      <Item value="DeleteObject`0" priority="1" />
+      <Item value="Media" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.IRegistrationPage">
+      <Item value="ProfileCreating" priority="0" />
+      <Item value="UserProfile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.Comment">
+      <Item value="aspnet_Users" priority="6" />
+      <Item value="aspnet_UsersReference" priority="4" />
+      <Item value="CommentAuthorId" priority="5" />
+      <Item value="CommentPostId" priority="2" />
+      <Item value="CommentId" priority="2" />
+      <Item value="CommentText" priority="2" />
+      <Item value="CommentDate" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.DataClasses.EntityReference`1">
+      <Item value="IsLoaded" priority="2" />
+      <Item value="Load`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.aspnet_Users">
+      <Item value="ProfilesReference" priority="3" />
+      <Item value="UserId" priority="0" />
+      <Item value="Profiles" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.DataClasses.EntityCollection`1">
+      <Item value="Count" priority="0" />
+      <Item value="OrderByDescending`2" priority="2" />
+      <Item value="ToList`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Control">
+      <Item value="ToString`0" priority="0" />
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.AuthenticateEventArgs">
+      <Item value="Authenticated" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlGenericControl">
+      <Item value="size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.IAdminGalleryPage">
+      <Item value="ImageCreating" priority="0" />
+      <Item value="ImageDeleting" priority="0" />
+      <Item value="Image" priority="3" />
+      <Item value="ImageId" priority="1" />
+      <Item value="Images" priority="0" />
+      <Item value="ImagesReading" priority="0" />
+      <Item value="CategoriesReading" priority="0" />
+      <Item value="Categories" priority="0" />
+      <Item value="CategoryName" priority="0" />
+      <Item value="Count" priority="0" />
+      <Item value="ImageUpdating" priority="0" />
+      <Item value="ImageReading" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.Media">
+      <Item value="MediaId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Handler.IImageHttpHandler">
+      <Item value="GalleryImageReading" priority="1" />
+      <Item value="ImageReading" priority="0" />
+      <Item value="ImageFromGallery" priority="0" />
+      <Item value="Image" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.DataContext">
+      <Item value="Images" priority="8" />
+      <Item value="SaveChanges`0" priority="4" />
+      <Item value="Profiles" priority="0" />
+      <Item value="Posts" priority="1" />
+      <Item value="Warnings" priority="1" />
+      <Item value="Categories" priority="0" />
+      <Item value="PostImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.Image">
+      <Item value="ImageId" priority="3" />
+      <Item value="ImageCategoryName" priority="2" />
+      <Item value="ImageDescription" priority="1" />
+      <Item value="Categories" priority="7" />
+      <Item value="ImageCategoryId" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MBBusinessManagers.PostsManager">
+      <Item value="ReadProfileById`0" priority="0" />
+      <Item value="ReadPostById`0" priority="0" />
+      <Item value="ReadPostsByCategory`0" priority="0" />
+      <Item value="ReadImageById`0" priority="0" />
+      <Item value="ReadImagesByCategory`0" priority="0" />
+      <Item value="ReadCategoryByName`0" priority="0" />
+      <Item value="ReadCategories`0" priority="0" />
+      <Item value="CreatePost`0" priority="0" />
+      <Item value="CreateImage`0" priority="0" />
+      <Item value="CreateCategory`0" priority="0" />
+      <Item value="CreateProfile`0" priority="0" />
+      <Item value="CreateComment`0" priority="0" />
+      <Item value="DeletePost`0" priority="1" />
+      <Item value="DeleteComment`0" priority="0" />
+      <Item value="DeleteImage`0" priority="0" />
+      <Item value="DeleteCategory`0" priority="0" />
+      <Item value="UpdatePost`0" priority="0" />
+      <Item value="UpdateProfile`0" priority="0" />
+      <Item value="UpdateCategory`0" priority="0" />
+      <Item value="UpdateComment`0" priority="0" />
+      <Item value="UpdateImage`0" priority="0" />
+      <Item value="GetPostsCount`0" priority="0" />
+      <Item value="GetImagesCount`0" priority="0" />
+      <Item value="BanUser`0" priority="0" />
+      <Item value="AddWarningUser`0" priority="0" />
+      <Item value="DeleteWarningUser`0" priority="0" />
+      <Item value="UnBanUser`0" priority="0" />
+      <Item value="SearchPosts`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.Image">
+      <Item value="ImageFile" priority="5" />
+      <Item value="ImageSmall" priority="0" />
+      <Item value="ImageId" priority="4" />
+      <Item value="ImageDate" priority="0" />
+      <Item value="PostImage" priority="1" />
+      <Item value="ImageCategoryName" priority="2" />
+      <Item value="ImageDescription" priority="2" />
+      <Item value="Categories" priority="5" />
+      <Item value="ImageCategoryId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.ICommentsPage">
+      <Item value="CommentRemoving" priority="0" />
+      <Item value="CommentId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItemEventArgs">
+      <Item value="Item" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItem">
+      <Item value="FindControl`0" priority="0" />
+      <Item value="DataItem" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.SComment">
+      <Item value="Nickname" priority="0" />
+      <Item value="UserId" priority="0" />
+      <Item value="CommentId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="AbsoluteUri" priority="3" />
+      <Item value="LocalPath" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Regex">
+      <Item value="Match`0" priority="5" />
+      <Item value="IsMatch`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Match">
+      <Item value="Success" priority="1" />
+      <Item value="NextMatch`0" priority="0" />
+      <Item value="Value" priority="5" />
+      <Item value="Groups" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Group">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.Controls.Tag">
+      <Item value="Count" priority="4" />
+      <Item value="TagName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="0" />
+      <Item value="First`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.Controls.TagsCloud">
+      <Item value="TagList" priority="2" />
+      <Item value="Page" priority="0" />
+      <Item value="Count" priority="1" />
+      <Item value="PageLink" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Content">
+      <Item value="ContentPlaceHolderID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.IGalleryPage">
+      <Item value="ImageCreating" priority="0" />
+      <Item value="ImagesReading" priority="0" />
+      <Item value="CategoriesReading" priority="0" />
+      <Item value="TagsReading" priority="0" />
+      <Item value="CategoryName" priority="0" />
+      <Item value="Count" priority="0" />
+      <Item value="TagList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Tag">
+      <Item value="TagName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.PostImage">
+      <Item value="Images" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="JetBrains.ReSharper.Feature.Services.Asp.CodeCompletion.AspBasicCodeCompletionContext">
+      <Item value="&amp;nbsp;" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.IUsersPage">
+      <Item value="UserBanning" priority="0" />
+      <Item value="UserUnbannig" priority="0" />
+      <Item value="WarningAdding" priority="0" />
+      <Item value="WarningDeleting" priority="0" />
+      <Item value="UserId" priority="4" />
+      <Item value="UserReading" priority="0" />
+      <Item value="UserProfile" priority="0" />
+      <Item value="UserStatusReading" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.ServiceReference.aspnet_Roles">
+      <Item value="RoleName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListView">
+      <Item value="DataSource" priority="4" />
+      <Item value="DataBind`0" priority="4" />
+      <Item value="FindControl`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBPresentation.Interfaces.ViewInterfaces.Page.ISearchPage">
+      <Item value="Searching" priority="0" />
+      <Item value="SearchString" priority="3" />
+      <Item value="Result" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="29" />
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListViewItemEventArgs">
+      <Item value="Item" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListViewItem">
+      <Item value="DataItem" priority="2" />
+      <Item value="FindControl`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FileUpload">
+      <Item value="PostedFile" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpPostedFile">
+      <Item value="ContentType" priority="0" />
+      <Item value="ContentLength" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="ToList`1" priority="4" />
+      <Item value="ToArray`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MBDatabaseModel.Warning">
+      <Item value="UserId" priority="1" />
+      <Item value="WarningId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.ILog">
+      <Item value="Error`0" priority="9" />
+      <Item value="Debug`0" priority="0" />
+      <Item value="Fatal`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MyBlog.Classes.Logger">
+      <Item value="Log" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.Appender.RollingFileAppender">
+      <Item value="AddFilter`0" priority="0" />
+      <Item value="Encoding" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="EncodingName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="UTF8" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@log4net.Config.XmlConfigurator">
+      <Item value="Configure`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="InnerException" priority="0" />
+      <Item value="Message" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Classes.Logger">
+      <Item value="Log" priority="9" />
+      <Item value="InitLogger`0" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RequiredFieldValidator">
+      <Item value="style" priority="0" />
+      <Item value="Display" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RegularExpressionValidator">
+      <Item value="ControlToValidate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ValidationSummary">
+      <Item value="DisplayMode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MSCaptcha.CaptchaControl">
+      <Item value="ValidateCaptcha`0" priority="0" />
+      <Item value="UserValidated" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MyBlog.search">
+      <Item value="IsSet`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,56 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/f:Web.config" caret="537" fromTop="7" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/f:Model.Designer.cs" caret="13647" fromTop="10" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Account/f:Register.cshtml" caret="626" fromTop="17" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Controllers/f:AccountController.cs" caret="2076" fromTop="5" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Admin/f:Genres.cshtml" caret="191" fromTop="7" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="5414" fromTop="17" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Home/f:Book.cshtml" caret="751" fromTop="0" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Controllers/f:HomeController.cs" caret="385" fromTop="0" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Home/f:Index.cshtml" caret="548" fromTop="8" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Search/f:SearchResults.cshtml" caret="431" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Home/f:Book.cshtml" caret="1739" fromTop="23" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Home/f:Book.cshtml" caret="1168" fromTop="6" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="2829" fromTop="12" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="3245" fromTop="21" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="4821" fromTop="5" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Helpers/f:DataAccessManager.cs" caret="5433" fromTop="18" />
+      <File id="F36F1987-E6D5-4F3A-A91B-59FBC0A66868/d:Views/d:Search/f:SearchResults.cshtml" caret="431" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="OrderBy`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="item" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="catch" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcApp.Models.Comment">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

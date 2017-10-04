@@ -1,0 +1,85 @@
+﻿@using System.Collections
+@using MvcApp.Models
+@inherits System.Web.Mvc.WebViewPage<BookModel>
+
+@{
+    ViewBag.Title = "Book";
+}
+
+<h2>@Model.Name</h2>
+<a href="/Book/DownloadBook/@Model.Id">Download</a> 
+&nbsp;
+@if ((User.IsInRole("Admin")))
+{
+    <a href="/Admin/DeleteBook/@Model.Id">Delete</a>
+} 
+<br/>
+<br/>
+<table>
+    <tr>
+            <td width="50">Author: </td>
+            <td width="400" align="left">@Model.Author</td>
+    </tr>
+    <tr>
+            <td width="50">Inf: </td>
+            <td width="400" align="left">@Model.AddInf</td>
+    </tr>
+</table>
+<br/>
+<br/>
+<hr />
+<br/>
+<br/>
+
+@if (Model.Comments != null)
+{
+     foreach (var comment in Model.Comments)
+     {
+         <table>
+             <tr>
+                 <td width="50">Name: </td>
+                 <td width="150" align="left">@comment.User.NickName</td>
+                 <td width="150" align="right">@comment.Date.Value</td>
+             </tr>
+             <tr>
+                 <td width="350" align="left" colspan="3">@comment.Text</td>
+             </tr>
+             @if ((User.IsInRole("Admin"))|| User.Identity.Name.ToLower().Equals(comment.User.NickName))
+             {
+                 <tr>
+                    <td><a href="/Book/DeleteComment/@comment.Id">Delete</a><td>
+                    <td>&nbsp;&nbsp;&nbsp;<a href="/Book/UpdateComment/@comment.Id">Change</a><td>
+                 </tr>
+             } 
+         </table>
+        <br/>
+        <br/>
+     }
+}
+    
+    
+
+<br/>
+<br/>
+<br/>
+@if (User.IsInRole("Admin") || User.IsInRole("User"))
+{
+    using (Html.BeginForm("CreateComment", "Book"))
+    {
+        <input type="hidden" name="userName" value="@User.Identity.Name" />
+        <input type="hidden" name="bookId" value="@Model.Id" />
+        <table>
+            <tr>
+                <td>
+                    Text:
+                </td>
+                <td>
+                    @Html.TextArea("text")
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    }
+}
